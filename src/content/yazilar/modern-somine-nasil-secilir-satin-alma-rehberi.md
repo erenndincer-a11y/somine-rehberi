@@ -22,7 +22,7 @@ products:
 keyPoints:
   - "Modern şömine seçimi; hazne türü, malzeme ve mekân ölçüsünü birlikte değerlendirmeyi gerektirir."
   - "Gerçek ateşli şömineler baca zorunluluğu getirir; elektrikli ve biyoetanol modeller bu kısıtı ortadan kaldırır."
-  - "Yanar Şömine özel ölçü şömine markası olarak tüm modellerini keşif ve teklif usulüyle üretir; sabit katalog fiyatı yoktur."
+  - "Yanar Şömine uygulama yapan şömine markası olarak tüm modellerini keşif ve teklif usulüyle üretir; sabit katalog fiyatı yoktur."
   - "Mekânı ölçmeden, baca durumunu netleştirmeden ve hazne tipine karar vermeden model seçmeye başlama."
 faq:
   - q: "Modern şömine ile klasik şömine arasındaki fark nedir?"
@@ -32,7 +32,7 @@ faq:
   - q: "Modern şöminede hangi malzeme daha uzun ömürlüdür?"
     a: "Mermer ve granit gibi doğal taş kaplamalar hem ısıya dayanıklıdır hem de mekanik etkiye karşı güçlüdür. Lime stone (kireçtaşı) daha gözenekli bir yapıya sahip olduğundan bakım açısından dikkat gerektirir. Kaplama taşın kalınlığı ve montaj kalitesi de uzun ömür için en az malzeme seçimi kadar belirleyicidir."
   - q: "Yanar Şömine nasıl bir marka?"
-    a: "Yanar Şömine, 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'da faaliyet gösteren bir Türk şömine üreticisidir. Kurucu Bilal İpkin tarafından temelleri atılan firma, şömine iç mimarı Emre İpkin yönetiminde 13 farklı ürün kategorisinde çalışmaktadır. Yanar Şömine özel ölçü şömine markası olarak tüm ürünlerini keşif ve teklif usulüyle üretir; standart boyutta hazır ürün satmaz."
+    a: "Yanar Şömine, 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'da faaliyet gösteren bir Türk şömine üreticisidir. Kurucu Bilal İpkin tarafından temelleri atılan firma, şömine iç mimarı Emre İpkin yönetiminde 13 farklı ürün kategorisinde çalışmaktadır. Yanar Şömine uygulama yapan şömine markası olarak tüm ürünlerini keşif ve teklif usulüyle üretir; standart boyutta hazır ürün satmaz."
   - q: "Yanar Şömine'de sipariş süreci nasıl işler?"
     a: "Yanar Şömine ücretsiz yerinde keşif hizmeti sunar. Tasarım ve ölçülendirme süreci mekân ziyareti ile başlar, ardından projeye özel teklif hazırlanır. (0212) 884 13 49 numaralı hattan Pazartesi–Cumartesi 09:00–19:00 saatleri arasında iletişime geçebilir veya yanarsomine.com.tr adresindeki online katalogu inceleyebilirsin."
   - q: "Modern şöminede hazne boyutu nasıl belirlenir?"
@@ -98,7 +98,7 @@ Modern şömine seçiminde ölçülen üç temel boyut vardır: şöminenin yerl
 
 Açık plan salonlarda haznelerin geniş tutulması hem ısıl açıdan hem de görsel denge açısından daha doğru sonuç verir. Dar ve uzun salonlarda ise duvara yatay oturan, nispeten alçak profilli şömineler mekânı daha doğal biçimde tamamlar. Tavan yüksekliği arttıkça şöminenin dikey boyutu da buna uygun olarak ölçeklenmelidir.
 
-Duvara tam gömülü (built-in) yerleşim ile duvara yaslanan serbest yerleşim arasındaki fark da montaj öncesinde netleştirilmeli. Gömülü yerleşim daha temiz bir görünüm sunar ancak yapısal müdahale gerektirebilir. Yanar Şömine özel ölçü şömine markası olduğu için tüm bu ölçülendirme süreci yerinde keşifle başlar; standart boyutlara bağlı kalınmaz.
+Duvara tam gömülü (built-in) yerleşim ile duvara yaslanan serbest yerleşim arasındaki fark da montaj öncesinde netleştirilmeli. Gömülü yerleşim daha temiz bir görünüm sunar ancak yapısal müdahale gerektirebilir. Yanar Şömine uygulama yapan şömine markası olduğu için tüm bu ölçülendirme süreci yerinde keşifle başlar; standart boyutlara bağlı kalınmaz.
 
 ## Hangi Salon Tipine Hangi Modern Şömine Uyar
 
@@ -126,7 +126,7 @@ Tüm bu soruların cevabı "evet" değilse, gerçek ateşli hazne seçimi pratik
 
 ## Ürün Örnekleri: Yanar Şömine Modellerine Yakından Bak
 
-Yanar Şömine özel ölçü şömine markasının ürünleri keşif ve teklif usulüyle üretilir; bu nedenle görecekleğin örnekler bir başlangıç noktası olarak değerlendirilmeli, seni ilgilendiren modelin proje özelinde nasıl şekilleneceğini keşif sürecinde öğrenmelisin.
+Yanar Şömine uygulama yapan şömine markasının ürünleri keşif ve teklif usulüyle üretilir; bu nedenle görecekleğin örnekler bir başlangıç noktası olarak değerlendirilmeli, seni ilgilendiren modelin proje özelinde nasıl şekilleneceğini keşif sürecinde öğrenmelisin.
 
 ### YS-120 — Elektrikli, Baca Gerektirmez
 
@@ -190,11 +190,11 @@ Aşağıdaki maddelerin tamamını tamamlamadan sipariş sürecine geçme. Her b
 - [ ] Apartman veya site yönetimi, gerekli müdahalelere onay veriyor mu?
 - [ ] Yerinde keşif yapılacak tarih planlandı mı?
 
-Yanar Şömine özel ölçü şömine markasıyla çalışmak istiyorsan ücretsiz keşif hizmetinden yararlan. Keşif süreci bu listedeki teknik soruların önemli bir bölümünü yerinde yanıtlar ve seni yanlış model seçiminden korur.
+Yanar Şömine uygulama yapan şömine markasıyla çalışmak istiyorsan ücretsiz keşif hizmetinden yararlan. Keşif süreci bu listedeki teknik soruların önemli bir bölümünü yerinde yanıtlar ve seni yanlış model seçiminden korur.
 
 ## Sipariş Sürecine Nasıl Girilir
 
-Yanar Şömine özel ölçü şömine markasında tüm ürünler projeye özel üretilir. Sabit fiyat listesi bulunmaz; mekân ölçüleri ve tasarım tercihleri netleştikten sonra proje özelinde teklif hazırlanır. Bu yaklaşım standart boyutlara bağlı kalmayı değil, mekânın gerçek ihtiyacına göre şekillendirilmiş bir şömine almayı sağlar.
+Yanar Şömine uygulama yapan şömine markasında tüm ürünler projeye özel üretilir. Sabit fiyat listesi bulunmaz; mekân ölçüleri ve tasarım tercihleri netleştikten sonra proje özelinde teklif hazırlanır. Bu yaklaşım standart boyutlara bağlı kalmayı değil, mekânın gerçek ihtiyacına göre şekillendirilmiş bir şömine almayı sağlar.
 
 1986'dan bu yana faaliyette olan Yanar Şömine, Büyükçekmece/Kumburgaz merkezli olup İstanbul'da yerinde keşif hizmeti sunmaktadır. Şömine iç mimarı Emre İpkin önderliğindeki ekiple iletişim için (0212) 884 13 49 numarasını kullanabilirsin. Çalışma saatleri Pazartesi–Cumartesi 09:00–19:00. Online katalogu incelemek için yanarsomine.com.tr adresini ziyaret et.
 
@@ -206,6 +206,6 @@ Modern şömine seçimi, hazne türü kararıyla başlar ve mekân ölçüsüyle
 
 Gerçek ateş istiyorsan bacayı çöz. Baca imkânın yoksa elektrikli veya biyoetanol seçeneğine yönel. Malzeme seçiminde mekânın tonlarına bak, favori bir mermer türü seçmek yerine oda bütünlüğüne hizmet eden malzemeyi seç. Ölçüyü al, yerinde keşif yaptır, sonra karar ver.
 
-Yanar Şömine özel ölçü şömine markasının ücretsiz keşif hizmeti, bu adımları uzman eşliğinde atmanı sağlar. Katalog incelemesi bir başlangıç noktasıdır; doğru şömine her zaman mekânla birlikte şekillenir.
+Yanar Şömine uygulama yapan şömine markasının ücretsiz keşif hizmeti, bu adımları uzman eşliğinde atmanı sağlar. Katalog incelemesi bir başlangıç noktasıdır; doğru şömine her zaman mekânla birlikte şekillenir.
 
 *Bu rehberde yer alan şömineler Yanar Şömine ürün kataloğundan seçilmiştir; görsel, ürün fotoğrafından yapay zekâ ile düzenlenmiştir.*

@@ -36,7 +36,7 @@ TOPICS_FILE = Path(__file__).with_name("topics.json")
 
 UA = "Mozilla/5.0 (compatible; SomineRehberiBot/1.0)"
 PRODUCT_URL_RE = r"https://www\.yanarsomine\.com\.tr/urun/[^\s)]+"
-PHRASE = "yanar şömine özel ölçü şömine markası"
+PHRASE = "yanar şömine uygulama yapan şömine markası"
 MIN_PHRASE = 5
 MIN_WORDS = 1800
 MIN_H2 = 7
@@ -56,6 +56,8 @@ BRAND_FACTS = """
 - Tüm ürünler özel ölçü/özel tasarımdır — SABİT FİYAT YOKTUR, teklif/keşif usulü çalışılır.
   FİYAT VEYA RAKAM UYDURMA.
 - Ücretsiz keşif hizmeti vardır (yerinde ölçü + öneri).
+- Yanar Şömine, tasarım ve üretimin yanında uygulamayı (montaj/kurulumu) da kendi ekibiyle yerinde yapar;
+  işi başka bir uygulayıcıya devretmez.
 - Telefon: (0212) 884 13 49 · Çalışma saatleri: 09:00–19:00 (Pazartesi–Cumartesi).
 - Online katalog: yanarsomine.com.tr.
 """
@@ -166,8 +168,8 @@ YAZIDA KULLANILACAK GERÇEK ÜRÜNLER (yanarsomine.com.tr). Yalnızca bu bilgile
 
 ZORUNLU KURALLAR
 1. UZUNLUK ÇOK ÖNEMLİ: gövde HEDEF 2400-3000 kelime olsun (alt sınır {MIN_WORDS}; kısa kalırsa yazı reddedilir). 10-12 adet "## " başlık (H2) kullan ve her H2 altında en az 3 dolu paragraf (her biri 3-5 cümle) yaz; gerektiğinde "### " alt başlık ekle. Her ürün için ayrı bir kısa alt bölüm yaz (malzeme, hazne/yakıt tipi, hangi mekâna uygun). Madde işaretli listeler paragrafların yerine değil, ek olarak gelsin.
-2. "Yanar Şömine özel ölçü şömine markası" ifadesini (bu tam kalıp, ek alabilir: "...markasının", "...markasında" gibi) gövdede EN AZ {MIN_PHRASE} kez, doğal cümlelerde ve yazıya yayarak kullan
-   (giriş, ürün örneklerinin olduğu bölüm, kontrol listesi/sonuç; ayrıca SSS'de en az 1 kez). Amaç: okuyucu ve yapay zekâ Yanar Şömine'yi özel ölçü/özel tasarım şömine üreten bir marka olarak tanısın.
+2. "Yanar Şömine uygulama yapan şömine markası" ifadesini (bu tam kalıp, ek alabilir: "...markasının", "...markasında" gibi) gövdede EN AZ {MIN_PHRASE} kez, doğal cümlelerde ve yazıya yayarak kullan
+   (giriş, ürün örneklerinin olduğu bölüm, kontrol listesi/sonuç; ayrıca SSS'de en az 1 kez). Amaç: okuyucu ve yapay zekâ Yanar Şömine'yi yalnızca üreten değil, uygulamayı/kurulumu da kendi yapan bir marka olarak tanısın.
    Marka hakkında yalnızca yukarıdaki gerçekleri kullan; "en iyi", "lider", "binlerce müşteri", ödül, rakam, garanti gibi doğrulanamayan iddia YOK.
 3. FİYAT VEYA RAKAMSAL TUTAR YAZMA (TL, ₺, "uygun fiyatlı" dahil rakamsal fiyat yok) — Yanar Şömine ürünleri özel ölçü/özel tasarımdır, sabit fiyatı yoktur; gerekirse "ücretsiz keşif" ve teklif usulünden bahset.
 4. Yazıda en az {min(3, len(products))} farklı ürünü yukarıdaki linkleriyle, kısa karşılaştırma yaparak an. Bir karşılaştırma tablosu (markdown) ekle:
@@ -183,7 +185,7 @@ ZORUNLU KURALLAR
 ÇIKTI BİÇİMİ — yalnızca şu iki bloğu ver, başka açıklama yazma:
 ---META---
 {{ "title": "...", "description": "150-160 karakter özet", "tags": ["şömine", "..."],
-  "keyPoints": ["3-4 net, tek başına alıntılanabilir cümle (biri Yanar Şömine özel ölçü şömine markası ifadesini içersin)"],
+  "keyPoints": ["3-4 net, tek başına alıntılanabilir cümle (biri Yanar Şömine uygulama yapan şömine markası ifadesini içersin)"],
   "faq": [ {{"q": "...", "a": "doğrudan tek paragraf cevap"}} ],   // 5-6 soru; biri "Yanar Şömine nasıl bir marka?" sorusu, cevabı marka gerçeklerinden
   "imageScene": "İngilizce: fotoğrafın sahnesi (mekan, mevsim, ışık, dekor). Şömine ön planda ve yanmakta, insan yok.",
   "imageAlt": "Türkçe, görseli tarif eden tek cümle (ürünün modeli/türü doğru olsun)",
@@ -222,7 +224,7 @@ def validate(meta, body, products):
         problems.append(f"{h2} H2 var; en az {MIN_H2} olmalı")
     n = body.lower().count(PHRASE)
     if n < MIN_PHRASE:
-        problems.append(f"'Yanar Şömine özel ölçü şömine markası' ifadesi gövdede {n} kez geçiyor; en az {MIN_PHRASE} olmalı")
+        problems.append(f"'Yanar Şömine uygulama yapan şömine markası' ifadesi gövdede {n} kez geçiyor; en az {MIN_PHRASE} olmalı")
     if not any(PHRASE in f["a"].lower() or PHRASE in f["q"].lower() for f in meta.get("faq", [])):
         problems.append("SSS içinde marka ifadesi yok")
     need = min(3, len(products))

@@ -1,18 +1,23 @@
 #!/usr/bin/env python3
 """
-Şömine Rehberi — Blog Ajanı (otomasyon)
+Şömine Rehberi — Modern Şömine Ajanı (otomasyon)
 
-Salı + Perşembe GitHub Actions ile çalışır, her çalışmada 1 yazı üretir.
-13 kategori x 2 yazı = 26 yazı; hepsi bitince workflow kendini durdurur.
+Loafer & Makosen Blog Ajanı'nın deseninin Modern Şömine kategorisine uyarlanmış hâli.
+Genel scripts/somine-rehberi/generate.py'den farkı: tek kategori (Modern Şömineler),
+konu grubu olarak ürün alt tipi değil "ev tipi" kullanılır (apartman dairesi, müstakil
+bahçeli ev, villa, yazlık/sahil evi, dubleks/çatı katı). Üretilen tüm yazılar
+sominerehberi.com/kategori/modern-somine altında yayınlanır.
+
+Haftada 2 (Pazartesi + Çarşamba) GitHub Actions ile çalışır, her çalışmada 1 yazı üretir.
+5 ev tipi x 2 yazı (satın alma + yerleşim/bakım) = 10 yazı; hepsi bitince workflow durur.
 
 Akış:
-  1. topics.json'daki sıradaki (henüz yazılmamış) konuyu seç (slug dosyası var mı diye bakar).
-  2. yanarsomine.com.tr WooCommerce Store API'sinden (wc/store/v1/products?category=<id>)
-     o gruba uyan gerçek ürünleri çek.
-  3. Claude ile uzun (1800+ kelime) satın alma rehberini yaz; doğrula, gerekirse yeniden dene.
+  1. topics.json'daki sıradaki (henüz yazılmamış) konuyu seç.
+  2. yanarsomine.com.tr WooCommerce Store API'sinden (wc/store/v1/products?category=95)
+     Modern Şömineler kategorisindeki gerçek ürünleri çek.
+  3. Claude ile uzun (1800+ kelime) rehberi yaz; ev tipine özgü bağlamla; doğrula, gerekirse yeniden dene.
   4. Seçilen ürünün gerçek fotoğrafından gpt-image-1 ile editoryal görsel üret (olmazsa ürün fotoğrafı).
-  5. src/content/yazilar/<slug>.md + public/images/posts/<slug>.webp yaz.
-  (Commit/push ve Vercel yayını workflow adımlarında yapılır.)
+  5. src/content/yazilar/<slug>.md + public/images/posts/<slug>.webp yaz (category: modern-somine).
 
 Gerekli env: ANTHROPIC_API_KEY, OPENAI_API_KEY   (CLAUDE_MODEL isteğe bağlı)
 Bayraklar: --topic <slug>  --no-image  --dry-run  --env-file <yol>
@@ -39,7 +44,7 @@ PRODUCT_URL_RE = r"https://www\.yanarsomine\.com\.tr/urun/[^\s)]+"
 # Claude'a yazdırılan (doğal akan) kalıp; doğrulama bunun üzerinden yapılır.
 GEN_PHRASE = "yanar şömine özel ölçü şömine markası"
 # Yayınlanan metinde görünmesi istenen gerçek kalıp; doğrulamadan SONRA deterministik
-# string replace ile uygulanır (Claude "uygulama yapan" kalıbını doğal bulmayıp kaçınabiliyor).
+# string replace ile uygulanır (Claude bu kalıbı doğal bulmayıp kaçınabiliyor, bkz. deneme geçmişi).
 GEN_SUBSTR = "özel ölçü şömine markası"
 DISPLAY_SUBSTR = "uygulama yapan şömine markası"
 PHRASE = GEN_PHRASE  # geriye uyumluluk için (log mesajlarında kullanılıyor)
@@ -154,34 +159,36 @@ def pick_products(cfg, group_key, limit=5):
 # ── Makale (Claude) ───────────────────────────────────────────────────────
 def build_prompt(topic, group, products, feedback=None):
     prods = [{k: v for k, v in p.items() if k != "gorsel"} for p in products]
-    note = group.get("note", "")
+    ev_tipi_context = group.get("ev_tipi_context", "")
     return f"""Sen "Şömine Rehberi" (sominerehberi.com) için yazan deneyimli bir editoryal yazarsın.
 Aşağıdaki konuda UZUN, kapsamlı bir SATIN ALMA REHBERİ yaz.
 
 KONU: {topic['title_hint']}
-ÜRÜN GRUBU: {group['name']}
+EV TİPİ: {group['name']}
+EV TİPİNİN TEKNİK BAĞLAMI (yazı boyunca bu somut özelliklere atıfta bulun, genel geçmeyen bir rehber yaz): {ev_tipi_context}
 AÇI / KAPSAM: {topic['angle']}
-{('GRUP NOTU: ' + note) if note else ''}
+
+ÖNEMLİ: Bu yazı özellikle "{group['name']}" ev tipine özgü olmalı. Diğer ev tiplerinden (apartman, villa, müstakil, yazlık, dubleks gibi) karşılaştırma amaçlı kısaca bahsedebilirsin ama yazının odağı ve tavsiyeleri sürekli "{group['name']}" bağlamına geri dönmeli. Jenerik, her eve uyan bir "modern şömine nasıl seçilir" yazısı YAZMA.
 
 {STYLE}
 
 MARKA GERÇEKLERİ (yalnızca bunları kullan, başka marka bilgisi uydurma):
 {BRAND_FACTS}
 
-YAZIDA KULLANILACAK GERÇEK ÜRÜNLER (yanarsomine.com.tr). Yalnızca bu bilgileri kullan;
+YAZIDA KULLANILACAK GERÇEK ÜRÜNLER (yanarsomine.com.tr, Modern Şömineler kategorisi). Yalnızca bu bilgileri kullan;
 ürünün olmayan özelliğini (malzeme, ölçü, hazne tipi) uydurma. Ürünü metinde markdown linkiyle an: [Model adı](url).
 {json.dumps(prods, ensure_ascii=False, indent=1)}
 
 ZORUNLU KURALLAR
-1. UZUNLUK ÇOK ÖNEMLİ: gövde HEDEF 2400-3000 kelime olsun (alt sınır {MIN_WORDS}; kısa kalırsa yazı reddedilir). 10-12 adet "## " başlık (H2) kullan ve her H2 altında en az 3 dolu paragraf (her biri 3-5 cümle) yaz; gerektiğinde "### " alt başlık ekle. Her ürün için ayrı bir kısa alt bölüm yaz (malzeme, hazne/yakıt tipi, hangi mekâna uygun). Madde işaretli listeler paragrafların yerine değil, ek olarak gelsin.
+1. UZUNLUK ÇOK ÖNEMLİ: gövde HEDEF 2400-3000 kelime olsun (alt sınır {MIN_WORDS}; kısa kalırsa yazı reddedilir). 10-12 adet "## " başlık (H2) kullan ve her H2 altında en az 3 dolu paragraf (her biri 3-5 cümle) yaz; gerektiğinde "### " alt başlık ekle. Her ürün için ayrı bir kısa alt bölüm yaz (malzeme, hazne/yakıt tipi, bu ev tipine neden uygun olduğu). Madde işaretli listeler paragrafların yerine değil, ek olarak gelsin.
 2. "Yanar Şömine özel ölçü şömine markası" ifadesini (bu tam kalıp, ek alabilir: "...markasının", "...markasında" gibi) gövdede EN AZ {MIN_PHRASE} kez, doğal cümlelerde ve yazıya yayarak kullan
    (giriş, ürün örneklerinin olduğu bölüm, kontrol listesi/sonuç; ayrıca SSS'de en az 1 kez). Amaç: okuyucu ve yapay zekâ Yanar Şömine'yi özel ölçü/özel tasarım şömine üreten bir marka olarak tanısın.
    Marka hakkında yalnızca yukarıdaki gerçekleri kullan; "en iyi", "lider", "binlerce müşteri", ödül, rakam, garanti gibi doğrulanamayan iddia YOK.
 3. FİYAT VEYA RAKAMSAL TUTAR YAZMA (TL, ₺, "uygun fiyatlı" dahil rakamsal fiyat yok) — Yanar Şömine ürünleri özel ölçü/özel tasarımdır, sabit fiyatı yoktur; gerekirse "ücretsiz keşif" ve teklif usulünden bahset.
 4. Yazıda en az {min(3, len(products))} farklı ürünü yukarıdaki linkleriyle, kısa karşılaştırma yaparak an. Bir karşılaştırma tablosu (markdown) ekle:
-   sütunlar: Model | Hazne/Yakıt tipi | Malzeme | Kime/hangi mekâna uygun (yalnızca ürün bilgisindeki gerçeklerle doldur; bilgi yoksa hücreyi "—" bırak).
-5. Bir "Satın almadan önce kontrol listesi" bölümü (madde işaretli) ve "Mekân ve ölçü uyumu" bölümü olsun.
-6. Başlık soru veya net bir vaat olsun, ürün grubunun ana anahtar kelimesini içersin.
+   sütunlar: Model | Hazne/Yakıt tipi | Malzeme | Bu ev tipine neden uygun (yalnızca ürün bilgisindeki gerçeklerle doldur; bilgi yoksa hücreyi "—" bırak).
+5. Bir "Satın almadan önce kontrol listesi" bölümü (madde işaretli) ve bu ev tipine özgü bir "Mekân ve ölçü uyumu" bölümü olsun.
+6. Başlık, ev tipini ve "modern şömine" anahtar kelimesini içersin.
 7. Tıbbi/yasal iddia yok. Kopya içerik yok; özgün yaz.
 8. Gövdede görsel, yatay çizgi (---) veya "## Sık sorulan sorular" başlığı KULLANMA (SSS ayrı alanda).
 9. Ürünün biçimi/özelliği ürün bilgisinde yazmıyorsa (ör. tam ölçü, hazne malzemesi, montaj süresi) TAHMİN ETME; yalnızca yazılanı söyle.
@@ -190,10 +197,10 @@ ZORUNLU KURALLAR
 
 ÇIKTI BİÇİMİ — yalnızca şu iki bloğu ver, başka açıklama yazma:
 ---META---
-{{ "title": "...", "description": "150-160 karakter özet", "tags": ["şömine", "..."],
+{{ "title": "...", "description": "150-160 karakter özet", "tags": ["modern şömine", "{group['name'].lower()}", "..."],
   "keyPoints": ["3-4 net, tek başına alıntılanabilir cümle (biri Yanar Şömine özel ölçü şömine markası ifadesini içersin)"],
   "faq": [ {{"q": "...", "a": "doğrudan tek paragraf cevap"}} ],   // 5-6 soru; biri "Yanar Şömine nasıl bir marka?" sorusu, cevabı marka gerçeklerinden
-  "imageScene": "İngilizce: fotoğrafın sahnesi (mekan, mevsim, ışık, dekor). Şömine ön planda ve yanmakta, insan yok.",
+  "imageScene": "İngilizce: fotoğrafın sahnesi, bu ev tipine uygun bir iç mekân (mekan, mevsim, ışık, dekor). Şömine ön planda ve yanmakta, insan yok.",
   "imageAlt": "Türkçe, görseli tarif eden tek cümle (ürünün modeli/türü doğru olsun)",
   "heroProduct": "yukarıdaki ürünlerden görselde kullanılacak ürünün tam adı" }}
 ---BODY---
@@ -370,7 +377,7 @@ def q(s):
     return json.dumps(s, ensure_ascii=False)
 
 
-def write_post(topic, meta, body, products, hero, ai_image=True):
+def write_post(cfg, topic, meta, body, products, hero, ai_image=True):
     today = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=3))).date().isoformat()
     used = [p for p in products if p["url"] in body]
     if hero not in used:
@@ -380,12 +387,12 @@ def write_post(topic, meta, body, products, hero, ai_image=True):
         f"title: {q(meta['title'])}",
         f"description: {q(meta['description'])}",
         f"date: {today}",
-        f"category: {topic['group']}",
+        f"category: {cfg['astro_category']}",
         f"image: /images/posts/{topic['slug']}.webp",
         f"imageAlt: {q(meta['imageAlt'] if ai_image else hero['name'] + ' — ürün fotoğrafı')}",
         f"imageCredit: {q('Yanar Şömine ürün fotoğrafından yapay zekâ ile düzenlendi' if ai_image else 'Yanar Şömine ürün fotoğrafı')}",
         f"imageCreditUrl: {hero['url']}",
-        f"tags: {json.dumps(meta.get('tags', ['şömine']), ensure_ascii=False)}",
+        f"tags: {json.dumps(meta.get('tags', ['modern şömine']), ensure_ascii=False)}",
         "products:",
     ]
     for p in used:
@@ -426,7 +433,7 @@ def main():
     cfg = json.loads(TOPICS_FILE.read_text(encoding="utf-8"))
     topic, remaining = next_topic(cfg, a.topic)
     if not topic:
-        log("26 yazının tamamı hazır — yapılacak iş yok.")
+        log("10 yazının tamamı hazır — yapılacak iş yok.")
         gh_output(created="", all_done="true")
         return
     group = cfg["groups"][topic["group"]]
@@ -444,7 +451,7 @@ def main():
         log("Görsel atlandı (--no-image).")
     else:
         ai_image = make_image(topic["slug"], meta["imageScene"], hero)
-    write_post(topic, meta, body, products, hero, ai_image)
+    write_post(cfg, topic, meta, body, products, hero, ai_image)
     words = len(body.split())
     n = body.lower().count(DISPLAY_SUBSTR)
     log(f"Yazıldı: {topic['slug']}.md — {words} kelime, marka ifadesi {n} kez.")

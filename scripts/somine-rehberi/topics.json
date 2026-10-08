@@ -1,7 +1,6 @@
 {
   "wc_base": "https://www.yanarsomine.com.tr/wp-json/wc/store/v1",
   "groups": {
-    "modern-somine":        { "name": "Modern Şömine",        "wc_category_id": 95 },
     "l-tipi-modern-somine": { "name": "L Tipi Modern Şömine",  "wc_category_id": 96 },
     "u-tipi-modern-somine": { "name": "U Tipi Modern Şömine",  "wc_category_id": 97 },
     "cift-tarafli-somine":  { "name": "Çift Taraflı Şömine",   "wc_category_id": 98 },
@@ -17,9 +16,6 @@
                                "note": "Bu gruptaki ürünler bağımsız bahçe/teras barbeküsüdür, iç mekân şöminesi değildir; metinde 'barbekü' olarak anlat, şömine diye adlandırma." }
   },
   "topics": [
-    { "slug": "modern-somine-nasil-secilir-satin-alma-rehberi", "group": "modern-somine", "round": 1,
-      "title_hint": "Modern şömine nasıl seçilir? Satın alma rehberi",
-      "angle": "Sade tasarım ve malzeme (mermer/kaplama), hazne türü (gerçek ateş, elektrikli, biyoetanol), hangi salon tipine uygun, baca gereksinimi, kontrol listesi." },
     { "slug": "l-tipi-modern-somine-nasil-secilir-satin-alma-rehberi", "group": "l-tipi-modern-somine", "round": 1,
       "title_hint": "L tipi modern şömine nasıl seçilir? Satın alma rehberi",
       "angle": "İki cepheden alev görünümü, köşe salonlarda kullanım, hangi mekân ölçüsüne uygun, cam/hazne türü, kontrol listesi." },
@@ -57,9 +53,6 @@
       "title_hint": "Bahçe barbeküsü nasıl seçilir? Satın alma rehberi",
       "angle": "Bağımsız bahçe/teras barbeküsü seçimi, malzeme (taş, tuğla, metal), boyut, kontrol listesi." },
 
-    { "slug": "modern-somine-yerlesim-ve-bakim-rehberi", "group": "modern-somine", "round": 2,
-      "title_hint": "Modern şömine hangi salona uyar? Yerleşim ve bakım rehberi",
-      "angle": "Salon tipine göre yerleşim önerileri, bakım adımları, mağazadaki modellerin karşılaştırması." },
     { "slug": "l-tipi-modern-somine-koseye-yerlesim-rehberi", "group": "l-tipi-modern-somine", "round": 2,
       "title_hint": "L tipi şömine hangi köşeye kurulur? Yerleşim rehberi",
       "angle": "Köşe planı, mobilya yerleşimi, aydınlatma ile uyum, mağazadaki modellerin karşılaştırması." },

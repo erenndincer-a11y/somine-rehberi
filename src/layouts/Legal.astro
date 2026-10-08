@@ -1,0 +1,17 @@
+---
+import Base from './Base.astro';
+interface Props {
+  title: string;
+  description: string;
+  updated: string;
+}
+const { title, description, updated } = Astro.props;
+---
+
+<Base title={title} description={description}>
+  <section class="mx-auto max-w-6xl px-5 pt-16 md:pt-24">
+    <h1 class="font-display text-[clamp(32px,4.5vw,48px)] leading-[1.1]">{title}</h1>
+    <p class="mt-4 text-[13px] text-ink-secondary">Son güncelleme: {updated}</p>
+    <div class="prose-legal mt-8"><slot /></div>
+  </section>
+</Base>

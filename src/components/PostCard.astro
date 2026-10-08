@@ -1,0 +1,33 @@
+---
+import type { Post } from '../lib';
+import { formatDate, readingTime } from '../lib';
+import { categoryPath } from '../site.config';
+
+interface Props {
+  post: Post;
+  headingLevel?: 'h2' | 'h3';
+}
+const { post, headingLevel: Heading = 'h3' } = Astro.props;
+const { data } = post;
+---
+
+<article data-reveal>
+  <a href={`/yazi/${post.id}`} class="group block">
+    <div class="card-plate relative overflow-hidden rounded-thumb border border-border bg-surface-subtle" style="aspect-ratio: 4/3">
+      <img
+        src={data.image}
+        alt={data.imageAlt}
+        width="1440"
+        height="960"
+        loading="lazy"
+        decoding="async"
+        class="absolute inset-0 h-full w-full object-cover"
+      />
+    </div>
+    <p class="eyebrow mt-4">{categoryPath(data.category)} · {formatDate(data.date)}</p>
+    <Heading class="mt-2 text-[20px] font-[600] leading-[26px] tracking-[-0.01em] text-ink transition-colors group-hover:text-accent">
+      {data.title}
+    </Heading>
+    <p class="mt-2 text-[13px] leading-[18px] text-ink-secondary">{readingTime(post.body)}</p>
+  </a>
+</article>

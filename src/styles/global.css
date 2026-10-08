@@ -1,0 +1,239 @@
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/fraunces';
+@import 'tailwindcss';
+
+@theme {
+  --color-bg: #fafaf9;
+  --color-surface: #fff;
+  --color-surface-subtle: #f5f4f2;
+  --color-border: #e7e5e4;
+  --color-ink: #1a1a1a;
+  --color-ink-secondary: #6b6b6b;
+  --color-accent: #7a2e3c;
+  --color-accent-hover: #5c1f2b;
+  --color-accent-soft: #a64d5c;
+  --color-accent-tint: #f6eeef;
+  --color-on-accent: #fff;
+
+  --font-sans: 'Inter Variable', Inter, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+  --font-display: 'Fraunces Variable', Georgia, 'Times New Roman', serif;
+
+  --radius-btn: 12px;
+  --radius-card: 16px;
+  --radius-thumb: 12px;
+  --shadow-float: 0 4px 16px #00000014;
+  --ease-site: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+  ::selection {
+    background: var(--color-accent-tint);
+    color: var(--color-accent-hover);
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: var(--font-display);
+    font-variation-settings: 'SOFT' 40, 'WONK' 0;
+    letter-spacing: -0.015em;
+    font-weight: 560;
+  }
+  .eyebrow {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 550;
+    letter-spacing: 0.06em;
+    color: var(--color-ink-secondary);
+    text-decoration-line: none;
+  }
+
+  /* Kart görseli: hover'da hafifçe kalkar */
+  .card-plate {
+    transition:
+      transform 0.2s var(--ease-site),
+      box-shadow 0.2s var(--ease-site),
+      border-color 0.2s var(--ease-site);
+  }
+  .group:hover .card-plate,
+  .group:focus-visible .card-plate {
+    box-shadow: var(--shadow-float);
+    border-color: color-mix(in srgb, var(--color-ink) 25%, transparent);
+    transform: translateY(-4px);
+  }
+
+  /* Yazı gövdesi (Markdown) */
+  .prose-post {
+    max-width: 65ch;
+  }
+  .prose-post p,
+  .prose-post li {
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--color-ink);
+  }
+  .prose-post p {
+    margin-bottom: 1.25rem;
+  }
+  .prose-post h2 {
+    font-family: var(--font-display);
+    font-variation-settings: 'SOFT' 40, 'WONK' 0;
+    font-weight: 560;
+    letter-spacing: -0.015em;
+    font-size: clamp(22px, 2.5vw, 28px);
+    line-height: 1.2;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .prose-post h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .prose-post ul,
+  .prose-post ol {
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+  }
+  .prose-post ul {
+    list-style: disc;
+  }
+  .prose-post ol {
+    list-style: decimal;
+  }
+  .prose-post li {
+    margin-bottom: 0.375rem;
+  }
+  .prose-post a {
+    color: var(--color-accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .prose-post strong {
+    font-weight: 600;
+  }
+  .prose-post blockquote {
+    border-left: 2px solid var(--color-accent);
+    padding-left: 1.25rem;
+    margin: 2rem 0;
+    font-family: var(--font-display);
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  .prose-post img {
+    border-radius: var(--radius-thumb);
+    border: 1px solid var(--color-border);
+    margin: 2rem 0;
+  }
+
+  /* Yazı içi ürün fotoğrafı (ürün sayfasına linkli) */
+  .prose-post p > a > img {
+    display: block;
+    max-width: 26rem;
+    width: 100%;
+    margin: 1.25rem auto 1.75rem;
+  }
+
+  /* Karşılaştırma tabloları (uzun rehberler) */
+  .prose-post table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 15px;
+    display: block;
+    overflow-x: auto;
+  }
+  .prose-post th,
+  .prose-post td {
+    text-align: left;
+    vertical-align: top;
+    padding: 0.65rem 0.85rem;
+    border-bottom: 1px solid var(--color-border);
+    line-height: 1.45;
+  }
+  .prose-post th {
+    font-weight: 600;
+    white-space: nowrap;
+    border-bottom: 2px solid var(--color-border);
+  }
+
+  /* Yasal sayfalar */
+  .prose-legal {
+    max-width: 44rem;
+  }
+  .prose-legal h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+  }
+  .prose-legal p,
+  .prose-legal li {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .prose-legal p {
+    margin-bottom: 1rem;
+  }
+  .prose-legal ul {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    list-style: disc;
+  }
+  .prose-legal li {
+    margin-bottom: 0.375rem;
+  }
+  .prose-legal a {
+    color: var(--color-accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  /* Açılır menüler (<details>) */
+  .disclosure-panel {
+    transform-origin: 100% 0;
+    animation: panel-in 0.18s var(--ease-site);
+  }
+  @keyframes panel-in {
+    from {
+      opacity: 0;
+      transform: scale(0.97);
+    }
+  }
+
+  /* Kaydırırken beliren kartlar */
+  .reveal-init {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  .reveal-in {
+    opacity: 1;
+    transform: translateY(0);
+    transition:
+      opacity 0.4s var(--ease-site),
+      transform 0.4s var(--ease-site);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-plate,
+  .group:hover .card-plate {
+    transform: none;
+    box-shadow: none;
+  }
+  .disclosure-panel {
+    animation: none;
+  }
+}

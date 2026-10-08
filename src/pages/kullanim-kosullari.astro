@@ -1,0 +1,22 @@
+---
+import Legal from '../layouts/Legal.astro';
+import { SITE } from '../site.config';
+---
+
+<Legal title="Kullanım koşulları" description="Sitenin kullanımına ilişkin koşullar." updated="4 Ekim 2026">
+  <p>Bu siteyi kullanarak aşağıdaki koşulları kabul etmiş sayılırsın.</p>
+  <h2>İçerik</h2>
+  <p>
+    Sitedeki yazılar genel bilgilendirme amaçlıdır. Ayak sağlığıyla ilgili bir sorunun varsa bir uzmana danışmanı
+    öneririz.
+  </p>
+  <h2>Telif hakları</h2>
+  <p>
+    Yazıların ve görsellerin hakları {SITE.name}'ne veya belirtilen hak sahiplerine aittir. Kaynak göstererek kısa
+    alıntı yapabilirsin; tamamının kopyalanması için yazılı izin gerekir.
+  </p>
+  <h2>Bağlantılar</h2>
+  <p>Başka sitelere verilen bağlantıların içeriğinden sorumlu değiliz.</p>
+  <h2>İletişim</h2>
+  <p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+</Legal>

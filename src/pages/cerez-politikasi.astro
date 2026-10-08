@@ -1,0 +1,20 @@
+---
+import Legal from '../layouts/Legal.astro';
+import { SITE } from '../site.config';
+---
+
+<Legal title="Çerez politikası" description="Sitede kullanılan çerezler hakkında bilgilendirme." updated="4 Ekim 2026">
+  <p>
+    {SITE.name} şu anda reklam veya takip amaçlı çerez kullanmıyor. Site, yalnızca sayfaların doğru görüntülenmesi için
+    gereken teknik bilgileri tarayıcında saklayabilir.
+  </p>
+  <h2>İleride eklenebilecek çerezler</h2>
+  <p>
+    Ziyaretçi istatistikleri için bir analiz aracı eklersek, bu sayfayı güncelleyecek ve gerekiyorsa açık rızanı
+    isteyeceğiz.
+  </p>
+  <h2>Çerezleri yönetmek</h2>
+  <p>Tarayıcının ayarlarından çerezleri dilediğin zaman silebilir veya engelleyebilirsin.</p>
+  <h2>İletişim</h2>
+  <p>Sorular için: <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+</Legal>

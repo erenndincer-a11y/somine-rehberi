@@ -1,0 +1,91 @@
+---
+import Logo from './Logo.astro';
+import { CATEGORIES, SITE, categoryUrl } from '../site.config';
+
+const icons: Record<string, string> = {
+  Pinterest:
+    'M12 2C6.48 2 2 6.48 2 12c0 4.24 2.64 7.86 6.36 9.32-.09-.79-.17-2 .03-2.86.18-.78 1.17-4.96 1.17-4.96s-.3-.6-.3-1.48c0-1.39.81-2.43 1.81-2.43.85 0 1.27.64 1.27 1.41 0 .86-.55 2.14-.83 3.33-.24 1 .5 1.81 1.48 1.81 1.78 0 3.14-1.87 3.14-4.58 0-2.39-1.72-4.07-4.18-4.07-2.85 0-4.52 2.14-4.52 4.35 0 .86.33 1.78.74 2.28.08.1.09.19.07.29l-.28 1.13c-.04.18-.15.22-.34.13-1.25-.58-2.03-2.41-2.03-3.88 0-3.16 2.3-6.06 6.62-6.06 3.47 0 6.17 2.48 6.17 5.79 0 3.45-2.18 6.23-5.2 6.23-1.02 0-1.97-.53-2.3-1.15l-.62 2.38c-.23.87-.84 1.96-1.25 2.62.94.29 1.94.45 2.97.45 5.52 0 10-4.48 10-10S17.52 2 12 2z',
+  Instagram:
+    'M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.72 3.72 0 0 1-1.38-.9 3.72 3.72 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.3-1.46.72-2.13 1.38A5.88 5.88 0 0 0 .63 4.14C.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.3.79.72 1.46 1.38 2.13a5.88 5.88 0 0 0 2.13 1.38c.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56a5.88 5.88 0 0 0 2.13-1.38 5.88 5.88 0 0 0 1.38-2.13c.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a5.88 5.88 0 0 0-1.38-2.13A5.88 5.88 0 0 0 19.86.63C19.1.33 18.22.13 16.95.07 15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z',
+  TikTok:
+    'M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z',
+};
+const year = new Date().getFullYear();
+const domain = new URL(SITE.url).hostname;
+---
+
+<footer class="mt-24 border-t border-border bg-surface">
+  <div class="mx-auto max-w-6xl px-5 py-14">
+    <div class="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
+      <div>
+        <Logo />
+        <p class="mt-4 max-w-xs text-[15px] leading-6 text-ink-secondary">
+          Model seçimi, kurulum ve bakım rehberleri — şömine üzerine bağımsız bir editoryal yayın.
+        </p>
+      </div>
+      <nav aria-label="Kategoriler">
+        <h2 class="eyebrow">Kategoriler</h2>
+        <ul class="mt-4 space-y-2 text-[15px]">
+          {
+            CATEGORIES.map((c) => (
+              <li class={c.parent ? 'pl-3 text-[14px]' : ''}>
+                <a class="text-ink-secondary transition-colors hover:text-ink" href={categoryUrl(c.slug)}>
+                  {c.name}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+      <nav aria-label="Site">
+        <h2 class="eyebrow">Site</h2>
+        <ul class="mt-4 space-y-2.5 text-[15px]">
+          <li><a class="text-ink-secondary transition-colors hover:text-ink" href="/galeri">Galeri</a></li>
+          <li><a class="text-ink-secondary transition-colors hover:text-ink" href="/hakkimizda">Hakkımızda</a></li>
+          <li><a class="text-ink-secondary transition-colors hover:text-ink" href="/iletisim">İletişim</a></li>
+          <li><a class="text-ink-secondary transition-colors hover:text-ink" href="/rss.xml">RSS</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Yasal">
+        <h2 class="eyebrow">Yasal</h2>
+        <ul class="mt-4 space-y-2.5 text-[15px]">
+          <li><a class="text-ink-secondary transition-colors hover:text-ink" href="/gizlilik-politikasi">Gizlilik politikası</a></li>
+          <li><a class="text-ink-secondary transition-colors hover:text-ink" href="/cerez-politikasi">Çerez politikası</a></li>
+          <li><a class="text-ink-secondary transition-colors hover:text-ink" href="/kullanim-kosullari">Kullanım koşulları</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="mt-12 border-t border-border pt-6">
+      <div class="flex flex-wrap items-center justify-between gap-x-6 gap-y-3">
+        <p class="text-[13px] leading-[18px] text-ink-secondary">
+          Yazı işleri ve her tür soru için:
+          <a class="underline underline-offset-2 hover:text-ink" href={`mailto:${SITE.email}`}>{SITE.email}</a>
+        </p>
+        <nav aria-label="Sosyal medya">
+          <ul class="-m-3 flex items-center gap-1">
+            {
+              SITE.socials.map((s) => (
+                <li>
+                  <a
+                    class="flex h-11 w-11 items-center justify-center text-ink opacity-60 transition-opacity duration-200 ease-site hover:opacity-100"
+                    href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={s.label}
+                  >
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                      <path d={icons[s.name]} />
+                    </svg>
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </nav>
+      </div>
+      <p class="mt-3 text-[13px] leading-[18px] text-ink-secondary">
+        © {year} {SITE.name} · {domain} — Tüm hakları saklıdır.
+      </p>
+    </div>
+  </div>
+</footer>

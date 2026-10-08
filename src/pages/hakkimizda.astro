@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../site.config';
+---
+
+<Base title="Hakkımızda" description="Şömine üzerine seçim, kurulum ve bakım rehberleri yazan bağımsız bir editoryal ekibiz.">
+  <section class="mx-auto max-w-6xl px-5 pt-16 md:pt-24">
+    <h1 class="font-display max-w-2xl text-[clamp(32px,4.5vw,48px)] leading-[1.1]">
+      Şömine üzerine rehberler yazan bağımsız bir editoryal ekibiz.
+    </h1>
+    <div class="mt-8 max-w-2xl space-y-5 text-[16px] leading-[26px] text-ink-secondary">
+      <p>
+        Şömine Rehberi'nde her yazı gerçek bir modelle başlar. Bir şömineyi sayfaya taşımadan önce hep aynı
+        soruları sorarız: bu model kaç metrekareyi ısıtır, bu baca hangi binaya uygundur, bu yakıt türü günlük
+        kullanımda ne gerektirir? Cevabı netleşmeyen yazı yayımlanmaz.
+      </p>
+      <p>
+        {SITE.city}'da çalışan küçük bir editoryal ekibiz. Yazıların hepsini kendimiz yazıyoruz; haftada birkaç yazı
+        yayımlamamızın ve her yazının aynı imzayı taşımasının sebebi bu.
+      </p>
+      <p>
+        Bağımsızız: kimse yer için ödeme yapmıyor, hiçbir marka yazıyı yayımlanmadan önce görmüyor. Bir bağlantıdan
+        komisyon kazandığımız olursa, bunu o sayfada açıkça belirtiriz.
+      </p>
+      <p>
+        Sesimiz sakin: büyük vaatler, abartılı sıfatlar ve telaş bize göre değil. Beğenmediğimiz bir modeli övmeyiz;
+        önerdiğimiz her ürünün yazıdaki gerekçesi, onu gerçekten incelediğimizde gördüğümüz şeydir.
+      </p>
+      <p>
+        Yazılarla ilgili her soru, düzeltme ve öneri için bize
+        <a class="text-accent underline underline-offset-2" href={`mailto:${SITE.email}`}>{SITE.email}</a>
+        adresinden ulaşabilirsin — okur mektupları en sevdiğimiz posta türü.
+      </p>
+    </div>
+  </section>
+</Base>

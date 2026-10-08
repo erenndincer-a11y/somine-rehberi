@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import { getPosts } from '../lib';
+import { categoryPath } from '../site.config';
+
+const posts = await getPosts();
+---
+
+<Base title="Galeri" description="Tüm yazıların şöminelerini görsel öncelikli bir akışta keşfet.">
+  <section class="mx-auto max-w-6xl px-5 pt-12 md:pt-16">
+    <h1 class="font-display text-[clamp(32px,4.5vw,48px)] leading-[1.1]">Galeri</h1>
+    <p class="mt-4 max-w-2xl text-[16px] leading-[26px] text-ink-secondary">
+      Tüm yazıların şöminelerini görsel öncelikli bir akışta keşfet.
+    </p>
+    <div class="mt-10 columns-2 gap-5 md:columns-3 lg:columns-4">
+      {
+        posts.map((post, i) => (
+          <a
+            href={`/yazi/${post.id}`}
+            aria-label={post.data.title}
+            class="group relative mb-5 block break-inside-avoid overflow-hidden rounded-thumb border border-border bg-surface-subtle transition-[border-color] duration-200 ease-site hover:border-ink/20 focus-visible:border-ink/20"
+          >
+            <img
+              src={post.data.image}
+              alt={post.data.imageAlt}
+              width="1440"
+              height="960"
+              loading={i < 8 ? 'eager' : 'lazy'}
+              decoding="async"
+              class="block h-auto w-full"
+            />
+            <span class="pointer-events-none absolute inset-0 flex flex-col justify-end bg-ink/0 p-4 opacity-0 transition-[opacity,background-color] duration-200 ease-site group-hover:bg-ink/55 group-hover:opacity-100 group-focus-visible:bg-ink/55 group-focus-visible:opacity-100">
+              <span class="text-[11px] font-[550] uppercase tracking-[0.06em] text-white/85">
+                {categoryPath(post.data.category)}
+              </span>
+              <span class="mt-1 text-[14px] font-[600] leading-[18px] text-white">{post.data.title}</span>
+            </span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</Base>

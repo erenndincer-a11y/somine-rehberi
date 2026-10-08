@@ -1,0 +1,120 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE } from '../site.config';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  type?: 'website' | 'article';
+  jsonLd?: Record<string, unknown>[];
+  /** Sayfanın Markdown sürümü (AI asistanları için) */
+  markdownUrl?: string;
+}
+const {
+  title,
+  description = SITE.description,
+  image = '/og-default.png',
+  type = 'website',
+  jsonLd = [],
+  markdownUrl,
+} = Astro.props;
+const fullTitle = title ? `${title} — ${SITE.name}` : SITE.title;
+const canonical = new URL(Astro.url.pathname, SITE.url).href;
+const ogImage = new URL(image, SITE.url).href;
+
+const baseLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE.name,
+    url: SITE.url,
+    logo: new URL('/android-chrome-512x512.png', SITE.url).href,
+    email: SITE.email,
+    description: SITE.description,
+    sameAs: SITE.socials.map((s) => s.href),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE.name,
+    url: SITE.url,
+    description: SITE.description,
+    inLanguage: 'tr',
+  },
+];
+---
+
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
+    {markdownUrl && <link rel="alternate" type="text/markdown" title="Markdown" href={markdownUrl} />}
+    <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt" />
+    <meta name="theme-color" content="#FAFAF9" />
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content="tr_TR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    {[...baseLd, ...jsonLd].map((ld) => <script type="application/ld+json" set:html={JSON.stringify(ld)} />)}
+  </head>
+  <body class="bg-bg text-ink antialiased">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-btn focus:bg-surface focus:px-4 focus:py-2 focus:text-sm"
+      >İçeriğe atla</a
+    >
+    <Header />
+    <main id="main"><slot /></main>
+    <Footer />
+    <script>
+      // Açık menüleri dışarı tıklayınca ya da Esc ile kapat
+      const closeMenus = (except?: Node) =>
+        document.querySelectorAll('header details[open]').forEach((d) => {
+          if (!except || !d.contains(except)) d.removeAttribute('open');
+        });
+      document.addEventListener('click', (e) => closeMenus(e.target as Node));
+      document.addEventListener('keydown', (e) => e.key === 'Escape' && closeMenus());
+
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+      if (!reduce.matches && 'IntersectionObserver' in window) {
+        const io = new IntersectionObserver(
+          (entries) => {
+            for (const e of entries) {
+              if (e.isIntersecting) {
+                e.target.classList.add('reveal-in');
+                io.unobserve(e.target);
+              }
+            }
+          },
+          { rootMargin: '0px 0px 15% 0px' },
+        );
+        for (const el of document.querySelectorAll('[data-reveal]')) {
+          if (el.getBoundingClientRect().top > window.innerHeight) {
+            el.classList.add('reveal-init');
+            io.observe(el);
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

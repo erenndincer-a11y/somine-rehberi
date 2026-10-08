@@ -1,0 +1,25 @@
+---
+import Legal from '../layouts/Legal.astro';
+import { SITE } from '../site.config';
+---
+
+<Legal title="Gizlilik politikası" description="Kişisel verilerin nasıl işlendiğine dair bilgilendirme." updated="4 Ekim 2026">
+  <p>
+    Bu metin, {SITE.name} ("site") ziyaretçilerinin kişisel verilerinin 6698 sayılı Kişisel Verilerin Korunması Kanunu
+    (KVKK) kapsamında nasıl işlendiğini açıklar. Yayına almadan önce hukuki danışmanınla gözden geçirmen önerilir.
+  </p>
+  <h2>Topladığımız veriler</h2>
+  <ul>
+    <li>Bize e-posta ile yazdığında paylaştığın ad ve e-posta adresi.</li>
+    <li>Siteyi ziyaret ettiğinde barındırma sağlayıcımızın tuttuğu teknik kayıtlar (IP adresi, tarayıcı türü, ziyaret zamanı).</li>
+  </ul>
+  <h2>Verileri hangi amaçla kullanıyoruz</h2>
+  <p>Mesajlarını yanıtlamak, sitenin güvenli ve sorunsuz çalışmasını sağlamak ve yasal yükümlülüklerimizi yerine getirmek için.</p>
+  <h2>Paylaşım</h2>
+  <p>Kişisel verilerini satmıyoruz. Yalnızca barındırma gibi hizmet aldığımız sağlayıcılarla, hizmetin gerektirdiği ölçüde paylaşılır.</p>
+  <h2>Hakların</h2>
+  <p>
+    KVKK'nın 11. maddesi kapsamındaki haklarını kullanmak için <a href={`mailto:${SITE.email}`}>{SITE.email}</a> adresine
+    yazabilirsin.
+  </p>
+</Legal>

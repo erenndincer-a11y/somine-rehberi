@@ -1,0 +1,76 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import CategoryPills from '../components/CategoryPills.astro';
+import { getPosts, formatDate, readingTime } from '../lib';
+import { SITE, categoryPath } from '../site.config';
+
+const posts = await getPosts();
+const featured = posts.find((p) => p.data.featured) ?? posts[0];
+const rest = posts.filter((p) => p !== featured);
+---
+
+<Base image={featured?.data.image}>
+  <h1 class="sr-only">{SITE.title}</h1>
+
+  <section class="mx-auto max-w-6xl px-5 pt-12 md:pt-16" aria-label="Hakkında">
+    <div class="max-w-2xl space-y-4">
+      <p class="font-display text-[clamp(20px,2.4vw,26px)] leading-[1.3]">
+        Şömine Rehberi, şömineye dair bağımsız bir editoryal yayın; {SITE.city}'da hazırlanıyor.
+      </p>
+      <p class="text-[16px] leading-[26px] text-ink-secondary">
+        Buradaki her yazı bir vitrin fotoğrafıyla değil, gerçek bir kurulumla başlıyor: önce mekânı, bacayı ve yakıt
+        hattını değerlendiriyoruz, sonra ne olup bittiğini anlatmaya çalışıyoruz — bu model hangi metrekareyi ısıtır,
+        doğalgazlı mı odunlu mu daha mantıklı, aynı tasarım köşe salonda ve düz duvarda neden başka durur. Yazıları
+        modern şömineden klasik şömineye, elektrikliden barbeküye şömine türlerine göre topluyoruz. Sıra gözetmeye
+        gerek yok; evindeki mekâna en çok benzeyen yazıdan başlayabilirsin.
+      </p>
+    </div>
+  </section>
+
+  {
+    featured && (
+      <section class="mx-auto max-w-6xl px-5 pt-12 md:pt-16" aria-label="Öne çıkan yazı">
+        <article>
+          <a href={`/yazi/${featured.id}`} class="group grid items-center gap-8 md:grid-cols-[3fr_2fr] md:gap-12">
+            <div class="card-plate relative overflow-hidden rounded-thumb border border-border bg-surface-subtle" style="aspect-ratio: 4/3">
+              <img
+                src={featured.data.image}
+                alt={featured.data.imageAlt}
+                width="1440"
+                height="960"
+                loading="eager"
+                fetchpriority="high"
+                decoding="async"
+                class="absolute inset-0 h-full w-full object-cover"
+              />
+            </div>
+            <div>
+              <p class="eyebrow">
+                {categoryPath(featured.data.category)} · {formatDate(featured.data.date)}
+              </p>
+              <h2 class="font-display mt-4 text-[clamp(32px,5vw,56px)] leading-[1.08] transition-colors group-hover:text-accent">
+                {featured.data.title}
+              </h2>
+              <p class="mt-5 max-w-prose text-[16px] leading-[26px] text-ink-secondary">{featured.data.description}</p>
+              <p class="mt-5 text-[13px] leading-[18px] text-ink-secondary">
+                {featured.data.author ?? SITE.author} · {readingTime(featured.body)}
+              </p>
+            </div>
+          </a>
+        </article>
+      </section>
+    )
+  }
+
+  <nav class="mx-auto max-w-6xl px-5 pt-14" aria-label="Kategoriler">
+    <CategoryPills />
+  </nav>
+
+  <section class="mx-auto max-w-6xl px-5 pt-14" aria-labelledby="feed-heading">
+    <h2 id="feed-heading" class="font-display text-[clamp(24px,3vw,32px)] leading-[1.15]">Son yazılar</h2>
+    <div class="mt-8 grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+      {rest.map((post) => <PostCard post={post} />)}
+    </div>
+  </section>
+</Base>

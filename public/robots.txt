@@ -1,0 +1,26 @@
+# Arama motorları ve yapay zekâ asistanları dahil herkese açık.
+User-agent: *
+Allow: /
+
+# Yapay zekâ tarayıcıları — açıkça izinli
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Meta-ExternalAgent
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
+Allow: /
+
+Sitemap: https://sominerehberi.com/sitemap-index.xml
+# AI özet haritası: https://sominerehberi.com/llms.txt

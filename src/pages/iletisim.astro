@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../site.config';
+---
+
+<Base title="İletişim" description="Soru, düzeltme, öneri ve iş birlikleri için bize ulaş.">
+  <section class="mx-auto max-w-6xl px-5 pt-16 md:pt-24">
+    <h1 class="font-display max-w-2xl text-[clamp(32px,4.5vw,48px)] leading-[1.1]">İletişim</h1>
+    <div class="mt-8 max-w-2xl space-y-5 text-[16px] leading-[26px] text-ink-secondary">
+      <p>
+        Yazılarla ilgili soruların, gördüğün bir hata ya da yazmamızı istediğin bir konu varsa e-posta en hızlı yol. Her
+        mesajı okuyoruz ve genellikle birkaç iş günü içinde yanıtlıyoruz.
+      </p>
+      <p>
+        <a class="font-display text-[clamp(20px,2.4vw,26px)] text-accent underline underline-offset-4" href={`mailto:${SITE.email}`}>{SITE.email}</a>
+      </p>
+      <p>
+        Marka iş birlikleri için de aynı adrese yazabilirsin. Ücretli içerik yayımlamıyoruz; ürün gönderimlerini ise
+        yalnızca yazıyı etkilemeyeceği net olduğunda kabul ediyoruz.
+      </p>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,58 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import CategoryPills from '../../components/CategoryPills.astro';
+import { getPosts } from '../../lib';
+import { CATEGORIES, categoryFamily, categoryName, categoryUrl, subcategoriesOf, type Category } from '../../site.config';
+
+// /kategori/<slug> ve alt kategoriler için /kategori/<parent>/<slug>
+export function getStaticPaths() {
+  return CATEGORIES.map((category) => ({
+    params: { path: categoryUrl(category.slug).replace('/kategori/', '') },
+    props: { category },
+  }));
+}
+
+const { category } = Astro.props as { category: Category };
+const family = categoryFamily(category.slug);
+const posts = (await getPosts()).filter((p) => family.includes(p.data.category));
+const subs = subcategoriesOf(category.slug);
+const siblings = category.parent ? subcategoriesOf(category.parent) : [];
+---
+
+<Base title={category.name} description={category.description}>
+  <section class="mx-auto max-w-6xl px-5 pt-12 md:pt-16">
+    <p class="eyebrow">
+      {
+        category.parent ? (
+          <>
+            <a href={categoryUrl(category.parent)} class="transition-colors hover:text-ink">
+              {categoryName(category.parent)}
+            </a>
+            {' › Alt kategori'}
+          </>
+        ) : (
+          'Kategori'
+        )
+      }
+    </p>
+    <h1 class="font-display mt-4 text-[clamp(32px,4.5vw,48px)] leading-[1.1]">{category.name}</h1>
+    <p class="mt-4 max-w-2xl text-[16px] leading-[26px] text-ink-secondary">{category.description}</p>
+    {
+      (subs.length > 0 || siblings.length > 0) && (
+        <nav class="mt-8" aria-label="Alt kategoriler">
+          <CategoryPills items={subs.length ? subs : siblings} active={category.slug} />
+        </nav>
+      )
+    }
+    {
+      posts.length > 0 ? (
+        <div class="mt-10 grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+          {posts.map((post) => <PostCard post={post} headingLevel="h2" />)}
+        </div>
+      ) : (
+        <p class="mt-10 text-[16px] text-ink-secondary">Bu kategoride henüz yazı yok.</p>
+      )
+    }
+  </section>
+</Base>

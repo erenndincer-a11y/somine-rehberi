@@ -1,0 +1,60 @@
+name: Şömine Rehberi Blog Otomasyonu
+
+on:
+  schedule:
+    # Salı + Perşembe 10:00 Türkiye (UTC+3) = 07:00 UTC
+    - cron: '0 7 * * 2,4'
+  workflow_dispatch:  # GitHub'dan "Run workflow" ile elle de tetiklenebilir
+
+permissions:
+  contents: write   # yazıyı repoya commit'lemek için
+  actions: write    # 26 yazı bitince bu workflow'u kapatmak için
+
+concurrency:
+  group: somine-rehberi-yayin
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Paketleri yükle
+        run: pip install anthropic openai pillow -q
+
+      - name: Yazı üret
+        id: gen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/somine-rehberi/generate.py
+
+      - name: Commit ve push (Vercel otomatik yayınlar)
+        if: steps.gen.outputs.created != ''
+        run: |
+          git config user.name "erenndincer-a11y"
+          git config user.email "280446554+erenndincer-a11y@users.noreply.github.com"  # Vercel, commit yazarını bir GitHub hesabıyla eşleştirebilmeli
+          git add src/content/yazilar public/images/posts
+          git commit -m "Şömine Rehberi: ${{ steps.gen.outputs.created }}"
+          git pull --rebase origin main
+          git push
+
+      - name: Yapılanlar listesine ekle (destek.visibiy.com)
+        if: steps.gen.outputs.created != ''
+        continue-on-error: true  # panel erişilemezse yazı yayını etkilenmesin
+        env:
+          INTERNAL_API_SECRET: ${{ secrets.INTERNAL_API_SECRET }}
+        run: python scripts/notify_support.py "${{ steps.gen.outputs.created }}" "Şömine Rehberi"
+
+      - name: 26 yazı tamamlandı — workflow'u durdur
+        if: steps.gen.outputs.all_done == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow disable "Şömine Rehberi Blog Otomasyonu" --repo "${{ github.repository }}"

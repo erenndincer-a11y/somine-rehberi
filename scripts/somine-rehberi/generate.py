@@ -303,8 +303,11 @@ def validate(meta, body, products):
     blob = body + json.dumps(meta, ensure_ascii=False)
     if re.search(r"\d[\d\.,]*\s?(TL|₺|lira)\b", blob, re.I):
         problems.append("fiyat yazılmış; fiyat kullanma")
-    if re.search(r"binlerce|milyon|en iyi|lider|ödül", blob, re.I):
-        problems.append("doğrulanamayan iddia ifadesi (binlerce/milyon/en iyi/lider/ödül) kullanılmış")
+    bad = list(re.finditer(r"binlerce|milyon|en iyi|lider|ödül", blob, re.I))
+    if bad:
+        yer = "; ".join("…" + blob[max(0, m.start() - 60): m.end() + 40].replace("\n", " ") + "…" for m in bad[:5])
+        problems.append(f"doğrulanamayan iddia ifadesi (binlerce/milyon/en iyi/lider/ödül) {len(bad)} yerde kullanılmış: {yer} — "
+                        "bu kelimeleri (ek alsa da) hiç kullanmadan geçtikleri bölümleri/meta alanlarını yeniden kur")
     for k in ("title", "description", "keyPoints", "faq", "imageScene", "imageAlt", "heroProduct"):
         if not meta.get(k):
             problems.append(f"meta.{k} boş")

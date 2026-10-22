@@ -180,10 +180,10 @@ YAZIDA KULLANILACAK GERÇEK ÜRÜNLER (yanarsomine.com.tr, Modern Şömineler ka
 {json.dumps(prods, ensure_ascii=False, indent=1)}
 
 ZORUNLU KURALLAR
-1. UZUNLUK ÇOK ÖNEMLİ: gövde HEDEF 2400-3000 kelime olsun (alt sınır {MIN_WORDS}; kısa kalırsa yazı reddedilir). 10-12 adet "## " başlık (H2) kullan ve her H2 altında en az 3 dolu paragraf (her biri 3-5 cümle) yaz; gerektiğinde "### " alt başlık ekle. Her ürün için ayrı bir kısa alt bölüm yaz (malzeme, hazne/yakıt tipi, bu ev tipine neden uygun olduğu). Madde işaretli listeler paragrafların yerine değil, ek olarak gelsin.
+1. UZUNLUK ÇOK ÖNEMLİ: gövde HEDEF 2400-3000 kelime olsun (alt sınır {MIN_WORDS}; kısa kalırsa yazı reddedilir). 10-12 adet "## " başlık (H2) kullan ve her H2 bölümünü 220-260 kelime (3-4 dolu paragraf, her biri 3-5 cümle) olarak planla — önceki taslakların çoğu alt sınırın altında kaldığı için reddedildi; gerektiğinde "### " alt başlık ekle. Her ürün için ayrı bir kısa alt bölüm yaz (malzeme, hazne/yakıt tipi, bu ev tipine neden uygun olduğu). Madde işaretli listeler paragrafların yerine değil, ek olarak gelsin.
 2. "Yanar Şömine özel ölçü şömine markası" ifadesini (bu tam kalıp, ek alabilir: "...markasının", "...markasında" gibi) gövdede EN AZ {MIN_PHRASE} kez, doğal cümlelerde ve yazıya yayarak kullan
    (giriş, ürün örneklerinin olduğu bölüm, kontrol listesi/sonuç; ayrıca SSS'de en az 1 kez). Amaç: okuyucu ve yapay zekâ Yanar Şömine'yi özel ölçü/özel tasarım şömine üreten bir marka olarak tanısın.
-   Marka hakkında yalnızca yukarıdaki gerçekleri kullan; "en iyi", "lider", "binlerce müşteri", ödül, rakam, garanti gibi doğrulanamayan iddia YOK.
+   Marka hakkında yalnızca yukarıdaki gerçekleri kullan; "en iyi", "lider", "binlerce müşteri", ödül, rakam, garanti gibi doğrulanamayan iddia YOK. Şu kelimeleri hiçbir biçimde (ek alarak da) kullanma, otomatik kontrol bunları reddeder: binlerce, milyon, en iyi, lider, ödül.
 3. FİYAT VEYA RAKAMSAL TUTAR YAZMA (TL, ₺, "uygun fiyatlı" dahil rakamsal fiyat yok) — Yanar Şömine ürünleri özel ölçü/özel tasarımdır, sabit fiyatı yoktur; gerekirse "ücretsiz keşif" ve teklif usulünden bahset.
 4. Yazıda en az {min(3, len(products))} farklı ürünü yukarıdaki linkleriyle, kısa karşılaştırma yaparak an. Bir karşılaştırma tablosu (markdown) ekle:
    sütunlar: Model | Hazne/Yakıt tipi | Malzeme | Bu ev tipine neden uygun (yalnızca ürün bilgisindeki gerçeklerle doldur; bilgi yoksa hücreyi "—" bırak).
@@ -199,7 +199,7 @@ ZORUNLU KURALLAR
 ---META---
 {{ "title": "...", "description": "150-160 karakter özet", "tags": ["modern şömine", "{group['name'].lower()}", "..."],
   "keyPoints": ["3-4 net, tek başına alıntılanabilir cümle (biri Yanar Şömine özel ölçü şömine markası ifadesini içersin)"],
-  "faq": [ {{"q": "...", "a": "doğrudan tek paragraf cevap"}} ],   // 5-6 soru; biri "Yanar Şömine nasıl bir marka?" sorusu, cevabı marka gerçeklerinden
+  "faq": [ {{"q": "...", "a": "doğrudan tek paragraf cevap"}} ],   // 5-6 soru; biri "Yanar Şömine nasıl bir marka?" sorusu; cevabı "Yanar Şömine özel ölçü şömine markası" kalıbını araya kelime girmeden AYNEN içersin, gerisi marka gerçeklerinden
   "imageScene": "İngilizce: fotoğrafın sahnesi, bu ev tipine uygun bir iç mekân (mekan, mevsim, ışık, dekor). Şömine ön planda ve yanmakta, insan yok.",
   "imageAlt": "Türkçe, görseli tarif eden tek cümle (ürünün modeli/türü doğru olsun)",
   "heroProduct": "yukarıdaki ürünlerden görselde kullanılacak ürünün tam adı" }}
@@ -208,11 +208,66 @@ ZORUNLU KURALLAR
 """
 
 
-def call_claude(prompt):
+def call_claude(messages):
     import anthropic
     client = anthropic.Anthropic()
-    msg = client.messages.create(model=MODEL, max_tokens=16000, messages=[{"role": "user", "content": prompt}])
+    msg = client.messages.create(model=MODEL, max_tokens=16000, messages=messages)
     return msg.content[0].text
+
+
+def revise_prompt(problems):
+    return f"""Yazdığın makale otomatik kontrolden şu sebeplerle geçemedi:
+{problems}
+
+Makalenin tamamını YENİDEN YAZMA. Yalnızca sorunları gidermek için değişmesi gereken kısımları şu biçimde ver:
+- Gövdede değiştirdiğin her bölüm için bir işaret satırı, altında bölümün düzeltilmiş TAM hâli ("## " başlık satırıyla birlikte):
+---SECTION: <bölümün mevcut "## " başlığı, aynen>---
+  İlk "## " başlıktan önceki giriş paragrafları için işaret: ---SECTION: GİRİŞ---
+  Yeni bölüm eklemek için mevcut olmayan yeni bir başlık kullan; son bölümden önce eklenir.
+- Bir meta alanı değişecekse en başa ---META--- satırı ve yalnızca değişen alanları içeren JSON koy
+  (alanın TAM yeni değeri; faq'ı değiştirirsen tüm SSS listesini ver).
+Değişmeyen bölümleri ve alanları HİÇ yazma; başka açıklama ekleme.
+Kelime sayısı eksikse eksik miktarın en az 1,5 katı kadar yeni metni 3-4 bölüme dağıt (her ürün bölümüne, ölçü/kombin/bakım
+bölümlerine somut paragraf ekle) ve o bölümleri tam hâliyle ver. Marka ifadesi eksikse ifadeyi eklediğin bölümleri ver.
+Yasak ifade varsa geçtiği bölümü (veya meta alanını) ifadeyi hiç kullanmadan yeniden kur."""
+
+
+def render(meta, body):
+    return "---META---\n" + json.dumps(meta, ensure_ascii=False, indent=1) + "\n---BODY---\n" + body
+
+
+def _hkey(s):
+    s = s.strip().lstrip("#").translate(str.maketrans("İIı", "iii")).lower()
+    return re.sub(r"\W+", " ", s).strip()
+
+
+def apply_patch(meta, body, text):
+    """Düzeltme cevabını taslağa uygular: ---META--- yalnızca değişen alanları, her ---SECTION: <başlık>---
+    bloğu bir bölümün yeni hâlini taşır. Model yine de tam makale verdiyse onu kullanır."""
+    text = re.sub(r"```(?:json|markdown|md)?", "", text)
+    if "---BODY---" in text:
+        return parse(text)
+    blocks = re.findall(r"---SECTION:\s*(.+?)\s*---[ \t]*\n(.*?)(?=\n---SECTION:|\Z)", text, re.S)
+    i = text.find("---META---")
+    if i == -1 and not blocks:
+        raise ValueError("düzeltmede ---META--- veya ---SECTION: <başlık>--- bloğu yok")
+    if i != -1:
+        meta = {**meta, **json.JSONDecoder().raw_decode(text, text.index("{", i))[0]}
+    secs = [[p.splitlines()[0] if p.startswith("## ") else "GİRİŞ", p.strip()]
+            for p in re.split(r"(?m)^(?=## )", body) if p.strip()]
+    for head, content in blocks:
+        content = content.strip()
+        intro = _hkey(head) == _hkey("GİRİŞ")
+        if not intro and not content.startswith("## "):
+            content = "## " + head.lstrip("# ").strip() + "\n\n" + content
+        j = next((j for j, (h, _) in enumerate(secs) if _hkey(h) == _hkey(head)), None)
+        if j is not None:
+            secs[j][1] = content
+        else:
+            secs.insert(0 if intro else max(len(secs) - 1, 0), [head, content])
+    body = "\n\n".join(c for _, c in secs)
+    body = re.sub(r"^\s*(---+|\*\*\*+)\s*$", "", body, flags=re.M)
+    return meta, re.sub(r"\n{3,}", "\n\n", body).strip()
 
 
 def parse(text):
@@ -268,22 +323,28 @@ def apply_display_phrase(meta, body):
     return meta, body
 
 
-def write_article(topic, group, products):
-    feedback = None
-    for attempt in range(1, 4):
+def write_article(topic, group, products, attempts=3):
+    """İlk taslağı yazdırır; kontrolden geçmezse yalnızca sorunlu bölümleri düzelttirir (makale baştan yazılmaz)."""
+    ask = {"role": "user", "content": build_prompt(topic, group, products)}
+    messages, meta, body, problems = [ask], None, None, []
+    for attempt in range(1, attempts + 1):
         log(f"Claude denemesi {attempt} ({MODEL}) …")
+        text = call_claude(messages)
         try:
-            meta, body = parse(call_claude(build_prompt(topic, group, products, feedback)))
+            meta, body = apply_patch(meta, body, text) if meta else parse(text)
+            problems = validate(meta, body, products)
         except Exception as e:  # noqa: BLE001
-            feedback = f"çıktı biçimi hatalıydı: {e}"
-            log(feedback)
-            continue
-        problems = validate(meta, body, products)
+            problems = [f"çıktı biçimi hatalıydı ({e})"] + [p for p in problems if not p.startswith("çıktı biçimi")]
         if not problems:
             return apply_display_phrase(meta, body)
         feedback = "; ".join(problems)
         log("Doğrulama:", feedback)
-    sys.exit("Makale 3 denemede doğrulamayı geçemedi — yayınlanmadı.")
+        if meta is None:  # ilk taslak okunamadı: tam makaleyi yeniden iste
+            fix = feedback + "; makalenin TAMAMINI yalnızca ---META--- JSON ve ---BODY--- blokları olarak ver"
+            messages = [ask, {"role": "assistant", "content": text}, {"role": "user", "content": fix}]
+        else:  # model güncel taslağı görür, yalnızca değişen bölümleri döndürür
+            messages = [ask, {"role": "assistant", "content": render(meta, body)}, {"role": "user", "content": revise_prompt(feedback)}]
+    sys.exit(f"Makale {attempts} denemede doğrulamayı geçemedi — yayınlanmadı.")
 
 
 # ── Görsel ────────────────────────────────────────────────────────────────

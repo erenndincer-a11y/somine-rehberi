@@ -217,11 +217,14 @@ Makalenin tamamını YENİDEN YAZMA. Yalnızca sorunları gidermek için değiş
 ---SECTION: <bölümün mevcut "## " başlığı, aynen>---
   İlk "## " başlıktan önceki giriş paragrafları için işaret: ---SECTION: GİRİŞ---
   Yeni bölüm eklemek için mevcut olmayan yeni bir başlık kullan; son bölümden önce eklenir.
+- Bir bölüme yalnızca YENİ paragraf ekleyeceksen bölümü tekrar yazma; şu işaretin altına sadece eklenecek
+  paragrafları yaz, bölümün sonuna eklenir:
+---EKLE: <bölümün mevcut "## " başlığı, aynen>---
 - Bir meta alanı değişecekse en başa ---META--- satırı ve yalnızca değişen alanları içeren JSON koy
   (alanın TAM yeni değeri; faq'ı değiştirirsen tüm SSS listesini ver).
 Değişmeyen bölümleri ve alanları HİÇ yazma; başka açıklama ekleme.
-Kelime sayısı eksikse eksik miktarın en az 1,5 katı kadar yeni metni 3-4 bölüme dağıt (her ürün bölümüne, ölçü/kombin/bakım
-bölümlerine somut paragraf ekle) ve o bölümleri tam hâliyle ver. Marka ifadesi eksikse ifadeyi eklediğin bölümleri ver.
+Kelime sayısı eksikse eksik miktarın en az 1,5 katı kadar yeni paragrafı ---EKLE--- bloklarıyla 3-4 bölüme dağıt
+(her ürün bölümüne, ölçü/kombin/bakım bölümlerine somut paragraf); mevcut metni tekrar yazma. Marka ifadesi eksikse ifadeyi eklediğin bölümleri ver.
 Yasak ifade varsa geçtiği bölümü (veya meta alanını) ifadeyi hiç kullanmadan yeniden kur."""
 
 
@@ -236,11 +239,12 @@ def _hkey(s):
 
 def apply_patch(meta, body, text):
     """Düzeltme cevabını taslağa uygular: ---META--- yalnızca değişen alanları, her ---SECTION: <başlık>---
-    bloğu bir bölümün yeni hâlini taşır. Model yine de tam makale verdiyse onu kullanır."""
+    bloğu bir bölümün yeni hâlini, her ---EKLE: <başlık>--- bloğu bölümün sonuna eklenecek paragrafları taşır.
+    Model yine de tam makale verdiyse onu kullanır."""
     text = re.sub(r"```(?:json|markdown|md)?", "", text)
     if "---BODY---" in text:
         return parse(text)
-    blocks = re.findall(r"---SECTION:\s*(.+?)\s*---[ \t]*\n(.*?)(?=\n---SECTION:|\Z)", text, re.S)
+    blocks = re.findall(r"---(SECTION|EKLE):\s*(.+?)\s*---[ \t]*\n(.*?)(?=\n---(?:SECTION|EKLE):|\Z)", text, re.S)
     i = text.find("---META---")
     if i == -1 and not blocks:
         raise ValueError("düzeltmede ---META--- veya ---SECTION: <başlık>--- bloğu yok")
@@ -248,12 +252,17 @@ def apply_patch(meta, body, text):
         meta = {**meta, **json.JSONDecoder().raw_decode(text, text.index("{", i))[0]}
     secs = [[p.splitlines()[0] if p.startswith("## ") else "GİRİŞ", p.strip()]
             for p in re.split(r"(?m)^(?=## )", body) if p.strip()]
-    for head, content in blocks:
+    for kind, head, content in blocks:
         content = content.strip()
         intro = _hkey(head) == _hkey("GİRİŞ")
+        j = next((j for j, (h, _) in enumerate(secs) if _hkey(h) == _hkey(head)), None)
+        if kind == "EKLE" and j is not None:
+            if content.startswith("## ") and _hkey(content.splitlines()[0]) == _hkey(head):
+                content = content.split("\n", 1)[-1].strip()  # başlığı tekrar ettiyse at
+            secs[j][1] += "\n\n" + content
+            continue
         if not intro and not content.startswith("## "):
             content = "## " + head.lstrip("# ").strip() + "\n\n" + content
-        j = next((j for j, (h, _) in enumerate(secs) if _hkey(h) == _hkey(head)), None)
         if j is not None:
             secs[j][1] = content
         else:

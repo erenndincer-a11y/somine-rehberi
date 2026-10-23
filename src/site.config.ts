@@ -88,6 +88,11 @@ export const CATEGORIES: Category[] = [
     description: 'İç veya yarı açık mekânlara kurulan, ızgara yapımına uygun şömine-barbekü kombinasyonları.',
   },
   {
+    slug: 'somine-karsilastirma',
+    name: 'Şömine Karşılaştırma',
+    description: 'Şömine türlerini yan yana koyuyoruz: hazne, yakıt, baca, mekân ve bakım farklarıyla hangisi kimin evine uyar.',
+  },
+  {
     slug: 'barbeku',
     name: 'Barbekü',
     description: 'Bahçe ve teras için bağımsız barbekü üniteleri: taş, tuğla ve metal gövdeli modeller.',

@@ -1,0 +1,421 @@
+{
+ "wc_base": "https://www.yanarsomine.com.tr/wp-json/wc/store/v1",
+ "types": {
+  "modern-somine": {
+   "name": "Modern Şömine",
+   "short": "Modern",
+   "wc": 95,
+   "link": "https://www.yanarsomine.com.tr/urun-kategori/somineler/modern-somineler/"
+  },
+  "l-tipi-modern-somine": {
+   "name": "L Tipi Modern Şömine",
+   "short": "L Tipi",
+   "wc": 96,
+   "link": "https://www.yanarsomine.com.tr/urun-kategori/somineler/l-tipi-modern-somine/"
+  },
+  "u-tipi-modern-somine": {
+   "name": "U Tipi Modern Şömine",
+   "short": "U Tipi",
+   "wc": 97,
+   "link": "https://www.yanarsomine.com.tr/urun-kategori/somineler/u-tipi-modern-somine/"
+  },
+  "cift-tarafli-somine": {
+   "name": "Çift Taraflı Şömine",
+   "short": "Çift Taraflı",
+   "wc": 98,
+   "link": "https://www.yanarsomine.com.tr/urun-kategori/somineler/cift-tarafli-somine/"
+  },
+  "domi-klasik-somine": {
+   "name": "Dömi Klasik Şömine",
+   "short": "Dömi Klasik",
+   "wc": 99,
+   "link": "https://www.yanarsomine.com.tr/urun-kategori/somineler/domi-klasik-somine/"
+  },
+  "klasik-somine": {
+   "name": "Klasik Şömine",
+   "short": "Klasik",
+   "wc": 100,
+   "link": "https://www.yanarsomine.com.tr/urun-kategori/somineler/klasik-somine/"
+  },
+  "ahsap-somine": {
+   "name": "Ahşap Şömine",
+   "short": "Ahşap",
+   "wc": 101,
+   "link": "https://www.yanarsomine.com.tr/urun-kategori/somineler/ahsap-somine/"
+  },
+  "rustik-somine": {
+   "name": "Rustik Şömine",
+   "short": "Rustik",
+   "wc": 102,
+   "link": "https://www.yanarsomine.com.tr/urun-kategori/somineler/rustik-somine/"
+  },
+  "dogalgazli-somine": {
+   "name": "Doğalgazlı Şömine",
+   "short": "Doğalgazlı",
+   "wc": 103,
+   "link": "https://www.yanarsomine.com.tr/urun-kategori/somineler/dogalgazli-somine-somineler/"
+  },
+  "aski-somine": {
+   "name": "Askı Şömine",
+   "short": "Askı",
+   "wc": 104,
+   "link": "https://www.yanarsomine.com.tr/urun-kategori/somineler/aski-somine/"
+  },
+  "elektrikli-somine": {
+   "name": "Elektrikli Şömine",
+   "short": "Elektrikli",
+   "wc": 105,
+   "link": "https://www.yanarsomine.com.tr/urun-kategori/somineler/elektrikli-somineler/"
+  },
+  "barbeku-somine": {
+   "name": "Barbekü Şömine",
+   "short": "Barbekü Şömine",
+   "wc": 106,
+   "link": "https://www.yanarsomine.com.tr/urun-kategori/somineler/barbeku-somine/"
+  },
+  "barbeku": {
+   "name": "Bahçe Barbeküsü",
+   "short": "Barbekü",
+   "wc": 83,
+   "link": "https://www.yanarsomine.com.tr/urun-kategori/barbekuler/",
+   "note": "Bağımsız bahçe/teras barbeküsüdür, iç mekân şöminesi değildir; şömine diye adlandırma."
+  }
+ },
+ "pairs": [
+  {
+   "slug": "modern-mi-klasik-mi",
+   "a": "modern-somine",
+   "b": "klasik-somine"
+  },
+  {
+   "slug": "dogalgazli-mi-elektrikli-mi",
+   "a": "dogalgazli-somine",
+   "b": "elektrikli-somine"
+  },
+  {
+   "slug": "l-tipi-mi-u-tipi-mi",
+   "a": "l-tipi-modern-somine",
+   "b": "u-tipi-modern-somine"
+  },
+  {
+   "slug": "modern-mi-elektrikli-mi",
+   "a": "modern-somine",
+   "b": "elektrikli-somine"
+  },
+  {
+   "slug": "klasik-mi-domi-klasik-mi",
+   "a": "klasik-somine",
+   "b": "domi-klasik-somine"
+  },
+  {
+   "slug": "rustik-mi-ahsap-mi",
+   "a": "rustik-somine",
+   "b": "ahsap-somine"
+  },
+  {
+   "slug": "cift-tarafli-mi-u-tipi-mi",
+   "a": "cift-tarafli-somine",
+   "b": "u-tipi-modern-somine"
+  },
+  {
+   "slug": "modern-mi-aski-mi",
+   "a": "modern-somine",
+   "b": "aski-somine"
+  },
+  {
+   "slug": "dogalgazli-mi-modern-mi",
+   "a": "dogalgazli-somine",
+   "b": "modern-somine"
+  },
+  {
+   "slug": "barbeku-somine-mi-bahce-barbekusu-mi",
+   "a": "barbeku-somine",
+   "b": "barbeku"
+  },
+  {
+   "slug": "elektrikli-mi-klasik-mi",
+   "a": "elektrikli-somine",
+   "b": "klasik-somine"
+  },
+  {
+   "slug": "modern-mi-l-tipi-mi",
+   "a": "modern-somine",
+   "b": "l-tipi-modern-somine"
+  },
+  {
+   "slug": "modern-mi-u-tipi-mi",
+   "a": "modern-somine",
+   "b": "u-tipi-modern-somine"
+  },
+  {
+   "slug": "modern-mi-cift-tarafli-mi",
+   "a": "modern-somine",
+   "b": "cift-tarafli-somine"
+  },
+  {
+   "slug": "modern-mi-domi-klasik-mi",
+   "a": "modern-somine",
+   "b": "domi-klasik-somine"
+  },
+  {
+   "slug": "modern-mi-ahsap-mi",
+   "a": "modern-somine",
+   "b": "ahsap-somine"
+  },
+  {
+   "slug": "modern-mi-rustik-mi",
+   "a": "modern-somine",
+   "b": "rustik-somine"
+  },
+  {
+   "slug": "modern-mi-barbeku-somine-mi",
+   "a": "modern-somine",
+   "b": "barbeku-somine"
+  },
+  {
+   "slug": "l-tipi-mi-cift-tarafli-mi",
+   "a": "l-tipi-modern-somine",
+   "b": "cift-tarafli-somine"
+  },
+  {
+   "slug": "l-tipi-mi-domi-klasik-mi",
+   "a": "l-tipi-modern-somine",
+   "b": "domi-klasik-somine"
+  },
+  {
+   "slug": "l-tipi-mi-klasik-mi",
+   "a": "l-tipi-modern-somine",
+   "b": "klasik-somine"
+  },
+  {
+   "slug": "l-tipi-mi-ahsap-mi",
+   "a": "l-tipi-modern-somine",
+   "b": "ahsap-somine"
+  },
+  {
+   "slug": "l-tipi-mi-rustik-mi",
+   "a": "l-tipi-modern-somine",
+   "b": "rustik-somine"
+  },
+  {
+   "slug": "l-tipi-mi-dogalgazli-mi",
+   "a": "l-tipi-modern-somine",
+   "b": "dogalgazli-somine"
+  },
+  {
+   "slug": "l-tipi-mi-aski-mi",
+   "a": "l-tipi-modern-somine",
+   "b": "aski-somine"
+  },
+  {
+   "slug": "l-tipi-mi-elektrikli-mi",
+   "a": "l-tipi-modern-somine",
+   "b": "elektrikli-somine"
+  },
+  {
+   "slug": "l-tipi-mi-barbeku-somine-mi",
+   "a": "l-tipi-modern-somine",
+   "b": "barbeku-somine"
+  },
+  {
+   "slug": "u-tipi-mi-domi-klasik-mi",
+   "a": "u-tipi-modern-somine",
+   "b": "domi-klasik-somine"
+  },
+  {
+   "slug": "u-tipi-mi-klasik-mi",
+   "a": "u-tipi-modern-somine",
+   "b": "klasik-somine"
+  },
+  {
+   "slug": "u-tipi-mi-ahsap-mi",
+   "a": "u-tipi-modern-somine",
+   "b": "ahsap-somine"
+  },
+  {
+   "slug": "u-tipi-mi-rustik-mi",
+   "a": "u-tipi-modern-somine",
+   "b": "rustik-somine"
+  },
+  {
+   "slug": "u-tipi-mi-dogalgazli-mi",
+   "a": "u-tipi-modern-somine",
+   "b": "dogalgazli-somine"
+  },
+  {
+   "slug": "u-tipi-mi-aski-mi",
+   "a": "u-tipi-modern-somine",
+   "b": "aski-somine"
+  },
+  {
+   "slug": "u-tipi-mi-elektrikli-mi",
+   "a": "u-tipi-modern-somine",
+   "b": "elektrikli-somine"
+  },
+  {
+   "slug": "u-tipi-mi-barbeku-somine-mi",
+   "a": "u-tipi-modern-somine",
+   "b": "barbeku-somine"
+  },
+  {
+   "slug": "cift-tarafli-mi-domi-klasik-mi",
+   "a": "cift-tarafli-somine",
+   "b": "domi-klasik-somine"
+  },
+  {
+   "slug": "cift-tarafli-mi-klasik-mi",
+   "a": "cift-tarafli-somine",
+   "b": "klasik-somine"
+  },
+  {
+   "slug": "cift-tarafli-mi-ahsap-mi",
+   "a": "cift-tarafli-somine",
+   "b": "ahsap-somine"
+  },
+  {
+   "slug": "cift-tarafli-mi-rustik-mi",
+   "a": "cift-tarafli-somine",
+   "b": "rustik-somine"
+  },
+  {
+   "slug": "cift-tarafli-mi-dogalgazli-mi",
+   "a": "cift-tarafli-somine",
+   "b": "dogalgazli-somine"
+  },
+  {
+   "slug": "cift-tarafli-mi-aski-mi",
+   "a": "cift-tarafli-somine",
+   "b": "aski-somine"
+  },
+  {
+   "slug": "cift-tarafli-mi-elektrikli-mi",
+   "a": "cift-tarafli-somine",
+   "b": "elektrikli-somine"
+  },
+  {
+   "slug": "cift-tarafli-mi-barbeku-somine-mi",
+   "a": "cift-tarafli-somine",
+   "b": "barbeku-somine"
+  },
+  {
+   "slug": "domi-klasik-mi-ahsap-mi",
+   "a": "domi-klasik-somine",
+   "b": "ahsap-somine"
+  },
+  {
+   "slug": "domi-klasik-mi-rustik-mi",
+   "a": "domi-klasik-somine",
+   "b": "rustik-somine"
+  },
+  {
+   "slug": "domi-klasik-mi-dogalgazli-mi",
+   "a": "domi-klasik-somine",
+   "b": "dogalgazli-somine"
+  },
+  {
+   "slug": "domi-klasik-mi-aski-mi",
+   "a": "domi-klasik-somine",
+   "b": "aski-somine"
+  },
+  {
+   "slug": "domi-klasik-mi-elektrikli-mi",
+   "a": "domi-klasik-somine",
+   "b": "elektrikli-somine"
+  },
+  {
+   "slug": "domi-klasik-mi-barbeku-somine-mi",
+   "a": "domi-klasik-somine",
+   "b": "barbeku-somine"
+  },
+  {
+   "slug": "klasik-mi-ahsap-mi",
+   "a": "klasik-somine",
+   "b": "ahsap-somine"
+  },
+  {
+   "slug": "klasik-mi-rustik-mi",
+   "a": "klasik-somine",
+   "b": "rustik-somine"
+  },
+  {
+   "slug": "klasik-mi-dogalgazli-mi",
+   "a": "klasik-somine",
+   "b": "dogalgazli-somine"
+  },
+  {
+   "slug": "klasik-mi-aski-mi",
+   "a": "klasik-somine",
+   "b": "aski-somine"
+  },
+  {
+   "slug": "klasik-mi-barbeku-somine-mi",
+   "a": "klasik-somine",
+   "b": "barbeku-somine"
+  },
+  {
+   "slug": "ahsap-mi-dogalgazli-mi",
+   "a": "ahsap-somine",
+   "b": "dogalgazli-somine"
+  },
+  {
+   "slug": "ahsap-mi-aski-mi",
+   "a": "ahsap-somine",
+   "b": "aski-somine"
+  },
+  {
+   "slug": "ahsap-mi-elektrikli-mi",
+   "a": "ahsap-somine",
+   "b": "elektrikli-somine"
+  },
+  {
+   "slug": "ahsap-mi-barbeku-somine-mi",
+   "a": "ahsap-somine",
+   "b": "barbeku-somine"
+  },
+  {
+   "slug": "rustik-mi-dogalgazli-mi",
+   "a": "rustik-somine",
+   "b": "dogalgazli-somine"
+  },
+  {
+   "slug": "rustik-mi-aski-mi",
+   "a": "rustik-somine",
+   "b": "aski-somine"
+  },
+  {
+   "slug": "rustik-mi-elektrikli-mi",
+   "a": "rustik-somine",
+   "b": "elektrikli-somine"
+  },
+  {
+   "slug": "rustik-mi-barbeku-somine-mi",
+   "a": "rustik-somine",
+   "b": "barbeku-somine"
+  },
+  {
+   "slug": "dogalgazli-mi-aski-mi",
+   "a": "dogalgazli-somine",
+   "b": "aski-somine"
+  },
+  {
+   "slug": "dogalgazli-mi-barbeku-somine-mi",
+   "a": "dogalgazli-somine",
+   "b": "barbeku-somine"
+  },
+  {
+   "slug": "aski-mi-elektrikli-mi",
+   "a": "aski-somine",
+   "b": "elektrikli-somine"
+  },
+  {
+   "slug": "aski-mi-barbeku-somine-mi",
+   "a": "aski-somine",
+   "b": "barbeku-somine"
+  },
+  {
+   "slug": "elektrikli-mi-barbeku-somine-mi",
+   "a": "elektrikli-somine",
+   "b": "barbeku-somine"
+  }
+ ]
+}

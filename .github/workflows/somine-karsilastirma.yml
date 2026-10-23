@@ -1,0 +1,71 @@
+name: Şömine Karşılaştırma Ajanı
+
+on:
+  schedule:
+    # Salı + Perşembe 11:40 Türkiye (UTC+3) = 08:40 UTC; 14:40 TR yedek (o gün yazı varsa script çıkar)
+    - cron: '40 8 * * 2,4'
+    - cron: '40 11 * * 2,4'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Yalnızca konu/ürün seçimini dene (yazı üretmez, yayımlamaz)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: somine-rehberi-yayin  # diğer şömine otomasyonlarıyla aynı kuyruk: push'lar çakışmasın
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Python kur
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Paketleri yükle
+        run: pip install anthropic openai pillow markdown -q
+
+      - name: Karşılaştırma yaz (yanarsomine.com.tr + sominerehberi.com)
+        id: gen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          WP_USER: ${{ secrets.YSS_WP_USER }}
+          WP_APP_PASSWORD: ${{ secrets.YSS_WP_APP_PASSWORD }}
+          INTERNAL_API_SECRET: ${{ secrets.INTERNAL_API_SECRET }}
+        run: python scripts/somine-karsilastirma/generate.py ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      # WP yayımlanıp site yazısı düşse bile durum dosyası kaydedilmeli; yoksa sonraki çalışma WP'yi tekrar dener.
+      - name: Commit ve push (Vercel otomatik yayınlar)
+        if: always() && steps.gen.outcome != 'skipped'
+        run: |
+          git config user.name "erenndincer-a11y"
+          git config user.email "280446554+erenndincer-a11y@users.noreply.github.com"
+          git add src/content/yazilar public/images/posts scripts/somine-karsilastirma/published.json scripts/somine-karsilastirma/wp-arsiv
+          if git diff --cached --quiet; then echo "Değişiklik yok."; exit 0; fi
+          git commit -m "Şömine Karşılaştırma: ${{ steps.gen.outputs.created || 'durum güncellemesi' }}"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
+
+      - name: Yapılanlar listesine ekle (sominerehberi.com yazısı)
+        if: steps.gen.outputs.created != ''
+        continue-on-error: true
+        env:
+          INTERNAL_API_SECRET: ${{ secrets.INTERNAL_API_SECRET }}
+        run: python scripts/notify_support.py "${{ steps.gen.outputs.created }}" "Şömine Karşılaştırma"
+
+      - name: 67 karşılaştırma tamamlandı — workflow'u durdur
+        if: steps.gen.outputs.all_done == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow disable "Şömine Karşılaştırma Ajanı" --repo "${{ github.repository }}"

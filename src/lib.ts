@@ -34,7 +34,15 @@ export function postToMarkdown(post: Post, siteUrl: string, categoryLabel: strin
   if (data.keyPoints.length) {
     lines.push('## Kısaca', '', ...data.keyPoints.map((k) => `- ${k}`), '');
   }
+  if (data.comparison.length) {
+    lines.push('## Karşılaştırılan şömineler', '', ...data.comparison.map((c) => `- **${c.short}** — [${c.name}](${c.url}). Kime uygun: ${c.bestFor}`), '');
+  }
+  if (data.specs.length) {
+    lines.push(`| Özellik | ${data.comparison.map((c) => c.short).join(' | ')} |`, `|---|${data.comparison.map(() => '---').join('|')}|`);
+    lines.push(...data.specs.map((sp) => `| ${sp.label} | ${sp.values.join(' | ')} |`), '');
+  }
   lines.push((post.body ?? '').trim(), '');
+  if (data.verdict) lines.push('## Karar', '', data.verdict, '');
   if (data.products.length) {
     lines.push('## Yazıdaki ürün', '', ...data.products.map((p) => `- [${p.name}](${p.url})${p.price ? ` — ${p.price}` : ''}`), '');
   }

@@ -24,6 +24,12 @@ const yazilar = defineCollection({
     faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
     // Yazıda geçen ürünler: "Yazıdaki ürün" kutusunda gösterilir
     products: z.array(z.object({ name: z.string(), url: z.string().url(), price: z.string().optional() })).default([]),
+    // Karşılaştırma yazıları: yan yana ürün kartları, özellik tablosu ve karar kutusu
+    comparison: z
+      .array(z.object({ name: z.string(), short: z.string(), url: z.string().url(), image: z.string(), bestFor: z.string() }))
+      .default([]),
+    specs: z.array(z.object({ label: z.string(), values: z.array(z.string()) })).default([]),
+    verdict: z.string().optional(),
     featured: z.boolean().default(false),
     draft: z.boolean().default(false),
   }),

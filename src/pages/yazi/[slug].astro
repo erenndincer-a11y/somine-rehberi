@@ -2,6 +2,7 @@
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import PostCard from '../../components/PostCard.astro';
+import Comparison from '../../components/Comparison.astro';
 import { getPosts, formatDate, readingTime, type Post } from '../../lib';
 import { SITE, categoryName, categoryPath, categoryUrl, getCategory } from '../../site.config';
 
@@ -47,7 +48,36 @@ const jsonLd = [
     mainEntityOfPage: url,
     inLanguage: 'tr',
     keywords: data.tags.join(', '),
+    ...(data.keyPoints.length ? { abstract: data.keyPoints.join(' ') } : {}),
+    ...(data.comparison.length
+      ? { about: data.comparison.map((c) => ({ '@type': 'Product', name: c.name, url: c.url })) }
+      : {}),
   },
+  ...(data.comparison.length > 1
+    ? [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'ItemList',
+          name: data.title,
+          description: data.verdict ?? data.description,
+          numberOfItems: data.comparison.length,
+          itemListElement: data.comparison.map((c, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            item: {
+              '@type': 'Product',
+              name: c.name,
+              url: c.url,
+              image: new URL(c.image, SITE.url).href,
+              brand: { '@type': 'Brand', name: 'Yanar Şömine' },
+              category: c.short,
+              description: `Kime uygun: ${c.bestFor}`,
+              additionalProperty: data.specs.map((s) => ({ '@type': 'PropertyValue', name: s.label, value: s.values[i] ?? '' })),
+            },
+          })),
+        },
+      ]
+    : []),
   ...(data.faq.length
     ? [
         {
@@ -137,7 +167,16 @@ const jsonLd = [
           </aside>
         )
       }
+      {data.comparison.length > 1 && <Comparison items={data.comparison} specs={data.specs} />}
       <Content />
+      {
+        data.verdict && (
+          <aside class="my-10 rounded-card border-2 border-accent bg-accent-tint p-6" aria-labelledby="karar">
+            <h2 id="karar" class="!mt-0 !mb-2">Karar</h2>
+            <p class="!mb-0">{data.verdict}</p>
+          </aside>
+        )
+      }
       {
         data.faq.length > 0 && (
           <section aria-labelledby="sss">
@@ -152,7 +191,7 @@ const jsonLd = [
         )
       }
       {
-        data.products.length > 0 && (
+        data.products.length > 0 && data.comparison.length === 0 && (
           <aside class="mt-10 rounded-card border border-border bg-surface p-6" aria-labelledby="urunler">
             <h2 id="urunler" class="eyebrow !m-0 !font-sans !text-[12px] !leading-4 !tracking-[0.06em]">
               Yazıdaki ürün

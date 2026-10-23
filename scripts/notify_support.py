@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Yeni yayınlanan blog yazısını destek.visibiy.com → Yanar Şömine → "Yapılan İşlemler" listesine
-"Şömine Rehberi" marka grubu altında tamamlandı (tikli) bir madde olarak ekler.
+"Genel" grubu altında tamamlandı (tikli) bir madde olarak ekler.
 
 Kullanım: python scripts/notify_support.py <slug> [kategori-etiketi] [--env-file yol]
 Env: INTERNAL_API_SECRET   (destek panelindeki x-internal-secret ile aynı)
@@ -18,7 +18,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SUPPORT_URL = "https://destek.visibiy.com/api/internal/add-work-item"
 CUSTOMER_ID = 3  # destek.visibiy.com — Yanar Şömine müşteri kaydı (sominerehberi.com bu markanın yan sitesi)
-BRAND = "Şömine Rehberi"  # panelde madde bu marka grubunun altında listelenir (Marka Listesi ile birebir aynı yazılmalı)
 SITE = "https://sominerehberi.com"
 UA = "Mozilla/5.0 (compatible; SomineRehberiBot/1.0)"
 
@@ -56,7 +55,6 @@ def main():
 
     payload = {
         "customerId": CUSTOMER_ID,
-        "brand": BRAND,
         "title": f"{label} blogu yayınlandı: {title}",
         "notes": url + ("" if live else " (yayına alınma doğrulanamadı)"),
         "completed": True,

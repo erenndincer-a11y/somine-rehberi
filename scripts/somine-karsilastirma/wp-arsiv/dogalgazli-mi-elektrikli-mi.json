@@ -1,0 +1,105 @@
+{
+ "meta": {
+  "title": "Doğalgazlı Şömine mi Elektrikli Şömine mi? Kapsamlı Karşılaştırma",
+  "description": "Doğalgazlı ve elektrikli şömine arasındaki farkı baca, kurulum, tasarım ve kullanım açısından karşılaştırın. Hangisi evinize uygun?",
+  "keyPoints": [
+   "Doğalgazlı şömine gerçek alev ve ısı sunarken elektrikli şömine baca gerektirmez; temel ayrım buradan başlar.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tip için de yerinde keşif ve ölçüye dayalı üretim yapar.",
+   "Baca bağlantısı olmayan mekânlarda elektrikli şömine tek pratik seçenektir; baca altyapısı olan evlerde doğalgaz ciddi bir avantaj sağlar.",
+   "Her iki tipte de tasarım masif ahşaptan doğal taşa uzanır; malzeme seçimi projeye ve mekânın estetiğine göre belirlenir."
+  ],
+  "faq": [
+   {
+    "q": "Doğalgazlı şömine ile elektrikli şömine arasındaki temel fark nedir?",
+    "a": "Doğalgazlı şömine gerçek gaz alevi yakar ve bir baca ya da bağımsız baca sistemine ihtiyaç duyar; elektrikli şömine ise bacasız çalışır, alev efekti LED ya da buhar teknolojisiyle sağlanır ve ısıtma kapasitesi modele göre değişir. Doğalgazlı seçenek ısıtma odaklıyken elektrikli seçenek çoğunlukla atmosfer odaklıdır."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markasıdır; 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz merkezinde tasarım, üretim ve uygulamayı kendi ekibiyle yürütür. Sabit ürün fiyatı yoktur; her proje ücretsiz keşif ve yerinde ölçüm sonrası teklif usulüyle hazırlanır."
+   },
+   {
+    "q": "Evimde baca yoksa doğalgazlı şömine yaptırabilir miyim?",
+    "a": "Doğalgazlı şömine baca ya da harici bağlantı gerektirdiğinden mevcut altyapı olmazsa kurulum mümkün değildir. Bu durumda elektrikli şömine tek bacasız alternatiftir; Yanar Şömine ekibi yerinde keşifte yapının durumunu değerlendirir ve size uygun çözümü önerir."
+   },
+   {
+    "q": "Yanar Şömine montajı başka bir ekibe mi devreder?",
+    "a": "Hayır. Yanar Şömine tasarım ve üretimin yanında uygulamayı da kendi ekibiyle yapar; işi başka bir uygulayıcıya devretmez. Bu, ölçü hassasiyeti ve yerleşim kalitesinin baştan sona aynı ekip tarafından korunması anlamına gelir."
+   },
+   {
+    "q": "Doğalgazlı şöminenin bakımı zor mu?",
+    "a": "Doğalgazlı şömine periyodik gaz hattı kontrolü, brülör temizliği ve baca muayenesi gerektirir; bu kontroller yetkili servis aracılığıyla yapılmalıdır. Elektrikli şöminede mekanik bileşen sayısı daha azdır; alev efekt modülünün bakımı kullanıcı tarafından büyük ölçüde yönetilebilir."
+   },
+   {
+    "q": "Yanar Şömine ile nasıl iletişime geçebilirim?",
+    "a": "Yanar Şömine'ye (0212) 884 13 49 numaralı telefonu arayarak Pazartesi–Cumartesi 09:00–19:00 saatleri arasında ulaşabilirsiniz. Ücretsiz keşif randevusu için de aynı hattı kullanabilirsiniz."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Doğalgaz brülörü",
+     "Elektrik — LED veya buhar efekti"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Evet, baca veya bağımsız baca sistemi zorunlu",
+     "Hayır, bacasız çalışır"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi (mevcut modeller)",
+    "values": [
+     "Masif sapelli ahşap, varak detay",
+     "Limra taşı, mermer, traverten, doğal taş, pres tuğla, ahşap küpeşte"
+    ]
+   },
+   {
+    "label": "Görünen cephe",
+    "values": [
+     "Standart ön cephe; köşe modeli mevcut (YS-238)",
+     "Köşe, yan açılımlı ve oturak entegreli modeller mevcut"
+    ]
+   },
+   {
+    "label": "Uygun mekân",
+    "values": [
+     "Baca altyapısı olan ana yaşam alanları",
+     "Baca bağlantısı olmayan odalar, daireler, kış bahçeleri"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Gaz hattı bağlantısı + baca, Yanar Şömine kendi ekibiyle uygular",
+     "Elektrik bağlantısı yeterli, Yanar Şömine kendi ekibiyle uygular"
+    ]
+   },
+   {
+    "label": "Bakım yoğunluğu",
+    "values": [
+     "Periyodik brülör ve baca kontrolü gerektirir",
+     "Düşük; alev modülü kullanıcı tarafından yönetilebilir"
+    ]
+   },
+   {
+    "label": "Birincil işlev",
+    "values": [
+     "Isıtma + estetik atmosfer",
+     "Estetik atmosfer; ısıtma modele göre ikincil"
+    ]
+   }
+  ],
+  "verdict": "Baca altyapısı olan ve yaşam alanını gerçek alev ile ısıtmak isteyen ev sahipleri için doğalgazlı şömine daha işlevsel bir seçimdir. Baca bağlantısı bulunmayan daireler, kış bahçeleri ve atmosfer öncelikli mekânlar için elektrikli şömine en pratik çözümdür. Her iki tipte de proje özel ölçüye göre şekillendiğinden karar öncesinde yerinde keşif yaptırmak doğru başlangıç noktasıdır.",
+  "bestForA": "Baca altyapısı hazır, gerçek alev ve ısıtma kapasitesi arayan, masif ahşap veya klasik detay tercih eden ev sahipleri için.",
+  "bestForB": "Baca bağlantısı olmayan daire veya kış bahçesi sahibi, atmosfer ve estetik odaklı, minimum bakım isteyen ev sahipleri için.",
+  "heroA": "YS-237",
+  "heroB": "YS-255",
+  "imageSceneA": "A classic living room with warm amber lighting, stone and dark wood fireplace surround with gold leaf details burning with a steady natural gas flame, evening atmosphere, no people, interior design photography.",
+  "imageSceneB": "A contemporary corner of a winter garden with a rustic travertine and natural stone electric fireplace glowing with soft LED flame effect, diffused daylight through glass panels, no people, interior design photography.",
+  "imageAlt": "Sol tarafta doğalgazlı klasik şömine, sağ tarafta köşe konumlu elektrikli rustik şömine, yan yana karşılaştırma görseli."
+ },
+ "body": "Hangi şöminenin size uygun olduğu çoğunlukla tek bir soruyla netleşir: evinizde kullanılabilir bir baca var mı?\n\nBu sorunun cevabı \"evet\" ise doğalgazlı seçenek masaya yatırılabilir. \"Hayır\" ise elektrikli şömine tartışmayı büyük ölçüde kendi lehine çözer. Ancak karar yalnızca baca meselesine bağlı değil. Mekânın büyüklüğü, kullanım amacı, tercih ettiğiniz malzeme ve ısıtma beklentiniz de belirleyici. Aşağıda her iki tipin farkını somut bilgilerle ele aldık.\n\n## İki Tip Arasındaki Temel Ayrım\n\nDoğalgazlı şömine, bir brülör aracılığıyla gerçek alev yakar. Yanma sonucu oluşan duman ve gazların dışarı atılması için baca ya da bağımsız bir baca sistemi zorunludur. Bu şömine aynı anda hem görsel bir odak noktası hem de işlevsel bir ısı kaynağıdır.\n\nElektrikli şömine ise bacasız çalışır. Alev görüntüsü LED ya da buhar bazlı efekt modülleriyle sağlanır. Bir elektrik bağlantısı yeterlidir. Isıtma kapasitesi modele göre değişir; birçok elektrikli şöminede ısıtma işlevi ikincil konumdadır ve cihaz ağırlıklı olarak atmosfer yaratmak için tercih edilir.\n\nBu iki temel fark — gerçek yanma ve baca zorunluluğu karşısında bacasız elektrik bağlantısı — iki tip arasındaki her diğer kararı da şekillendirir.\n\nBir diğer kritik nokta şudur: doğalgazlı şömine ısıl konfor sağlarken elektrikli şömine öncelikle bir atmosfer aracıdır. İkisi arasında seçim yaparken \"ne kadar ısıtmak istiyorum?\" sorusu kadar \"bu şömineyi ne sıklıkla ve hangi saatlerde kullanacağım?\" sorusu da belirleyicidir. Gündüz boş kalan bir salona kurulacak şömine ile akşamları yoğun kullanılan bir oturma odasına kurulacak şömine farklı gereksinimlere yanıt vermek zorundadır. Kullanım sıklığını ve saatlerini şimdiden netleştir; bu bilgi hem tip seçimini hem de hazne tercihini doğrudan etkiler.\n\n## Hazne, Yakıt ve Baca Gereksinimleri\n\nDoğalgazlı şöminede gaz hattı bağlantısı ve baca olmadan kurulum yapılamaz. Baca altyapısı hazırsa bu bir avantaja dönüşür: kullanım sürekliliği yüksektir, yakıt temini için ek bir lojistik gerekmez. Ancak gaz hattı olmayan mülklerde bu seçenek pratikte mümkün değildir.\n\nElektrikli şöminede bu kısıtlamaların hiçbiri yoktur. Standart bir elektrik prizi olan her mekâna kurulabilir. Kış bahçeleri, alt katta yer alan odalar, baca tesisatı bulunmayan yeni yapı daireler — tüm bu alanlar elektrikli şömine için uygundur.\n\nHer iki durumda da hazne ve yakıt sisteminin seçimi projeye ve mekânın teknik koşullarına bağlıdır. Karar vermeden önce yapının durumunu yerinde değerlendirtmek en güvenli yaklaşımdır. Bacayı önce kontrol et; çatlak ya da kapalı bir baca üzerine yatırım yapmak sonradan ciddi sorun çıkarır.\n\nBaca meselesini bir adım daha ileriye taşı: mevcut bir baca olsa bile kapasite ve çap uyumu kontrol edilmelidir. Eski bir baca dar kesitli olabilir ya da birden fazla cihaza bağlı olabilir; bu durumlarda ek bir baca sistemi gerekebilir. Keşif sırasında baca iç çapı, yüksekliği ve mevcut bağlantı durumu mutlaka değerlendirmeye alınır. Elektrikli şöminede bu adımların hiçbiri gerekmez; baca yokluğu kurulum sürecini doğrudan kısaltır ve bina yönetiminden izin almanızı gerektiren baca açma gibi ek prosedürleri ortadan kaldırır. Özellikle site yönetimlerinin baca değişikliklerine izin vermediği konut projelerinde elektrikli şömine çoğu zaman tek uygulanabilir seçenektir.\n\n## Tasarım ve Malzeme Seçenekleri\n\nHer iki kategoride de tasarım çeşitliliği geniştir. Yanar Şömine uygulama yapan şömine markası olarak her projeyi mekânın boyutuna ve stiline göre biçimlendirir; katalog bir başlangıç noktası, nihai ürün ise o mekâna özgü bir tasarımdır.\n\n[Doğalgazlı kategorisindeki](https://www.yanarsomine.com.tr/urun-kategori/somineler/dogalgazli-somine-somineler/) modellere bakıldığında masif sapelli ahşap ve varak detay öne çıkar. [YS-237](https://www.yanarsomine.com.tr/urun/ys-237/), kodunlu gövdesi ve varak işlemeli masif sapelli ahşap kasasıyla klasik iç mimaride güçlü bir odak noktası kurar. [YS-238](https://www.yanarsomine.com.tr/urun/ys-238/) ise köşe yerleşimi için tasarlanmış masif sapelli bir klasik şöminedir; iki duvar arasındaki boşluğu değerlendirmek isteyenlere hitap eder.\n\n[Elektrikli kategorisinde](https://www.yanarsomine.com.tr/urun-kategori/somineler/elektrikli-somineler/) malzeme paleti daha geniş bir yelpazeye yayılır. [YS-255](https://www.yanarsomine.com.tr/urun/ys-255/), traverten mermer, doğal taş ve pres tuğla karışımını; ahşap küpeşte ve her iki yanda oturma sedirleriyle birleştirir. Rustik ve doğa odaklı bir mekân dili arıyorsanız bu model dikkat çekicidir.\n\nMalzemeyi mekânınızın zeminini, duvar rengini ve mobilya dilini göz önüne alarak seç. Aynı şömine tipi farklı kaplamalarla tamamen farklı bir mekân hissi yaratır.\n\nDoğalgazlı kategoride [YS-238](https://www.yanarsomine.com.tr/urun/ys-238/), köşe yerleşimi için tasarlanmış masif sapelli ahşap kasasıyla iki duvarın birleştiği noktayı bir odak noktasına dönüştürür. Köşe yerleşimi bazı mekânlarda duvar uzunluğunun korunmasını sağlar; bu, büyük mobilyaların duvara yaslanması gereken oturma düzenlerinde pratik bir avantajdır. Masif sapelli ahşabın doku ve rengi zamanla olgunlaşır; doğal bir yaşlanma süreci yaşayan malzemelerden hoşlanıyorsanız bu detay sizi memnun edecektir.\n\nElektrikli kategoriden [YS-259](https://www.yanarsomine.com.tr/urun/ys-259/), alt kısımda sağ cam açılımlı bir şömine ile üst kısımda setin üstü barbekü birleştiren iki fonksiyonlu bir tasarımdır; limra taşı ve mermer karışımı kaplama, hem dış mekân hem iç mekân geçiş alanlarında kullanılabilecek sert bir yüzey dili sunar. [YS-258](https://www.yanarsomine.com.tr/urun/ys-258/) ise dar alanlara özel bir çözüm olarak tasarlanmıştır: altta şömine, üstte barbekü kombinasyonu kış bahçelerinde ve dar plan alanlarında iki kullanım işlevini tek bir yapıda toplar. Her iki modelde de malzeme seçiminin mekânın zemin kaplaması ve duvar rengiyle uyumu, tasarımın başarısını doğrudan belirler.\n\n## Mekân ve Ölçü Uyumu\n\nŞömine seçiminde mekânın hacmi ve konumu belirleyicidir. Büyük bir salon, gerçek ısı kaynağına daha fazla ihtiyaç duyar; doğalgazlı şömine bu açıdan işlevsel bir avantaj taşır. Daha küçük bir oda ya da kış bahçesi için atmosfer öncelikli bir seçim yapmak mantıklıdır; burada elektrikli şömine yeterlidir.\n\nÖlçüyü göz ardı etme. Şömine kasasının genişliği ve yüksekliği mekânla orantısız olduğunda tasarım ne kadar iyi olursa olsun sonuç tatmin etmez. Küçük bir odaya büyük bir kasa koymak mekânı bunaltır; geniş bir salona küçük kalan bir şömine ise görsel ağırlık yaratamaz.\n\nYanar Şömine uygulama yapan şömine markası olarak ücretsiz keşif hizmetiyle mekânı yerinde ölçer ve her iki tip için de oran önerileri sunar. Modeli seçmeden önce ölçü al; kataloğu ölçüsüz gezmek çoğunlukla zaman kaybı olur.\n\nYerleşim kararını yalnızca boş duvara göre verme. Kapı ve pencere açılım yaylarını, klima iç ünite konumlarını ve mobilya sirkülasyon hatlarını hesaba kat. Şöminenin kasası kapı açılım yayıyla çakışıyorsa ya da karşısına oturulacak bir koltuk grubuna yeterli mesafe kalmıyorsa yerleşim planı baştan değiştirilmelidir. Yanar Şömine ekibi keşif sırasında bu çakışmaları yerinde tespit eder ve alternatif yerleşim seçeneklerini harita üzerinde değerlendirir. Bunun yanı sıra şöminenin önündeki zemin kaplamasını da planlama aşamasında göz önünde bulundur; ısıya dayanıklı malzeme gerektiren bölgeler projenin erken aşamasında belirlenmezse sonradan zemin değişimi ek maliyet ve zaman doğurur.\n\n## Kurulum ve Uygulama Süreci\n\nDoğalgazlı şömine kurulumu birden fazla teknik disiplini kapsar: baca bağlantısı, gaz hattı, brülör yerleşimi ve kasa uygulaması. Bu sürecin koordinasyon gerektirdiği ve birbiriyle uyumlu çalışması gereken adımlardan oluştuğu unutulmamalıdır.\n\nYanar Şömine uygulama yapan şömine markası olarak tasarımı, üretimi ve uygulamayı kendi ekibiyle yürütür; montaj başka bir uygulayıcıya devredilmez. Bu, ölçü hassasiyetinin ve yerleşim kalitesinin tek bir ekip tarafından baştan sona takip edilmesi anlamına gelir.\n\nElektrikli şömine kurulumu daha kısa sürer: baca tesisatı ve gaz hattı gerekmez, elektrik bağlantısı yeterlidir. Ancak kasa ve kaplama işçiliği yine aynı titizliği gerektirir. Duvar yüzeyi hazırlığı, kasa yerleşimi ve kaplama sıralaması doğru yapılmazsa estetik sonuç yetersiz kalır.\n\nHer iki tipte de kuruluma başlamadan önce zemin ve duvar yüzeylerinin hazırlık durumunu kontrol ettir. Yanar Şömine ekibi keşif sırasında bu konuyu da değerlendirir.\n\n## Kullanım Kolaylığı ve Bakım\n\nDoğalgazlı şömine günlük kullanımda pratiktir: kumanda ya da dijital panel üzerinden açılıp kapatılabilir, alev yüksekliği ayarlanabilir. Bakım tarafında ise periyodik bir disiplin gerekir. Brülör temizliği, baca muayenesi ve gaz hattı kontrolleri yetkili servis aracılığıyla yapılmalıdır; bu adımları atlamak hem verim kaybına hem de güvenlik riskine yol açabilir.\n\nElektrikli şöminede mekanik bileşen sayısı daha azdır. Alev efekt modülünün bakımı büyük ölçüde kullanıcı tarafından yönetilebilir düzeydedir. Günlük kullanım elektrik şalteri kadar basittir. Bununla birlikte, elektrik tüketimini göz önünde bulundur; cihazı sürekli açık bırakmak enerji kullanımını artırır.\n\nHer iki tipte de kullanım alışkanlığı şöminenin ömrünü doğrudan etkiler. Doğalgazlı şöminede yılda en az bir kez profesyonel kontrol yaptır; elektrikli şöminede ise efekt modülünün üretici yönergelerine göre kontrol periyoduna uy.\n\nDoğalgazlı şöminenin uzun vadeli toplam maliyetini değerlendirirken yalnızca kurulum aşamasını değil, yıllık bakım ve servis giderlerini de hesaba kat. Periyodik baca temizliği ve brülör kontrolü ihmal edildiğinde verim düşer ve arıza riski artar. Bakım takvimini üretici ve uygulayıcı önerisine göre belirle; bu takvimi sistemin devreye alındığı ilk sezonda not al ve takip et. Elektrikli şöminede ise en sık karşılaşılan sorun alev efekt modülünün uzun süreli kullanım sonrası parlaklık kaybıdır. Modüle erişim kolaylığı modelden modele değişir; kurulum öncesinde modülün değiştirilip değiştirilemeyeceğini ve servis süreçlerinin nasıl işleyeceğini öğren.\n\n## Hangi Ev Tipine Hangisi Uyar?\n\nBaca altyapısı olan müstakil evler, villa projeleri ve bina dönüşümlerinde doğalgazlı şömine genellikle daha bütünleşik bir çözüm sunar. Hem ısıtma hem de estetik atmosfer tek bir üründe buluşur. Bu tip mekânlarda [YS-237](https://www.yanarsomine.com.tr/urun/ys-237/) gibi masif ahşap kasalı, varak detaylı bir klasik model ana yaşam alanına ciddi bir karakter katar.\n\nBaca bağlantısı olmayan daireler, stüdyo tipi alanlar ve kış bahçeleri için elektrikli şömine daha uygulanabilir bir seçimdir. [YS-255](https://www.yanarsomine.com.tr/urun/ys-255/) gibi doğal taş, traverten ve pres tuğla karışımlı, köşe konumlanabilen bir model hem dar alanı verimli kullanır hem de güçlü bir tekstür sunar.\n\nOfis alanları ve ticari projeler için de aynı mantık geçerlidir: baca kısıtı varsa elektrikli, baca mevcutsa doğalgaz. Yanar Şömine uygulama yapan şömine markası her iki kullanım tipi için de hem tasarım hem uygulama sağlar; ticari veya konut ayrımı yapmaksızın projeler keşif usulüyle yürütülür.\n\nKullanım amacını net belirle. Sabah kahveni yaparken karşısında oturmak için bir atmosfer mi istiyorsun, yoksa şöminenin odayı gerçekten ısıtmasını mı bekliyorsun? Bu sorunun cevabı tercihi netleştirir.\n\nKarma kullanım senaryolarını da göz önünde bulundur. Örneğin kış bahçesi için elektrikli, bağlantılı ana salon için doğalgazlı iki ayrı şömine aynı projede birlikte tasarlanabilir. Yanar Şömine uygulama yapan şömine markası olarak 13 ürün kategorisiyle her iki tipin tek bir projede birlikte planlanmasını destekler; keşif sırasında farklı mekânlar için farklı çözümler aynı anda masaya yatırılabilir. Bu yaklaşım özellikle villa projelerinde ya da çok odalı dönüşüm projelerinde zaman ve koordinasyon açısından avantaj sağlar. İki mekân için iki ayrı keşif planlamak yerine tek bir keşifle her iki alanı aynı anda değerlendirt.\n\n## Karar Aşaması: Nereden Başlamalısın?\n\nBu noktada iki şömine tipi arasındaki temel farkları biliyorsun. Şimdi kendi mekânına dön ve şu dört soruyu cevapla: Kullanılabilir bir baca var mı? Mekânın büyüklüğü ne? Birincil ihtiyacın ısıtma mı atmosfer mi? Tercih ettiğin malzeme ve stil hangisi?\n\nBu soruların cevapları genellikle kararı kendiliğinden ortaya koyar. Baca yoksa elektrikli; baca varsa ve gerçek ısı istiyorsan doğalgaz. Stil tercihi ise her iki kategoride de geniş bir seçenek yelpazesiyle karşılanabilir.\n\nYanar Şömine uygulama yapan şömine markası 1986'dan bu yana üretim yaptığı için her proje tipinde birikmiş bir yerinde uygulama deneyimi var. Ücretsiz keşif hizmetini kullan; mekânı yerinde görmeden model veya malzeme kararı vermek hem tasarımda hem de bütçede sizi yanıltabilir.\n\nYanar Şömine uygulama yapan şömine markasının 13 kategoriyi kapsayan kataloğuna [yanarsomine.com.tr](https://www.yanarsomine.com.tr) adresinden göz atabilir, keşif randevusu için de (0212) 884 13 49 numarasını Pazartesi–Cumartesi 09:00–19:00 saatleri arasında arayabilirsin.\n\nKeşif öncesinde şu bilgileri hazır tut: mekânın kaba ölçüleri, baca varsa baca konumu ve tahmini iç çapı, tercih ettiğin stil (klasik, rustik, modern), şöminenin birincil işlevi (ısıtma mı, atmosfer mi), ve varsa zemin ya da duvar kaplama planı. Bu bilgilerle yürütülecek bir keşif çok daha verimli geçer ve önerilerin sana uygun olup olmadığını yerinde tartışma imkânı doğar. Yanar Şömine ekibi keşif sırasında ölçü almakla kalmaz; mekânın teknik kısıtlarını, estetik olanaklarını ve uzun vadeli kullanım senaryolarını da birlikte değerlendirir. Randevu için (0212) 884 13 49 numarasını Pazartesi–Cumartesi 09:00–19:00 saatleri arasında ara."
+}

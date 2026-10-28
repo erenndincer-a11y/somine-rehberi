@@ -380,7 +380,7 @@ def make_image(slug, scene, hero):
             "no watermark, no extra or deformed fireplaces."
         )
         res = openai.OpenAI().images.edit(
-            model="gpt-image-1", image=("product.png", buf, "image/png"), prompt=prompt, size="1536x1024", quality="medium"
+            model="gpt-image-1.5", image=("product.png", buf, "image/png"), prompt=prompt, size="1536x1024", quality="medium"
         )
         img = Image.open(io.BytesIO(base64.b64decode(res.data[0].b64_json)))
         cover(img).save(out, "WEBP", quality=82)

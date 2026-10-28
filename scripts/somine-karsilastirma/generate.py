@@ -359,7 +359,7 @@ def lifestyle(product, scene, no_image=False):
                       "finish and every detail unchanged. Create a photorealistic interior lifestyle photograph: "
                       f"{scene}. Warm ambient light, 35mm lens, no people, no text, no logos, no watermark, "
                       "no extra or deformed fireplaces.")
-            res = openai.OpenAI().images.edit(model="gpt-image-1", image=("product.png", buf, "image/png"),
+            res = openai.OpenAI().images.edit(model="gpt-image-1.5", image=("product.png", buf, "image/png"),
                                               prompt=prompt, size="1536x1024", quality="medium")
             log("Görsel üretildi (gpt-image-1):", product["name"])
             return Image.open(io.BytesIO(base64.b64decode(res.data[0].b64_json))).convert("RGB"), True

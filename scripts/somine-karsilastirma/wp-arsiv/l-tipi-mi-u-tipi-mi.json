@@ -1,0 +1,119 @@
+{
+ "meta": {
+  "title": "L Tipi Modern Şömine mi, U Tipi Modern Şömine mi?",
+  "description": "L tipi ve U tipi modern şömine arasında karara varmadan önce bilmeniz gereken temel farklar, mekân uyumu ve uygulama detayları.",
+  "keyPoints": [
+   "L tipi şömine duvar boyunca yatay bir silüet çizerken, U tipi şömine hem yatay hem dikey eksende mekânı çerçeveler.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipte de ölçü, malzeme ve hazne seçimi projeye özgü belirlenir.",
+   "İkisinde de odun yakıtlı ithal hazne ve baca bağlantısı zorunludur; bu iki şartı karşılayan mekânda her iki tip de uygulanabilir.",
+   "Karar mekânın boyutuna, duvar düzenine ve TV-koltuk yerleşimine göre verilmeli; tipe değil, yerleşim planına bakarak başla."
+  ],
+  "faq": [
+   {
+    "q": "L tipi ve U tipi modern şömine arasındaki temel fark nedir?",
+    "a": "L tipi şömine yatay ve zemin düzleminde genişleyen bir forma sahipken, U tipi hem yatay hem dikey eksende duvara yayılır; U tipi genellikle daha anıtsal ve TV ünitesiyle bütünleşen bir görünüm sunarken, L tipi daha alçak profilli ve zemin odaklı bir oturma düzeni için uygundur."
+   },
+   {
+    "q": "Her iki tip için de baca zorunlu mu?",
+    "a": "Evet. Hem L tipi hem U tipi modern şömineler odun yakıtlı ithal hazne kullandığından, düzgün çeken bir baca bağlantısı her iki tip için de zorunludur; keşif aşamasında baca durumu yerinde incelenir."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markasıdır; 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz merkezinde tasarım, üretim ve uygulamayı kendi ekibiyle yürütmektedir. Sabit fiyat listesi yoktur; her proje ücretsiz keşif ve yerinde ölçü alındıktan sonra teklife dönüşür."
+   },
+   {
+    "q": "Hangi mekân büyüklüğüne hangi tip daha uygun?",
+    "a": "L tipi, orta büyüklükteki oturma odalarında daha dengeli bir ölçek yakalar; U tipi ise geniş, yüksek tavanlı ya da açık plan mekânlarda duvarı doldurma kapasitesiyle öne çıkar. Ancak kesin karar için yerinde ölçü şarttır."
+   },
+   {
+    "q": "TV ve medya ünitesi şömine ile birlikte tasarlanabilir mi?",
+    "a": "Evet; YS-152 gibi U tipi modellerde sağ tabla TV ünitesi için uzatılmış ve çekmece detayları eklenmiştir. L tipi modellerde de yandan büyüme mümkündür; ancak U tipinin dikey ve yatay kolu bu bütünleşik tasarım için daha elverişli bir çerçeve sunar."
+   },
+   {
+    "q": "Uygulama (montaj) Yanar Şömine tarafından mı yapılır?",
+    "a": "Evet; Yanar Şömine tasarım ve üretimin yanında uygulamayı da kendi ekibiyle yerinde gerçekleştirir. İş başka bir uygulayıcıya devredilmez."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "L tipi: Odun yakıtlı ithal hazne (asansör kapaklı + yan açılımlı)",
+     "U tipi: Odun yakıtlı ithal hazne (asansör kapaklı + yan açılımlı)"
+    ]
+   },
+   {
+    "label": "Hazne genişliği (örnek ürünlere göre)",
+    "values": [
+     "L tipi: 70–85 cm (YS-124: 70 cm / YS-132: 85 cm / YS-133: 80 cm)",
+     "U tipi: 100 cm (YS-150, YS-152, YS-153)"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "L tipi: Zorunlu",
+     "U tipi: Zorunlu"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi (gerçek ürün örnekleri)",
+    "values": [
+     "L tipi: Granit, Lime Stone, Traverten, Flexi doğal taş, Cream Dor mermer",
+     "U tipi: Sultan Grey mermer, Star Galaxy Granit, Lime Stone, Traverten, kültür taşı"
+    ]
+   },
+   {
+    "label": "Görünen cephe / form",
+    "values": [
+     "L tipi: Yatay ve zemin odaklı, alçak profil",
+     "U tipi: Yatay + dikey eksen, duvara yayılan anıtsal form"
+    ]
+   },
+   {
+    "label": "TV / medya ünitesi entegrasyonu",
+    "values": [
+     "L tipi: Mümkün, yan uzama ile",
+     "U tipi: Doğrudan uyumlu; YS-152'de tablo uzatılmış ve çekmece eklenmiştir"
+    ]
+   },
+   {
+    "label": "Odunluk / depolama detayı",
+    "values": [
+     "L tipi: Projeye göre değişir",
+     "U tipi: YS-153'te alt tablada odunluk yerleşimi uygulanmıştır"
+    ]
+   },
+   {
+    "label": "Uygun mekân ölçeği",
+    "values": [
+     "L tipi: Orta büyüklükte ve standart tavan yüksekliğindeki odalar",
+     "U tipi: Geniş, yüksek tavanlı veya açık plan alanlar"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "L tipi: Yanar Şömine kendi ekibiyle yerinde uygular",
+     "U tipi: Yanar Şömine kendi ekibiyle yerinde uygular"
+    ]
+   },
+   {
+    "label": "Isıtma / atmosfer dengesi",
+    "values": [
+     "L tipi: Işıl ısıtma + atmosfer; mekânda daha az dominant görsel etki",
+     "U tipi: Işıl ısıtma + atmosfer; mekânda güçlü odak noktası"
+    ]
+   }
+  ],
+  "verdict": "Orta ölçekli bir oturma odasında alçak profilli, zemin odaklı bir şömine arıyorsan L tipi doğru başlangıç noktasıdır. Geniş, yüksek tavanlı ya da TV ünitesiyle bütünleşik bir tasarım hedefliyorsan U tipi daha güçlü bir çerçeve sunar. Her iki tip de özel ölçü ile yapıldığından kesin karar için mekânı ölçtürmeden model seçme.",
+  "bestForA": "L tipi, standart tavan yüksekliğindeki orta büyüklükte odalarda alçak ve yatay bir şömine silüeti isteyen ev sahipleri için.",
+  "bestForB": "U tipi, geniş ve yüksek tavanlı mekânlarda TV ünitesiyle bütünleşik, duvara hâkim bir şömine tasarımı hedefleyen ev sahipleri için.",
+  "heroA": "YS-132",
+  "heroB": "YS-152",
+  "imageSceneA": "A corner of a modern living room with warm evening light; an L-shaped stone fireplace with cream marble base glows with a steady wood fire; low-profile design, no television above, minimalist furniture arrangement, soft shadows on travertine surfaces.",
+  "imageSceneB": "A spacious open-plan living room with high ceilings and indirect lighting; a U-shaped fireplace clad in Sultan Grey marble dominates the wall, integrated with a floor-to-ceiling TV unit and drawer details; a wood fire burns steadily, casting warm light across the room.",
+  "imageAlt": "Sol tarafta yatay profilli L tipi modern şömine, sağ tarafta duvara yayılan U tipi modern şömine; her ikisi de yanık ateşle modern bir oturma odasında yan yana."
+ },
+ "body": "İkisi arasındaki fark bir form meselesidir: L tipi yatayda büyür, U tipi hem yatayda hem dikeyde.\n\nBu tek cümle kararın büyük bölümünü zaten içeriyor. Ama her karar biraz daha derine iner. Mekânın ölçüsü, bacasının durumu, TV yerleşimi, duvar yüksekliği — bunların hepsi formu belirler. Aşağıda iki tipin gerçek farklarını, gerçek ürün verilerinden hareketle sıraladık. Markanın kataloğuna bakmadan önce bu yazıyı oku.\n\n## Tanım ve Temel Form Farkı\n\nL tipi modern şömine, adını zemin düzlemindeki L formundan alır. Hazne ve çerçeve yanal bir uzantıyla ilerler; şömine yatay bir silüet çizer ve mekânda zemin odaklı bir ağırlık merkezi oluşturur. Bu form duvarla ilişkiyi ikinci plana iter; öne çıkan şey genişlemedir.\n\nU tipi ise farklı bir geometri kurar. Yatay kola ek olarak dikey bir yükseliş de vardır; hazne ve çerçeve hem yana hem yukarıya doğru uzanır. Bu, şömineyi duvarın kendisiyle bütünleştiren bir form anlamına gelir. U tipi bir mekâna girdiğinde bakışı doğrudan o köşeye ya da duvara yönlendirir.\n\nİkisi arasındaki en somut fark hazne genişliğine yansır. [L Tipi Modern Şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/l-tipi-modern-somine/) kategorisindeki gerçek ürünlerde 70 ile 85 cm arasında hazne genişlikleri görülüyor. [U Tipi Modern Şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/u-tipi-modern-somine/) kategorisinde ise her üç gerçek üründe de hazne genişliği 100 cm. Yani U tipi yalnızca görsel olarak değil, yapısal olarak da daha büyük bir kapasiteyle geliyor.\n\nFormun pratikte ne anlama geldiğini bir örnekle somutlaştır: L tipinde hazne sol ya da sağ yana uzayan bir tabla ile desteklenirken, U tipinde bu uzama hem yanlara hem yukarıya doğru gerçekleşir ve şömine adeta duvara gömülmüş bir niş gibi algılanır. Bu fark yalnızca estetik değil, yerleşim planını da doğrudan etkiler. L tipinde şöminenin yanındaki boşluk mobilyayla doldurulabilirken, U tipinde o boşluk tasarımın kendisine dahil edilir.\n\n## Hazne, Yakıt ve Baca Gereksinimleri\n\nHer iki tip de odun yakıtlı, asansör kapaklı ve yan açılımlı ithal hazne kullanır. Bu iki özelliği anlamak önemlidir: asansör kapak yukarı kaldırılarak açılır, kullanım sırasında cam yüzeyi temiz ve görünür tutar. Yan açılım ise odun koymayı ve temizliği kolaylaştırır.\n\nBaca konusunu erteleyerek model seçme. Her iki tip için de düzgün çeken bir baca bağlantısı zorunludur. Bacayı önce kontrol et: mevcut bir bacası varsa temizlettir ve çekişini test ettir; yoksa projenin başına baca planlamasını ekle. Bu adımı atlarsan seçtiğin tip ne olursa olsun uygulama aşamasında sürprizle karşılaşırsın.\n\nL tipi için kullanılan hazneler genellikle Nordflam gibi markalı döküm yapılı ya da eşdeğer ithal ürünlerdir. [YS-124](https://www.yanarsomine.com.tr/urun/ys-124/) modelinde 70 cm genişliğinde Nordflam marka L tipi yan açılımlı döküm hazne kullanılmıştır; bu yapı uzun ömürlü ve ısı dağılımı açısından etkilidir. U tipinde hazne genişliği 100 cm'e çıktığında ısıl kapasite de artıyor; ancak baca kesiti de buna göre planlanmalıdır. Keşif aşamasında baca durumu yerinde incelenmeden teklif oluşturulmaz.\n\nHazne genişliğinin pratik sonuçlarını göz ardı etme. L tipindeki 70–85 cm aralığı, standart uzunluktaki odun kütüklerine uygundur ve çoğu temin kanalından kolayca karşılanabilir. U tipindeki 100 cm hazne ise daha uzun kütüklere izin verir; ateş görseli daha geniş bir pencereden izlenir. Ancak bu genişlik, baca kesitinin ve baca yüksekliğinin de buna göre planlanmasını zorunlu kılar. Keşif sırasında baca ölçüleri bu genişliğe göre değerlendirilir; standart kesitli bir bacayla 100 cm hazneli bir U tipini doğrudan bağlamak her zaman mümkün olmayabilir.\n\n## Tasarım Dili ve Malzeme Seçenekleri\n\nİki tip arasında malzeme açısından net bir ayrım yok; her ikisinde de granit, mermer, traverten, kültür taşı ve doğal taş kaplamaları görüyorsunuz. Fark, malzemenin uygulandığı yüzey alanında ve görünürlük düzeyinde ortaya çıkıyor.\n\nL tipinde yatay satıh daha geniş; dolayısıyla alt tabla ve yan yüzeyler öne çıkar. [YS-132](https://www.yanarsomine.com.tr/urun/ys-132/) modelinde alt tablada Cream Dor mermer, alt tabla ve üst duvar yüzeyinde ise 2 mm kalınlığında flexi ithal doğal taş kullanılmış. [YS-133](https://www.yanarsomine.com.tr/urun/ys-133/) modelinde iç çerçeve, alt ve üst tablada siyah Star Galaxy Granit, dış çerçeve ve alt tabla detayında ise Lime Stone taş tercih edilmiş. Bu kontrast malzeme kullanımı L tipinin yatay cephesinde görsel bir katman yaratıyor.\n\nU tipinde dikey yüzey de devreye girer ve malzeme seçimi mekânda çok daha baskın bir etki yaratır. [YS-152](https://www.yanarsomine.com.tr/urun/ys-152/) modelinde desen ve yön takipli Sultan Grey mermer kullanılmış; yani mermer yalnızca renk olarak değil, damar sürekliliğiyle de tasarımın bir parçasına dönüşüyor. [YS-150](https://www.yanarsomine.com.tr/urun/ys-150/) modelinde ise çerçevede Star Galaxy Granit, etrafında Lime Stone ve üst duvarda kültür taşı bir arada kullanılmış; malzeme katmanlaması U tipinin geniş yüzeyine yayılıyor.\n\nMalzeme seçiminde \"hangisi daha güzel\" diye sorma. Mekânın zeminini, duvar rengini ve mobilyayı getir, malzemeyi o zemine otur.\n\n[YS-124](https://www.yanarsomine.com.tr/urun/ys-124/) modelinde malzeme kombinasyonu farklı bir yön gösteriyor: Traverten mermerden çerçeve profili ve üzerindeki duvarda Hindistan cevizi kabuğu kaplama. Bu kombinasyon L tipinin yatay cephesini doğal dokularla zenginleştiriyor; taş ve organik malzeme bir arada kullanıldığında şömine mekânda hem sıcak hem sade bir karakter kazanıyor. Malzeme seçerken yalnızca görsele bakma; dokunun ışıkla nasıl değiştiğini ve mekânın gündüz ile gece aydınlatmasında nasıl göründüğünü keşif aşamasında yerinde değerlendir.\n\n## Mekân ve Ölçü Uyumu\n\nMekânı ölçmeden model seçme. Bu kural her şömine tipinde geçerli, ama L ve U tipi karşılaştırması söz konusu olduğunda özellikle kritik.\n\nL tipi standart tavan yüksekliğindeki, orta büyüklükteki oturma odalarında daha dengeli bir oran yakalar. Zemin odaklı formu sayesinde oda küçük görünmez; şömine duvarın alt yarısında kalır, üst boşluk nefes alır. Koltuk ve sehpa düzenlemesi de bu forma daha kolay uyum sağlar.\n\nU tipi ise geniş ve yüksek tavanlı mekânlar için daha uygun bir seçimdir. Dikey kolu sayesinde duvarı doldurma kapasitesi yüksektir; yüksek tavan boşluğu bu formun üzerinde havada kalmaz, form duvara tam oturur. Açık plan alanlarda — yemek ve oturma odasının birleştiği geniş mekânlarda — U tipi odak noktası olarak daha güçlü çalışır.\n\nYanar Şömine uygulama yapan şömine markası olduğundan her iki tipte de standart bir ölçü dayatması yok. Ama \"özel ölçü\" sonsuz serbestlik anlamına gelmiyor; mekânın duvar genişliği, baca konumu ve mobilya yerleşimi projenin sınırlarını belirliyor. Bu sınırları keşiften önce kendi başına belirlemeye çalışma, yerinde ölçümle çok daha isabetli bir sonuca ulaşırsın.\n\nTavan yüksekliği kadar duvar genişliği de belirleyicidir. U tipinin dikey kolunun duvarda anlamlı görünmesi için belirli bir yüksekliğe ihtiyaç vardır; bu yükseklik sağlanamıyorsa form yarım kalır ve mekânda dengesiz bir etki yaratır. L tipinde ise duvar yüksekliği daha az belirleyicidir; şömine yatayda genişlediği için oran daha kolay kurulur. Eğer evin tavan yüksekliği standart aralıktaysa bu nokta L tipini ön plana çıkarır. Bunu kesin olarak anlamanın yolu yine aynı: yerinde ölçü.\n\nYanar Şömine uygulama yapan şömine markasında çalışma biçimi tam da bu esnekliğe dayanır. Standart bir ölçü dayatılmadığından mekânın gerçek oranları keşif sonrasında projeye yansıtılır. Bu nedenle katalogdaki ürünleri birer şablon olarak değil, birer referans noktası olarak değerlendir; senin mekânına uyarlanacak form keşiften sonra netleşir.\n\n## TV Ünitesi ve Fonksiyonel Entegrasyon\n\nModern oturma odalarında şömine ile TV'nin aynı duvarda buluşması artık alışılageldik bir yerleşim. Bu noktada iki tip arasındaki fark belirginleşir.\n\nU tipinin dikey ve yatay kolu, TV ünitesini şöminenin içine gömmek için doğal bir çerçeve sunar. [YS-152](https://www.yanarsomine.com.tr/urun/ys-152/) modelinde bu bütünleşme açıkça görülüyor: sağ tabla TV ünitesi tasarımı için uzatılmış, alt kısmına çekmece detayları eklenmiş. Bu hem estetik hem de işlevsel bir karar — şömine ve TV aynı tasarım dilini konuşuyor, ayrı ayrı duvarları işgal etmiyor.\n\nL tipinde de yan uzama mümkündür ve TV yerleşimi entegre edilebilir; ancak L formunun zemin odaklı yapısı, TV'yi yüksek bir konuma taşıdığında orantı konusunda dikkatli olmayı gerektirir. Bu gerilimi proje aşamasında çözmek mümkün; yeter ki tasarımcıyla TV yerleşimini baştan konuş.\n\nDepolama alanı istiyorsan [YS-153](https://www.yanarsomine.com.tr/urun/ys-153/) modeline bak: U tipi bu modelde alt tablaya odunluk yerleşimi yapılmış. Hem estetik hem pratik bir çözüm; yakacak odunu görünür ve ulaşılabilir tutar.\n\n## Kurulum ve Uygulama Süreci\n\nYanar Şömine uygulama yapan şömine markasının en belirgin özelliklerinden biri, tasarım ve üretimle kalmayıp uygulamayı da kendi ekibiyle yerinde yapmasıdır. İş başka bir uygulayıcıya devredilmez. Bu, proje boyunca tek bir muhatap anlamına gelir; sorun çıktığında sorumluluk tartışması olmaz.\n\nHer iki tip için uygulama süreci şu aşamaları izler: ücretsiz keşifle yerinde ölçü alınır, baca durumu incelenir, malzeme ve hazne seçimi belirlenir, teklif oluşturulur ve üretim başlar. Montaj da aynı ekip tarafından yapılır. L tipi projeler genellikle U tipine kıyasla daha az yüzey alanı kapladığından uygulama süreci biraz daha kısa sürebilir; ancak bu projeye göre değişir.\n\nUygulamanın ne kadar süreceğini keşiften önce sormaya gerek yok; ölçü alındıktan ve proje netleştikten sonra bu bilgi teklif aşamasında paylaşılır. Keşif randevusu için (0212) 884 13 49 numarasını ara; çalışma saatleri Pazartesi-Cumartesi 09:00-19:00.\n\n## Kullanım ve Bakım\n\nİki tip arasında kullanım açısından belirleyici bir fark yok; her ikisi de odun yakıtlı olduğundan yakma, havalandırma ve temizlik rutinleri benzerdir. Asansör kapak her iki tipte de standart; kaldırarak aç, kapağı temizle, cam yüzeyini periyodik olarak sil.\n\nHazne genişliği büyüdükçe (U tipinde 100 cm) daha uzun odunlar kullanılabilir; bu hem ateşlemeyi hem ısıtma süresini etkiler. Ancak geniş hazne demek daha fazla yakıt tüketimi de demektir. Eğer şömineyi atmosferik bir unsur olarak kullanacaksan — her gün değil, seçili akşamlarda — bu fark çok belirleyici olmaz. Birincil ısıtma kaynağı olarak planlıyorsan hazne kapasitesini ve baca çekişini keşif aşamasında ayrıca değerlendir.\n\nYanar Şömine uygulama yapan şömine markasında her model projeye özgü yapıldığından, bakım sürecinde de parça takibi ve teknik destek için aynı muhatapla çalışırsın. Standart bir ürün satın almıyorsun; yerinde tasarlanmış ve kurulmuş bir sistem alıyorsun.\n\nİki tip arasında temizlik rutini açısından da pratik bir not düşmek gerekir. U tipinin geniş dikey yüzeyleri daha fazla kaplama alanı anlamına gelir; mermer ya da granit gibi yüzeyler düzenli bakımla uzun yıllar ilk günkü görünümünü korur. Ancak bu yüzeylerin asitli temizlik ürünlerinden korunması gerekir; doğal taş kaplamalarda uygun bakım malzemesi kullanımı malzemenin ömrünü doğrudan etkiler. L tipinde yüzey alanı görece daha azdır; temizlik daha kısa sürer. Her iki tipte de hazne içi kül temizliği yakma sezonunda düzenli yapılmalıdır; bu rutin işlevin ve çekişin sürekliliği için zorunludur.\n\n## Hangi Ev Tipine Hangisi Uyar\n\nŞimdi dağınık bilgileri bir araya topla.\n\nL tipi şömine şu koşullarda daha uygun bir başlangıç noktasıdır: standart tavan yüksekliği olan bir oda, orta büyüklükte bir alan, alçak profilli ve zemin odaklı bir yerleşim planı. Koltuk düzenin şömineyi çevreliyorsa, yani şömine koltuk grubunun odak noktasıysa L tipi bu ilişkiyi daha organik kurar. [YS-124](https://www.yanarsomine.com.tr/urun/ys-124/) gibi modellerde Traverten çerçeve ve Hindistan cevizi kabuklu duvar kaplaması bu atmosferi destekliyor.\n\nU tipi şömine şu koşullarda daha güçlü bir seçimdir: yüksek tavan, geniş ve açık plan mekân, TV ünitesiyle bütünleşik bir tasarım hedefi, ya da şömineyi mekânın asıl odak noktası yapmak isteği. [YS-153](https://www.yanarsomine.com.tr/urun/ys-153/) modelindeki gibi alt tablada odunluk, tam traverten kaplama ve 100 cm hazneyle U tipi mekânı tek bir tasarım diliyle dolduruyor.\n\nYanar Şömine uygulama yapan şömine markasının kataloğunda her iki tipte de farklı malzeme, form ve hazne seçenekleri mevcut. Ancak katalogu yalnızca ilham kaynağı olarak kullan; nihai kararı mekânı görmeden alma.\n\nYapı tipini de hesaba kat. Yeni inşaat bir dairede baca planlaması baştan yapılabilir; bu durumda iki tip arasında teknik bir kısıt kalmaz ve tercih tamamen tasarım önceliğine göre verilir. Mevcut bir konut ya da dönüşüm projesinde ise baca bağlantısı kısıtlayıcı olabilir; 100 cm hazneli U tipi için gerekli baca kesiti mevcut bacadan karşılanamıyorsa L tipi daha gerçekçi bir çözüm sunar. Bu değerlendirme yalnızca yerinde keşifle yapılabilir; kataloğa bakarak bacayı tahmin etmeye çalışma.\n\n## Karar: Hangisini Seçmelisin\n\nMekânın küçükse ve alçak profilden yanaysan L tipi doğru yön. Mekânın genişse, TV ünitesiyle bütünleşik bir tasarım istiyorsan ya da duvara hâkim bir şömine odak noktası arıyorsan U tipi sana daha yakın.\n\nAma şunu da unutma: Yanar Şömine uygulama yapan şömine markasının çalışma biçiminde bu kararı soyutta verip projeye başlamıyorsun. Önce ücretsiz keşif var; yerinde ölçü alınıyor, baca inceleniyor, mekânın gerçek oranları ortaya çıkıyor. O aşamada L ve U tipi arasındaki tercih çok daha kolay netleşiyor.\n\nOnline kataloğa [yanarsomine.com.tr](https://www.yanarsomine.com.tr) adresinden bak, ürünleri incele. Ama mekânını ölçtürmeden ve bacayı kontrol ettirmeden modele karar verme. Keşif randevusu için (0212) 884 13 49 numarasını ara."
+}

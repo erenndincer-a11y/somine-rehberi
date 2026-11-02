@@ -2,9 +2,9 @@ name: Şömine Karşılaştırma Ajanı
 
 on:
   schedule:
-    # Salı + Perşembe 11:40 Türkiye (UTC+3) = 08:40 UTC; 14:40 TR yedek (o gün yazı varsa script çıkar)
-    - cron: '40 8 * * 2,4'
-    - cron: '40 11 * * 2,4'
+    # Her gün 11:40 Türkiye (UTC+3) = 08:40 UTC; 14:40 TR yedek (o gün yazı varsa script çıkar)
+    - cron: '40 8 * * *'
+    - cron: '40 11 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

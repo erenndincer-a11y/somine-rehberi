@@ -2,8 +2,8 @@ name: Şömine Rehberi Blog Otomasyonu
 
 on:
   schedule:
-    # Salı + Perşembe 10:00 Türkiye (UTC+3) = 07:00 UTC
-    - cron: '0 7 * * 2,4'
+    # Her gün 10:00 Türkiye (UTC+3) = 07:00 UTC
+    - cron: '0 7 * * *'
   workflow_dispatch:  # GitHub'dan "Run workflow" ile elle de tetiklenebilir
 
 permissions:

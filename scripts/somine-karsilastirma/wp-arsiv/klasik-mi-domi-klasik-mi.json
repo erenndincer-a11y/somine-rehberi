@@ -1,0 +1,105 @@
+{
+ "meta": {
+  "title": "Klasik Şömine mi, Dömi Klasik Şömine mi? İki Tip Arasındaki Farklar",
+  "description": "Klasik ve dömi klasik şömine arasında karar veremiyor musun? Tasarım, malzeme, mekân uyumu ve kurulum farkları burada.",
+  "keyPoints": [
+   "Klasik şömine katı simetri ve el oyması detaylarla bütün bir tarihsel anlatı kurarken, dömi klasik aynı kökeni daha sade ve çağdaş bir çerçeveye taşır.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipi de projeye özel üretir; sabit katalog fiyatı yoktur, süreç teklif ve ücretsiz keşifle başlar.",
+   "Her iki tip de aktif baca gerektirir; baca durumunu keşif öncesinde değerlendirmek model seçiminden önce gelir.",
+   "İki tipte de 70 cm ve üzeri ithal hazne kullanılabilir; hazne genişliği mekânın ısıtma ihtiyacına göre belirlenir."
+  ],
+  "faq": [
+   {
+    "q": "Klasik şömine ile dömi klasik şömine arasındaki temel fark nedir?",
+    "a": "Klasik şömine; el oyması detaylar, sütun başlıkları, profilli kornişler ve yoğun dekoratif unsurlarla tarihi üsluba tam sadakat gösterir. Dömi klasik, bu dilin iskeletini koruyarak sütun ve profil gibi öğeleri daha az katmanlı, daha sade biçimde yorumlar; böylece hem klasik hem de geçiş üslubundaki iç mekânlara oturabilir."
+   },
+   {
+    "q": "Her iki tip için baca zorunlu mu?",
+    "a": "Evet. Klasik ve dömi klasik şömineler odun ya da biyo-yakıt yakan gerçek haznelerle çalışır; her ikisi de aktif, işlevsel bir baca gerektirir. Bacasız ya da bacanın yetersiz olduğu bir mekânda bu tiplerin kurulumu yapılamaz; böyle bir durumda doğalgaz veya elektrikli seçenekler değerlendirilmelidir."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markasıdır. 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'da faaliyet gösteren marka, tasarım, üretim ve uygulamayı kendi bünyesinde yürütür; işi başka bir uygulayıcıya devretmez. Her proje, yerinde keşif sonrasında alınan ölçüler ve mekânın gereksinimleri doğrultusunda özel olarak tasarlanıp üretilir."
+   },
+   {
+    "q": "Fiyat bilgisi nasıl alınır?",
+    "a": "Yanar Şömine, tüm projelerini özel ölçü ve tasarım esasıyla yürüttüğünden sabit bir fiyat listesi yoktur. Fiyat bilgisi, ücretsiz yerinde keşif ve ölçüm yapıldıktan sonra hazırlanan teklifle belirlenir. (0212) 884 13 49 numarasını arayarak hafta içi ve cumartesi 09:00–19:00 arasında randevu alabilirsin."
+   },
+   {
+    "q": "Dömi klasik şömine modern bir salona uyar mı?",
+    "a": "Dömi klasik, tam klasiğin yoğun süsleme diline kıyasla çok daha temiz bir silüet sunar. Nötr tonlarda mermer ve traverten kombinasyonları seçildiğinde dömi klasik, geçiş üslubu veya soft modern diye tanımlanan mekânlara rahatlıkla oturabilir. Bununla birlikte tam geometrik ve süssüz modern bir iç mekânda bu tip yine de göz ardı edilemeyecek bir tarihsel vurgu taşır; mekânı yerinde değerlendirmeden karar vermemek gerekir."
+   },
+   {
+    "q": "Kurulum süreci nasıl işler?",
+    "a": "Yanar Şömine, keşif, tasarım, üretim ve kurulumu kendi ekibiyle tamamlar. Ücretsiz yerinde keşifle başlayan süreç; ölçü alımı, tasarım onayı ve üretimin ardından yerinde montajla kapanır. Farklı bir uygulayıcı firmaya iş devredilmez; bu sayede tasarım bütünlüğü ve uygulama kalitesi tek elden izlenir."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Klasik: odun yakıt, ithal hazne (70 cm ve üzeri seçenekler mevcut)",
+     "Dömi Klasik: odun yakıt, ithal hazne (70 cm standart; YS-186'da 90 cm asansör kapaklı prizmatik hazne)"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Klasik: aktif baca zorunlu",
+     "Dömi Klasik: aktif baca zorunlu"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi",
+    "values": [
+     "Klasik: mermer, granit, limra taşı, küfeki taşı (el oyması)",
+     "Dömi Klasik: mermer, traverten, doğal masif ahşap tabla kombinasyonları"
+    ]
+   },
+   {
+    "label": "Görünen cephe / silüet",
+    "values": [
+     "Klasik: yoğun profil, el oyması detay, tam simetrik cephe",
+     "Dömi Klasik: sütun ve profil öğeleri sadeleştirilmiş, daha az katmanlı cephe"
+    ]
+   },
+   {
+    "label": "Uygun mekân tipi",
+    "values": [
+     "Klasik: tam klasik veya neo-klasik iç mekan; yüksek tavanlı, geniş salon",
+     "Dömi Klasik: klasikten geçiş üslubuna; orta-büyük salon ve yaşam alanları"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Klasik: Yanar Şömine kendi ekibiyle uygular",
+     "Dömi Klasik: Yanar Şömine kendi ekibiyle uygular"
+    ]
+   },
+   {
+    "label": "Bakım",
+    "values": [
+     "Klasik: el oyması yüzeylerde düzenli toz ve is temizliği; baca yılda en az bir kez temizlenmeli",
+     "Dömi Klasik: yüzey temizliği, baca bakımı; ahşap tabla kullanılan modellerde tabla koruma"
+    ]
+   },
+   {
+    "label": "Birincil işlev",
+    "values": [
+     "Klasik: ısıtma + güçlü atmosfer / dekoratif odak noktası",
+     "Dömi Klasik: ısıtma + atmosfer; daha erişilebilir dekoratif bütünleşme"
+    ]
+   }
+  ],
+  "verdict": "Mekânın tamamı tam klasik veya neo-klasik bir dilde dekore ediliyorsa, el oyması detayın ve tarihsel ağırlığın okunmasını istiyorsan Klasik Şömine seç. Dekorasyonun klasikten geçişte durduğu, çok katmanlı süslemenin fazla gelebileceği ya da mekânın ölçeğinin büyük bir kütleyi kaldırmadığı durumlarda Dömi Klasik daha sağlıklı bir seçim olur. Her iki tipte de baca durumu ve mekân ölçüsü belirleyicidir; bu yüzden ücretsiz keşif randevusu almadan önce modele karar verme.",
+  "bestForA": "Klasik şömine; tam klasik veya neo-klasik dekore edilmiş, yüksek tavanlı ve geniş salonlar için, el oyması taş kaplama ve güçlü bir mimari odak noktası isteyenler için uygundur.",
+  "bestForB": "Dömi klasik şömine; klasikten geçişe evrilen, daha sade malzeme kombinasyonları tercih eden ve şöminenin mekânla kıyasıya yarışmasını değil bütünleşmesini isteyen ev sahipleri için uygundur.",
+  "heroA": "YS-203 Klasik Şömine",
+  "heroB": "YS-186 Dömi Klasik Şömine",
+  "imageSceneA": "A grand living room with high ceilings and crown moldings, warm evening light from wall sconces, a hand-carved white marble and black Star Galaxy granite classical fireplace burning with a steady wood fire, flanked by symmetrical bookshelves, no people present.",
+  "imageSceneB": "A spacious transitional-style living room with neutral beige tones, soft natural light from tall windows, a semi-classical fireplace in cream and travertine marble with a solid Sapele wood mantel shelf, fire burning gently, no people present.",
+  "imageAlt": "Solda el oyması beyaz mermerli klasik şömine, sağda traverten kaplı dömi klasik şömine; iki tip yan yana karşılaştırma görseli."
+ },
+ "body": "İkisi arasındaki temel fark tasarım dili: klasik şömine tam tarihsel üsluba sadık kalırken, dömi klasik aynı kökü sadeleştirerek günümüz mekânlarına daha kolay entegre olur.\n\nBu fark kulağa soyut gelebilir. Ama yerinde gördüğünde, bir yapının tüm ağırlığını hissedip diğerinin aynı kökte durmasına karşın odada neden daha az alan kapladığını anında görürsün. Şömine seçimi çoğu zaman tam da bu algı meselesinden takılıp kalır. Bu yazıda iki tipi somut eksenlerden karşılaştırıyoruz: hazne, malzeme, mekân ölçüsü, kurulum ve bakım. Sonda kime hangisinin gittiğini net söylüyoruz.\n\n## Tanım ve Temel Fark: İki Tip Neden Ayrışır?\n\nKlasik şömine, Avrupa'nın 18. ve 19. yüzyıl mimarisiyle şekillenen bir tipin doğrudan devamıdır. Sütun başlıkları, profilli kornişler, el oyması madalyonlar ve tam simetrik cephe bu tipin ayırt edici özellikleridir. Mekâna girdiğinde gözün önce şöminede durması beklenir; bu, kasıtlı bir tasarım kararıdır.\n\nDömi klasik ise aynı dilin sadeleştirilmiş halidir. \"Dömi\" kelimesinin kendisi zaten \"yarı\" anlamına gelir. Sütun ve profil öğeleri korunur, ancak katman sayısı azaltılır, el oyması detay yerini daha temiz yüzeylere bırakır. Silüet tanıdıktır; yüklü değildir.\n\nYanar Şömine uygulama yapan şömine markası olarak bu iki kategoriyi birbirinden net biçimde tanımlar ve her birini farklı mekân tiplerine yönlendirir. Hangi tipin hangi eve gittiğini anlamak için önce mekânın mimari dilini çözmek gerekir. Dekorasyonun tamamı yoğun klasik unsurlar taşıyorsa klasik şömine bu dile doğal olarak eklemlenir. Dekorasyon \"biraz klasik, biraz sade\" noktasındaysa dömi klasik daha sağlıklı bir seçimdir.\n\nBu ayrımın pratikte ne anlama geldiğini somutlaştırmak gerekirse: klasik bir şöminenin cephesine baktığında gözün sütun başlıklarındaki oyma detaydan kornişe, oradan merkez madalyona sırayla geçer. Dömi klasikte bu yolculuk daha kısadır; göz daha çabuk dinlenir. Bu fark, şöminenin mekânda \"konuşma\" biçimini doğrudan belirler. Yanar Şömine uygulama yapan şömine markası olarak bu iki kategoriyi üretim aşamasından itibaren farklı malzeme ve işçilik süreçleriyle ele alır; aralarındaki fark yalnızca görsel bir tercih değil, üretim kararıdır.\n\n## Hazne ve Yakıt: Gerçek Ateş, Gerçek Baca\n\nHer iki tip de odun yakan gerçek haznelerle çalışır. Bu, her ikisinin de aktif ve işlevsel bir baca gerektirdiği anlamına gelir. Baca durumunu keşif randevusundan önce kontrol et; bacasız veya yetersiz çekişli bir mekânda bu iki tip kurulamaz.\n\nHazne boyutu, hem klasik hem dömi klasik ürünlerde projeye göre belirlenir. Yanar Şömine'nin kataloğuna baktığında somut örnekleri görebilirsin: [YS-203](https://www.yanarsomine.com.tr/urun/ys-203-klasik-somine/) ve [YS-199](https://www.yanarsomine.com.tr/urun/ys-199-klasik-somine/) modellerinde 70 cm genişliğinde ithal hazne kullanılmış. Dömi klasik tarafında ise [YS-186](https://www.yanarsomine.com.tr/urun/ys-186/) modelinde 90 cm genişliğinde asansör kapaklı prizmatik hazne tercih edilmiş; bu, hem ısıtma kapasitesini artırır hem de alev görüntüsünü panoramik kılar.\n\nHazne seçimi estetikten bağımsız değildir. Geniş bir hazne, cephenin de buna göre boyutlandırılmasını gerektirir. Bu yüzden mekânı ölçmeden ve baca durumunu değerlendirmeden hazne kararı verme. Ücretsiz keşif tam da bu hesabı yerinde yapmak için vardır.\n\nPrizmatik hazne seçeneği, dömi klasik kategorisinde öne çıkan bir teknik detaydır. YS-186'da kullanılan asansör kapaklı yapı, kapağın yukarı doğru kalkmasıyla alevin kesintisiz görünmesini sağlar; bu hem estetik hem de kullanım konforu açısından fark yaratır. Klasik şömine haznelerinde ise standart kapı mekanizması daha yaygındır. Hangi hazne mekanizmasının projeye uygun düştüğü, keşif sırasında mekânın kullanım alışkanlıklarına göre değerlendirilir. Yakıt olarak her iki tipte de kuru ve sertliği yeterli odun tercih edilmeli; ıslak ya da yetersiz kuruma süreci geçirmiş odun hem verim düşürür hem is birikimini artırır.\n\n## Tasarım ve Malzeme: Her Tipe Özgü Yüzey Dili\n\nKlasik şöminede malzeme, tasarımın kadar belirleyicidir. El oyması çalışma, hem taşın hem ustanın kimliğini gösterir. [YS-203](https://www.yanarsomine.com.tr/urun/ys-203-klasik-somine/) modelinde beyaz mermer ve siyah Star Galaxy granit kombinasyonu kullanılmış; kontrastın kendisi zaten dekoratif bir tercih. [YS-199](https://www.yanarsomine.com.tr/urun/ys-199-klasik-somine/) ise el oyması limra taşı ve Star Galaxy granit karışımıyla çalışılmış. [YS-212](https://www.yanarsomine.com.tr/urun/ys-212/) modelinde ise küfeki taşı tercih edilmiş; iki yan oturmalı ve alt odunluklu yapısıyla bu model mekânda fiziksel bir yer kaplar.\n\nDömi klasik tarafında malzeme paleti biraz farklılaşır. [YS-161](https://www.yanarsomine.com.tr/urun/ys-161/) modelinde Cream D'or bej mermer ve Emprador mermer karışımının üzerine traverten dekoratif kaplama eklenmiş. [YS-195](https://www.yanarsomine.com.tr/urun/ys-195/)'te yine Cream D'or bej mermer sütun ve profil detaylarıyla çalışılmış, üzeri traverten kaplamayla tamamlanmış. [YS-186](https://www.yanarsomine.com.tr/urun/ys-186/)'da ise bej mermer ve traverten kombinasyonuna doğal masif Sapelli ağacı tabla eklenmiş; ahşap ve taşın bir arada kullanımı dömi klasiğin sıcaklık katma biçimlerinden biridir.\n\nÖzetle: klasik şöminede malzeme kontrast ve el emeğiyle konuşur; dömi klasikte aynı taşlar daha sakin bir diyalog kurar.\n\nMalzeme seçimi aynı zamanda uzun vadeli bir karar olduğundan bakım kolaylığını da göz önünde bulundurmak gerekir. Koyu tonlarda granit — Star Galaxy gibi — toz ve parmak izini açık mermere kıyasla daha az belli eder; günlük yoğun kullanılan bir salonda bu pratik bir avantajdır. Traverten ise gözenekli yapısı nedeniyle sıvı temasında hızlı silinmesi gereken bir yüzeydir; şömine çevresinde kullanıldığında is ve duman birikimini düzenli kontrol etmek gerekir. Bu tür malzeme kararları projeye ve kullanım alışkanlıklarına göre keşif sırasında birlikte değerlendirilir.\n\n## Mekân ve Ölçü Uyumu: Hangi Boyut, Hangi Orana Oturur?\n\nKlasik şömine fiziksel bir ağırlık taşır. Sütunlar, kornişler ve el oyması detaylar toplam kütleyi artırır. Bu yüzden yüksek tavanlı ve geniş bir salon bu tipin doğal ortamıdır. Alçak tavanlı ya da küçük ölçekli bir mekânda tam klasik bir şömine orantı sorununa yol açar; şömine odayı yemez, ama hacimle çatışır.\n\nDömi klasik bu açıdan biraz daha esnektir. Daha az katmanlı cephe yapısı, orta büyüklükteki oturma odalarında da dengeli görünür. Ancak \"daha küçük\" anlamına gelmez; dömi klasik de zemin kaplamasından tavana kadar ölçülü bir ilişki gerektirir.\n\nYanar Şömine uygulama yapan şömine markası olarak her iki tipte de standart bir boyut sunmaz. Proje yerinde ölçülerek tasarlanır; bu sayede şömine mekânla orantısız çıkmaz. Mekânı ölçmeden model seçme — bu kural her iki tip için de geçerli. Keşif sırasında hem duvar genişliği hem tavan yüksekliği hem de baca ekseni yerinde değerlendirilir.\n\nKüçük bir not: şöminenin duvarın tamamına mı yoksa bir bölümüne mi oturduğu da oran hesabını doğrudan etkiler. Bu kararı da keşif sırasında almak, kâğıt üzerinde tahminde kalmaktan çok daha sağlıklıdır.\n\nDuvarın şömine arkasında kalan bölümü de göz ardı edilmemesi gereken bir değişkendir. Klasik şöminede yan sütunlar ve üst korniş birlikte geniş bir alan kaplar; bu yüzden şöminenin iki yanındaki duvar boşluğu da hesaba katılmalıdır. Dar bir duvara tam klasik bir cephe sığdırmaya çalışmak orantı sorununa davetiye çıkarır. Dömi klasikte daha az derinlik ve genişlik gerektiren cephe yapısı, özellikle iki pencere arasında kalan orta duvar gibi sınırlı alanlarda daha işlevsel bir çözüm olabilir. Bu hesabı kafadan değil, yerinde ve ölçüyle yapmak gerekir.\n\n## Kurulum ve Uygulama Süreci: Tek Elden Yönetim\n\nŞömine seçerken çoğu kişi tasarıma odaklanır; kurulum sürecini ikinci plana atar. Oysa özellikle taş kaplama gerektiren klasik ve dömi klasik şöminelerde uygulama kalitesi, tasarım kalitesi kadar belirleyicidir.\n\nYanar Şömine uygulama yapan şömine markası olarak tasarım, üretim ve kurulumu kendi bünyesinde tamamlar; işi başka bir uygulayıcıya devretmez. Ücretsiz keşifle başlayan süreç; yerinde ölçüm, tasarım onayı ve üretimin ardından Yanar Şömine ekibinin yaptığı yerinde montajla kapanır. Bu döngü her iki tip için de aynı biçimde işler.\n\nKlasik şöminede el oyması taş parçaların yerinde montajı titiz bir hizalama gerektirir; simetri, cephede göz düzeyinde doğrulanır. Dömi klasikte de aynı hassasiyet gereklidir; özellikle traverten kaplama ve ahşap tabla gibi farklı malzemelerin bir arada kullanıldığı modellerde geçiş noktaları dikkatle işlenir.\n\nKurulum süresi projeye göre değişir; bunu keşif aşamasında sormak iyi olur. Şöminenin yapıya bağlantı biçimi, baca bağlantısı ve nihai kaplama sırası yerinde belirlenir. Randevu için (0212) 884 13 49'u hafta içi ya da cumartesi 09:00–19:00 arasında arayabilirsin.\n\n## Kullanım ve Bakım: Uzun Vadede Ne Beklenir?\n\nHer iki tip de aktif yakıtlı şöminedir; bu da düzenli bakım gerektirdiği anlamına gelir. Bacayı yılda en az bir kez temizletmek zorunludur. Bu sadece verim meselesi değil; duman gazlarının sağlıklı tahliyesi için doğrudan bir güvenlik gereğidir.\n\nKlasik şöminede el oyması yüzeyler daha fazla toz tutar. Bu yüzeyler için kuru, yumuşak bez kullanmak yeterlidir; aşındırıcı temizleyicilerden kaçın. Yoğun is birikimi durumunda uzman bir taş temizliği gerekebilir; bu özellikle açık renkli mermerlerde dikkat gerektiren bir noktadır.\n\nDömi klasikte yüzey bakımı görece daha pratiktir; düz ve az katmanlı cephe temizliği kolaylaştırır. Ahşap tabla kullanan modellerde — YS-186 örneğinde olduğu gibi — masif ağaç tablayı koruyucu bir balmumu ya da uygun bir ahşap bakım ürünüyle periyodik olarak beslemek uzun ömürlü görünüm için yeterlidir.\n\nHer iki tipte de haznede biriken kül, sezonu kapatırken tamamen temizlenmeli ve şömine kullanım dışı bırakılmalıdır. Bu basit alışkanlık, hem yapıyı hem de hazneyi bir sonraki sezon için hazır tutar.\n\nŞöminenin etrafındaki döşeme ve duvar kaplamaları da bakım döngüsüne dahil edilmeli. Şömine ağzı yakınındaki zemin, kıvılcım ve kül sıçramasına maruz kalabilir; bu bölgede ısıya dayanıklı bir döşeme ya da şömine önlüğü kullanmak hem yapıyı korur hem de temizliği kolaylaştırır. Her iki tip için de bu önlem geçerlidir. Uzun süreli kullanım dışı kalma dönemlerinde — özellikle yazın — baca ağzını kapatmak nem ve yabancı cisim girişini engeller; bu basit tedbir haznedeki metal aksamın korozyona karşı ömrünü uzatır.\n\n## Hangi Ev Tipine Hangisi Daha Uygun?\n\nBu soruyu \"klasik bir evi olan herkese klasik, gerisine dömi klasik\" diye basitleştiremeyiz. Mekânın mimari dili, tavan yüksekliği, duvar yüzeyi ve şöminenin o mekânda üstleneceği rol birlikte değerlendirilmeli.\n\nKlasik şömine için somut bir çerçeve çizecek olursak: tamamen klasik veya neo-klasik dekore edilmiş, yüksek tavanlı, geniş bir salon; ahşap ya da mermer döşemeli zemin; duvarda tablolar veya aynalar gibi çerçeveli odak noktaları. Bu bağlamda klasik şömine mekânı tamamlar. Konaklar, büyük zemin katlı bağımsız evler ve geniş rezidans daireleri bu profile yakın.\n\nDömi klasik için ise şu tabloyu düşün: mobilyanın bir kısmı klasik çizgiler taşısa da kanepe ve bölümler daha sade; duvarlar nötr tonlarda, yoğun süsleme yok. Bu tür \"geçiş üslubu\" mekânlarda tam klasik bir şömine fazla öne çıkar, dömi klasik ise hem tarihsel izi korur hem de genel dili bozmaz. Orta ölçekli apartman daireleri, villa oturma odaları ve bahçeli müstakil ev salonları bu kapsama girer.\n\nYanar Şömine uygulama yapan şömine markasının 13 kategori sunmasının nedeni de budur: hiçbir mekân aynı değildir, hiçbir proje standart bir kalıba tam olarak oturmaz. Kategori sayfalarına göz atmak iyi bir başlangıç noktasıdır; ama nihai karar keşiften sonra netleşir.\n\nBir diğer pratik kriter, evin kime ait olduğu değil evin nasıl kullanıldığıdır. Şömine yoğun biçimde günlük ısıtma aracı olarak kullanılacaksa hazne kapasitesi ve baca çekişi öne çıkar; bu durumda dekoratif ayrıntıdan önce teknik verim değerlendirilmelidir. Şömine ağırlıklı olarak atmosfer ve dekoratif odak amacı taşıyorsa o zaman malzeme ve cephe dili daha belirleyici olur. Yanar Şömine uygulama yapan şömine markasında her iki amaca göre de doğru hazne ve kaplama kombinasyonları keşif aşamasında birlikte belirlenir; kullanım senaryosu önceden netleştirilirse tasarım da buna göre yönlendirilir.\n\n## Karar: Hangisini Seçeceksin?\n\nŞömine seçimi aslında mekânın zaten verdiği bir kararın onaylanmasıdır. Mekânın mimari dilini dürüstçe okuduğunda hangi tipin uyduğu çoğu zaman kendiliğinden ortaya çıkar.\n\nDekorasyonun tamamı klasik veya neo-klasik bir dil taşıyorsa, el oyması taş kaplama ve güçlü bir tarihsel vurgu istiyorsan, mekânın da bu kütleyi kaldıracak ölçekte olduğunu biliyorsan: Klasik Şömine seç. [YS-199](https://www.yanarsomine.com.tr/urun/ys-199-klasik-somine/) ve [YS-203](https://www.yanarsomine.com.tr/urun/ys-203-klasik-somine/) bu kategorinin iki somut başlangıç noktasıdır; [Klasik Şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/klasik-somine/) kategori sayfasında diğer modellere de bakabilirsin.\n\nDekorasyonun klasikten geçişte durduğu, çok katmanlı süslemenin fazla gelebileceği ya da mekânın ölçeğinin büyük bir kütleyi taşımadığı durumlarda: Dömi Klasik Şömine daha sağlıklı bir seçimdir. [YS-186](https://www.yanarsomine.com.tr/urun/ys-186/) modeli bu kategorinin kapasitesini göstermek için iyi bir örnek; [Dömi Klasik Şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/domi-klasik-somine/) kategori sayfasında diğer alternatifleri görebilirsin.\n\nHer iki tipte de süreç aynı yerden başlıyor: ücretsiz keşif. Yanar Şömine uygulama yapan şömine markası olarak sabit bir katalog fiyatı sunmaz; her projeyi yerinde ölçerek, mekânın gerçek koşullarını değerlendirerek tasarlar. Modele karar vermeden önce bacayı kontrol et, mekânı ölç ve keşif randevusu al. Geri kalan her şey bu yerinde değerlendirmenin ardından yerine oturur."
+}

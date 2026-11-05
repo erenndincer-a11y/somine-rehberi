@@ -1,0 +1,105 @@
+{
+ "meta": {
+  "title": "Rustik Şömine mi Ahşap Şömine mi? Farkları ve Doğru Seçim",
+  "description": "Rustik ve ahşap şömine arasında kalan ev sahiplerine somut karşılaştırma: malzeme, baca, mekân uyumu ve kurulum süreci.",
+  "keyPoints": [
+   "Rustik şömine taş işçiliği ve el oymasıyla öne çıkarken, ahşap şömine dolap ve raf detaylarıyla mekânı mobilya gibi tamamlar.",
+   "İki tip arasındaki temel fark malzeme dili değil, mekânın nasıl bir atmosfer talep ettiğidir.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki kategoriyi de projeye özgü tasarım ve uygulama süreciyle hayata geçirir.",
+   "Her iki tip de bacalı veya bacasız versiyonlarda üretilebilir; karar vermeden önce mekânın mevcut altyapısını kontrol et."
+  ],
+  "faq": [
+   {
+    "q": "Rustik şömine ile ahşap şömine arasındaki temel fark nedir?",
+    "a": "Rustik şömine; limra taşı, granit veya mermer gibi doğal taşlardan, çoğunlukla el oyması detaylarla üretilir ve mekâna ham doğa dokusu katar. Ahşap şömine ise ahşap ve çeşitli kaplama malzemelerinin birlikte kullanıldığı, çerçeve ve dolaplı yapısıyla daha çok geleneksel iç mekân estetiğine hizmet eder. Birincisi doku ve malzeme ağırlıklı konuşurken, ikincisi oran ve çerçeve kompozisyonuyla öne çıkar."
+   },
+   {
+    "q": "Her iki şömine tipi de baca gerektirir mi?",
+    "a": "Odunlu yakıt kullanan modeller baca gerektirir. Rustik kategorisindeki YS-227 gibi elektrikli modeller baca ihtiyacı duymaz. Montaj öncesinde mevcut baca durumu yerinde incelenmeli; baca yoksa elektrikli seçenek ya da yeniden baca yapımı değerlendirilmelidir."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markasıdır; 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'da tasarım, üretim ve uygulama hizmetini kendi bünyesinde yürütür. Sabit katalog fiyatı yoktur; her proje yerinde keşif ve ölçüm sonrası teklif aşamasına geçer."
+   },
+   {
+    "q": "Ücretsiz keşif hizmetinden nasıl yararlanabilirim?",
+    "a": "Yanar Şömine ekibi, (0212) 884 13 49 numarasını arayarak randevu oluşturduğunuz takdirde mekânınıza gelerek ölçü alır, mevcut baca ve duvar altyapısını inceler, size uygun modeli önerir. Keşif hizmeti için herhangi bir ücret alınmaz."
+   },
+   {
+    "q": "Ahşap şömine ile rustik şömine arasında bakım farkı var mı?",
+    "a": "Rustik şöminelerdeki limra taşı ve granit gibi doğal taş yüzeyler nem ve yağa karşı dikkatli kullanım gerektirir; yılda bir kez uzman temizliği önerilir. Ahşap kaplamalı modellerde ise yüzey rutubetten uzak tutulmalı, ahşap kaplama periyodik olarak kontrol edilmelidir. Her iki tipte de baca ve hazne temizliği kullanım sıklığına göre yaptırılmalıdır."
+   },
+   {
+    "q": "Montajı kendin yapabilir misin?",
+    "a": "Yanar Şömine, tasarım ve üretimin yanı sıra kurulumu da kendi ekibiyle yerinde gerçekleştirir; işi başka bir uygulayıcıya devretmez. Bu nedenle kendin ya da farklı bir ekip tarafından montaj yapılması önerilmez; hem güvenlik hem garanti süreci açısından kurulumu Yanar Şömine ekibine bırakmak doğru yaklaşımdır."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Rustik: odunlu veya elektrikli (modele göre)",
+     "Ahşap: odunlu (limra taşı ve mermer gövdeli)"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Rustik: odunlu modelde evet, elektrikli modelde hayır",
+     "Ahşap: odunlu modeller baca gerektirir"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi",
+    "values": [
+     "Rustik: limra taşı, siyah granit, mermer",
+     "Ahşap: ahşap çerçeve, limra taşı ve mermer kombinasyonu"
+    ]
+   },
+   {
+    "label": "Görünen cephe",
+    "values": [
+     "Rustik: el oymalı taş yüzey, güçlü doku",
+     "Ahşap: çerçeve ve raf kompozisyonu, oran dengesi"
+    ]
+   },
+   {
+    "label": "Uygun mekân",
+    "values": [
+     "Rustik: geniş salon, kır evi, yüksek tavanlı alan",
+     "Ahşap: klasik döşemeli salon, köşk, geleneksel iç mekân"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Rustik: Yanar Şömine kendi ekibiyle uygular",
+     "Ahşap: Yanar Şömine kendi ekibiyle uygular"
+    ]
+   },
+   {
+    "label": "Bakım",
+    "values": [
+     "Rustik: taş yüzey ve baca periyodik temizliği",
+     "Ahşap: ahşap yüzey nem kontrolü, baca ve hazne temizliği"
+    ]
+   },
+   {
+    "label": "Isıtma mı, atmosfer mi?",
+    "values": [
+     "Rustik: ikisi birden, mekânın odağı olur",
+     "Ahşap: ağırlıklı atmosfer, iç mekânı tamamlama"
+    ]
+   }
+  ],
+  "verdict": "Mekânında ham doğa dokusu ve sert malzeme kontrası arıyorsan rustik şömine daha isabetli seçimdir. Klasik döşemeli, simetrik bir iç mekânı ahşap çerçeve ve raf detaylarıyla taçlandırmak istiyorsan ahşap şömine daha uyumlu bir çözüm sunar. Her iki tip de özel ölçüde üretildiğinden nihai karar mekânın yapısı ve kullanım alışkanlıklarına göre yerinde keşifle şekillenmeli.",
+  "bestForA": "Rustik şömine; yüksek tavanlı, geniş salonlu, kır evleri ve yazlıklar gibi doğal dokuya açık mekânlar için uygundur.",
+  "bestForB": "Ahşap şömine; klasik mobilya seçimleri olan, simetrik ve geleneksel iç mekân anlayışına sahip evler için uygundur.",
+  "heroA": "YS-230",
+  "heroB": "YS-220",
+  "imageSceneA": "A rustik fireplace with hand-carved limra stone surround and black granite trim, glowing fire inside, set in a high-ceilinged country living room with warm ambient lighting and exposed stone wall, no people.",
+  "imageSceneB": "A traditional wood-framed fireplace with limra stone detailing and lower log storage, fire burning softly, placed in a symmetrically arranged classic living room with warm lamplight, wooden furniture, no people.",
+  "imageAlt": "Solda limra taşı ve granit el oymalı rustik şömine, sağda ahşap çerçeveli odunluklu klasik şömine, ikisi yan yana salon ortamında."
+ },
+ "body": "İkisi arasındaki fark yakıt ya da baca meselesi değil; mekânın hangi dili konuştuğunu bilmekten geçiyor.\n\nRustik şömine ve ahşap şömine, ilk bakışta birbirine yakın kategoriler gibi durabilir. İkisi de klasik çizgide, ikisi de sıcak bir atmosfer kurmak için tasarlanmış. Ama birini seçip uyguladıktan sonra \"keşke diğerini sorsaydım\" dememek için şu soruyu sormak gerekiyor: Mekânım ne istiyor? Bu yazı o soruyu yanıtlamak için iki kategoriyi somut biçimde karşılaştırıyor.\n\nYanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana her iki kategoriyi de yüzlerce farklı mekânda uyguladı. Bu deneyim, iki tip arasındaki teorik farkı değil, sahada gerçekten neyin belirleyici olduğunu öğretti. Aşağıdaki karşılaştırma o pratik birikimden besleniyor.\n\n## Tanım ve Temel Fark: İkisi Neden Aynı Değil?\n\nRustik şömine; limra taşı, granit veya mermer gibi doğal taş malzemelerin, çoğunlukla el oyması tekniğiyle işlenmesiyle oluşan bir şömine tipidir. Yüzeyin kendisi konuşur. Taşın dokusu, oymacının bıraktığı iz, granit ile limranın renk karşıtlığı — bunların hepsi görsel ağırlığın malzemede olduğunu gösterir. [YS-230](https://www.yanarsomine.com.tr/urun/ys-230/) buna iyi bir örnek: limra taşından el oyması, hem klasik hem modern okumaya açık, ön ve arka camlı yapısıyla mekânın iki ayrı noktasından görülebilen bir model.\n\nAhşap şömine ise çerçeve kompozisyonu ve oran dengesiyle öne çıkar. Ahşap kaplama ya da ahşabın taş malzemeyle birlikte kullanılmasıyla oluşan bu tip, mekâna mobilya mantığıyla entegre olur. Raf, nişi veya dolap detayları, şöminenin yalnızca bir ısı kaynağı değil, odanın mimarisi olduğunu söyler. [YS-220](https://www.yanarsomine.com.tr/urun/ys-220/), limra taşından el oymalı ve alt odunluklu bir ahşap şömine modelidir; taş işçiliğinin ahşap kategorisinde de yer bulabildiğini göstermesi açısından dikkat çekicidir.\n\nTemel fark şu: rustik şömine malzeme dokusuyla, ahşap şömine çerçeve oranıyla mekâna anlam katar. Hangisini seçeceğini bilmek için mekânının hangi dili konuştuğunu netleştirmen gerekiyor.\n\nÖte yandan her iki kategoride de el oyması tekniğinin kullanılması bir çakışma değil, ortak bir zanaatkârlık anlayışının yansıması. Fark, bu işçiliğin hangi malzeme üzerinde ve hangi kompozisyon mantığıyla uygulandığında. Rustik şöminede oymacılık taşın kendini öne çıkarmak için kullanılıyor; ahşap şöminede ise çerçeveyi ve çizgiyi güçlendirmek için. Bu nüansı kavramak, kataloga bakarken doğru modeli tanımayı kolaylaştırıyor.\n\n## Hazne, Yakıt ve Baca: Montajdan Önce Bilinmesi Gerekenler\n\nHer iki kategori de odunlu modellere sahip. Odunlu bir şömine seçiyorsan baca durumunu montajdan önce mutlaka kontrol et. Mevcut bir baca varsa teknik durumu yerinde incelenmeli; yoksa yeni baca yapımı projeye dahil edilmeli. Bu adımı atlamak, hem kurulum sürecini uzatır hem de güvenlik riski yaratır.\n\nRustik kategorisinde elektrikli modeller de yer alıyor. [YS-227](https://www.yanarsomine.com.tr/urun/ys-227/), elektrikli bir şömine; limra taşında el oyması ve siyah granit çerçeveli yapısıyla baca altyapısı olmayan mekânlara da uygulanabiliyor. Daire, baca yapmanın mümkün olmadığı konut ya da ek mekân gibi durumlarda bu seçeneği göz önünde bulundur.\n\nAhşap kategorisindeki modeller odunlu yapıda karşımıza çıkıyor. [YS-218](https://www.yanarsomine.com.tr/urun/ys-218/) limra taşından köşe konumlu, alt odunluklu bir model; [YS-219](https://www.yanarsomine.com.tr/urun/ys-219/) ise Uşak mermerinden el oymalı, orta boy bir seçenek. Her ikisi de odunlu çalışma prensibine sahip olduğundan baca zorunluluğu var.\n\nYakıt tercihini baca durumu belirler; tersi doğru değil. Önce bacayı kontrol et, sonra yakıt tipine karar ver.\n\nBaca yapımı ya da mevcut bacanın iyileştirilmesi gereken durumlarda bu iş de projenin bir parçası hâline geliyor. Yanar Şömine uygulama yapan şömine markası olarak keşif aşamasında baca altyapısı da değerlendiriliyor; sadece şöminenin kendisi değil, tüm sistem birlikte ele alınıyor. Bu bütüncül bakış, montaj sonrası ortaya çıkabilecek teknik sorunları baştan önlüyor.\n\n## Tasarım ve Malzeme: Görsel Kimlik Nasıl Şekilleniyor?\n\n[Rustik şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/rustik-somine/) kategorisinde limra taşı ve siyah granit kombinasyonu sık karşılaşılan bir dil. [YS-235](https://www.yanarsomine.com.tr/urun/ys-235/), bu iki malzemenin bir arada kullanıldığı, el oymalı klasik bir model. Limranın açık, krem tonu ile granitin koyu yüzeyi aynı çerçevede buluşunca hem kontrast hem de derinlik oluşuyor. Bu malzeme çifti, özellikle bej ve gri tonlarında döşenmiş salonlarda mekânın odak noktasını kesin olarak belirliyor.\n\n[Ahşap şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/ahsap-somine/) kategorisinde ise malzeme çeşitliliği biraz farklı bir yerde duruyor. Uşak mermeri, limra taşı ve ahşap bir arada kullanılabiliyor. Uşak mermerinin damarlanmış yüzeyi, limranın mat dokusuyla kıyaslandığında daha soğuk ve zarif bir görünüm üretiyor. Ahşap çerçeve ise bu yüzeyleri sıcaklaştıran ve odayla bütünleştiren unsur olarak öne çıkıyor.\n\nTasarım dili açısından şunu söylemek mümkün: rustik şömine mekânda bir \"bulgu\" etkisi yaratır, sanki orada hep varmış gibi. Ahşap şömine ise mekânla \"anlaşır\", diğer mobilya ve detaylarla uyum içinde var olur. İkisi de güçlü tasarım araçları; hangisinin doğru olduğu mekânın geri kalanına bağlı.\n\nMalzeme seçimi aynı zamanda uzun vadeli bir karar. Limra taşı zaman içinde hafif bir patina geliştirebilir; bu bazı ev sahipleri için güzelleşme, bazıları için yönetilmesi gereken bir değişim anlamına geliyor. Granit ise yüzey sertliği sayesinde daha az değişim gösteriyor. Uşak mermerinin damarlanmış yapısı ise her açıdan farklı bir görüntü sunuyor; ışığa ve bakış açısına göre renk algısı değişiyor. Hangi malzemenin on yıl sonra seni mutlu edeceğini düşün; anlık estetik tercihin yanı sıra bu soruyu da sor.\n\n## Mekân ve Ölçü Uyumu: Boyut Yanıltmasın\n\nRustik şöminenin taş kütlesi ve yüzey dokusu, küçük ve alçak tavanlı mekânlarda baskın gelebilir. Bu kategori yüksek tavanlı, geniş salonlarda, kır evlerinde ve yazlıklarda daha rahat nefes alıyor. Taşın ağırlığı ve el oymasının yarattığı görsel detay, büyük duvarlarda hakkıyla okunuyor; sıkışık bir mekânda aynı etki elde etmek zorlaşıyor.\n\nAhşap şömine oran ve çerçeve mantığıyla çalıştığından orta büyüklükteki odalara daha kolay adapte oluyor. Köşe modelleri, [YS-218](https://www.yanarsomine.com.tr/urun/ys-218/)'deki gibi, düz bir duvara yaslanmak yerine köşeyi değerlendirerek hem alan kazanıyor hem de alışılmadık bir görsel denge kuruyor. Klasik döşemeli bir salon, parke zeminli ve yüksek tavanı olmayan bir alan ahşap şömine için uygun zemin sayılır.\n\nMekânı ölçmeden model seçme. Şöminenin ön cephesi oranlandığında duvarda ne kadar yer kaplıyor, yan boşluklar ne kadar kalıyor, üst noktası tavan yüksekliğiyle nasıl ilişki kuruyor — bunların hepsi hem estetik hem teknik açıdan belirleyici. Yanar Şömine uygulama yapan şömine markası olarak bu ölçümler keşif aşamasında kendi ekibiyle yerinde yapılıyor; standart bir katalog ölçüsü önermek yerine mekâna özgü oranlar belirleniyor.\n\nŞöminenin konumu da ölçü kadar önemli. Merkezi bir duvarda duran şömine odanın simetrisini yönetir; köşeye yerleştirilen bir model ise akışı yeniden tanımlar. Bu tercih hem estetik hem de ısı dağılımı açısından sonuç üretiyor. Merkezi konumlar genellikle daha eşit ısı dağılımı sağlarken köşe modeller belirli bir oturma bölgesini ön plana çıkarıyor. Hangi kullanım senaryosunun günlük yaşamına daha uygun olduğunu keşif öncesinde düşün; bu bilgi doğru modeli belirlemeyi hızlandırıyor.\n\n## Kurulum ve Uygulama Süreci: İşin Sahaya Gelmesi\n\nHer iki şömine tipi de tasarımın ötesinde ciddi bir uygulama süreci gerektiriyor. Duvar bağlantısı, baca bağlantısı, zemin taşıma kapasitesi, elektrik (elektrikli modellerde) veya hava sirkülasyonu gibi teknik gereksinimler montaj öncesi netleştirilmeli.\n\nYanar Şömine uygulama yapan şömine markasının çalışma biçimi bu noktada belirleyici: tasarım ve üretim sürecinin ardından kurulumu da kendi ekibi gerçekleştiriyor. İşi ayrı bir uygulayıcıya devretmiyor. Bu, tasarımda öngörülen detayın sahada da aynı şekilde hayata geçmesini sağlıyor. Özellikle el oyması detaylar veya taş birleşim noktaları gibi hassas alanlarda uygulamanın projeyi yapan ekip tarafından yapılması hem kalite hem güvenlik açısından önemli.\n\nÜcretsiz keşif hizmetini başlangıç noktası olarak kullan. Ekip yerinde mekânı ölçüyor, baca ve duvar altyapısını inceliyor, iki kategoriden hangisinin mekâna daha uygun olduğunu somut biçimde tartışıyor. Karar vermeden önce bu adımı geçme; katalog üzerinden verilen kararlar çoğu zaman sahada revizyon gerektiriyor.\n\nUygulama sürecinde koordinasyon da kritik bir başlık. Şömine kurulumu çoğu zaman zemin kaplaması, duvar sıvası veya alçıpan çalışmasıyla eş zamanlı yürüyor. Yanar Şömine uygulama yapan şömine markasının kendi ekibiyle uygulamayı yürütmesi, bu koordinasyonun ev sahibi tarafından değil, işi bilen ekip tarafından yönetilmesi anlamına geliyor. Farklı taşeronların sahaya girmediği bir süreç, hem zaman kaybını hem de iletişim kopukluğundan doğan hataları önlüyor.\n\n## Kullanım ve Bakım: Uzun Vadede Ne Beklenmeli?\n\nRustik şöminelerdeki limra taşı gözenekli bir yapıya sahip. Nem, yağ ve asidik maddelerle temas etmemesi gerekiyor. Kullanım sırasında şömine önündeki zemine dökülen maddelerin hemen temizlenmesi, taş yüzeyin uzun vadede sağlıklı kalmasını destekliyor. Granit yüzeyli modeller bu açıdan biraz daha dayanıklı; ama yılda bir kez uzman temizliği her iki malzeme için de önerilen yaklaşım.\n\nAhşap kategorisindeki şöminelerde ahşap kaplama nem ve aşırı ısı değişimlerine karşı korunmalı. Şömine yanıktayken ahşap yüzeyin çevresindeki sıcaklık değişimi olağan; ama ısı yönlendirmesinin doğru yapılandırılmış olması gerekiyor. Bu da kurulumun teknik olarak doğru gerçekleştirilmesine bağlı.\n\nOdunlu modellerde baca temizliği kullanım sıklığına göre yılda bir ya da iki kez yaptırılmalı. İs birikimi hem verimi düşürüyor hem de uzun vadede sorun çıkarıyor. Baca kontrolünü erteleme; hem şöminenin ömrünü hem de evin güvenliğini etkileyen bir bakım adımı.\n\nElektrikli modellerde bakım profili farklı. Baca temizliği gibi periyodik bir zorunluluk ortadan kalkıyor; bunun yerine elektrik bağlantısı ve iç mekanizmanın kontrol altında tutulması öne çıkıyor. Bu açıdan [YS-227](https://www.yanarsomine.com.tr/urun/ys-227/) gibi elektrikli rustik modeller, bakım yükünü minimize etmek isteyen ev sahipleri için odunlu alternatiflere kıyasla daha az müdahale gerektiriyor. Kullanım kolaylığı bir öncelikse bu farkı göz ardı etme.\n\n## Hangi Ev Tipine Hangisi Daha Uygun?\n\nRustik şömine, doğayla ilişki kuran mekânlara daha rahat uyuyor. Kır evi, müstakil villa, yüksek tavanlı bahçeli konut, taş veya ahşap duvarlı geleneksel yapı — bunlar rustik şöminenin bağlamına oturan mekânlar. Mekânda zaten doğal bir doku varsa rustik şömine bunu güçlendiriyor; olmayan bir şey yaratmaya çalışmıyor.\n\nAhşap şömine ise klasik, Avrupaî döşeme anlayışına sahip evlerde daha hızlı yerine oturuyor. Kitaplık veya dolap duvarına entegre edilen modeller, şöminenin yalnızca bir ısı kaynağı değil, odanın tasarlanmış bir parçası olduğunu net biçimde ortaya koyuyor. Simetri arayan, duvarı belirli bir hiyerarşiyle düzenlemek isteyen ev sahipleri için ahşap şömine daha kontrollü bir seçenek.\n\nŞunu da belirtmek gerekiyor: her iki kategori de özel ölçüde üretildiğinden mekânın yapısına göre şekilleniyor. Yanar Şömine uygulama yapan şömine markası olarak standart bir ürün sunmuyor; hangi eve, hangi duvara, hangi ölçüye göre tasarlandığı projeye özgü belirleniyor. Bu, her iki seçeneği de teoride çok daha geniş bir kullanım yelpazesine taşıyor.\n\nİki kategori arasında kararsız kalan ev sahipleri için şu pratik testi öneriyoruz: Oturma odasının fotoğrafını çek ve mevcut mobilya, zemin ve duvar dokusuna bak. Ağırlıklı olarak ahşap ve kumaş öğeler mi var, yoksa taş, beton veya sıva yüzeyler mi? Ahşap ve kumaş ağırlıklı bir mekânda rustik şöminenin taş kütlesi kontrast yaratır; bu kontrast bazen güçlü bir tasarım kararıdır, bazen ise mekânı yormaktadır. Taş ve sıva yüzeylerle örülü bir mekânda ise rustik şömine zaten var olanı sürdürür ve derinleştirir. Ahşap şömine ise çoğu mekânda daha az tartışmalı bir entegrasyon kurar; ama bu onun daha \"güvenli\" ya da daha az etkili olduğu anlamına gelmiyor.\n\n## Karar: Hangisini Seçmeli?\n\nRustik mi, ahşap mı sorusunun tek bir cevabı yok. Ama karar sürecini basitleştiren birkaç kriter var.\n\nMekânında doku ön planda olsun istiyorsan, taşın ham ve güçlü yüzeyi seni tatmin edecekse, geniş bir duvara ya da köşeye yerleşecek ve odanın odağı olacak bir şömine arıyorsan rustik şömine daha isabetli tercih. Özellikle baca altyapın yoksa [YS-227](https://www.yanarsomine.com.tr/urun/ys-227/) gibi elektrikli modeller rustik kategorisinde seçenek sunuyor.\n\nMekânın zaten bir karakteri varsa ve şöminenin buna entegre olmasını istiyorsan, oran ve çerçeve kompozisyonu sana hitap ediyorsa, klasik döşemeli simetrik bir salon söz konusuysa ahşap şömine daha doğru bir tercih. [YS-219](https://www.yanarsomine.com.tr/urun/ys-219/) gibi Uşak mermerli el oymalı modeller, bu kategoride malzeme kalitesini arayan ev sahiplerine somut bir referans sunuyor.\n\nHer iki kategoride de bir sonraki adım aynı: keşif randevusu al, mekânını Yanar Şömine ekibine gördür. Ücretsiz keşif hizmetini kullan. Yanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana yürütülen yerinde keşif pratiği, katalog üzerinde kalan kararların sahada nasıl değiştiğini defalarca görmüş bir deneyimi temsil ediyor. Randevu için (0212) 884 13 49 numarasını ara; hafta içi ve cumartesi 09:00–19:00 arasında ulaşabilirsin."
+}

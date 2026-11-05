@@ -278,5 +278,61 @@
    }
   ],
   "site_slug": "klasik-mi-domi-klasik-mi-karsilastirma"
+ },
+ {
+  "pair": "rustik-mi-ahsap-mi",
+  "date": "2026-11-05",
+  "wp_id": 4708,
+  "wp_link": "https://www.yanarsomine.com.tr/rustik-mi-ahsap-mi-somine-karsilastirmasi/",
+  "wp_title": "Rustik Şömine mi Ahşap Şömine mi? Farkları ve Doğru Seçim",
+  "products": [
+   "https://www.yanarsomine.com.tr/urun/ys-227/",
+   "https://www.yanarsomine.com.tr/urun/ys-230/",
+   "https://www.yanarsomine.com.tr/urun/ys-235/",
+   "https://www.yanarsomine.com.tr/urun/ys-218/",
+   "https://www.yanarsomine.com.tr/urun/ys-220/",
+   "https://www.yanarsomine.com.tr/urun/ys-219/"
+  ],
+  "products_a": [
+   {
+    "name": "YS-227",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-227/",
+    "aciklama": "Elektirikli şömine\n Limra taşında el oyması şömine\n Limra taşı ve siyah granit çerçeveli klasik şömine",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/Urun-Kodu-YS-227.jpg"
+   },
+   {
+    "name": "YS-230",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-230/",
+    "aciklama": "limra taşından şömine,\n el oyması şömine,\n hem klasik hem modern şömine\n ön ve arka camlı şömine",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-230.jpg"
+   },
+   {
+    "name": "YS-235",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-235/",
+    "aciklama": "klsik şömine\n oyma şömine\n limra taşı ve siyah granit karışık şömine\n orta şömine",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-235.jpg"
+   }
+  ],
+  "products_b": [
+   {
+    "name": "YS-218",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-218/",
+    "aciklama": "odunlu  şömine\n limra taşından odunlu şömine\n limra taşından köşe şömine\n limra taşından alt odunluklu köşe şömine",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-218.jpg"
+   },
+   {
+    "name": "YS-220",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-220/",
+    "aciklama": "odunlu şömine\n limra taşından şömine\n el oyması şömine\n limra tşından alt odunluklu el oyması şömine",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-220.jpg"
+   },
+   {
+    "name": "YS-219",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-219/",
+    "aciklama": "uşak mermerinden şömine\n odunlu şömine\n el oyması uşak mermeri şömine\n el oyması orta şömine",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-219.jpg"
+   }
+  ],
+  "site_slug": "rustik-mi-ahsap-mi-karsilastirma"
  }
 ]

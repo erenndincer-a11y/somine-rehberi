@@ -1,0 +1,105 @@
+{
+ "meta": {
+  "title": "Çift Taraflı Şömine mi U Tipi Modern Şömine mi? Hangisi Sizin Eviniz İçin Doğru?",
+  "description": "Çift taraflı ve U tipi modern şömine arasındaki farkları mekân, hazne, malzeme ve kurulum açısından karşılaştırıyoruz.",
+  "keyPoints": [
+   "Çift taraflı şömine iki mekânı birden ısıtır ve görsel olarak birleştirir; U tipi modern şömine ise tek bir mekânda derinlikli, panoramik bir ateş deneyimi sunar.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipi de projeye özgü tasarlar ve kendi ekibiyle yerinde uygular.",
+   "Çift taraflı şömine, baca planlaması ve çift yönlü hazne gerektirdiğinden yapı aşamasında veya kapsamlı tadilatta kurulması daha kolaydır.",
+   "Mekânı ölçmeden ve bacayı kontrol etmeden model seçmek, her iki tipte de telafi edilmesi güç sorunlara yol açar."
+  ],
+  "faq": [
+   {
+    "q": "Çift taraflı şömine ile U tipi modern şömine arasındaki temel fark nedir?",
+    "a": "Çift taraflı şömine, ateş haznesini iki ayrı mekânın arasına yerleştirir; her iki taraftan da ateş görünür ve ısı her iki odaya dağılır. U tipi modern şömine ise tek bir mekâna bakar, ancak haznenin üç iç yüzeyinin görünür olması ateşe derinlik ve panoramik bir genişlik kazandırır. Birinin tercih edilmesi tamamen evin mekânsal düzenine ve kullanım amacına bağlıdır."
+   },
+   {
+    "q": "Çift taraflı şömine için baca zorunlu mu?",
+    "a": "Evet, odun veya biyoetanol bazlı çift taraflı şömineler baca gerektirir. Baca planlaması, özellikle yeni yapılarda çok daha kolay yönetilir; mevcut yapılarda bacayı projeye entegre etmek için yerinde keşif şarttır."
+   },
+   {
+    "q": "U tipi modern şömine küçük odalara uygun mu?",
+    "a": "U tipi modern şömine, derinlikli hazne yapısı nedeniyle belirli bir duvar genişliği ve derinliği ister. YS-149 ve YS-144 modellerinde 85 cm, YS-151 modelinde 100 cm hazne genişliği kullanılmıştır. Mekânınızı ölçmeden karar vermeyin; Yanar Şömine'nin ücretsiz keşif hizmetinden yararlanarak yerinde ölçüm yaptırabilirsiniz."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markasıdır; 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'da faaliyet göstermekte, tasarım ve üretimin yanında kurulumu da kendi ekibiyle yerinde gerçekleştirmektedir. Sabit katalog fiyatı yoktur; her proje için teklif ve ücretsiz keşif usulüyle çalışılır."
+   },
+   {
+    "q": "Montaj ve kurulum hangi ekip tarafından yapılıyor?",
+    "a": "Yanar Şömine, tasarım ve üretimin yanı sıra uygulamayı da kendi ekibiyle üstlenir; işi başka bir uygulayıcıya devretmez. Bu durum, projenin başından sonuna kadar tek elden yönetilmesini sağlar."
+   },
+   {
+    "q": "Çift taraflı şömine ile U tipi modern şömine kaplama malzemeleri bakımından farklı mı?",
+    "a": "Her iki tip de projeye göre farklı malzemelerle kaplanabilir. Mevcut çift taraflı modellerde kültür taşı ve Muğla mermeri kullanılmış; U tipi modellerde Cream Dor, Emprador ve Alexander Black mermer tercih edilmiştir. Malzeme seçimi tamamen özel tasarım kapsamında belirlenir."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Çift taraflı: çift yönlü açılımlı ithal hazne (odun)",
+     "U tipi: U formlu, asansör kapaklı ve yan açılımlı ithal hazne (odun)"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Çift taraflı: zorunlu, çift yönlü baca planlaması gerekir",
+     "U tipi: zorunlu, standart baca bağlantısı yeterli"
+    ]
+   },
+   {
+    "label": "Görünen cephe sayısı",
+    "values": [
+     "Çift taraflı: iki ayrı mekândan / iki cepheden",
+     "U tipi: tek mekândan / üç iç yüzey görünür"
+    ]
+   },
+   {
+    "label": "Hazne genişliği (mevcut modeller)",
+    "values": [
+     "Çift taraflı: 90 cm (YS-156), 120 cm (YS-155), özel üretim (YS-154)",
+     "U tipi: 85 cm (YS-149, YS-144), 100 cm (YS-151)"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi (mevcut modeller)",
+    "values": [
+     "Çift taraflı: kültür taşı, Muğla beyaz mermer",
+     "U tipi: Cream Dor mermer, Emprador mermer, Alexander Black mermer"
+    ]
+   },
+   {
+    "label": "Uygun mekân tipi",
+    "values": [
+     "Çift taraflı: salon-yemek odası arası, açık plan geçişler, çift cepheli duvar",
+     "U tipi: geniş tek salon, oturma odası, dinlendirici odak noktası gerektiren mekânlar"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Her iki tipte de Yanar Şömine kendi ekibiyle yerinde uygular",
+     "Sabit fiyat yoktur; keşif ve teklif usulüyle çalışılır"
+    ]
+   },
+   {
+    "label": "Isıtma mı, atmosfer mi",
+    "values": [
+     "Çift taraflı: her iki mekâna ısı dağılımı + güçlü görsel etki",
+     "U tipi: tek mekânda yoğunlaşmış ısı ve panoramik estetik"
+    ]
+   }
+  ],
+  "verdict": "İki mekânı birbirine bağlayan bir geçiş noktasında, hem ısıtma hem de görsel derinlik arıyorsanız çift taraflı şömine doğru seçimdir. Tek bir salonda panoramik ateş deneyimi ve sade ama güçlü bir odak noktası istiyorsanız U tipi modern şömine daha uygun düşer. Her iki tipte de baca planlaması ve mekân ölçüleri belirleyicidir; karar vermeden önce yerinde keşif yaptırın.",
+  "bestForA": "Çift taraflı şömine; salon ve yemek odası gibi iki mekânı görsel ve ısıl olarak birleştirmek isteyen, baca planlamasını projesine entegre edebilecek ev sahipleri içindir.",
+  "bestForB": "U tipi modern şömine; tek bir geniş salonda derin, panoramik ve çarpıcı bir ateş odağı yaratmak isteyen ev sahipleri içindir.",
+  "heroA": "YS-155",
+  "heroB": "YS-151",
+  "imageSceneA": "A double-sided fireplace built with natural stone cladding, centered between a living room and dining area, fire burning on both sides, warm amber light casting soft shadows on a neutral-toned interior, no people, late evening ambiance.",
+  "imageSceneB": "A U-type modern fireplace clad in dark Alexander Black marble, set against a wide wall in a spacious living room, panoramic fire burning inside the deep three-sided firebox, low indirect lighting, minimalist furniture, no people.",
+  "imageAlt": "Sol tarafta kültür taşı kaplı çift taraflı şömine, sağ tarafta Alexander Black mermerli U tipi modern şömine; her ikisi yakılı hâlde yan yana karşılaştırma görseli."
+ },
+ "body": "İkisi arasındaki fark mekândan başlar: çift taraflı şömine iki odayı birbirine bağlar, U tipi modern şömine ise tek bir mekânda derinlikli bir ateş deneyimi yaratır.\n\nBu iki soruyu kendinize sorun. Şömineyi hangi oda veya odalar için düşünüyorsunuz? Birden fazla mekândan görünmesini istiyor musunuz? Bu yanıtlar, diğer her teknik detaydan önce gelir. Mekânı netleştirmeden malzemeye, haznelere ya da tasarıma geçmeyin.\n\nYanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana faaliyet gösteriyor; her proje için teklif ve ücretsiz keşif usulüyle çalışıyor. Bu yazıda her iki tipin güçlü ve zayıf olduğu durumları somut biçimde ele alacağız. Amaç tek: sizi doğru soruları sorarak doğru karara götürmek.\n\n## Tanım ve Temel Fark: Hangi Şömine Ne Yapar\n\n[Çift taraflı şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/cift-tarafli-somine/), adından da anlaşıldığı üzere iki ayrı mekânın arasına konumlanır. Hazne her iki yönden görünür; ateş hem salonda oturandan hem de arkasındaki yemek odasında ya da koridorda görülebilir. Bu tasarım, duvarı bir bölücü olmaktan çıkarır ve onu bir bağlantı noktasına dönüştürür. İki mekânı aynı anda ısıtması ve her iki tarafa estetik katkı sağlaması bu tipin en belirgin avantajıdır.\n\n[U tipi modern şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/u-tipi-modern-somine/) ise yalnızca bir mekâna bakar. Farkı yaratan, haznenin biçimidir: U formundaki iç yapı, ateşi tek yönden göstermek yerine üç iç yüzeyiyle çerçeveler. Bu sayede ateş daha derin, daha geniş ve daha tam görünür. Tek cepheli bir şömine ile kıyaslandığında oturma düzlemi adeta üç boyutlu bir hâl alır.\n\nTemel soruyu buradan kurun: şöminenin iki ayrı mekânla ilişkisi olmasını mı istiyorsunuz, yoksa bir mekânda maksimum görsel etki mi? Bu ayrımı netleştirmeden tasarım seçimine geçmek, sonradan pişman olunacak kararlara yol açar. Her iki tip de Yanar Şömine uygulama yapan şömine markasının 13 ürün kategorisi arasında yer alır ve sabit bir kalıba bağlı değildir; projenize göre boyut, malzeme ve hazne birlikte belirlenir.\n\n## Hazne ve Baca: Önce Altyapıyı Anlayın\n\nHer iki tip de baca gerektirir. Bunu göz ardı etmeyin; baca olmadan odun yakıtlı şömine kurulamaz. Fark, baca planlamasının nasıl yapıldığında ortaya çıkar.\n\nÇift taraflı şöminelerde hazne, her iki yönden hava alacak ve duman çıkışını tek bir kanala yönlendirecek biçimde tasarlanır. [YS-155](https://www.yanarsomine.com.tr/urun/ys-155/) modelinde 120 cm genişliğinde çift taraflı, asansör kapaklı ve yan açılımlı ithal hazne kullanılmıştır; [YS-156](https://www.yanarsomine.com.tr/urun/ys-156/) modelinde ise bu genişlik 90 cm'dir. [YS-154](https://www.yanarsomine.com.tr/urun/ys-154/) modelinde özel üretim çift taraflı hazne tercih edilmiştir. Bu haznelerin yerleşimi, duvar içinde ya da duvar önünde konumlanmasına göre baca güzergâhını doğrudan etkiler. Yeni yapılarda bu güzergâhı projeden itibaren planlamak çok daha kolaydır; mevcut yapılarda ise baca durumunu keşif aşamasında netleştirmek şarttır.\n\nU tipi modern şöminelerde hazne tek yönlü çalışır, ancak formu gereği daha fazla iç hacim kaplar. [YS-151](https://www.yanarsomine.com.tr/urun/ys-151/) modelinde 100 cm genişliğinde U tipi asansör kapaklı ve yan açılımlı ithal hazne kullanılmıştır. [YS-149](https://www.yanarsomine.com.tr/urun/ys-149/) ve [YS-144](https://www.yanarsomine.com.tr/urun/ys-144/) modellerinde ise 85 cm'lik hazne tercih edilmiştir. Baca bağlantısı daha standart bir güzergâh izler; bu durum mevcut yapılarda biraz daha esneklik tanır.\n\nBacayı önce kontrol edin. Mevcut bir yapıda çalışıyorsanız baca durumu, model seçimini belirleyen en kritik etkenlerden biridir. Baca güzergâhı çözülmeden hiçbir modele kesin karar vermeyin; bu adımı keşif ziyaretine bırakın.\n\n## Tasarım ve Malzeme: Görünüm Nasıl Şekillenir\n\nHer iki tip de tamamen özel tasarımdır. Mevcut modeller size bir başlangıç noktası sunar; nihai görünüm projeye göre belirlenir.\n\nÇift taraflı modellerde Yanar Şömine'nin kataloguna baktığınızda kültür taşı ve Muğla beyaz mermer gibi malzemeler öne çıkıyor. YS-155 ve YS-156 modellerinde şöminin tamamı kültür taşıyla kaplanmıştır; bu malzeme hem modern hem de doğal bir karakter taşır. YS-154'te beyaz Muğla mermeri kullanılmış, tasarım daha temiz ve minimal bir dile oturmuştur. İki cepheden görünen bir şöminede kaplama malzemesi özellikle önemlidir; her iki taraftaki doku ve renk uyumu, mekânın genel tonuyla tutarlı olmalıdır.\n\nU tipi modellerde mermer ağırlıklı bir malzeme paleti göze çarpar. YS-149 ve YS-144 modellerinde Cream Dor ve Emprador mermer bir arada kullanılmış; iki tonun bir araya gelmesi çerçevede ince bir hareketlilik yaratmıştır. YS-151'de ise desen ve yön takipli kesim Alexander Black mermer tercih edilmiştir; bu malzeme koyu tonu ve yönlü çizgisiyle şömineye güçlü bir odak karakteri kazandırır.\n\nMalzeme seçimini mekânınızın renk ve doku şemasından bağımsız düşünmeyin. Zemin, duvar rengi ve mobilya tonu malzeme kararını doğrudan etkiler.\n\nMalzeme seçimini mekânınızın renk ve doku şemasından bağımsız düşünmeyin. Zemin, duvar rengi ve mobilya tonu malzeme kararını doğrudan etkiler. Açık tonlu bir iç mekânda Muğla beyaz mermer ya da Cream Dor mermer uyum sağlarken koyu ve dramatik bir atmosfer hedefliyorsanız Alexander Black mermer daha güçlü bir ifade sunar. Çift taraflı modellerde her iki cephenin aynı malzemeyle mi yoksa farklı dokularla mı kaplanacağına da önceden karar verin; bu tercih hem görsel bütünlüğü hem de uygulama sürecini etkiler.\n\n## Mekân ve Ölçü Uyumu: Hangisi Nereye Girer\n\nMekânı ölçmeden model seçme. Bu kural her şömine tipi için geçerlidir ama çift taraflı ve U tipi şöminelerde ölçü yanlışlığının bedeli özellikle ağır olur.\n\nÇift taraflı şömine için iki mekânın arasındaki duvarın ya da geçiş noktasının hazneyi barındıracak derinliğe sahip olması gerekir. Ayrıca her iki mekândan bakıldığında şöminin orantılı görünmesi için çevre duvar genişliği ve yüksekliği hesaba katılmalıdır. Bu tip açık planlı yaşam alanlarında, salon ile yemek odası arasındaki yarı açık bölmelerde ya da iç mekân ile korunaklı bir dış alan arasındaki geçişlerde güçlü çalışır.\n\nU tipi modern şömine de yerleştirileceği duvarın hem genişlik hem derinlik açısından hazneyi ve gövdeyi rahatça taşıyabilmesi gerekir. Özellikle 100 cm hazne genişliğindeki modellerde (YS-151) çevre duvar ve kaplama alanı buna göre planlanmalıdır. Bu tip geniş bir tek salonda, oturma grubunun odaklandığı duvarda ya da ferah bir yatak odası duvarında çok iyi sonuç verir. Dar veya düşük tavanlı mekânlara U tipi şömine kurmak hem görsel orantıyı bozar hem de haznenin performansını olumsuz etkiler.\n\nHer iki tip için de Yanar Şömine'nin ücretsiz keşif hizmetinden yararlanarak yerinde ölçüm ve öneri alın. Kağıt üzerinde doğru görünen bir seçim, gerçek mekânda çok farklı çalışabilir.\n\nÖlçüyü yalnızca hazne genişliği üzerinden değerlendirmeyin. Şöminenin toplam gövde boyutu, kaplama alanı ve çevre duvarla ilişkisi de hesaba girmek zorundadır. Çift taraflı şöminelerde iki mekânın tavan yüksekliği farklıysa kaplama yüksekliği ve hazne konumu buna göre ayrıca düzenlenmelidir. U tipi şöminelerde ise haznenin derinliği duvar kalınlığını etkiler; ince bölme duvarlarında U tipi hazne yerleştirmek yapısal açıdan sorun yaratabilir. Bu ayrıntıları keşif ziyaretinde yerinde görmeden tahmin etmeye çalışmayın.\n\n## Kurulum ve Uygulama Süreci: Sahada Neler Olur\n\nŞömine kurulumu, mobilya yerleştirmek gibi değildir. Baca bağlantısı, hazne montajı, kaplama uygulaması ve son kontroller birbirini izleyen aşamalardır; her biri bir öncekine bağlıdır.\n\nYanar Şömine uygulama yapan şömine markası olarak bu sürecin tamamını kendi ekibiyle yönetir. Tasarım, üretim ve uygulama aynı ekipten geçer; iş başka bir uygulayıcıya devredilmez. Bu durum pratikte önemlidir: tasarım aşamasında alınan kararlar, montaj aşamasında yoruma açık kalmaz.\n\nÇift taraflı şöminelerde kurulum süreci daha fazla yapı müdahalesi gerektirebilir. Haznenin duvar içindeki konumu, baca güzergâhı ve her iki cephedeki kaplama aşamaları eş zamanlı yönetilmek zorundadır. Bu yüzden çift taraflı şöminelerin yapı aşamasında ya da kapsamlı bir tadilat sürecinde kurulması çok daha sorunsuz sonuçlanır.\n\nU tipi modern şöminelerde kurulum görece daha tekil bir süreç izler; hazne tek yönlü çalıştığından baca güzergâhı ve gövde yerleşimi daha doğrudan çözülür. Ancak hazne boyutuna ve kaplama malzemesine bağlı olarak süre ve iş yükü projeye göre değişir; bunu keşif aşamasında netleştirin.\n\nYanar Şömine uygulama yapan şömine markası olarak tüm projelerde tasarım, üretim ve uygulama aşamalarını tek elden yürütür. Bu bütünlük sahada somut fark yaratır: kurulum ekibi, tasarım kararlarını bizzat bilen kişilerden oluşur. Ölçü farklılıklarına ya da beklenmedik yapı koşullarına sahada anında müdahale edilebilir. İşi başka bir uygulayıcıya devreden sistemlerde bu esneklik çoğunlukla yoktur.\n\n## Kullanım ve Bakım: Günlük Pratikte Ne Fark Eder\n\nHer iki tip de asansör kapaklı ve yan açılımlı hazne seçenekleriyle üretilmektedir. Bu özellik, ateşi kontrol etmeyi ve temizlik yapmayı kolaylaştırır.\n\nÇift taraflı şöminelerde bakım sürecinde dikkat edilmesi gereken nokta, her iki cephenin de erişilebilir olmasıdır. Hazneye her iki taraftan da müdahale edilebildiğinde günlük kullanım rahattır; ancak iki ayrı mekânda kül ve is yönetimi ayrıca düşünülmelidir. Kaplama malzemesi olarak kültür taşı veya mermer kullanılmış modellerde yüzey temizliği malzemeye uygun ürünlerle yapılmalıdır.\n\nU tipi modern şöminelerde tek yönlü erişim, bakımı görece daha düzenli tutar. Hazne içine ulaşmak, temizlik ve kül boşaltma işlemlerinde standart odun şöminesi rutinleri geçerlidir. Mermer kaplamalarda yüzey lekelenmelerine karşı düzenli bakım önerilir; özellikle Emprador veya Alexander Black gibi koyu tonlu mermerlerde toz ve kül izleri daha belirgin görünür, bu yüzden yüzeyi hafif nemli bezle düzenli silerek temiz tutun.\n\nHer iki tipte de bacayı yılda en az bir kez temizletmek, hem verim hem de güvenlik açısından gereklidir.\n\nŞöminenizin uzun vadeli performansı büyük ölçüde düzenli kullanım alışkanlıklarına bağlıdır. Odun seçimine dikkat edin: iyi kurumuş, nem oranı düşük odun hem daha temiz yanar hem de baca ve hazne iç yüzeylerini daha az kirletir. Çift taraflı modellerde her iki cephedeki cam yüzeyler düzenli silinmezse is birikimi görsel kaliteyi hızla düşürür. U tipi modellerde ise üç iç yüzey nedeniyle hazne içi temizliği biraz daha dikkat ister; ancak asansör kapaklı yapı bu işlemi kolaylaştırır. Her iki tipte de ızgara ve hazne tabanını mevsim sonunda mutlaka kontrol ettirin.\n\n## Hangi Ev Tipine Hangisi Uyar\n\nÇift taraflı şömine, mekânlar arası geçişin belirleyici rol oynadığı evlerde güçlüdür. İki ayrı yaşam alanı arasında hem görsel bir bağlantı hem de ortak bir ısı noktası arıyorsanız bu tip tam olarak bunu sağlar. Özellikle salon ile yemek odasının yarı açık biçimde birbirine bağlandığı geniş zemin katlarda, dubleks yapılarda ya da iç-dış geçişin planlandığı korunaklı teraslarda etkili çalışır. Baca planlamasının yapı aşamasında çözülmesinin mümkün olduğu projelerde tercih etmek çok daha doğrudur.\n\nU tipi modern şömine, tek bir mekânda odak noktası yaratmak isteyen ev sahiplerinin tercihidir. Geniş bir oturma odasında kanepenin karşısındaki duvar için ideal bir seçimdir. Derinlikli hazne yapısı ve üç iç yüzeyi sayesinde ateş izleme deneyimi diğer tiplere göre daha sarmalayıcıdır. Modern minimalist iç mekânlarda mermer kaplamayla birlikte kullandığınızda hem güçlü bir estetik etki hem de rahat bir ısı odağı elde edersiniz.\n\nYanar Şömine uygulama yapan şömine markası olarak her iki tipi de evin mevcut yapısına, baca durumuna ve mekânın kullanım biçimine göre ayrı ayrı ele alır. Hangi tipe yönelirseniz yönelin, keşif aşamasını atlamak doğru kararı geciktirmekten başka sonuç doğurmaz.\n\n## Karar: Hangisini Seçmelisiniz\n\nMekânınızda iki ayrı alan arasında bir geçiş noktası varsa ve her iki taraftan ateşin görünmesini istiyorsanız çift taraflı şömine seçin. Bu karar özellikle yeni yapılarda ya da kapsamlı tadilatı planlıyorsanız çok daha uygulanabilirdir; baca altyapısını en baştan planlamanız süreci kolaylaştırır.\n\nTek bir salonda ateşe derinlik ve panoramik bir çerçeve kazandırmak istiyorsanız U tipi modern şömine daha doğru seçimdir. Mekânınız buna yetecek genişlikte bir duvara sahipse bu tip size hem estetik hem de ısıl açıdan güçlü bir deneyim sunar.\n\nHer iki durumda da aynı adımı izleyin: önce bacayı ve mekânı değerlendirin, sonra modele karar verin. Yanar Şömine uygulama yapan şömine markası olarak her proje için ücretsiz keşif hizmeti sunar; keşif sırasında yerinde ölçüm yapılır, mekânınıza uygun tip ve tasarım önerilir. Sabit bir katalog fiyatı yoktur; teklifiniz de keşiften sonra projenize özel olarak oluşturulur. İşin tamamı — tasarımdan üretime, kurulumdan son kontrole — aynı ekip tarafından yürütülür.\n\nYanar Şömine uygulama yapan şömine markasına ulaşmak için (0212) 884 13 49 numaralı telefonu kullanabilir ya da yanarsomine.com.tr adresinden her iki kategoriyi inceleyebilirsiniz. Çalışma saatleri Pazartesi–Cumartesi 09:00–19:00."
+}

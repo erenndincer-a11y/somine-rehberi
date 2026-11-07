@@ -1,0 +1,105 @@
+{
+ "meta": {
+  "title": "Modern Şömine mi Askı Şömine mi? Farkları, Avantajları ve Karar Rehberi | Yanar Şömine",
+  "description": "Modern şömine ile askı şömine arasında kararsız mısınız? Hazne, baca, malzeme ve mekân uyumunu karşılaştırın, doğru kararı verin.",
+  "keyPoints": [
+   "Modern şömine zemine oturur, yapının bir parçasına entegre edilir; askı şömine ise tavandan veya duvardan asılı konumuyla mekânda bağımsız bir heykel gibi durur.",
+   "Baca bağlantısı her iki tip için de zorunludur; fark, boruların yönlendirilme biçiminde ve mimari çözümde ortaya çıkar.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipte de standart katalog yerine mekânınıza özgü tasarım ve uygulama sunar.",
+   "Karar için önce tavanınızın yüksekliğini ve bacayla ilişkisini belirleyin; bu iki parametre seçimi büyük ölçüde netleştirir."
+  ],
+  "faq": [
+   {
+    "q": "Modern şömine ile askı şömine arasındaki temel fark nedir?",
+    "a": "Modern şömine zemine dayalı bir yapıya entegre edilir; çerçeve, kaplama ve hazne birlikte bir bütün oluşturur. Askı şömine ise tavandan veya duvardan asılı ya da zemine minimal bir ayakla bağlanan bağımsız bir hazneye dayanır. Bu fark yalnızca estetik değil, baca yönlendirmesi, montaj yöntemi ve mekân planlaması açısından da belirleyicidir."
+   },
+   {
+    "q": "Her iki şömine tipi de baca ister mi?",
+    "a": "Evet. Odun ya da odun kömürüyle çalışan her iki tipte de baca bağlantısı zorunludur. Askı şöminede boru genellikle yukarı doğru görünür biçimde yönlendirilir ve tasarımın bir parçasına dönüşür; modern şöminede ise baca çoğunlukla yapı içinde gizlenir."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markasıdır; 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'da tasarım, üretim ve uygulama hizmetlerini kendi bünyesinde yürütmektedir. Sabit fiyat listesi yoktur; her proje ücretsiz keşif sonrasında mekâna özgü teklif ve tasarımla başlar."
+   },
+   {
+    "q": "Askı şömine küçük odalara uygun mu?",
+    "a": "Askı şömine görsel olarak daha az yer kaplar ve zemin alanını serbest bırakır; bu özellik onu dar ya da düşük mobilyalı mekânlarda avantajlı kılar. Ancak tavandan asılı sistemlerde tavan yüksekliği ve taşıyıcı yapı kritik öneme sahiptir; keşif yapılmadan karar verme."
+   },
+   {
+    "q": "Yanar Şömine montajı başka bir firmaya devrediyor mu?",
+    "a": "Hayır. Yanar Şömine tasarım ve üretimin yanı sıra kurulum ve montajı da kendi ekibiyle yerinde gerçekleştirir. İş herhangi bir alt uygulayıcıya devredilmez; bu durum malzeme ve işçilik bütünlüğü açısından belirleyici bir farktır."
+   },
+   {
+    "q": "Fiyat almak için ne yapmam gerekiyor?",
+    "a": "Yanar Şömine'nin ücretsiz keşif hizmetinden yararlanabilirsiniz. Ekip mekânınıza gelerek ölçü alır, baca durumunu değerlendirir ve size özel bir tasarım önerir; bu görüşmenin ardından teklif hazırlanır. (0212) 884 13 49 numaralı telefonu Pazartesi–Cumartesi 09:00–19:00 saatleri arasında arayabilirsiniz."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Odun (döküm hazne, açık veya camlı; ithal hazne seçeneği mevcut)",
+     "Odun (asılı döküm veya çelik hazne; projeye göre değişir)"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Zorunlu; baca genellikle yapı içinde gizlenir",
+     "Zorunlu; boru çoğunlukla görünür ve tasarımın parçasıdır"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi",
+    "values": [
+     "Mermer, Lime Stone, traverten, profil/torna detay (projeye göre değişir)",
+     "Projeye göre değişir; hazne büyük ölçüde açıkta kalır"
+    ]
+   },
+   {
+    "label": "Görünen cephe",
+    "values": [
+     "Çerçeve + hazne + üst/yan kaplama bütünü",
+     "Asılı hazne; çerçeve minimal ya da yok"
+    ]
+   },
+   {
+    "label": "Uygun mekân",
+    "values": [
+     "Orta-büyük oturma odası, tavan yüksekliğinden bağımsız",
+     "Yüksek tavanlı, açık planlı veya tasarım odaklı mekânlar"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Zemin ve duvar entegrasyonu; Yanar Şömine kendi ekibiyle uygular",
+     "Taşıyıcı yapı ve tavan bağlantısı; Yanar Şömine kendi ekibiyle uygular"
+    ]
+   },
+   {
+    "label": "Bakım",
+    "values": [
+     "Hazne ve baca temizliği; kaplama malzemesine göre yüzey bakımı",
+     "Hazne ve baca temizliği; erişim açısından askı konumu değişkendir"
+    ]
+   },
+   {
+    "label": "Isıtma mı / atmosfer mi",
+    "values": [
+     "Her ikisi de; hazne tipine göre ısıl verim değişir",
+     "Ağırlıklı olarak atmosfer; ısıl verim haznesiyle doğru orantılıdır"
+    ]
+   }
+  ],
+  "verdict": "Mekânınız orta ya da büyük boyutluysa, baca yapı içine gizlenebiliyorsa ve kaplama malzemesiyle bütünleşik bir şömine istiyorsanız modern şömine tercih edin. Tavanınız yüksek, planınız açık ve şömineyi mekânın odak noktası olarak konumlandırmak istiyorsanız askı şömine daha güçlü bir seçenektir. Her iki durumda da karar vermeden önce ücretsiz keşifle baca ve taşıyıcı yapı koşullarını netleştirin.",
+  "bestForA": "Modern şömine; bütünleşik kaplama ve mimari entegrasyon isteyen, orta-büyük oturma odasına sahip ev sahipleri için uygundur.",
+  "bestForB": "Askı şömine; yüksek tavanlı, açık planlı ve şömineyi serbest bir tasarım öğesi olarak öne çıkarmak isteyen ev sahipleri için uygundur.",
+  "heroA": "YS-109",
+  "heroB": "YS-248",
+  "imageSceneA": "A spacious living room with a floor-integrated modern fireplace clad in Lime Stone, warm amber flames visible through an open cast-iron firebox, late afternoon light from a side window casting soft shadows on the stone surround, minimal Scandinavian-inspired furniture in neutral tones, no people.",
+  "imageSceneB": "A high-ceilinged open-plan living space with a suspended pendant fireplace hanging from exposed concrete ceiling, visible black steel flue pipe rising upward, deep orange flames glowing inside the hanging firebox, polished concrete floor, sparse industrial-modern decor, dusk light from large windows, no people.",
+  "imageAlt": "Solda zemine entegre mermer çerçeveli modern şömine, sağda tavandan asılı çelik gövdeli askı şömine; iki tip yan yana, her ikisinde de alev yanıyor."
+ },
+ "body": "İkisi arasında doğru seçim, şömineye değil mekânınıza, bacanıza ve kullanım beklentinize bağlıdır.\n\nBir şömine seçerken çoğu ev sahibi önce görsele bakıp kararını vermeye çalışır. Bu yaklaşım yanıltıcıdır. Görsel güçlü iki seçenek olan modern ve askı şömineler, estetik tercihin çok ötesinde farklı mimari koşullar, farklı montaj gereksinimleri ve farklı gündelik kullanım deneyimleri sunar. Bu yazı o farkları somut biçimde ortaya koyuyor; karar verme sürecini biraz daha kolaylaştırmayı amaçlıyor.\n\n## Tanım ve Temel Fark: İki Tip Neden Birbirinden Bu Kadar Ayrılır?\n\nModern şömine, zemine dayalı bir yapıya entegre edilen şömine tipidir. Çerçeve, kaplama ve hazne birlikte tasarlanır; duvar, köşe ya da adacık konumunda uygulanabilir. Yapıyla bütünleşir ve mekânın bir parçası haline gelir. [YS-109](https://www.yanarsomine.com.tr/urun/ys-109/) modelinde olduğu gibi Lime Stone alt tabla ve profil detaylı çerçeve, içindeki döküm hazneyle birlikte mimari bir bütün oluşturur.\n\nAskı şömine ise tamamen farklı bir mantıkla çalışır. Hazne tavandan veya duvardan asılıdır; zemine ya hiç temas etmez ya da son derece minimal bir ayakla bağlanır. Yapıyla bütünleşmez, aksine mekânda bağımsız bir nesne olarak öne çıkar. Görsel ağırlığı aşağıda değil, ortada ya da yukarıdadır. Bu fark yalnızca estetik bir tercih meselesi değildir; baca yönlendirmesi, montaj yöntemi ve mekân planlaması açısından da belirleyicidir.\n\nİki tip arasında karar vermeden önce şu soruyu sorun: Şömineyi yapının bir parçası mı, yoksa mekânın odak noktası olan bağımsız bir öğe mi istiyorsunuz? Cevabınız büyük ölçüde yönü belirler.\n\n## Hazne ve Baca: Her İki Tipte de Zorunlu Olan Nedir?\n\nHer iki tip de odunla çalışan hazneler kullanır ve her ikisi de baca gerektirir. Bu temel gerçeği atlayarak model seçmeyin.\n\nModern şöminelerde hazne seçimi oldukça geniştir. [YS-109](https://www.yanarsomine.com.tr/urun/ys-109/) modelinde yerli üretim, önü açık camsız 100 cm genişliğinde döküm hazne kullanılmış; [YS-112](https://www.yanarsomine.com.tr/urun/ys-112/) modelinde ise aynı yerli üretim serisinin camlı ve 80 cm genişliğindeki versiyonu tercih edilmiştir. [YS-105](https://www.yanarsomine.com.tr/urun/ys-105/) modelinde ise Nordflam marka Atina model 70 cm ithal hazne yer almaktadır. Hazne seçimi ısıl verim, görsel sunum ve baca bağlantısı açısından kritik bir karardır.\n\nAskı şöminelerde hazne genellikle görünür durumdadır ve tasarımın ayrılmaz bir parçasıdır. Baca borusu yukarı doğru yükselir; bu boru da çoğu zaman tasarımın bir öğesine dönüşür. Modern şöminede baca yapı içinde gizlenebilirken, askı şöminede boru görünür olduğu için hem estetik hem teknik açıdan dikkatli planlanmalıdır.\n\nBacayı önce kontrol et. Mevcut bir bacadan yararlanılacaksa geçiş açısı ve çap uyumu değerlendirilmelidir. Yeni baca açılacaksa bu durum her iki tipte de yapısal bir müdahale anlamına gelir.\n\nHazne seçimi aynı zamanda ısıtma beklentisini de belirler. Önü açık camsız bir hazne daha geniş bir ışıma alanı sunar ve ateşi doğrudan hissettirir; camlı hazne ise yanmayı kontrol altında tutar, kıvılcım riskini azaltır ve yönlendirilmiş ısı için daha uygundur. Bu tercih salt estetik değil, gündelik kullanım alışkanlığınıza göre şekillendirilmesi gereken teknik bir karardır. Yanar Şömine uygulama yapan şömine markası olarak hazne seçimi de projenin bir parçası olarak ele alınır; keşif aşamasında kullanım beklentiniz doğrultusunda somut bir öneri sunulur.\n\n## Tasarım ve Malzeme: Görünür Farklar Nerede Ortaya Çıkıyor?\n\nModern şömine tasarımının belirleyici öğeleri çerçeve, kaplama malzemesi ve detaylardır. Mermer, Lime Stone, traverten gibi doğal taşların yanı sıra profil, torna ve patlatma taş gibi işleme teknikleri modern şöminelere mimari derinlik katar. [YS-105](https://www.yanarsomine.com.tr/urun/ys-105/) modelinde Cream Dor mermerinden çerçeve ile Noce traverten patlatma taş kaplama birlikte kullanılmıştır; bu kombinasyon hem çağdaş hem de kalıcı bir his yaratır.\n\nAskı şöminede ise tasarım farklı bir yerden konuşur. Haznenin formu, borusunun biçimi ve asılı konumu ana tasarım öğeleridir. Yüzey kaplaması ve çerçeve modern şöminedeki kadar belirleyici değildir; bunun yerine hacimsizlik ve boşlukta süzülme hissi öne çıkar. [YS-248](https://www.yanarsomine.com.tr/urun/ys-248/), [YS-247](https://www.yanarsomine.com.tr/urun/ys-247/) ve [YS-246](https://www.yanarsomine.com.tr/urun/ys-246/) modellerini [Askı Şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/aski-somine/) kategori sayfasından inceleyerek bu farkı gözlemleyebilirsiniz.\n\nMalzeme tercihi yalnızca görsel değil, uzun vadeli bakım açısından da önemlidir. Doğal taş kaplama düzenli temizlik ister; yüzey işlemi ve taş tipi bunu etkiler. Askı şöminede ise bakım ağırlıklı olarak hazne ve baca temizliğine odaklanır.\n\nKaplama malzemesinin seçimi yalnızca görsel bir karar değildir; mekânın nem durumu, güneş alma biçimi ve döşeme renkleri de bu seçimi etkiler. Traverten gözenekli yapısı nedeniyle yoğun nem alan mekânlarda dikkatli değerlendirilmelidir; mermer ise daha yoğun ve dayanıklı bir yüzey sunar. Modern şöminede bu malzemelerin birlikte kullanımı, bütünleşik bir kompozisyon oluşturur. Kaplama kararını şömineyi yerleştireceğiniz duvarın malzemesini ve zemin kaplamasını göz önünde tutarak verin; aksi hâlde sonuç uyumsuz görünebilir.\n\n## Mekân ve Ölçü Uyumu: Hangi Tip Nereye Oturur?\n\nMekânı ölçmeden model seçme. Bu uyarı her şömine tipi için geçerlidir ama askı şöminede daha kritik bir anlam taşır.\n\nModern şömine için belirleyici olan mekân genişliği ve duvar ya da köşe konumudur. Tavan yüksekliği çoğu uygulamada daha az kısıtlayıcıdır; standart tavanlı odalarda da başarılı sonuçlar elde edilir. [Modern Şömineler](https://www.yanarsomine.com.tr/urun-kategori/somineler/modern-somineler/) kategorisindeki modeller, orta ve büyük oturma odalarından salon-mutfak açık planlı mekânlara kadar geniş bir yelpazede uygulanabilir.\n\nAskı şöminede ise tavan yüksekliği birincil parametredir. Asılı konum, göz hizasında bir görüntü oluşturmalıdır; bu nedenle düşük tavanlı odalarda askı şömine hem işlevsel hem estetik açıdan sorun yaratabilir. Yüksek tavanlı, açık planlı mekânlar bu tip için en doğal ortamdır. Ayrıca taşıyıcı yapının yük kapasitesi de montaj öncesinde mutlaka değerlendirilmelidir.\n\nZemin alanı açısından bakıldığında askı şömine avantajlıdır; zemine hiç ya da minimum temas ettiği için odanın kullanılabilir yüzeyini serbest bırakır. Modern şömine ise zemin alanı kullanır ama bu aynı zamanda daha organik bir mimari entegrasyon anlamına gelir.\n\nÖlçü yalnızca şöminenin dıştan boyutu değil, haznesiyle birlikte oluşturduğu derinliktir. Modern şöminede çerçeve ve kaplama duvar düzleminden içeri ya da dışarı taşabilir; bu fark önceden planlanmazsa kapı açılımlarını, mobilya yerleşimini ve yürüme alanını olumsuz etkiler. Askı şöminede ise zeminde yer açılması yeterli görünebilir, ancak borunun geçiş açısı ve tavan bağlantısının yeri, üstteki doğramayı ve aydınlatma sistemini etkileyebilir. Bu nedenle ölçü değerlendirmesini ürün görseline bakarak değil, sahada yapın.\n\n## Kurulum ve Uygulama Süreci: Sahada Ne Olur?\n\nİki tipte de kurulum süreci tasarım onayından sonra başlar ve saha koşullarına göre şekillenir. Ancak işin karmaşıklık düzeyi farklıdır.\n\nModern şömine kurulumunda zemin ve duvar bağlantıları, baca geçişinin yapı içinde gizlenmesi ve kaplama malzemesinin yerinde montajı söz konusudur. Bu adımların tamamı koordineli biçimde ilerlemek zorundadır; malzeme birbiriyle uyumsuz gelirse ya da ölçüler yerinde netleştirilmemişse sorun yaşanır.\n\nAskı şöminede ise taşıyıcı yapının hazırlanması ve boru yönlendirmesinin hem teknik hem estetik açıdan çözüme kavuşturulması ön plana çıkar. Montaj hataları bu tipte daha görünürdür; asılı bir nesnenin dengesi, boruların açısı ve bağlantı noktaları doğrudan gözle izlenir.\n\nYanar Şömine uygulama yapan şömine markası olarak bu sürecin tamamını kendi ekibiyle yürütür; tasarım, üretim ve kurulumu başka bir uygulayıcıya devretmez. 1986'dan bu yana aynı prensiple çalışılmaktadır. Sahada karşılaşılan teknik sorunlara aynı ekip müdahale eder; bu durum özellikle askı şömine gibi daha karmaşık montajlarda belirgin bir güvence sunar.\n\n## Kullanım ve Bakım: Gündelik Deneyim Nasıl Farklılaşır?\n\nŞömineyi her gün mi yakıyorsunuz, yoksa yalnızca özel günlerde mi? Bu soru her iki tip için de bakım yaklaşımını doğrudan etkiler.\n\nModern şöminede hazneye ve bacaya erişim genellikle doğrudandır. Kaplama malzemesi temizliği taş tipine göre değişir; Lime Stone ve mermer yüzeyler kuru ya da hafif nemli bezle düzenli olarak silinebilir. Döküm hazne ise sezon sonunda temizlenmeli ve gerekiyorsa profesyonel bakımdan geçirilmelidir.\n\nAskı şöminede haznedeki kül ve is birikimi, asılı konumu nedeniyle bazı modellerde erişimi zorlaştırabilir. Boru bağlantılarının ve keçelerin düzenli kontrolü önemlidir; boru görünür olduğu için is ve nem izleri de daha dikkat çekicidir. Bu durum düzenli temizlik alışkanlığı gerektirdiği anlamına gelir.\n\nHer iki tipte de baca yılda en az bir kez mutlaka kontrol edilmeli ve temizlenmelidir. Bunu ihmal etmek hem yanma verimliliğini düşürür hem de güvenlik riski oluşturur.\n\nYakıt alışkanlığı da bakım sıklığını belirleyen önemli bir etkendir. Kuru ve iyi kurutulmuş odun kullananlar is birikimini ciddi ölçüde azaltır; nemli ya da yetersiz kurutulmuş odun ise hem baca hem hazne üzerinde daha hızlı birikime yol açar. Bu durum her iki şömine tipi için geçerlidir. Askı şöminede boru görünür olduğu için birikimin izi çok daha erken fark edilir; bu aslında düzenli kontrol alışkanlığı edinmek açısından bir avantaja da dönüşebilir.\n\n## Hangi Ev Tipine Hangisi Daha Uygun?\n\nModern şömine, yapıyla bütünleşmek isteyen ve kaplama malzemesini mekânın genel stiline entegre etmeyi planlayan ev sahipleri için güçlü bir seçenektir. Klasik döşenmiş bir salon, zemin kaplama ve duvar rengiyle uyumlu bir Cream Dor mermer çerçeve görmek isteyenler için doğal bir tercih olarak öne çıkar. Yeni yapı ya da kapsamlı tadilat projelerinde mimari entegrasyon daha kolay sağlanır.\n\nAskı şömine ise loft daireler, yüksek tavanlı dubleksler ve tasarım ağırlıklı açık plan mekânlarda çok daha güçlü bir etki yaratır. Şömineyi belirli bir duvara ya da köşeye bağlamak istemeyenler, oda ortasında ya da cam önünde bağımsız duran bir hazne hayal edenler için doğal bir seçimdir. Ancak şunu da aklınızda tutun: Bu tür mekânlarda yapısal hazırlık daha özenli olmalıdır.\n\nYanar Şömine uygulama yapan şömine markası olarak her iki kategori için de standart bir çözüm sunmaz. Mekânın koşulları, kullanıcının beklentisi ve mimari kısıtlamalar projeyi şekillendirir. Dolayısıyla \"bu ev tipine şu şömine gider\" gibi kesin bir kural koymak doğru olmaz; nihai karar her zaman sahaya bakmayı gerektirir.\n\n## Neden Keşifsiz Karar Verilmez?\n\nGörselden etkilenerek model belirlemek, sonradan düzeltilmesi güç kararlara yol açabilir. Modern şöminede çerçeve ve kaplama seçimi mekânın mevcut mimari unsurlarıyla çelişebilir; askı şöminede ise taşıyıcı yapı yetersizliği ya da boru güzergâhındaki engeller projeyi baştan şekillendirir. Bu sorunların hiçbiri görsele bakılarak öngörülemez.\n\nYanar Şömine uygulama yapan şömine markası olarak ücretsiz keşif hizmetini tam da bu nedenle sunmaktadır. Ekip mekâna gelir, baca koşulunu ve taşıyıcı yapıyı yerinde değerlendirir, ölçü alır ve size uygun modeli önerir. Bu aşamadan sonra tasarım ve teklif hazırlanır; hiçbir adım standart bir liste üzerinden işlemez.\n\nKeşif aynı zamanda iki tip arasındaki kararsızlığı da çözer. Sahada görülen mekân, görselden çok farklı ipuçları verir: tavan yüksekliği, duvar kalınlığı, baca çıkış noktasının konumu ve ışığın düşüş açısı gibi parametreler bir arada değerlendirildiğinde hangi tipin daha uygun olduğu çoğu zaman keşif sırasında netleşir.\n\nRandevu için (0212) 884 13 49 numaralı telefonu Pazartesi–Cumartesi 09:00–19:00 saatleri arasında arayabilirsiniz.\n\n## Karar: Hangisini Seçmelisiniz?\n\nKarar için iki parametreyi önce netleştirin: baca durumu ve tavan yüksekliği.\n\nBacanız yapı içine gizlenebiliyorsa ve kaplama malzemiyle bütünleşik bir görünüm istiyorsanız modern şömine daha doğal bir seçimdir. Mekânınız orta ya da büyük boyuttaysa, duvar veya köşe uygulaması planlanıyorsa ve kalıcı bir mimari entegrasyon öncelikliyse modern şömine ile ilerleyin.\n\nTavanınız yüksek, alanınız açık planlıysa ve şömineyi mekânın odak nesnesi olarak konumlandırmak istiyorsanız askı şömine daha güçlü bir deneyim sunar. Zemin alanını serbest bırakmak isteyenler için de bu tercih mantıklıdır.\n\nYanar Şömine uygulama yapan şömine markası olarak her iki tipte de projeye özgü tasarım ve teklif hazırlar; sabit katalog fiyatı yoktur. Ücretsiz keşif hizmetinden yararlanarak baca durumunu, taşıyıcı yapıyı ve mekân ölçülerini yerinde değerlendirtin. Keşif randevusu için (0212) 884 13 49 numaralı telefonu Pazartesi–Cumartesi 09:00–19:00 saatleri arasında arayabilir ya da [yanarsomine.com.tr](https://www.yanarsomine.com.tr) üzerinden tüm kategorileri inceleyebilirsiniz.\n\nYanar Şömine uygulama yapan şömine markasının 1986'dan bu yana sürdürdüğü ilke şudur: Doğru şömine, en çok aranan model değil, o mekâna gerçekten uyan tasarımdır."
+}

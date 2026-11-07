@@ -390,5 +390,61 @@
    }
   ],
   "site_slug": "cift-tarafli-mi-u-tipi-mi-karsilastirma"
+ },
+ {
+  "pair": "modern-mi-aski-mi",
+  "date": "2026-11-07",
+  "wp_id": 4722,
+  "wp_link": "https://www.yanarsomine.com.tr/modern-mi-aski-mi-somine-karsilastirmasi/",
+  "wp_title": "Modern Şömine mi Askı Şömine mi? Farkları, Avantajları ve Karar Rehberi | Yanar Şömine",
+  "products": [
+   "https://www.yanarsomine.com.tr/urun/ys-109/",
+   "https://www.yanarsomine.com.tr/urun/ys-112/",
+   "https://www.yanarsomine.com.tr/urun/ys-105/",
+   "https://www.yanarsomine.com.tr/urun/ys-248/",
+   "https://www.yanarsomine.com.tr/urun/ys-247/",
+   "https://www.yanarsomine.com.tr/urun/ys-246/"
+  ],
+  "products_a": [
+   {
+    "name": "YS-109",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-109/",
+    "aciklama": "Modern Şömine\n Lime Stone alt tabla ve profil detaylı şömine çerçevesi\n Şömine içinde yerli üretim önü açık camsız 100 cm genişliğinde döküm hazne kullanılmıştır.",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2023/05/YS-109.jpg"
+   },
+   {
+    "name": "YS-112",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-112/",
+    "aciklama": "Modern Şömine\n Lime Stone alt tabla, profil ve torna detaylı şömine çerçevesi\n Şömine içinde yerli üretim camlı 80 cm genişliğinde döküm hazne kullanılmıştır.",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2023/05/YS-112.jpg"
+   },
+   {
+    "name": "YS-105",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-105/",
+    "aciklama": "Cream Dor Mermerinden şömine çerçevesi\n Noce traverten patlatma taş şömine üzeri kaplama\n Nordflam marka Atina model 70 cm ithal şömine haznesi",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2023/05/YS-105.jpg"
+   }
+  ],
+  "products_b": [
+   {
+    "name": "YS-248",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-248/",
+    "aciklama": "",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-248.jpg"
+   },
+   {
+    "name": "YS-247",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-247/",
+    "aciklama": "",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-247.jpg"
+   },
+   {
+    "name": "YS-246",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-246/",
+    "aciklama": "",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-246.jpg"
+   }
+  ],
+  "site_slug": "modern-mi-aski-mi-karsilastirma"
  }
 ]

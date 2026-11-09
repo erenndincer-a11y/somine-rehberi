@@ -1,0 +1,112 @@
+{
+ "meta": {
+  "title": "Barbekü Şömine mi, Bahçe Barbeküsü mi? İki Tip Arasındaki Fark",
+  "description": "Barbekü şömine ile bahçe barbeküsü arasında karar veremiyor musun? Temel farkları, kurulum sürecini ve hangi eve ne uyduğunu incele.",
+  "keyPoints": [
+   "Barbekü şömine iç mekânda hem ısıtma hem pişirme işlevi sunarken, bahçe barbeküsü yalnızca açık alanda pişirme için tasarlanmış bağımsız bir yapıdır.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki ürün tipini de projeye özgü tasarlar ve kendi ekibiyle yerinde uygular.",
+   "Hangi tipin doğru seçim olduğunu belirleyen esas kriter mekân değil, kullanım amacıdır: ısıtma mı istiyorsun, yoksa yalnızca pişirme mi?",
+   "Her iki tip de sabit fiyatla değil, ücretsiz keşif ve teklif usulüyle çalışılır; ölçü ve tasarım tamamen projeye göre şekillenir."
+  ],
+  "faq": [
+   {
+    "q": "Barbekü şömine ile bahçe barbeküsü arasındaki temel fark nedir?",
+    "a": "Barbekü şömine, iç mekânda kullanılan, hem odayı ısıtan hem de üzerinde pişirme yapılabilen birleşik bir yapıdır; baca bağlantısı gerektirir. Bahçe barbeküsü ise yalnızca açık havada, terasta veya bahçede kullanılan bağımsız bir pişirme ünitesidir; iç mekân ısıtma işlevi yoktur."
+   },
+   {
+    "q": "Barbekü şömine için mutlaka baca gerekli midir?",
+    "a": "Evet. Barbekü şömine odun ya da kömür yakıtıyla çalıştığından iç mekânda güvenli kullanım için baca bağlantısı zorunludur; keşif aşamasında baca durumu ve güzergâhı projeyle birlikte değerlendirilir."
+   },
+   {
+    "q": "Bahçe barbeküsü hangi malzemelerden üretiliyor?",
+    "a": "Yanar Şömine'nin bahçe barbeküsü modelleri projeden projeye farklılaşmaktadır; YB-101 modelinde bazalt taşı ve Kaplan Postu mermeri kullanılmıştır. Malzeme seçimi tamamen projeye ve tercihe göre belirlenir."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'da faaliyet göstermekte; tasarım, üretim ve uygulamayı kendi ekibiyle yerinde gerçekleştirmektedir. Sabit fiyat listesi yoktur; her proje ücretsiz keşif ve teklif usulüyle değerlendirilir."
+   },
+   {
+    "q": "Ücretsiz keşif nasıl işliyor?",
+    "a": "Yanar Şömine ekibi randevu ile yerinde gelir, mekânı ölçer, baca güzergâhını ve teknik koşulları değerlendirir; ardından projeye özgü bir tasarım ve teklif sunar. (0212) 884 13 49 numarasını arayarak hafta içi ve cumartesi 09:00–19:00 arasında randevu alabilirsin."
+   },
+   {
+    "q": "Montaj ve kurulum süreci nasıl işliyor?",
+    "a": "Yanar Şömine hem barbekü şömine hem bahçe barbeküsü projelerinde tasarım ve üretimin ardından uygulamayı da kendi ekibiyle gerçekleştirir; iş üçüncü bir uygulayıcıya devredilmez. Bu sayede tasarımdan son taşın yerine oturmasına kadar tek bir muhatap üzerinden ilerlenir."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Odun veya kömür; döküm ya da ithal hazne (projeye göre)",
+     "Odun veya kömür; açık ızgara/ocak düzeni"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Zorunlu (iç mekân kullanımı)",
+     "Gerekmez (açık hava/bahçe)"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi",
+    "values": [
+     "Rustik tuğla, limra taşı, mermer, patlatma taş, ahşap küpeşte (projeye göre)",
+     "Bazalt taşı, mermer (projeye göre)"
+    ]
+   },
+   {
+    "label": "Görünen cephe / konum",
+    "values": [
+     "İç mekân (salon, oturma odası, mutfak-yaşam alanı)",
+     "Bahçe, teras, veranda (dış mekân)"
+    ]
+   },
+   {
+    "label": "Isıtma işlevi",
+    "values": [
+     "Var (odun/kömür yakıtıyla mekân ısıtır)",
+     "Yok (yalnızca pişirme)"
+    ]
+   },
+   {
+    "label": "Pişirme işlevi",
+    "values": [
+     "Var (set üstü barbekü veya asansör sistemiyle)",
+     "Var (temel işlev)"
+    ]
+   },
+   {
+    "label": "Uygun mekân tipi",
+    "values": [
+     "İç mekân; baca bağlantısı olan yapılar",
+     "Açık hava; bahçeli veya teraslı yapılar"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Yanar Şömine kendi ekibiyle yerinde uygular",
+     "Yanar Şömine kendi ekibiyle yerinde uygular"
+    ]
+   },
+   {
+    "label": "Bakım",
+    "values": [
+     "Hazne ve baca periyodik temizliği gerektirir",
+     "Izgaranın ve kaplama yüzeyin periyodik bakımı gerektirir"
+    ]
+   }
+  ],
+  "verdict": "İç mekânda hem ısınmak hem pişirmek istiyorsan ve uygun bir baca güzergâhın varsa barbekü şömine doğru seçimdir. Bahçeli veya teraslı bir evde yalnızca açık havada pişirme yapmak istiyorsan bahçe barbeküsü yeterlidir ve baca sorunu yaratmaz. İki kullanım amacını birleştirmek isteyenler için her iki ürün aynı projede planlanabilir; bu durumu keşif aşamasında ekiple konuş.",
+  "bestForA": "Barbekü şömine; iç mekânda hem ısınma hem pişirme işlevi isteyen, baca bağlantısına uygun yapısı olan ev sahipleri için doğru seçimdir.",
+  "bestForB": "Bahçe barbeküsü; bahçeli veya teraslı evlerde açık havada pişirme deneyimi kurmak isteyen, iç mekân ısıtması için ayrı bir sistem kullanan ev sahipleri için doğru seçimdir.",
+  "heroA": "YS-260",
+  "heroB": "YB-101",
+  "imageSceneA": "A rustic indoor barbecue fireplace with cast iron firebox and copper-lidded top grill unit, red brick cladding glowing warm in low evening light, stone mantel, no people, fire burning inside.",
+  "imageSceneB": "An outdoor garden barbecue unit built from basalt stone and marble, situated on a stone-paved terrace surrounded by greenery, natural daylight, charcoal embers glowing, no people.",
+  "imageAlt": "Sol tarafta rustik tuğla kaplı barbekü şömine, sağ tarafta bazalt taşından bahçe barbeküsü; ikisi yan yana karşılaştırmalı görünüm."
+ },
+ "body": "İkisi de ateşle çalışır, ikisi de pişirir; ama aralarındaki fark, yanlış seçim yapmanı oldukça pahalıya mal edebilecek kadar büyüktür.\n\n## Tanım ve Temel Fark: Önce Bunu Netleştir\n\nBarbekü şömine, iç mekânda kullanılan bir yapıdır. Hem odayı ısıtır hem de üzerinde veya içinde yemek pişirme imkânı sunar. Bir şöminenin görevini üstlenir; farkı, pişirme düzeneğiyle bütünleşik tasarlanmış olmasıdır. Baca bağlantısı gerektirir, montajı diğer şömine tipleriyle aynı titizliği ister.\n\nBahçe barbeküsü ise açık havada, bahçede ya da terasta konumlanan bağımsız bir pişirme ünitesidir. İç mekân ısıtma işlevi yoktur; dumanı zaten dışarıya dağıldığı için baca bağlantısı gerekmez. İki yapıyı birbiriyle karıştırmak en sık yapılan hatalardan biridir.\n\nKarar vermeden önce şu iki soruyu yanıtla: Pişirme işlemini nerede yapmak istiyorsun — içeride mi, dışarıda mı? Mekânını aynı zamanda ısıtmak istiyor musun? Bu iki sorunun cevabı zaten büyük ölçüde kararını belirler. Yanar Şömine uygulama yapan şömine markası olarak her iki kategoriyi de ayrı birer ürün grubu altında üretir; hangisinin projenize uyduğunu değerlendirmek için ücretsiz keşif hizmetinden yararlanabilirsin.\n\nBir diğer önemli ayrım işlevsel önceliktir. Barbekü şömine, önce ısıtma sonra pişirme düşünülerek tasarlanmış bir yapıdır; pişirme düzeneği bu işleve entegre edilir. Bahçe barbeküsünde ise öncelik tamamen pişirmedir; ısıtma hiçbir zaman gündemin parçası değildir. Bu farkı baştan netleştirmeden seçim yapmak, sonradan bütün projeyi yeniden ele almak anlamına gelebilir.\n\n## Hazne, Yakıt ve Baca: Teknik Farklar Somutlaşıyor\n\nBarbekü şöminenin merkezinde hazne vardır. [YS-260](https://www.yanarsomine.com.tr/urun/ys-260/) modelinde alta Atina ithal döküm hazne, üste asansör sistemli bakır kapaklı set üstü barbekü düzeneği bir arada sunulmaktadır. Bu kombinasyon, aynı yapıda hem ısıtma hem pişirme yapabilmeni sağlar. [YS-261](https://www.yanarsomine.com.tr/urun/ys-261/) modelinde ise 3 taraflı camlı, asansör ve yan açılımlı ithal hazne tercih edilmiştir; hazne seçimi görsel deneyimi de doğrudan etkiler.\n\nHer iki modelde de hazne odun veya kömürle çalışır ve iç mekânda kullanıldığı için baca bağlantısı zorunludur. Baca güzergâhı ve mevcut bacalı yapı durumu keşif aşamasında değerlendirilir; ölçmeden, görmeden baca meselesini atlama.\n\nBahçe barbeküsünde ise yakıt sistemi benzer olsa da — odun ya da kömür — duman açık havaya serbestçe yayıldığından baca tasarımı iç mekân projesiyle kıyaslanamayacak kadar basitleşir. [YB-101](https://www.yanarsomine.com.tr/urun/yb-101/) modelinde bazalt taşı ve Kaplan Postu mermeri kullanılmış; malzeme seçimi dış mekân dayanıklılığı gözetilerek yapılmıştır. Baca kaygısı olmasa da ızgara yüzeyinin ve ocak bölümünün periyodik temizliği ihmal edilmemeli.\n\nAsansör sistemi barbekü şöminelerde sık karşılaşılan bir detaydır. [YS-260](https://www.yanarsomine.com.tr/urun/ys-260/)'daki bakır kapaklı asansör düzeneği, pişirme yüksekliğini ayarlayarak ısı kontrolü sağlar; bu özellik standart bir şöminede bulunmaz. [YS-261](https://www.yanarsomine.com.tr/urun/ys-261/)'deki 3 taraflı camlı hazne ise yanma görüntüsünü ön planda tutar, pişirme işlevi daha ikincil konumdadır. Hangi hazne tipinin projeye uyduğunu belirlemek için kullanım ağırlığını önce kendin netleştir: ağırlıklı olarak ısınma mı, yoksa aktif pişirme mi?\n\nBaca güzergâhı konusunda şunu göz önünde bulundur: mevcut bir baca kullanılacaksa boşluk ölçüsü ve çekiş kapasitesi değerlendirilmeli; sıfırdan baca çekilecekse güzergâh ve kat planı devreye girer. Bu değerlendirme yapılmadan hazne seçimine geçme; baca projeyi belirler, proje bacayı değil.\n\n## Tasarım ve Malzeme: Dış Görünüş Şansa Bırakılmamalı\n\nBarbekü şömine iç mekânda oturma alanının ya da mutfak-yaşam alanının bir parçası haline gelir; bu yüzden kaplaması ve formu bütün dekorun tonunu belirler. [YS-260](https://www.yanarsomine.com.tr/urun/ys-260/) rustik tuğla dış giydirme kaplama ile dar alanlara uygun bir çözüm sunar. [YS-261](https://www.yanarsomine.com.tr/urun/ys-261/) bej ve Emprador mermer karışık sütunlu tasarımıyla daha klasik bir iç mekân estetiğine hitap eder; şömine her iki yanda oturak bölümleriyle daha geniş bir kullanım alanı sunar. [YS-265](https://www.yanarsomine.com.tr/urun/ys-265/) ise limra taşından özel imalat, siyah boya, ahşap küpeşte ve arka duvarda küştür taşı kaplama gibi birden fazla malzemeyi bir arada kullanır.\n\nMalzeme listesi uzadıkça olası kombinasyonlar da artar; bu yüzden Yanar Şömine uygulama yapan şömine markasında hiçbir modelin sabit bir kaplama paketi yoktur. Her proje ayrı değerlendirilir.\n\nBahçe barbeküsünde ise malzeme seçimini dış hava koşulları belirler. Bazalt taşı gibi doğal taşlar nem ve sıcaklık farkına karşı dayanıklı seçenekler arasındadır. Terası veya bahçesi olan bir evde yapının mimarisiyle uyum, kaplama seçiminde birincil kriterdir; bunu keşif aşamasında ekiple konuş.\n\n[YS-265](https://www.yanarsomine.com.tr/urun/ys-265/) modelinde limra taşı üzerine siyah boya uygulanması ve arka duvarda küştür taşı kaplaması bir arada kullanılmıştır. Bu kombinasyon, tek malzemeyle elde edilemeyecek derinlik ve doku farkı yaratır. Ahşap küpeşte ise sıcaklık katmak için kullanılan bir detaydır; malzeme geçişlerinin nasıl kurulacağı doğrudan uygulamanın titizliğine bağlıdır. Yanar Şömine uygulama yapan şömine markasında bu geçişler üretim öncesinde tasarımda netleştirilir, sahada doğaçlama yapılmaz.\n\nBahçe barbeküsünde malzeme seçimini yalnızca estetik değil, uzun vadeli dayanıklılık da yönlendirmelidir. Bazalt taşı gibi yoğun doğal taşlar mevsimsel sıcaklık değişimlerine karşı güçlüdür; mermer ise yüzey bakımı gerektirir. Dış mekânda kullanılacak her malzemenin don direnci ve nem emilimi projeye dahil edilmeli; bu değerlendirmeyi keşif aşamasında ekiple birlikte yap.\n\n## Mekân ve Ölçü Uyumu: Önce Yeri Belirle\n\nBarbekü şömine için en kritik ön koşul bacadır. Baca güzergâhı yoksa ya da mevcut baca kullanıma uygun değilse proje köklü biçimde değişmek zorunda kalır. Bunun dışında şöminenin konumlandırılacağı duvar ya da niş, sirkülasyon alanı ve ısıtılması hedeflenen hacim de tasarımı doğrudan şekillendirir. Dar alanlarda [YS-260](https://www.yanarsomine.com.tr/urun/ys-260/)'ın sunduğu set üstü barbekü ve şömine kombinasyonu avantaj sağlar; iki işlev tek bir kütlede çözülür.\n\nBahçe barbeküsünde ise zemin önemlidir. Ünitenin oturacağı yüzeyin düzlüğü, rüzgâr yönü, komşu yapılara mesafe ve kullanılacak alanın boyutları tasarımı etkiler. Teras döşemesiyle uyumlu malzeme seçimi de gözetilmeli; bu ayrıntıyı taşı seçmeden önce netleştir.\n\nHer iki tipte de Yanar Şömine uygulama yapan şömine markasının çalışma prensibi aynıdır: sabit bir ürün alıp yerleştirmezsin, proje yerinde ölçülerek ve değerlendirilerek başlar. Mekânı ölçmeden model seçme; keşif randevusunu önceden al.\n\nBarbekü şömine yerleştirilecek duvarda yük taşıyıcı eleman olup olmadığı da kontrol edilmeli; kaplama ve hazne birlikte önemli bir ağırlık oluşturabilir. Özellikle mermer ya da taş kaplama tercih ediliyorsa zemin ve duvar taşıma kapasitesi tasarım aşamasında göz önünde bulundurulur. Dar alanlarda [YS-260](https://www.yanarsomine.com.tr/urun/ys-260/)'ın sunduğu çözüm bu yüzden avantajlıdır: iki işlev tek kütlede toplandığı için hem yer kazanılır hem yük dağılımı sadeleşir.\n\nBahçe barbeküsünde ünite büyüdükçe temel gereksinimi de artar. Hafif zemin üzerine oturtulan büyük bir barbekü yapısı zamanla çökebilir ya da eğilebilir. Zemin etüdü ve gerekirse temel güçlendirmesi, projenin görünmeyen ama kritik bir parçasıdır. Bunu atlamak en çok görülen hatalar arasındadır.\n\n## Kurulum ve Uygulama Süreci: Tek Muhatabın Olsun\n\nBarbekü şömine kurulumu birden fazla uzmanlık alanını kapsar: yapı, baca, kaplama, döşeme. Yanar Şömine bu süreçte tasarımdan uygulamaya kadar işi kendi ekibiyle yürütür; projeyi başka bir uygulayıcıya devretmez. Bu özellikle baca detayı ve kaplama geçişleri gibi ince noktalarda koordinasyon sorunlarını ortadan kaldırır.\n\nBahçe barbeküsünde uygulama dış mekânda yapılsa da aynı yaklaşım geçerlidir. Temel inşaatından kaplama bitimine kadar Yanar Şömine ekibi süreci yönetir. Dış mekân uygulamalarında hava koşulları ve zemin hazırlığı zaman planlamasını etkiler; bu nedenle projeyi mevsim geçişlerini göz önünde tutarak başlat.\n\nHer iki tipte de süreç şu adımları izler: ücretsiz keşif ve ölçüm, tasarım önerisi ve teklif, üretim, yerinde uygulama. Aradaki fark, barbekü şöminesinde baca değerlendirmesinin sürece eklenmesidir. Keşfe başlamak için (0212) 884 13 49 numarasını ara; haftanın altı günü 09:00–19:00 arasında ulaşabilirsin.\n\n## Kullanım ve Bakım: Uzun Vadeli Gerçekler\n\nBarbekü şömineyi seçtiysen şunu bil: hazne ve baca temizliği periyodik olarak yapılmalıdır. Döküm hazne sezonda birden fazla kullanılıyorsa ızgara yüzeylerini, kül tablasını ve baca içini düzenli kontrol et. Kaplama malzemesine göre — mermer, limra taşı, tuğla — yüzey bakımı da değişir; hangi malzeme kullanıldığını ve nasıl temizleneceğini uygulama sonrasında ekipten al.\n\nBahçe barbeküsünde ise ızgara yüzeyi ve ocak bölümü birincil bakım noktasıdır. Dış mekânda kullanıldığı için doğal taş kaplamanın nem ve don etkisine karşı yılda en az bir kez gözden geçirilmesi önerilir. Kullanım dışı sezonlarda üniteni örtmek kaplama ömrünü uzatır.\n\nİki ürün tipinde de bakım kolaylığı büyük ölçüde malzeme ve detay seçimiyle belirlenir. Yanar Şömine uygulama yapan şömine markasında malzeme tercihleri uygulama öncesinde netleştirildiği için bakım gereksinimleri de tasarım aşamasında konuşulabilir.\n\nBarbekü şöminede kullanım sıklığı arttıkça baca temizliği daha kritik hale gelir. Yılda en az bir kez baca içinin kontrol edilmesi ve birikmiş is ile kreozotun temizlenmesi hem verimli yanma hem de güvenlik açısından zorunludur. Döküm hazne modellerde haznede çatlak ya da aşınma oluşup oluşmadığı sezon başında gözden geçirilmeli; erken müdahale hazne ömrünü uzatır.\n\nBahçe barbeküsünde ızgara kafesi kullanım sonrası temizlenmesi gereken temel yüzeydir. Doğal taş kaplamanın üzerine biriken yağ ve is lekeleri uzun süre bırakıldığında taşın gözeneklerine işler ve çıkarılması güçleşir. Kullanım sonrası kuru temizlik ve yılda bir yüzey emprenye uygulaması, kaplamanın görünümünü ve dayanıklılığını korur. Bu bakım adımlarını uygulama ekibinden teslim sırasında öğren.\n\n## Hangi Ev Tipine Hangisi Uygun\n\nBarbekü şömine şu profillere uyar: şehir içinde ya da şehir yakınında, kışları aktif olarak kullanılan, bacası olan veya baca yapımına uygun iç mekânı olan evler. Özellikle mutfak-yaşam alanı bütünleşik plan kuran ya da oturma odasında hem ısıtma hem sosyal pişirme deneyimi kurmak isteyen ev sahipleri için barbekü şömine hem işlevsel hem de estetik bir çözümdür. Dar salon planlarında [YS-260](https://www.yanarsomine.com.tr/urun/ys-260/)'ın sunduğu kombinasyon iyi bir örnek oluşturur.\n\nBahçe barbeküsü ise müstakil ev, villa, yazlık veya bahçeli ve teraslı konut projelerine uygundur. Kışın çok aktif kullanılmayacak, ağırlıklı olarak ilkbahar-sonbahar sezonlarında devreye girecek açık hava pişirme noktası arıyorsan bahçe barbeküsü yeterlidir. Ayrıca iç mekânda zaten ayrı bir şöminesi olan ve dışarıda farklı bir odak noktası kurmak isteyen ev sahipleri için de doğal bir tercih olur.\n\nİki ürünü aynı projede planlamak da mümkündür; özellikle geniş bahçeli ve çok mekânlı yapılarda iç mekânda barbekü şömine, dışarıda bahçe barbeküsü bir arada düşünülebilir. Bu tür karma projelerde keşif, iki ürünü birlikte değerlendirme fırsatı sunar.\n\nŞehir dışında, dört mevsim kullanılan müstakil yapılarda iki ürünü birlikte planlamak hem pratik hem ekonomiktir. İç mekânda barbekü şömine kışın ana ısı kaynağı olarak çalışırken, bahçe barbeküsü yaz ve sonbahar aylarında devreye girer. Bu tür karma projelerde Yanar Şömine uygulama yapan şömine markası iki ürünü aynı keşif sürecinde değerlendirir; malzeme uyumu ve genel estetik bütünlük tek bir tasarım gözüyle kurulur.\n\nApartman dairesinde ya da balkonlu ama bahçesiz bir konutda barbekü şömine tek seçenektir. Bahçe barbeküsü için gereken açık alan ve zemin koşulları bu tür yapılarda sağlanamaz. Bu durumda enerjiyi doğru modeli ve kaplama kombinasyonunu belirlemek için harcamak yeterlidir; baca durumunu da erken netleştir.\n\n## Karar: Hangisi Senin Projen\n\nİç mekânda hem ısınmak hem pişirmek istiyorsan ve evin baca güzergâhına uygunsa barbekü şömineden başka yere bakma. [Barbekü Şömine kategorisini](https://www.yanarsomine.com.tr/urun-kategori/somineler/barbeku-somine/) incele, gerçek modellere bak, sonra keşif al.\n\nBahçen ya da terasın varsa ve ısıtma için başka bir sisteme zaten sahipsen, açık hava pişirme noktası kurmak için ayrı bir baca güzergâhı aramanın anlamı yok. [Bahçe barbeküsü kategorisine](https://www.yanarsomine.com.tr/urun-kategori/barbekuler/) bak, malzeme ve form olarak projene uyanı belirle.\n\nHer iki tipte de süreç aynı yerden başlar: ücretsiz keşif. Yanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana yürütülen bu yaklaşımda hiçbir proje sabit bir liste üzerinden ilerlemez; mekânı ölçmeden, baca durumunu değerlendirmeden teklif verilmez. Bu, hem doğru ürünü seçmeni hem de sonradan pişman olmamani sağlar.\n\nRandevu için (0212) 884 13 49 numarasını ara. Pazartesi-Cumartesi 09:00–19:00 arası ulaşabilirsin. Online kataloğu incelemek istersen yanarsomine.com.tr adresini ziyaret et.\n\nKararsızlık genellikle kullanım senaryosunu yeterince somutlaştırmamaktan kaynaklanır. Şunu dene: kendine yılda kaç kez, hangi mevsimde ve kimlerle kullanacağını sor. Yanıt kışın, içeride, düzenli olarak ısınarak pişirme yapacağım biçiminde oluşuyorsa barbekü şömine öne çıkar. Yanıt yazın, dışarıda, zaman zaman mangal tadında bir deneyim istiyorum şeklindeyse bahçe barbeküsü yeterlidir.\n\nYanar Şömine uygulama yapan şömine markası 1986'dan bu yana her projeye aynı yaklaşımla başlar: önce dinle, sonra ölç, sonra tasarla. Sabit bir katalogdan seçim yapmıyorsun; projen sıfırdan kurulur. Bu sürecin ilk adımı olan ücretsiz keşif için (0212) 884 13 49 numarasını ara ve randevunu al."
+}

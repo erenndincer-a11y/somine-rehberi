@@ -446,5 +446,61 @@
    }
   ],
   "site_slug": "modern-mi-aski-mi-karsilastirma"
+ },
+ {
+  "pair": "dogalgazli-mi-modern-mi",
+  "date": "2026-11-09",
+  "wp_id": 4729,
+  "wp_link": "https://www.yanarsomine.com.tr/dogalgazli-mi-modern-mi-somine-karsilastirmasi/",
+  "wp_title": "Doğalgazlı Şömine mi Modern Şömine mi? Farklar, Avantajlar ve Karar Rehberi",
+  "products": [
+   "https://www.yanarsomine.com.tr/urun/ys-244/",
+   "https://www.yanarsomine.com.tr/urun/ys-243/",
+   "https://www.yanarsomine.com.tr/urun/ys-241/",
+   "https://www.yanarsomine.com.tr/urun/ys-113/",
+   "https://www.yanarsomine.com.tr/urun/ys-103/",
+   "https://www.yanarsomine.com.tr/urun/ys-114/"
+  ],
+  "products_a": [
+   {
+    "name": "YS-244",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-244/",
+    "aciklama": "",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-244.jpg"
+   },
+   {
+    "name": "YS-243",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-243/",
+    "aciklama": "",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-243.jpg"
+   },
+   {
+    "name": "YS-241",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-241/",
+    "aciklama": "",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-241.jpg"
+   }
+  ],
+  "products_b": [
+   {
+    "name": "YS-113",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-113/",
+    "aciklama": "Modern Şömine\n İthal Belvedere Gold Mermerinden şömine kaplaması\n Şömine içinde yerli üretim önü açık camsız 80 cm genişliğinde döküm hazne kullanılmıştır.",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2023/05/YS-113.jpg"
+   },
+   {
+    "name": "YS-103",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-103/",
+    "aciklama": "Majesty Black Mermerinden alt tabla ve çift kademeli çerçeveli modern tarz şömine\n Nordflam marka Lizbona model 75 cm ithal şömine haznesi",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2023/05/YS-103.jpg"
+   },
+   {
+    "name": "YS-114",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-114/",
+    "aciklama": "Modern Şömine\n İthal Carrara Mermerinden damar takipli profil detaylı modern şömine\n Nordflam Marka Bergoma model 90 cm ithal şömine haznesi",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2023/05/YS-114.jpg"
+   }
+  ],
+  "site_slug": "dogalgazli-mi-modern-mi-karsilastirma"
  }
 ]

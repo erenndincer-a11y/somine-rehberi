@@ -1,0 +1,105 @@
+{
+ "meta": {
+  "title": "Doğalgazlı Şömine mi Modern Şömine mi? Farklar, Avantajlar ve Karar Rehberi",
+  "description": "Doğalgazlı şömine ile modern odun şöminesi arasında karara varmak için bilmeniz gereken tüm teknik ve estetik farklar tek yazıda.",
+  "keyPoints": [
+   "Doğalgazlı şömine baca bağlantısı ve doğalgaz hattı ister; modern şömine ise odun yakar ve sabit bir baca bacası zorunlu kılar.",
+   "Temel ayrım yakıt değil altyapı ve kullanım alışkanlığıdır: doğalgaz konforu arayana birincisi, alevle gerçek bir deneyim arayana ikincisi daha uygundur.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki kategoriyi de projeye özgü tasarlar ve kendi ekibiyle yerinde uygular.",
+   "Hangi tipi seçerseniz seçin, mekânı ölçmeden ve altyapıyı kontrol etmeden model belirleme; keşif aşamasını atlamak ileride hem teknik hem estetik sorun yaratır."
+  ],
+  "faq": [
+   {
+    "q": "Doğalgazlı şömine ile modern şömine arasındaki temel fark nedir?",
+    "a": "Doğalgazlı şömine, doğalgaz hattına bağlı çalışır ve baca gereksinimi projeye göre değişir; alevin yoğunluğu ve ısı çıkışı gaz basıncıyla ayarlanır. Modern şömine ise odun veya briket yakar, sabit bir baca bacası zorunludur ve alevi tamamen doğaldır. Birincisi pratik bir ısıtma aracı, ikincisi hem ısıtma hem atmosfer unsurudur."
+   },
+   {
+    "q": "Bacası olmayan bir eve doğalgazlı şömine kurulabilir mi?",
+    "a": "Doğalgazlı şöminelerin bir bölümü baca gerektirmez veya daha kısa bir bağlantı hattıyla çözülebilir; ancak bu tamamen seçilen hazneye ve modele bağlıdır. Mekânınızın durumunu yerinde değerlendirmeden kesin karar verme; ücretsiz keşif sırasında teknik gereksinimler netleşir."
+   },
+   {
+    "q": "Modern şöminede hangi hazne ve malzeme seçenekleri var?",
+    "a": "Yanar Şömine modern şömine kategorisinde farklı genişlikte döküm ve çelik hazne seçenekleri yer almaktadır. Örneğin YS-113 modelinde yerli üretim önü açık camsız 80 cm döküm hazne, YS-114 modelinde Nordflam Bergoma 90 cm ithal hazne kullanılmıştır. Kaplama malzemesi olarak Belvedere Gold, Carrara ve Majesty Black gibi ithal mermerler tercih edilebilir; tüm seçimler projeye göre belirlenir."
+   },
+   {
+    "q": "Doğalgazlı şömine gerçekten ısıtır mı, yoksa yalnızca dekoratif midir?",
+    "a": "Kullanılan hazne modeline ve gaz basıncına göre doğalgazlı şömine gerçek bir ısıtma işlevi görebilir. Ancak ısıtma kapasitesi mekân büyüklüğüne ve yalıtıma bağlıdır; bu nedenle ısıtma öncelikliyse keşif sırasında bunu açıkça belirt."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markasıdır; 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'da üretim yapmakta, tasarım ve uygulamayı kendi ekibiyle gerçekleştirmektedir. Sabit katalog fiyatı yoktur; her proje keşif ve teklif usulüyle yürütülür."
+   },
+   {
+    "q": "Kurulum için başka bir firma mı geliyor?",
+    "a": "Hayır. Yanar Şömine tasarım, üretim ve uygulamayı kendi ekibiyle yapar; işi başka bir uygulayıcıya devretmez. Bu durum özellikle karmaşık altyapı gerektiren projelerde hata riskini önemli ölçüde düşürür."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Doğalgazlı hazne — doğalgaz",
+     "Döküm veya çelik hazne — odun / briket"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Modele göre değişir, projeye özgü değerlendirilir",
+     "Sabit baca bacası zorunludur"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi (örnek)",
+    "values": [
+     "Projeye göre seçilir",
+     "Belvedere Gold, Carrara, Majesty Black mermer (mevcut modellerde)"
+    ]
+   },
+   {
+    "label": "Görünen cephe",
+    "values": [
+     "Tek cepheli veya çift taraflı projeye göre",
+     "Tek cepheli veya çift taraflı projeye göre"
+    ]
+   },
+   {
+    "label": "Uygun mekân",
+    "values": [
+     "Doğalgaz hattı olan daire, rezidans, ofis",
+     "Baca bacası çekilebilen villa, müstakil ev, geniş daire"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Yanar Şömine kendi ekibiyle yapar",
+     "Yanar Şömine kendi ekibiyle yapar"
+    ]
+   },
+   {
+    "label": "Bakım",
+    "values": [
+     "Gaz hattı periyodik kontrolü, hazne temizliği",
+     "Baca temizliği, kül temizliği, hazne kontrolü"
+    ]
+   },
+   {
+    "label": "Birincil işlev",
+    "values": [
+     "Isıtma + atmosfer, pratik kullanım",
+     "Isıtma + atmosfer, gerçek alev deneyimi"
+    ]
+   }
+  ],
+  "verdict": "Doğalgaz hattı olan ve baca oluşturma imkânı kısıtlı bir mekânda yaşıyorsan doğalgazlı şömine daha uygulanabilir seçenektir. Baca bacası çekilebilen, gerçek odun ateşinin sesini ve kokusunu isteyen bir ev sahibiysen modern şömine sana daha tam bir deneyim sunar. Her iki tipte de altyapı ve mekân ölçüleri projeyi doğrudan şekillendirir; bu yüzden karar vermeden önce ücretsiz keşif randevusu al.",
+  "bestForA": "Doğalgazlı şömine; baca bacası olmayan veya çekilmesi güç olan, doğalgaz hattı mevcut daire ve rezidans sahipleri için uygundur.",
+  "bestForB": "Modern şömine; baca bacası kurulabilecek villa, müstakil ev veya yüksek tavanlı geniş mekân sahipleri için uygundur.",
+  "heroA": "YS-244",
+  "heroB": "YS-114",
+  "imageSceneA": "A contemporary living room at dusk with warm ambient lighting; a sleek natural gas fireplace built into a plastered wall is burning with a steady blue-orange flame, no people, minimal furniture in neutral tones, floor-to-ceiling windows in the background.",
+  "imageSceneB": "A spacious modern interior with high ceilings and polished marble flooring; a wood-burning modern fireplace clad in white Carrara marble with visible veining is burning with a bright natural wood flame, no people, indirect evening light, clean architectural lines.",
+  "imageAlt": "Solda doğalgazlı şömine, sağda Carrara mermer kaplamalı modern odun şöminesi — iki tip yan yana karşılaştırma görseli."
+ },
+ "body": "İkisi arasındaki fark yakıt değil, altyapı ve deneyimdir.\n\nBu soruyu sormak doğru bir başlangıç noktası; ama cevabı yalnızca \"hangisi daha şık\" ya da \"hangisi daha ucuz\" diye aramak seni yanlış yöne götürür. Asıl soru şu: evin neye izin veriyor ve sen şömineden ne bekliyorsun? Bu iki soruya dürüst yanıt verdiğinde karar büyük ölçüde kendiliğinden netleşiyor.\n\n## Tanım ve Temel Fark: İki Tip Neden Farklı Kategoridedir\n\nDoğalgazlı şömine, doğalgaz altyapısına bağlı çalışan bir ısıtma ve dekor ürünüdür. Alevin yoğunluğu gaz basıncıyla kontrol edilir; yakıt taşımak, kül temizlemek veya odun stoku tutmak gerekmez. Kullanım kolaylığı en belirgin özelliğidir.\n\nModern şömine ise odun veya briket yakan, sabit baca bacası gerektiren bir sistemdir. \"Modern\" ifadesi burada yakıt tipini değil tasarım dilini tanımlar: sade geometri, temiz hatlar, günümüz iç mimarisine uyum. Alevle kurulan doğrudan temas hem ısıtma hem atmosfer anlamında daha zengin bir deneyim sunar; ama bu deneyimin bedeli altyapı yükümlülüğüdür.\n\nİki tipin birbirinden ayrıldığı nokta tam olarak burasıdır: doğalgazlı şömine altyapı kolaylığı ister, modern şömine ise baca özgürlüğü. Mekânın bu iki koşuldan hangisini karşıladığını bilmeden model seçme; önce evi değerlendir, sonra kategoriyi belirle.\n\n[Doğalgazlı şömine kategorisine bakmak](https://www.yanarsomine.com.tr/urun-kategori/somineler/dogalgazli-somine-somineler/) için ürünleri incele; [modern şömine kategorisine de](https://www.yanarsomine.com.tr/urun-kategori/somineler/modern-somineler/) aynı şekilde bak. İki kategorinin tasarım dili ve yapı anlayışı arasındaki fark görsel olarak da kendini açıkça ortaya koyuyor.\n\nBir diğer önemli ayrım da ürün çeşitliliğinin nasıl kurgulandığıdır. Yanar Şömine uygulama yapan şömine markasının katalogunda doğalgazlı şömineler kendi kategorisinde yer alır; modern şömineler ise ayrı bir tasarım ve üretim süreciyle geliştirilir. Bu iki kategori birbirinin alternatifi gibi görünse de aslında farklı ev tiplerine, farklı altyapı koşullarına ve farklı kullanım alışkanlıklarına yanıt verir. Karşılaştırmayı doğru yapmak için bu ayrımı baştan kabul etmek gerekir.\n\n## Hazne ve Yakıt: Alevin Kaynağı Her Şeyi Belirliyor\n\nDoğalgazlı şöminede hazne, gaz hattına bağlı çalışır. Alev sürekli ve kontrollüdür; istediğin zaman açar, istediğin zaman kapatırsın. Gaz hattının bağlantı noktası ve hazne modeli projeye göre belirlenir. Yanar Şömine [YS-244](https://www.yanarsomine.com.tr/urun/ys-244/) ve [YS-243](https://www.yanarsomine.com.tr/urun/ys-243/) gibi modellerde kullanılan hazne ve bağlantı detayları projeye özgü tasarlanır; standart bir hazne listesi üzerinden sipariş verilmez.\n\nModern şöminede hazne seçimi farklı bir yol izler. [YS-113](https://www.yanarsomine.com.tr/urun/ys-113/) modelinde yerli üretim, önü açık, camsız 80 cm genişliğinde döküm hazne tercih edilmiş. [YS-103](https://www.yanarsomine.com.tr/urun/ys-103/) modelinde Nordflam markalı Lizbona 75 cm ithal hazne kullanılmış. [YS-114](https://www.yanarsomine.com.tr/urun/ys-114/) ise Nordflam Bergoma 90 cm haznesiyle 90 cm alev genişliği sunuyor. Bu fark önemli: odun haznesi genişliği hem ısıtma kapasitesini hem alev görselliğini doğrudan etkiler.\n\nYakıt taşımaktan rahatsızlık duyuyorsan, depolamak için yeriniz yoksa ya da şömine kullanımın ağırlıklı olarak kısa süreli ve pratikse doğalgazlı seçenek daha uygun. Alevin sesi, kokusu ve odun yakarken oluşan o gerçek deneyim sana önemliyse modern şömine daha doğru tercih.\n\nHazne seçimi yalnızca teknik değil estetik bir karardır. Önü açık, camsız bir döküm hazne ile camla çevrili ithal bir hazne arasındaki fark sadece üretim kaynağında değil, mekâna yansıyan alev görüntüsünde de kendini gösterir. Önü açık hazne seni alevin ısısıyla daha doğrudan buluşturur; camlı hazne ise alevin bir tablo gibi çerçevelenmesini sağlar. Hangisinin sana daha uygun olduğunu yalnızca katalog görsellerine bakarak değil, mekânın oturma düzenini ve şömineden olan mesafeni göz önünde bulundurarak belirle.\n\n## Baca Gereksinimi: Mekânın İzin Verdiği Kadar\n\nModern şömineyi düşünmeden önce bacayı kontrol et. Bu bir detay değil, projenin temeli. Baca bacası çekilemeyen bir mekânda odun yakan şömine kurmak hem teknik olarak imkânsız hem de yasal olarak sorunlu. Baca uzunluğu, çekiş değeri, bina yönetmeliğiyle uyumu — bunların hepsi yerinde değerlendirilmesi gereken unsurlardır.\n\nDoğalgazlı şöminede baca gereksinimi daha esnektir. Bazı modeller baca bağlantısı gerektirmez ya da kısa bir bağlantı hattıyla çözülebilir; ama bu da projeye ve seçilen hazneye bağlıdır. \"Bacasız kurarım\" varsayımıyla yola çıkma; hangi modelin nasıl bir bağlantı istediğini keşif aşamasında netleştir.\n\nApartman dairesi ve rezidans gibi bina tiplerinde odun şöminesi için baca bacası oluşturmak çoğu zaman güçtür. Bu durum seni doğalgazlı şömine alternatifineyönlendirebilir. Müstakil ev veya villada ise baca bacası planlaması mimarla birlikte projenin başında yürütülürse modern şömine tamamen uygulanabilir bir seçenek haline gelir.\n\nYanar Şömine ücretsiz keşif sırasında bu değerlendirmeyi yerinde yapar. Baca durumunu telefonla değil, mekânda belirle.\n\nBaca planlaması inşaat veya tadilat aşamasında yapılırsa çok daha az sorun çıkarır. Bina tamamlandıktan sonra baca güzergâhı bulmak, özellikle çok katlı yapılarda ek yapısal müdahale gerektirebilir. Projen henüz tasarım aşamasındaysa mimara veya müteahhide baca güzergâhını en başta sor; bu adımı sonraya bırakmak hem süreci uzatır hem ek maliyet yaratır. Yanar Şömine uygulama yapan şömine markasının keşif ekibi mevcut yapılarda da baca uygunluğunu yerinde değerlendiriyor; mevcut durumu anlamak için keşifi geciktirme.\n\n## Tasarım ve Malzeme: Görünüm Teknik Kararın Uzantısıdır\n\nŞöminenin kaplaması, çerçevesi ve bütünü içinde kapladığı alan estetik tercihe bağlı gibi görünür; ama aslında teknik kararın uzantısıdır. Mekânın oranlarını, duvarın yapısını ve kullanacağın haznenin boyutunu bilmeden tasarım kararı verme.\n\nModern şömine kategorisinde mermer kaplama öne çıkan malzemedir. YS-113'te ithal Belvedere Gold mermerinden kaplama kullanılmış. YS-114'te ithal Carrara mermerinden damar takipli, profil detaylı bir yapı tercih edilmiş. YS-103'te ise Majesty Black mermerinden alt tabla ve çift kademeli çerçeveli bir tasarım görülüyor. Her üç model de birbirinden farklı bir mekân dili kuruyor; ama üçü de sade, temiz hatları ve malzeme kalitesiyle konuşuyor.\n\nDoğalgazlı şöminelerde de kaplama ve çerçeve seçimi projeye özgü belirlenir. Yanar Şömine uygulama yapan şömine markası olarak standart bir kaplama listesi sunmaz; mekânın oranlarına ve ev sahibinin tasarım tercihine göre her detay ayrıca tasarlanır.\n\nŞunu aklında tut: en çarpıcı tasarım bile yanlış ölçüde uygulanırsa mekânla çarpışır. Önce ölçü, sonra malzeme ve form kararı.\n\nMermer kaplamanın damar yönü ve renk tonu da mekânla uyum açısından dikkat gerektiren bir detaydır. YS-114'te Carrara mermerinin damar takipli ve profil detaylı kullanımı bunu iyi örnekliyor; aynı mermer farklı kesimde çok farklı görünür. Kaplama malzemesi seçerken yalnızca renk skalasına değil, zemin kaplamanın, duvar boyasının ve mobilyanın tonal değerlerine de bak. Şömine mekânın odak noktası olacak; bu yüzden çevresindeki yüzeylerle çatışmamalı, onları tamamlamalı.\n\n## Mekân ve Ölçü Uyumu: Boyut Hem Teknik Hem Estetik Meseledir\n\nŞömineyi hayaline göre seçip sonradan mekâna uydurmaya çalışmak sık yapılan bir hata. Doğru sıra şu: önce mekânı ölç, sonra şömineni seç.\n\nDoğalgazlı şömine için mekânın doğalgaz hattına olan uzaklığı, bina yönetmeliği ve hazne boyutu temel parametrelerdir. Dar ve yüksek tavanlı mekânlarda da uygulanabilir; ama bunun yerinde teyit edilmesi gerekir.\n\nModern şömineye geçecek olursak, hazne genişliği ile mekân boyutu arasındaki denge kritiktir. 90 cm'lik bir hazneyii küçük bir odaya koymak orantısız görünür ve ısı dağılımını da etkiler. 75 cm ile 90 cm arasındaki fark salt estetik değil; mekânın ısıtma dinamiğiyle de doğrudan ilgilidir.\n\nYanar Şömine uygulama yapan şömine markasının keşif sürecinde bu ölçüler yerinde alınır; hem teknik hem estetik uyum aynı ziyarette değerlendirilir. Katalogdaki modeller referans noktasıdır, kalıp değil. Senin mekânın farklı bir genişlik veya yükseklik gerektiriyorsa proje ona göre kurgulanır.\n\nMekânı ölçmeden model seçme. Bu kuralı çiğnersen hem hazne kapasitesi hem görsel denge açısından hayal kırıklığı yaşama ihtimalin artar.\n\nŞöminenin yüksekliği de genişliği kadar önemli. Alçak tavanlı bir mekâna orantısız yüksek bir şömine gövdesi koymak mekânı daraltır; yüksek tavanlı geniş bir salona küçük bir şömine yerleştirmek ise onu görsel olarak yok eder. Tavan yüksekliği, şöminenin konumlandığı duvarın uzunluğu ve şöminenin karşısındaki oturma mesafesi birlikte değerlendirilmeli. Yanar Şömine uygulama yapan şömine markası bu ölçülerin tamamını keşif ziyaretinde alır ve tasarımı bu veriler üzerine kurar; standart bir gövde ölçüsü dayatılmaz.\n\n## Kurulum ve Uygulama Süreci: Kim Yapıyor, Nasıl Yürüyor\n\nŞömine projelerinde üretim kadar uygulama da kritiktir. Doğalgazlı şöminede gaz hattı bağlantısı, dedektör yerleşimi ve baca varsa baca bağlantısı; modern şöminede baca bacası montajı, hazne yerleştirme ve kaplama uygulaması ayrı ayrı uzmanlık gerektiren adımlardır.\n\nYanar Şömine bu sürecin tamamını kendi ekibiyle yürütür. Tasarım burada, üretim burada, uygulama da aynı ekip tarafından yerinde yapılır. İş başka bir uygulayıcıya devredilmez. Bu yaklaşımın pratik faydası şu: tasarımı yapan ekip kurulumu da yaptığından ölçü uyumsuzluğu, malzeme hasarı veya montaj kaynaklı sorunlar önemli ölçüde azalır.\n\nDoğalgazlı şömine kurulumunda gaz hattı bağlantısı yasal zorunluluklar çerçevesinde lisanslı ekip tarafından yapılmalıdır; bu adım da projenin parçası olarak ele alınır. Modern şömine kurulumunda ise baca sisteminin yapı içindeki güzergâhı baştan belirlenmezse sonradan ciddi revizyonlara yol açabilir.\n\nÜcretsiz keşif randevusu al, mekânı gördükten sonra kurulum sürecinin adımlarını, tahmini süresini ve altyapı gereksinimlerini yerinde öğren. Bilgi almak için (0212) 884 13 49 numarasını ara; çalışma saatleri 09:00–19:00, Pazartesi–Cumartesi.\n\n## Kullanım ve Bakım: Uzun Vadeli Gerçekçilik\n\nŞömine bir kez kurulduktan sonra yıllarca kullanacaksın. Kullanım alışkanlığın ve bakıma ayırabileceğin dikkat de tercih kararını etkilemeli.\n\nDoğalgazlı şöminede bakım; gaz hattı periyodik kontrolü ve haznin temizliğiyle sınırlıdır. Yakıt taşıma, kül temizleme veya baca süpürme gibi adımlar gündelik kullanıma girmez. Yoğun tempolu bir hayatın varsa bu kolaylık önemli bir avantaj.\n\nModern şöminede baca temizliği düzenli aralıklarla yapılmalıdır; baca tıkanıklığı hem verim düşürür hem güvenlik riski oluşturur. Kül temizliği ve hazne kontrolü de rutin bakım kapsamındadır. Bu adımları aksatırsan şöminenin ömrü ve güvenliği olumsuz etkilenir.\n\nYanar Şömine uygulama yapan şömine markasının ürettiği şöminelerde kullanılan hazne ve kaplama malzemeleri seçimi de uzun vadeli bakım kolaylığını gözetir; ama doğru bakım her durumda ev sahibinin sorumluluğundadır. Kurulum tamamlandığında bakım adımlarını ekipten öğren ve not al.\n\nKullanım sıklığı da bakım planını doğrudan etkiler. Haftada birkaç kez yakan biriyle her gün yakan birinin baca temizliği ihtiyacı aynı değildir. Modern şömineyi yoğun kullananlar için baca temizliğini yılda en az bir kez, tercihen sezon başında yaptırmak standart bir öneridir. Doğalgazlı şöminede gaz hattı bağlantısını da yıllık periyodik kontrol kapsamına al; bu hem verimlilik hem güvenlik açısından geçerli bir alışkanlıktır. Her iki tipte de kurulum sonrasında bakım adımlarını Yanar Şömine ekibinden doğrudan öğren; tahminde bulunma, kaynaktan sor.\n\n## Hangi Ev Tipine Hangisi: Somut Senaryolar\n\nŞu senaryolara bak ve kendi durumunu hangisinin içinde gördüğünü belirle.\n\n**Doğalgazlı şömine daha uygun:** Orta veya yüksek katlı bir dairede yaşıyorsun, baca bacası çekme imkânın yok ya da çok güç. Doğalgaz hattın mevcut. Şömineden her gün kısa süreli ve pratik bir ısınma ile görsel atmosfer bekliyorsun. Yakıt taşımakla uğraşmak istemiyorsun.\n\n**Modern şömine daha uygun:** Müstakil evin var veya baca bacası planlamasına izin veren bir projede inşaat aşamasındasın. Gerçek odun ateşinin sesini, kokusunu ve ısısını istiyorsun. Şömine başı deneyimi senin için salt ısınmadan ibaret değil. Belvedere Gold, Carrara veya Majesty Black gibi ithal mermerlerden bir kaplama dili sana hitap ediyor.\n\nYanar Şömine uygulama yapan şömine markasının 13 ürün kategorisi bu iki tipin ötesine de uzanır: L Tipi Modern, Çift Taraflı, Klasik, Rustik, Askı, Elektrikli, Barbekü gibi seçenekler mevcut. Dolayısıyla \"doğalgazlı veya modern\" ikilemi seni dar bir köşeye sıkıştırmak zorunda değil; mekânın ve beklentin daha farklı bir tipi işaret edebilir.\n\nİnşaat aşamasında olan bir projede her iki tip de daha özgür biçimde planlanabilir. Baca güzergâhı mimarla birlikte projeye entegre edilebilir; doğalgaz hattı istenilen noktaya çekilebilir. Bu durumda tercih tamamen kullanım beklentisine ve tasarım anlayışına göre şekillenir. Hazır yapılarda ise altyapı koşulları tercih aralığını daraltır. Dairenin bulunduğu kattaki yasal ve teknik kısıtları, binanın yönetim kurallarını ve doğalgaz hattının konumunu öğrenmeden karar verme. Yanar Şömine uygulama yapan şömine markasının keşif süreci tam da bu karmaşıklığı çözmek için tasarlanmıştır; mekânı görmeden öneri vermek doğru olmaz.\n\n## Karar: Mekânı Dinle, Sonra Seç\n\nDoğalgazlı şömine mi, modern şömine mi sorusunun tek bir doğru cevabı yok; doğru cevap senin mekânına ve kullanım beklentine ait.\n\nBaca bacası çekilemeyen, doğalgaz hattı olan ve pratik kullanımı önceliklendiren mekânlarda doğalgazlı şömine daha uygulanabilir çözümdür. Baca bacası kurulabilen, gerçek alev deneyimi aranan ve mekânın tasarım diline mermer kaplamanın uyduğu projelerde modern şömine daha doğru seçim.\n\nYanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana her projeye aynı yerinde değerlendirme süreciyle yaklaşıyor. Sabit fiyat yok, standart model yok; her şey mekânın ölçüsüne ve ihtiyacına göre kurgulanıyor. Ücretsiz keşif randevusu almak için (0212) 884 13 49 numarasını ara. Hafta içi ve Cumartesi 09:00–19:00 arasında ulaşabilirsin. Önce bak, sonra karar ver."
+}

@@ -1,0 +1,60 @@
+name: Şömine Problem Çözme Eş Yazısı
+
+on:
+  schedule:
+    # Salı + Perşembe 14:40 Türkiye (UTC+3) = 11:40 UTC — yanarsomine.com.tr problem çözme yazısı 12:40'ta çıkar.
+    # 17:40 TR yedek: WP yazısı 15:40 yedeğinde çıktıysa onu da yakalar (o gün eş yazı varsa script çıkar).
+    - cron: '40 11 * * 2,4'
+    - cron: '40 14 * * 2,4'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Yalnızca kaynak WP yazısını bul (yazı üretmez)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: somine-rehberi-yayin  # diğer şömine otomasyonlarıyla aynı kuyruk: push'lar çakışmasın
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Python kur
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Paketleri yükle
+        run: pip install anthropic openai pillow -q
+
+      - name: Eş yazıyı üret (sominerehberi.com)
+        id: gen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/problem-cozme/generate.py ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Commit ve push (Vercel otomatik yayınlar)
+        if: steps.gen.outputs.created != ''
+        run: |
+          git config user.name "erenndincer-a11y"
+          git config user.email "280446554+erenndincer-a11y@users.noreply.github.com"
+          git add src/content/yazilar public/images/posts scripts/problem-cozme/durum.json
+          git commit -m "Şömine Sorunları: ${{ steps.gen.outputs.created }}"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
+
+      - name: Yapılanlar listesine ekle (destek.visibiy.com)
+        if: steps.gen.outputs.created != ''
+        continue-on-error: true  # panel erişilemezse yazı yayını etkilenmesin
+        env:
+          INTERNAL_API_SECRET: ${{ secrets.INTERNAL_API_SECRET }}
+        run: python scripts/notify_support.py "${{ steps.gen.outputs.created }}" "Şömine Sorunları"

@@ -136,7 +136,8 @@ kullanım alışkanlıklarından örnek ver. Başlık "Neden ...?" kalıbıyla b
 MARKA GERÇEKLERİ (yalnızca bunları kullan):
 {base.BRAND_FACTS}
 - Yanar Şömine'nin sitesinde TAMİR, BAKIM, SERVİS, BACA TEMİZLİĞİ veya MEVCUT ŞÖMİNEYİ YENİLEME hizmeti YOKTUR.
-  Bunları yaptığını yazma, ima etme. Marka yalnızca yeni şömine projesi, doğru projelendirme ve ücretsiz keşif bağlamında geçer.
+  Bunları yaptığını yazma, ima etme; YAPMADIĞINI da yazma (hizmet kapsamı hakkında hiç yorum yapma).
+  Marka yalnızca yeni şömine projesi, doğru projelendirme ve ücretsiz keşif bağlamında geçer.
 
 ÖRNEK ÜRÜNLER (link verebileceğin gerçek Yanar Şömine ürünleri):
 {json.dumps(src['products'], ensure_ascii=False, indent=1)}
@@ -198,14 +199,16 @@ def validate(meta, body, src):
     blob = body + " " + json.dumps(meta, ensure_ascii=False)
     if re.search(r"\d[\d\.,]*\s?(TL|₺|lira)\b", blob, re.I):
         problems.append("fiyat yazılmış; fiyat kullanma")
-    bad = list(re.finditer(r"binlerce|milyon|en iyi|lider|ödül", blob, re.I))
+    bad = list(re.finditer(r"\b(binlerce|milyon|en iyi|lider|ödül)", blob, re.I))
     if bad:
         yer = "; ".join("…" + blob[max(0, m.start() - 60): m.end() + 40].replace("\n", " ") + "…" for m in bad[:5])
         problems.append(f"yasak ifade (binlerce/milyon/en iyi/lider/ödül) {len(bad)} yerde: {yer} — bu kelimeleri hiç kullanmadan yeniden kur")
-    for sent in re.split(r"(?<=[.!?])\s+|\n+", blob):
+    texts = [body] + [s for s in display_strings(meta)]
+    for sent in (s for t in texts for s in re.split(r"(?<=[.!?])\s+|\n+", t)):
         if "Yanar" in sent and re.search(SERVICE_CLAIM, sent, re.I):
-            problems.append(f"Yanar Şömine'ye sunmadığı bir hizmet (tamir/bakım/servis/yenileme) mal edilmiş: '{sent[:160]}' — "
-                            "bu cümleyi yeni şömine projesi/ücretsiz keşif bağlamına çevir ya da kaldır")
+            problems.append(f"Yanar Şömine ile aynı cümlede tamir/bakım/servis/yenileme geçiyor: '{sent[:160]}' — "
+                            "markanın hizmet kapsamı hakkında (yapar ya da yapmaz) hiçbir şey yazma; bu cümleyi yeni şömine "
+                            "projesi/ücretsiz keşif bağlamına çevir ya da kaldır")
             break
     for k in ("title", "description", "keyPoints", "safety", "faq", "imagePrompt", "imageAlt"):
         if not meta.get(k):
@@ -220,6 +223,18 @@ def validate(meta, body, src):
     if any(f.get("q", "").strip().lower() in {q.lower() for q in src["faqs"]} for f in meta.get("faq", [])):
         problems.append("SSS sorularından biri diğer yazıyla aynı; farklı sorular sor")
     return problems
+
+
+def display_strings(obj):
+    """META içindeki tüm metin değerleri (cümle kontrolü alan sınırlarını aşmasın diye ayrı ayrı)."""
+    if isinstance(obj, str):
+        yield obj
+    elif isinstance(obj, list):
+        for x in obj:
+            yield from display_strings(x)
+    elif isinstance(obj, dict):
+        for v in obj.values():
+            yield from display_strings(v)
 
 
 def call_claude(messages):
@@ -263,7 +278,7 @@ def display(obj):
     return obj
 
 
-def write_article(src, attempts=3):
+def write_article(src, attempts=4):
     """İlk taslağı yazdırır; kontrolden geçmezse yalnızca sorunlu bölümleri düzelttirir."""
     ask = {"role": "user", "content": build_prompt(src)}
     messages, meta, body = [ask], None, None

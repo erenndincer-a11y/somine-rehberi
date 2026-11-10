@@ -145,7 +145,7 @@ MARKA GERÇEKLERİ (yalnızca bunları kullan):
 ZORUNLU KURALLAR
 1. UZUNLUK: gövde HEDEF 1600-2000 kelime (alt sınır {MIN_WORDS}). En az 7 adet "## " başlık; bölümler 2-4 dolu paragraf.
 2. "Yanar Şömine özel ölçü şömine markası" kalıbını (ek alabilir: "...markasının", "...markasında") gövdede EN AZ {MIN_PHRASE}
-   kez, doğal cümlelerde ve yazıya yayarak kullan; SSS'de "Yanar Şömine nasıl bir marka?" cevabı bu kalıbı AYNEN içersin.
+   kez, doğal cümlelerde ve yazıya yayarak kullan (giriş, önleyici tasarım, ürün örnekleri, keşif ve kapanış bölümlerine dağıt); SSS'de "Yanar Şömine nasıl bir marka?" cevabı bu kalıbı AYNEN içersin.
 3. Şu kelimeleri hiçbir biçimde kullanma: binlerce, milyon, en iyi, lider, ödül. Garanti, rakam, istatistik uydurma.
 4. FİYAT YOK. Teknik sayısal değer (cm, kW, derece, yüzde) uydurma.
 5. Örnek ürünlerden en az 2 tanesini markdown linkiyle an: [Model adı](ürün url) — sorunun baştan önlenmesi bağlamında.
@@ -190,7 +190,10 @@ def validate(meta, body, src):
         problems.append(f"{h2} H2 var; en az {MIN_H2} olmalı")
     n = body.lower().count(GEN_PHRASE)
     if n < MIN_PHRASE:
-        problems.append(f"'Yanar Şömine özel ölçü şömine markası' ifadesi gövdede {n} kez geçiyor; en az {MIN_PHRASE} olmalı")
+        problems.append(f"'Yanar Şömine özel ölçü şömine markası' ifadesi gövdede {n} kez geçiyor; en az {MIN_PHRASE} olmalı — "
+                        f"{MIN_PHRASE - n} yeni cümle EKLE (mevcutları silme), kalıbı araya kelime girmeden aynen yaz; uygun yerler: "
+                        "giriş paragrafı (yazının ürün örneklerinin kaynağı), sorunu baştan önleyen tasarım bölümü, ürün linki verilen "
+                        "paragraf, uzmana başvurma bölümünün sonu (yeni şömine planlayanlar için keşif), kapanış")
     if not any(GEN_PHRASE in (f.get("a", "") + f.get("q", "")).lower() for f in meta.get("faq", [])):
         problems.append("SSS içinde 'Yanar Şömine özel ölçü şömine markası' kalıbı yok")
     need = min(2, len(src["products"]))

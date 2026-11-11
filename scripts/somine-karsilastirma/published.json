@@ -558,5 +558,61 @@
    }
   ],
   "site_slug": "barbeku-somine-mi-bahce-barbekusu-mi-karsilastirma"
+ },
+ {
+  "pair": "elektrikli-mi-klasik-mi",
+  "date": "2026-11-11",
+  "wp_id": 4761,
+  "wp_link": "https://www.yanarsomine.com.tr/elektrikli-mi-klasik-mi-somine-karsilastirmasi/",
+  "wp_title": "Elektrikli Şömine mi Klasik Şömine mi? Doğru Seçim İçin Kapsamlı Karşılaştırma",
+  "products": [
+   "https://www.yanarsomine.com.tr/urun/ys-254/",
+   "https://www.yanarsomine.com.tr/urun/ys-253/",
+   "https://www.yanarsomine.com.tr/urun/ys-251/",
+   "https://www.yanarsomine.com.tr/urun/ys-202-klasik-somine/",
+   "https://www.yanarsomine.com.tr/urun/ys-210/",
+   "https://www.yanarsomine.com.tr/urun/ys-207/"
+  ],
+  "products_a": [
+   {
+    "name": "YS-254",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-254/",
+    "aciklama": "",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-254.jpg"
+   },
+   {
+    "name": "YS-253",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-253/",
+    "aciklama": "",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-253.jpg"
+   },
+   {
+    "name": "YS-251",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-251/",
+    "aciklama": "",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-251.jpg"
+   }
+  ],
+  "products_b": [
+   {
+    "name": "YS-202",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-202-klasik-somine/",
+    "aciklama": "Şömine, Klasik Şömine\n El Oyması Limra Taşı Şömine\n Şömine içinde ithal  70 cm genişliğinde şömine haznesi kullanılmıştır.",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-202.jpg"
+   },
+   {
+    "name": "YS-210",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-210/",
+    "aciklama": "Klasik şömine\n Köşe şömine\n Limra taşı ve siyah granit karışık şömine\n Alt küpeşte kademeli şömine",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-210.jpg"
+   },
+   {
+    "name": "YS-207",
+    "url": "https://www.yanarsomine.com.tr/urun/ys-207/",
+    "aciklama": "Odunlu şömine\n Asansör sistemli şömine\n İthal hazneli şömine\n Bej mermerden yan oturaklı şömine",
+    "gorsel": "https://www.yanarsomine.com.tr/wp-content/uploads/2024/01/YS-207.jpg"
+   }
+  ],
+  "site_slug": "elektrikli-mi-klasik-mi-karsilastirma"
  }
 ]

@@ -1,0 +1,112 @@
+{
+ "meta": {
+  "title": "Modern Şömine mi, L Tipi Modern Şömine mi? Doğru Seçim Rehberi | Yanar Şömine",
+  "description": "Modern şömine ile L tipi modern şömine arasındaki farkları malzeme, baca, mekân ve kurulum ekseninde karşılaştır. Doğru modeli seç.",
+  "keyPoints": [
+   "Modern şömine düz cephesiyle simetrik mekânlara uyarken, L tipi modern şömine köşe konumuyla iki duvarı birleştirip oda içinde yeni bir odak noktası yaratır.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipi de projeye özgü tasarlar; sabit katalog fiyatı yoktur, önce keşif yapılır.",
+   "L tipi hazneler yan açılımlı kapağıyla farklı bir baca geometrisi gerektirir; bu detayı montaj öncesinde mimar veya uygulama ekibiyle netleştirmek gerekir.",
+   "Her iki tipte de hazne seçimi —kapasite, marka ve ölçü— yapının bacasına ve odanın ısı hesabına göre belirlenir."
+  ],
+  "faq": [
+   {
+    "q": "Modern şömine ile L tipi modern şömine arasındaki temel fark nedir?",
+    "a": "Modern şömine, tek bir düzleme monte edilen düz cepheli bir modeldir; hazne duvara paralel oturur ve simetrik bir görünüm verir. L tipi modern şömine ise iki bitişik duvarı köşede birleştiren bir yerleşim mantığına dayanır; hazne köşe ya da yan konumda çalışır ve odanın iki ayrı bölümüne görsel hâkimiyet sağlar."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markasıdır. 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'da üretim yapan Yanar Şömine; tasarımı, üretimi ve uygulamayı (montaj/kurulumu) kendi ekibiyle yerinde gerçekleştirir, işi başka bir uygulayıcıya devretmez. Sabit fiyat listesi yoktur; her proje için ücretsiz keşif ve ardından teklif sunulur."
+   },
+   {
+    "q": "L tipi şömine için farklı bir baca mı gerekiyor?",
+    "a": "L tipi hazneler, standart modern haznelere göre farklı bir baca bağlantısı gerektirebilir. Haznenin yan açılımlı kapağı ve köşe konumu, baca güzergâhını doğrudan etkiler. Bu nedenle baca durumunu ve güzergâhını keşif aşamasında teknik ekiple birlikte değerlendirmek gerekir; mekânı görmeden net bir yanıt vermek mümkün değildir."
+   },
+   {
+    "q": "Bu şömineler özel ölçüde mi üretiliyor, standart boyutları var mı?",
+    "a": "Yanar Şömine uygulama yapan şömine markası pratiğiyle çalışır; sergilenen modeller birer referans tasarımdır, her proje mekânın ölçülerine ve kaplama tercihlerine göre yeniden tasarlanır. Bu nedenle sitede sabit fiyat yer almaz."
+   },
+   {
+    "q": "Ücretsiz keşif hizmetinden nasıl yararlanabilirim?",
+    "a": "Yanar Şömine'nin ekibi, randevu alarak evinize gelir; mekânı ölçer, baca durumunu inceler ve size uygun modeli önerir. Keşif hizmetinden yararlanmak için (0212) 884 13 49 numaralı telefonu Pazartesi–Cumartesi 09:00–19:00 saatleri arasında arayabilirsin."
+   },
+   {
+    "q": "Montaj ve kurulumu kim yapıyor?",
+    "a": "Yanar Şömine; tasarım ve üretimin yanında uygulamayı da kendi ekibiyle yerinde gerçekleştirir. İşi üçüncü bir uygulayıcıya devretmez. Bu durum, tasarım kararlarının kurulum sırasında da takip edilmesini sağlar."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Odun yakıtlı ithal hazne (Nordflam, Kratki vb.)",
+     "Odun yakıtlı ithal L tipi yan açılımlı hazne (Nordflam vb.)"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Standart dikey baca bağlantısı",
+     "Köşe/yan konuma göre özel baca güzergâhı gerekebilir"
+    ]
+   },
+   {
+    "label": "Görünen cephe sayısı",
+    "values": [
+     "Tek düz cephe",
+     "İki duvarı kapsayan köşe/L cephe"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi (referans modeller)",
+    "values": [
+     "Emprador, Portoro Silver, Olive Maron mermer; Traverten; Star Galaxy granit",
+     "Emprador mermer, Traverten, Akhisar Bej mermer, Star Galaxy granit, doğal taş"
+    ]
+   },
+   {
+    "label": "Uygun mekân tipi",
+    "values": [
+     "Simetrik, tek duvarlı ve orta-büyük boyutlu odalar",
+     "Köşe konumlu, açık plan ya da iki bölümlü büyük yaşam alanları"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Yanar Şömine ekibi yerinde uygular",
+     "Yanar Şömine ekibi yerinde uygular"
+    ]
+   },
+   {
+    "label": "Üretim yaklaşımı",
+    "values": [
+     "Özel ölçü ve tasarım, teklif usulü",
+     "Özel ölçü ve tasarım, teklif usulü"
+    ]
+   },
+   {
+    "label": "Birincil işlev",
+    "values": [
+     "Isıtma + dekoratif atmosfer",
+     "Dekoratif atmosfer + ısıtma (büyük hacim avantajlı)"
+    ]
+   },
+   {
+    "label": "Bakım (baca ve hazne)",
+    "values": [
+     "Yılda en az bir kez baca temizliği önerilir",
+     "Yılda en az bir kez baca temizliği önerilir; köşe konumu baca erişimini zorlaştırabilir"
+    ]
+   }
+  ],
+  "verdict": "Mekânınızda tek bir duvara yaslanacak, simetrik ve yalın bir odak noktası arıyorsanız modern şömine doğru seçimdir. Köşede birleşen iki duvarı değerlendirmek, açık planlı büyük bir alana görsel derinlik katmak istiyorsanız L tipi modern şömine daha uygun çözümü sunar. Her iki tip de Yanar Şömine uygulama yapan şömine markası anlayışıyla projeye özgü tasarlandığı için kesin karar keşif sonrasında netleşir.",
+  "bestForA": "Modern şömine; tek bir duvara yaslanmış, net bir odak noktası isteyen, orta ya da standart büyüklükteki oturma odaları için uygundur.",
+  "bestForB": "L tipi modern şömine; köşe konumunu değerlendirmek isteyen, açık plan ya da iki bölümlü büyük yaşam alanlarına sahip evler için uygundur.",
+  "heroA": "YS-106",
+  "heroB": "YS-131",
+  "imageSceneA": "A spacious living room with warm afternoon light; a sleek single-faced modern fireplace clad in dark Portoro Silver marble set flush against a white wall; fire burning low with orange embers; minimalist furniture, no people.",
+  "imageSceneB": "An open-plan living and dining area at dusk; an L-shaped modern corner fireplace clad in Emprador marble spanning two walls; fire burning steadily; natural stone accent wall visible, ambient warm lighting, no people.",
+  "imageAlt": "Solda tek cepheli modern şömine, sağda köşe konumlu L tipi modern şömine; iki model yan yana, ateş yanıyor."
+ },
+ "body": "İkisi arasındaki fark, tercih meselesi değil mekân meselesidir.\n\nÇoğu ev sahibi bu soruyla gelir: modern şömine mi almalıyım, L tipi mi? Görsel olarak her ikisi de temiz çizgilerden oluşur, her ikisi de ithal hazne ve doğal taş kaplamalarla üretilir. Fakat yerleşim mantıkları, baca geometrisi ve oda içindeki hâkimiyet alanları birbirinden belirgin biçimde ayrılır. Bu yazıda iki tipi sekiz eksen üzerinde karşılaştırıyoruz. Mekânını ölçmeden, bacayı incelemeden model seçme.\n\n## Tanım ve Temel Fark: Hangi Şömine Nereye Oturur?\n\nModern şömine, tek bir duvara paralel yerleştirilen, düz cepheli bir modeldir. Hazne duvara dik bir düzlemde çalışır; alev odanın içine doğru tek yönden görünür. Simetrik yapısı sayesinde mekânda net, okunması kolay bir odak noktası oluşturur.\n\nL tipi modern şömine ise iki bitişik duvarı köşede birleştiren bir yerleşim mantığına dayanır. Hazne, köşe konumda çalışacak biçimde tasarlanmıştır; yan açılımlı kapağı ve özel geometrisi standart haznelerden ayrılır. Bu yapı sayesinde şömine, odanın iki farklı bölümüne aynı anda görsel hâkimiyet sağlar.\n\nBir cümleyle söylemek gerekirse: modern şömine duvara aittir, L tipi modern şömine köşeye. Evin köşesinde değerlendirmeyi düşündüğün boş bir alan yoksa L tipine geçmenin anlamı kalmaz. Tersine, köşen varsa ve bunu tek cepheli bir modelle doldurmaya çalışıyorsan mekânı yarım bırakmış olursun.\n\nKöşe konumu yalnızca estetik bir tercih değildir; aynı zamanda yapısal bir karardır. L tipi hazneler, köşede çalışmak üzere üretilmiş özel geometriye sahiptir. Bu nedenle standart bir modern hazneyi köşeye yerleştirerek L tipi etki yaratmaya çalışmak mümkün değildir. İki tip arasındaki fark görsel değil, teknik düzeyde başlar.\n\n## Hazne ve Yakıt: İthal Teknoloji, Farklı Geometri\n\nHer iki tip de odun yakıtlı ithal haznelerle üretilir; bu noktada temel bir fark yoktur. Asıl ayrım haznenin biçiminde ve baca bağlantısında ortaya çıkar.\n\n[YS-102](https://www.yanarsomine.com.tr/urun/ys-102/) modelinde Nordflam marka Deimos 70 cm hazne kullanılmıştır. [YS-106](https://www.yanarsomine.com.tr/urun/ys-106/) modelinde ise aynı markanın Bergamo modeli 90 cm haznesi tercih edilmiş. [YS-111](https://www.yanarsomine.com.tr/urun/ys-111/) modelinde Kratki marka Wiktor 75 cm hazne yer almaktadır. Tüm bu hazneler standart dikey baca bağlantısıyla çalışır.\n\nL tipi tarafına geçtiğinde tablo değişir. [YS-128](https://www.yanarsomine.com.tr/urun/ys-128/) modelinde Nordflam marka 70 cm genişliğinde L tipi yan açılımlı döküm hazne kullanılmış. [YS-131](https://www.yanarsomine.com.tr/urun/ys-131/) ve [YS-123](https://www.yanarsomine.com.tr/urun/ys-123/) modellerinde ise 85 cm genişliğinde L tipi asansör kapaklı ve yan açılımlı hazneler tercih edilmiş. Bu haznelerin baca bağlantı güzergâhı, köşe konumu nedeniyle standart modellerden farklı bir tasarım gerektirebilir.\n\nBacayı önce kontrol et. Eğer mevcut baca standart bir konum için inşa edilmişse, L tipi haznelere geçiş ek baca düzenlemesi anlamına gelebilir. Bu değerlendirme, mekânı görmeden yapılamaz.\n\nHazne boyutu, oda hacmiyle doğrudan ilişkilidir. 70 cm hazneler orta ölçekli odalarda yeterli ısı sağlarken, 85 cm ve üzeri hazneler daha büyük hacimleri daha kısa sürede ısıtır. YS-131 ve YS-123 modellerinde tercih edilen 85 cm L tipi hazne, bu nedenle büyük açık plan alanlar için öncelikli değerlendirme kapsamına girer. Hazne kapasitesi ve yakıt verimliliği projeye göre değişir; kesin hesap için yerinde değerlendirme gerekir.\n\nAsansör kapaklı hazne seçeneği, L tipine özgü bir ayrıntıdır. Bu kapak mekanizması, geleneksel döner kapağa kıyasla kullanım konforunu artırır ve köşe konumunda erişimi kolaylaştırır. YS-131 ve YS-123 modellerinde bu mekanizma tercih edilmiş; günlük kullanımda yakıt yükleme ve temizlik işlemlerini daha pratik hâle getirir.\n\n## Tasarım ve Malzeme: Doğal Taş Seçiminin Önemi\n\nHer iki kategoride de Yanar Şömine uygulama yapan şömine markası anlayışı gereği malzeme seçimi projeye özgü belirlenir. Referans modellerde kullanılan taşlar, olası kombinasyonları anlamak için iyi bir başlangıç noktası sunar.\n\nModern şömine modellerinde Emprador, Portoro Silver ve Olive Maron mermerleri kullanılmış. Bu taşlar genel olarak koyu tonları ve belirgin damarlarıyla sade ama güçlü bir görsel etki yaratır. Özellikle YS-106'daki Portoro Silver kaplama, açık renkli duvarların önünde çarpıcı bir kontrast sağlar.\n\nL tipi modellerde malzeme çeşitliliği biraz daha geniş görünür. YS-128'de Emprador mermer alt-üst tablada, Traverten ise çerçeve ve duvar kaplamasında kullanılmış; iki farklı taşın bir arada işlenmesi, L cephesinin uzunluğunu görsel olarak dengeler. YS-123'te ise siyah Star Galaxy granit çerçeve ile Akhisar Bej mermer bir arada. Çerçevede koyu, zeminde açık bir taş kullanımı, L cephesinin büyüklüğünü hafifletir.\n\nTaş seçerken odanın doğal ışığını ve zemin kaplamasını göz önünde bulundur. Koyu mermerler gün ışığı alan odalarda derinlik yaratır; az ışık alan dar mekânlarda mekânı daraltabilir.\n\nL tipi şöminenin iki farklı duvara yayılan gövdesi, kaplama tasarımını daha fazla değişken içeren bir denkleme dönüştürür. YS-131 modelinde tüm şömine gövdesi Emprador mermerle kaplanmış; buna ek olarak dekoratif doğal taş kaplama uygulanmış. Tek malzemeyle bütüncül bir görünüm sağlamak, L cephesinin büyüklüğünü görsel olarak yönetmenin bir yoludur. Farklı malzemelerin bir arada kullanıldığı kombinasyonlarda ise renk ve doku geçişlerinin hangi noktada kesileceği önceden planlanmalıdır.\n\nModern şömine modellerinde ise kaplama daha kısıtlı bir alana uygulandığı için malzeme tercihi görece daha az karmaşıktır. YS-111 modelindeki Olive Maron mermer gibi organik damarlı taşlar, küçük cephelerde bile güçlü bir doku etkisi yaratır. Taş seçimini yalnızca renk üzerinden yapma; yüzey dokusu ve damar yoğunluğu da ışıkla birlikte değişir.\n\n## Mekân ve Ölçü Uyumu: Hangi Oda, Hangi Tip?\n\nModern şömine, duvarlardan birine yaslandığı için oda planlamasında en az alan kaplayan seçenektir. Orta büyüklükteki oturma odalarında, dikdörtgen planlı mekânlarda ya da mobilya düzeninin simetrik kurulduğu alanlarda doğal bir denge sağlar.\n\nL tipi modern şömine, köşede yer kaplar; bu köşenin işlevsel bir bölüm olarak tasarlanmasını zorunlu kılar. Açık planlı yaşam alanlarında, mutfak-salon geçiş bölgelerinde ya da iki oturma grubunu barındıran büyük odalarda bu köşe konumu bir eksikten ziyade avantaja dönüşür. İki bölgeyi tek bir şömine üzerinde birbirine bağlamak mümkün hâle gelir.\n\nKüçük ve orta ölçekli odalarda L tipi tercih etmek genellikle sorun çıkarır. Şömine gövdesinin her iki duvardaki uzanımı, mobilya yerleşimini kısıtlar ve odayı sıkıştırabilir. Mekânı ölçmeden model seçme; kâğıt üzerinde çizilen plan, yerinde gördüğünden çok farklı görünebilir.\n\nYanar Şömine uygulama yapan şömine markasının keşif hizmetinden bu noktada yararlanmak mantıklıdır. Ekip yerinde ölçü alır ve oda oranlarına göre hangi tipin uygun düşeceğini söyler.\n\nOda planını çizerken şöminenin yalnızca kendi kaplama alanını değil, önündeki serbest bölgeyi de hesaba kat. Modern şömine önünde genellikle simetrik bir oturma düzeni kurulur; kanepe ve koltukların şömine eksenine göre hizalanması görsel düzeni destekler. L tipi modern şöminede bu düzenleme iki eksende kurulur; mobilya yerleşimi daha fazla alan ve daha dikkatli bir planlama gerektirir.\n\nTavan yüksekliği de değerlendirmeye dahil edilmesi gereken bir değişkendir. L tipi şöminenin köşede yükselen gövdesi, düşük tavanlı mekânlarda baskı hissi yaratabilir. Standart tavan yüksekliklerinde bu sorun genellikle çözülebilir niteliktedir; fakat asma tavan uygulamalarında baca güzergâhı ile tavan detayları arasındaki ilişki önceden netleştirilmelidir.\n\n## Kurulum ve Uygulama Süreci: Sahada Ne Olur?\n\nŞömine seçiminde çoğunlukla göz ardı edilen adım uygulama sürecidir. Tasarım ne kadar iyi olursa olsun, kurulum hatalı yapılırsa hem estetik hem işlevsellik zarar görür.\n\nYanar Şömine uygulama yapan şömine markası olarak tasarım, üretim ve uygulamayı aynı ekiple yürütür; işi başka bir uygulayıcıya devretmez. Bu fark sahada somut sonuçlar doğurur: tasarım aşamasında alınan kararlar —malzeme geçişleri, baca güzergâhı, hazne montaj açısı— kurulum sırasında da aynı ekip tarafından takip edilir.\n\nModern şömine kurulumu, standart dikey baca bağlantısı nedeniyle genellikle daha kısa ve doğrudan bir süreçtir. L tipi modern şöminenin kurulumu köşe konumu ve yan açılımlı hazne geometrisi nedeniyle daha fazla koordinasyon gerektirir: baca güzergâhı, köşe kaplama geçişleri ve duvar açıları eş zamanlı değerlendirilmelidir.\n\nHer iki durumda da süreci ücretsiz keşifle başlatmak yerinde olur. Keşif randevusu için (0212) 884 13 49 numaralı hattı Pazartesi–Cumartesi 09:00–19:00 saatleri arasında arayabilirsin.\n\n## Kullanım ve Bakım: Uzun Vadede Ne Beklemelisin?\n\nHer iki tip de odun yakıtlıdır. Kullanım alışkanlıkları ve bakım gereklilikleri büyük ölçüde örtüşür; fakat bazı farklılıklar vardır.\n\nModern şöminede baca, tipik olarak standart dikey bir güzergâhta yükselir. Yılda en az bir kez baca temizliği yapılmalıdır. Erişim görece kolaydır; baca mühendisinin çalışma alanı bellidir.\n\nL tipi modern şöminenin bacası, köşe konumu nedeniyle daha kırımlı bir güzergâh izleyebilir. Bu durum baca temizliğini zaman zaman daha fazla dikkat gerektiren bir işe dönüştürebilir. Kurulum sırasında baca erişim noktalarının belirlenmesi, uzun vadeli bakım kolaylığı açısından kritik bir adımdır.\n\nKaplama malzemesi olarak her iki tipte de kullanılan mermer ve granit, düzenli silinmesiyle uzun yıllar ilk görünümünü korur. Taş yüzeylerde ısı etkisiyle oluşabilecek küçük genleşmeler normaldir; kullanım talimatlarına uyulduğunda sorun yaratmaz.\n\nYakıt kalitesi, her iki tip için de hazne ömrünü doğrudan etkiler. Kurutulmuş, nem oranı düşük odun kullanımı is birikimini azaltır ve baca temizleme aralıklarını uzatır. Yaş odun kullanımı, özellikle L tipi haznelerin baca güzergâhı düşünüldüğünde, birikim riskini artırır. Bu basit alışkanlık, bakım maliyetini ve sıklığını ciddi ölçüde etkiler.\n\nKaplama taşlarının yıllık bakımı da göz ardı edilmemesi gereken bir adımdır. Mermer yüzeyler, ısı döngüleri ve çevresel etkiler nedeniyle zaman içinde matlaşabilir. Yılda bir kez uygun taş bakım ürünüyle silinmesi, yüzeyin canlılığını korumasına yardımcı olur. Traverten gibi gözenekli taşlar bu konuda mermere kıyasla daha fazla dikkat gerektirir.\n\n## Hangi Ev Tipine Hangisi Uyar?\n\nBu soruya tek bir doğru yanıt yoktur; mekân koşulları belirler. Bununla birlikte bazı genel eşleştirmeler yapılabilir.\n\nModern şömine; tek duvarlı, simetrik oturma düzeni olan evlerde, köşe konumunu değerlendirmeye gerek duyulmayan ya da baca konumu köşeye uygun olmayan yapılarda tercih edilebilir. Şehir dairelerinde, net ölçekli odalarda ve sade mimari çizgilerin hâkim olduğu iç mekânlarda iyi çalışır.\n\nL tipi modern şömine; büyük villalarda, açık planlı salon ve yemek odası birleşimlerinde, köşenin işlevsiz kaldığı geniş alanlarda anlam kazanır. Özellikle iki farklı oturma grubunu tek bir şömine etrafında birleştirmek isteyen ev sahipleri için ciddiye alınması gereken bir seçenektir.\n\nYanar Şömine uygulama yapan şömine markasının 13 ürün kategorisi arasında her iki tipin ötesinde U tipi, çift taraflı ve askı gibi alternatifler de yer alır. Emin olamıyorsan [tüm kategorilere bakmak](https://www.yanarsomine.com.tr) başlangıç için iyi bir alışkanlıktır.\n\nYeni inşaat ya da kapsamlı tadilat sürecinde olan ev sahipleri için iki tip arasındaki karar, baca konumunu da şekillendirir. Bu aşamada şömine tipini önceden belirlemek, baca güzergâhını doğru planlamayı kolaylaştırır ve sonradan yapılacak müdahaleleri en aza indirir. Mevcut bacası olan yapılarda ise karar tersine işler: baca konumu, hangi tipin uygulanabilir olduğunu büyük ölçüde belirler.\n\nYanar Şömine uygulama yapan şömine markasında katalogdaki her model bir başlangıç noktasıdır. Referans tasarımlar, kaplama kombinasyonlarını ve hazne seçeneklerini kavramak için kullanılır; nihai ürün mekânın koşullarına göre yeniden kurgulanır. Bu nedenle iki tip arasında karar verirken modelleri birebir uygulanacak şablonlar olarak değil, olası tasarım yönelimlerini anlamak için bir çerçeve olarak değerlendir.\n\n## Karar: Hangisini Seçmelisin?\n\nKöşen varsa ve onu değerlendirmek istiyorsan L tipine bak. Yoksa modern şömine daha doğrudan ve mekân dostu bir çözüm sunar.\n\nYanar Şömine uygulama yapan şömine markasında her iki tip de sabit bir şablona bağlı değildir; mekânının ölçülerine, baca durumuna ve malzeme tercihine göre yeniden tasarlanır. Dolayısıyla sitede gördüğün modeller sana fikir verir, ama nihai tasarım başka türlü çıkabilir.\n\n[L tipi modern şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/l-tipi-modern-somine/) modellerini incelerken asansör kapaklı ve yan açılımlı hazne seçeneklerine dikkat et; bu detay baca tasarımını doğrudan etkiler. [Modern şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/modern-somineler/) kategorisinde ise farklı taş kombinasyonları ve hazne boyutları arasındaki farkları karşılaştır.\n\nHer iki durumda da başlangıç noktası aynıdır: ücretsiz keşif. Ekip evi görür, bacayı inceler, ölçüleri alır ve sana somut bir öneri sunar. Bunu atlamak zaman kazandırmaz, aksine ilerleyen aşamada çözülebilecek sorunları ötelemiş olursun. (0212) 884 13 49 numarasını ara, randevuyu al, gerisini sahada konuş."
+}

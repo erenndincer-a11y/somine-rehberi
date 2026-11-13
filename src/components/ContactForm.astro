@@ -1,0 +1,83 @@
+---
+// İletişim formu — mesaj visibiy.com/api/rehber-iletisim üzerinden yayın ekibinin e-postasına gider.
+// Sitede açık e-posta adresi gösterilmez.
+const ENDPOINT = 'https://www.visibiy.com/api/rehber-iletisim';
+const field =
+  'mt-2 block w-full rounded-[10px] border border-border bg-surface px-4 py-3 text-[16px] leading-[24px] text-ink outline-none transition-colors duration-200 focus:border-ink';
+const label = 'block text-[14px] font-medium text-ink';
+---
+
+<form id="iletisim-formu" class="mt-10 max-w-2xl space-y-5" data-endpoint={ENDPOINT} novalidate>
+  <div class="grid gap-5 sm:grid-cols-2">
+    <label class={label}>
+      Adın
+      <input class={field} type="text" name="ad" autocomplete="name" required maxlength="120" />
+    </label>
+    <label class={label}>
+      E-posta adresin
+      <input class={field} type="email" name="eposta" autocomplete="email" required maxlength="200" />
+    </label>
+  </div>
+  <label class={label}>
+    Konu <span class="font-normal text-ink-secondary">(isteğe bağlı)</span>
+    <input class={field} type="text" name="konu" maxlength="160" />
+  </label>
+  <label class={label}>
+    Mesajın
+    <textarea class={field} name="mesaj" rows="6" required maxlength="5000"></textarea>
+  </label>
+  <!-- Bot tuzağı: insanlar görmez, doldurmaz -->
+  <div aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden">
+    <label>Web sitesi <input type="text" name="website" tabindex="-1" autocomplete="off" /></label>
+  </div>
+  <p class="text-[13px] leading-[20px] text-ink-secondary">
+    Gönderdiğin bilgiler yalnızca mesajına yanıt vermek için kullanılır. Ayrıntılar için
+    <a class="underline underline-offset-2" href="/gizlilik-politikasi">gizlilik politikası</a>.
+  </p>
+  <div class="flex flex-wrap items-center gap-4">
+    <button
+      type="submit"
+      class="rounded-full bg-accent px-6 py-3 text-[15px] font-medium text-on-accent transition-colors duration-200 hover:bg-accent-hover disabled:opacity-60"
+    >
+      Mesajı gönder
+    </button>
+    <p data-durum role="status" aria-live="polite" class="text-[14px] leading-[20px]"></p>
+  </div>
+</form>
+
+<script>
+  const form = document.getElementById('iletisim-formu') as HTMLFormElement | null;
+  if (form) {
+    const durum = form.querySelector('[data-durum]') as HTMLElement;
+    const btn = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+    const yaz = (metin: string, hata = false) => {
+      durum.textContent = metin;
+      durum.style.color = hata ? '#b42318' : '';
+    };
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+      const veri = Object.fromEntries(new FormData(form).entries());
+      btn.disabled = true;
+      yaz('Gönderiliyor…');
+      try {
+        const res = await fetch(form.dataset.endpoint!, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(veri),
+        });
+        const j = await res.json().catch(() => ({}));
+        if (!res.ok) throw new Error(j.error || 'Mesaj gönderilemedi.');
+        form.reset();
+        yaz('Teşekkürler, mesajın bize ulaştı. Genellikle birkaç iş günü içinde yanıtlıyoruz.');
+      } catch (err) {
+        yaz((err as Error).message || 'Mesaj gönderilemedi, lütfen daha sonra tekrar dene.', true);
+      } finally {
+        btn.disabled = false;
+      }
+    });
+  }
+</script>

@@ -32,7 +32,6 @@ const baseLd = [
     name: SITE.name,
     url: SITE.url,
     logo: new URL('/android-chrome-512x512.png', SITE.url).href,
-    email: SITE.email,
     description: SITE.description,
     ...(SITE.socials.length ? { sameAs: SITE.socials.map((s) => s.href) } : {}),
   },

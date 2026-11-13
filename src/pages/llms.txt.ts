@@ -25,7 +25,7 @@ export const GET: APIRoute = async () => {
     '## Site',
     '',
     `- [Hakkımızda](${abs('/hakkimizda')}): Yayının kim tarafından, nasıl hazırlandığı`,
-    `- [İletişim](${abs('/iletisim')}): ${SITE.email}`,
+    `- [İletişim](${abs('/iletisim')}): iletişim formu`,
     `- [RSS](${abs('/rss.xml')})`,
     `- [Site haritası](${abs('/sitemap-index.xml')})`,
     '',

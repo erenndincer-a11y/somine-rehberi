@@ -4,7 +4,7 @@ export const SITE = {
   url: 'https://sominerehberi.com',
   title: 'Şömine Rehberi — Model seçimi, kurulum ve bakım rehberleri',
   description:
-    'Şömine üzerine bağımsız bir editoryal yayın: doğru model seçimi, yakıt türleri, kurulum ve bakım, mekâna göre şömine rehberleri.',
+    'Şömine üzerine Yanar Şömine destekli bir editoryal yayın: doğru model seçimi, yakıt türleri, kurulum ve bakım, mekâna göre şömine rehberleri.',
   author: 'Şömine Rehberi editör ekibi',
   email: 'info@sominerehberi.com',
   city: 'İstanbul',

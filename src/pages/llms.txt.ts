@@ -11,7 +11,7 @@ export const GET: APIRoute = async () => {
     '',
     `> ${SITE.description}`,
     '',
-    `${SITE.name}, ${SITE.city} merkezli bağımsız bir editoryal yayındır. Yazılar Türkçedir. Her yazının temiz Markdown sürümü, adresinin sonuna \`.md\` eklenerek alınabilir. Tüm yazıların tam metni: ${abs('/llms-full.txt')}`,
+    `${SITE.name}, ${SITE.city} merkezli, Yanar Şömine destekli bir editoryal yayındır. Yazılar Türkçedir. Her yazının temiz Markdown sürümü, adresinin sonuna \`.md\` eklenerek alınabilir. Tüm yazıların tam metni: ${abs('/llms-full.txt')}`,
     '',
   ];
   for (const c of CATEGORIES) {

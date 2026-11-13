@@ -8,11 +8,9 @@ export const SITE = {
   author: 'Şömine Rehberi editör ekibi',
   email: 'info@sominerehberi.com',
   city: 'İstanbul',
-  socials: [
-    { name: 'Pinterest', label: "Pinterest'te takip et", href: 'https://pinterest.com/' },
-    { name: 'Instagram', label: "Instagram'da takip et", href: 'https://instagram.com/' },
-    { name: 'TikTok', label: "TikTok'ta takip et", href: 'https://tiktok.com/' },
-  ],
+  // Gerçek hesap açılınca buraya ekle: { name: 'Instagram', label: "Instagram'da takip et", href: 'https://instagram.com/<hesap>' }
+  // Boş platform ana sayfası (https://instagram.com/) koyma — şemada sahte sameAs sinyali olur.
+  socials: [] as { name: string; label: string; href: string }[],
 } as const;
 
 // Kategori yapısı. `parent` olanlar alt kategoridir (adres: /kategori/<parent>/<slug>).

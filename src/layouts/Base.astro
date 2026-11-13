@@ -34,7 +34,7 @@ const baseLd = [
     logo: new URL('/android-chrome-512x512.png', SITE.url).href,
     email: SITE.email,
     description: SITE.description,
-    sameAs: SITE.socials.map((s) => s.href),
+    ...(SITE.socials.length ? { sameAs: SITE.socials.map((s) => s.href) } : {}),
   },
   {
     '@context': 'https://schema.org',

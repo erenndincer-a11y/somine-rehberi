@@ -96,6 +96,11 @@ export const CATEGORIES: Category[] = [
     description: 'Duman, baca çekmemesi, cam kararması, ısıtmama: belirtilerden nedenine, evde güvenle yapılacaklardan kalıcı çözüme.',
   },
   {
+    slug: 'en-iyiler',
+    name: 'En İyiler',
+    description: 'Şömine tipleri, kullanım durumları ve bölgelere göre öne çıkan seçenekler: kriterleri açık, dürüst listeler.',
+  },
+  {
     slug: 'barbeku',
     name: 'Barbekü',
     description: 'Bahçe ve teras için bağımsız barbekü üniteleri: taş, tuğla ve metal gövdeli modeller.',

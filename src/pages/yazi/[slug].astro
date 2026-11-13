@@ -78,6 +78,24 @@ const jsonLd = [
         },
       ]
     : []),
+  ...(data.listItems.length > 1
+    ? [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'ItemList',
+          name: data.title,
+          description: data.verdict ?? data.description,
+          numberOfItems: data.listItems.length,
+          itemListElement: data.listItems.map((it, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            item: it.kind === 'firma'
+              ? { '@type': 'Organization', name: it.name, ...(it.url ? { url: it.url } : {}) }
+              : { '@type': 'Thing', name: it.name, ...(it.url ? { url: it.url } : {}) },
+          })),
+        },
+      ]
+    : []),
   ...(data.faq.length
     ? [
         {

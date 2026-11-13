@@ -30,6 +30,10 @@ const yazilar = defineCollection({
       .default([]),
     specs: z.array(z.object({ label: z.string(), values: z.array(z.string()) })).default([]),
     verdict: z.string().optional(),
+    // "En iyiler" listeleri: sıralı seçenekler (tip) ya da firmalar → ItemList şeması
+    listItems: z
+      .array(z.object({ name: z.string(), url: z.string().url().optional(), kind: z.enum(['tip', 'firma']).default('tip') }))
+      .default([]),
     featured: z.boolean().default(false),
     draft: z.boolean().default(false),
   }),

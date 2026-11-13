@@ -1,0 +1,112 @@
+{
+ "meta": {
+  "title": "Modern Şömine mi, U Tipi Modern Şömine mi? Farklar ve Karar Rehberi | Yanar Şömine",
+  "description": "Modern şömine ile U tipi modern şömine arasındaki temel farklar: hazne yapısı, baca gereksinimi, tasarım ve mekân uyumu. Karar vermeden önce oku.",
+  "keyPoints": [
+   "Modern şömine düz cephe düzeniyle çalışırken, U tipi modern şömine haznesi üç yönden — ön, sol ve sağ — görünür alan üretir; bu tek fark iki tipin tüm uygulama mantığını değiştirir.",
+   "U tipi haznede yan açılım baca bağlantısını ve kurulum geometrisini doğrudan etkiler; bu nedenle mekânı ölçmeden ve bacayı incelemeden model seçme.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipte de standart katalog ürünü satmaz; ölçü, malzeme ve hazne seçimi projeye göre belirlenir.",
+   "1986'dan bu yana uygulama dahil tüm süreci kendi ekibiyle yürüten Yanar Şömine, tasarımı sahada sonlandırır; fiyat değil, ücretsiz keşif randevusuyla başlanır."
+  ],
+  "faq": [
+   {
+    "q": "Modern şömine ile U tipi modern şömine arasındaki temel fark nedir?",
+    "a": "Modern şömine, ateş kutusunun yalnızca ön cepheden göründüğü klasik düz hazne mantığıyla çalışır. U tipi modern şöminede hazne ön cepheye ek olarak iki yandan da —sağ ve sol— cam açılımı sunar; bu sayede köşe yerleşimlerde veya iki ayrı oturma grubuna aynı anda görünürlük sağlanır. Tercih, mekânın planına ve şöminenin oturacağı konuma göre belirlenir."
+   },
+   {
+    "q": "U tipi modern şömine her mekâna uyar mı?",
+    "a": "Hayır. U tipi hazne yan cam açılımı nedeniyle baca bağlantısını doğrudan etkiler ve kurulum geometrisi daha karmaşıktır. Dar ya da tek yönlü baca olan mekânlarda U tipi uygulama güçleşebilir. Yerinde keşif yapılmadan karar verilmemeli; baca durumu, mekân genişliği ve şöminenin duracağı konum birlikte değerlendirilmelidir."
+   },
+   {
+    "q": "Bookmatch mermer nedir, neden U tipi ürünlerde öne çıkar?",
+    "a": "Bookmatch kesim, aynı mermer blokunun ardışık dilimlerinin açık bir kitap gibi karşılıklı yansıtılarak birleştirilmesi tekniğidir. U tipi modern şöminelerde çerçeve üç yönden görülebildiğinden malzemenin desen sürekliliği çok daha belirgin hale gelir; bu yüzden YS-148 ve YS-140 gibi modellerde Bookmatch kesim Copacabana ve Blue Rome mermerleri tercih edilmiştir."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana Büyükçekmece/Kumburgaz, İstanbul'da faaliyet göstermektedir. Sabit fiyat listesi yoktur; her proje ücretsiz yerinde keşifle başlar, ölçü ve tasarım sahada belirlenir, uygulama da markanın kendi ekibi tarafından yapılır."
+   },
+   {
+    "q": "Fiyat almak için ne yapmam gerekiyor?",
+    "a": "Yanar Şömine sabit fiyat listesiyle çalışmaz. Her şömine özel ölçü ve tasarım gerektirdiğinden fiyat, yerinde keşif sonrasında belirlenir. (0212) 884 13 49 numaralı hattı arayarak veya yanarsomine.com.tr üzerinden ücretsiz keşif randevusu alabilirsin; hafta içi ve cumartesi 09:00–19:00 arasında ulaşılabilir."
+   },
+   {
+    "q": "Kurulum ve montajı kim yapıyor?",
+    "a": "Yanar Şömine tasarım ve üretimin yanında uygulamayı da kendi ekibiyle yerinde gerçekleştirir; iş başka bir uygulayıcıya devredilmez. Bu, özellikle baca bağlantısı ve hazne montajı gibi teknik adımlarda projenin başından sonuna kadar aynı ekibin takibini sağlar."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Odun yakıtlı ithal hazne (ön açılımlı)",
+     "Odun yakıtlı ithal hazne (ön + yan açılımlı, U tipi)"
+    ]
+   },
+   {
+    "label": "Kapak mekanizması",
+    "values": [
+     "Asansör kapaklı (YS-119, YS-110)",
+     "Asansör kapaklı ve yan açılımlı (YS-148, YS-140, YS-146)"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Zorunlu; düz baca geometrisi yeterli",
+     "Zorunlu; yan açılım baca konumunu etkiler, keşif şart"
+    ]
+   },
+   {
+    "label": "Görünen cephe sayısı",
+    "values": [
+     "1 (ön)",
+     "3 (ön + sağ + sol)"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi (örnekler)",
+    "values": [
+     "Grigio Versaluas mermer, Siyah Star Galaxy Granit",
+     "Copacabana, Blue Rome, Alexander Black mermer (Bookmatch kesim)"
+    ]
+   },
+   {
+    "label": "Uygun mekân tipi",
+    "values": [
+     "Düz duvara yaslanacak yerleşimler, her ölçekte oda",
+     "Köşe konumlar, açık plan, iki yönlü oturma düzeni"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Yanar Şömine kendi ekibiyle yapar",
+     "Yanar Şömine kendi ekibiyle yapar"
+    ]
+   },
+   {
+    "label": "Temel işlev",
+    "values": [
+     "Isıtma + atmosfer",
+     "Atmosfer ağırlıklı + ısıtma"
+    ]
+   },
+   {
+    "label": "Fiyatlandırma",
+    "values": [
+     "Özel ölçü, teklif usulü",
+     "Özel ölçü, teklif usulü"
+    ]
+   }
+  ],
+  "verdict": "Şöminenin düz bir duvara yaslanacağı, tek yönlü bir oturma grubuna hitap edeceği ve baca geometrisinin standart olduğu mekânlarda modern şömine hem kurulum hem tasarım açısından daha az kısıt üretir. Köşe yerleşim, açık plan veya iki ayrı oturma grubunu aynı anda kapsama ihtiyacı varsa U tipi modern şömine doğru seçimdir; ancak bu karar mutlaka baca kontrolü ve yerinde ölçümle desteklenmelidir.",
+  "bestForA": "Modern şömine, düz duvara yaslanacak, tek cepheden izlenecek ve standart baca geometrisine sahip her ölçekteki mekân için uygundur.",
+  "bestForB": "U tipi modern şömine, köşe konumlarda ya da iki yönden izlenmesi gereken açık planlı büyük yaşam alanları için tercih edilmelidir.",
+  "heroA": "YS-110",
+  "heroB": "YS-148",
+  "imageSceneA": "A wide contemporary living room at dusk, warm firelight glowing from a sleek wall-mounted modern fireplace clad in Grigio Versaluas marble, minimalist furniture in muted greys, soft ambient lighting from recessed ceiling fixtures, no people.",
+  "imageSceneB": "An open-plan luxury living area at night, a U-type modern fireplace with Bookmatch Copacabana marble surround burning steadily in a corner, visible from two seating zones, dark herringbone floor, low pendant lights casting warm pools of light, no people.",
+  "imageAlt": "Sol tarafta düz cepheli modern şömine, sağ tarafta üç yönlü cam açılımlı U tipi modern şömine; iki model yan yana karşılaştırmalı yerleşim."
+ },
+ "body": "İkisi arasındaki tek belirleyici fark haznedir: modern şömine ateşi yalnızca önden gösterirken, U tipi modern şömine aynı ateşi ön cepheye ek olarak sağdan ve soldan da sunar.\n\nBu tek cümle çoğu soruyu yanıtlar. Ama kararı doğru vermek için hazneden çok daha fazlasına bakmak gerekiyor: baca geometrisi, mekân planı, oturma düzeni ve kurulum süreci. Aşağıda her eksen ayrı ele alındı.\n\n## İki Tipin Tanımı ve Temel Farkı\n\n[Modern şömineler](https://www.yanarsomine.com.tr/urun-kategori/somineler/modern-somineler/), ateş kutusunun yalnızca ön cepheden göründüğü, düz ve simetrik bir tasarım diliyle çalışır. Hazne tek yönlü açılım üretir; bu, mekânda bir odak noktası kurar ve şöminenin duracağı duvara bağımlı bir yerleşim anlamına gelir.\n\n[U tipi modern şömineler](https://www.yanarsomine.com.tr/urun-kategori/somineler/u-tipi-modern-somine/) ise haznesi üç yönden cam açılımı sunar: ön, sağ ve sol. \"U\" adı, bu üç yönlü görünürlük geometrisinden gelir. Aynı ateş iki ayrı oturma grubuna veya farklı açılardan bakıldığında sürekli görünür kalır.\n\nTasarım dili her iki tipte de modern olmaya devam eder. Fark estetik değil, işlevsel. Şöminenin mekânda nasıl konumlanacağı ve kaç yönden izleneceği sorusu bu iki tip arasındaki sınırı çizer. Mekânını, mobilya düzenini ve duvarlarını net bilmeden bu soruya cevap veremezsin; bu yüzden model seçiminden önce planı masaya yat.\n\nBir diğer pratik ayrım şudur: modern şömine, yapısal olarak daha az kısıt ürettiği için projenin ilerleyen aşamalarında malzeme ve boyut revizyonuna daha açıktır. U tipi modern şöminede ise yan açılımın sabitlediği geometri, tasarımın erken aşamasında kilitlenir; değişiklik alanı daraldıkça maliyet ve zaman etkisi büyür. Bu nedenle kararını keşiften önce değil, keşif sırasında ver.\n\n## Hazne Yapısı ve Baca Gereksinimi\n\nModern şöminelerde hazne düz ön açılımlıdır. [YS-104](https://www.yanarsomine.com.tr/urun/ys-104/) modelinde Nordflam marka Atina model 70 cm ithal hazne kullanılmış; [YS-110](https://www.yanarsomine.com.tr/urun/ys-110/) ve [YS-119](https://www.yanarsomine.com.tr/urun/ys-119/) modellerinde ise 100 cm çift taraflı, asansör kapaklı ithal hazne tercih edilmiş. Dikkat: buradaki \"çift taraflı\" ifadesi hazne içindeki kapak mekanizmasını tanımlar, U tipi gibi yan cam açılımı anlamına gelmez.\n\nU tipi modern şöminelerde hazne hem asansör kapaklı hem de yan açılımlıdır. [YS-148](https://www.yanarsomine.com.tr/urun/ys-148/) ve [YS-140](https://www.yanarsomine.com.tr/urun/ys-140/) modellerinde 100 cm genişliğinde U tipi ithal hazne, [YS-146](https://www.yanarsomine.com.tr/urun/ys-146/) modelinde ise 90 cm genişliğinde EPI model ithal hazne kullanılmış.\n\nHer iki tip de baca bağlantısı zorunlu olan odun yakıtlı şöminelerdir. Ancak U tipi haznede yan cam açılımı baca bağlantısının konumunu ve açısını doğrudan etkiler. Standart düz baca geometrisiyle çalışan bir mekânda bu durum ek kısıtlar getirebilir. Bacayı önce kontrol et; U tipi değerlendiriyorsan mevcut baca durumunu yerinde incelemeyi atla.\n\nHazne genişliği de burada ayrı bir değişken olarak devreye girer. YS-104'te 70 cm'lik hazne daha kompakt mekânlara uyarken, YS-110 ve YS-119'daki 100 cm'lik hazne daha geniş bir ısıtma ve görünürlük alanı üretir. U tipi tarafında YS-146'nın 90 cm EPI model haznesi ile YS-148 ve YS-140'ın 100 cm haznesi arasındaki bu fark, mekânın genişliğiyle doğrudan ilişkilidir. Küçük bir alana büyük hazne yerleştirmek ne kadar yanlışsa, büyük bir mekâna yetersiz hazne seçmek de o kadar sorunludur. Hazne boyutunu oda metrekaresiyle değil, şöminenin oturacağı duvar veya köşe uzunluğuyla kurgula.\n\n## Tasarım Dili ve Kaplama Malzemeleri\n\nModern şöminelerde malzeme seçimi genellikle düz yüzeyin sadeliğini destekler. YS-110 ve YS-119 modellerinde Grigio Versaluas mermer, YS-104 modelinde Siyah Star Galaxy Granit kullanılmış. Bu malzemeler büyük yüzey alanında homojen bir görünüm sağlar; tek cephe görünürlüğünde malzemenin sürekliliği daha az kritik hale gelir.\n\nU tipi modern şöminelerde tablo farklıdır. Çerçeve üç yönden görülebildiğinden malzemenin desen sürekliliği ve yüzey kalitesi çok daha belirleyicidir. Bu yüzden YS-148'de Copacabana, YS-140'ta Blue Rome ve YS-146'da Alexander Black mermerler Bookmatch kesim tekniğiyle uygulanmış. Bookmatch; aynı bloktan ardışık dilimlerin karşılıklı yansıtılarak birleştirildiği, desen simetrisini garanti altına alan bir kesim yöntemidir.\n\nMalzeme farkını gözle ölçmek zordur ama etkisi sahada belirgindir. Üç yönden bakıldığında bir mermer yüzeyin desen sürekliliği kopuksa bütün tasarım dengesi bozulur. U tipi bir şömine düşünüyorsan kaplama malzemesini katalogdan değil, örnekler üzerinden değerlendir.\n\nMalzeme seçimi aynı zamanda mekânın genel renk ve doku kurgusunu etkiler. Grigio Versaluas mermerin soğuk gri tonu nötr ve minimalist iç mekânlarla uyum sağlarken, Siyah Star Galaxy Granitin parıltılı yüzeyi kontrast arayan tasarımlara cevap verir. U tipi tarafında Blue Rome mermerin damarları, Copacabana mermerin bej-gri geçişleri ve Alexander Black mermerin derin koyu tonu üç farklı atmosfer kurar. Malzemeyi yalnızca şömineden değil, zeminden, duvar kaplamasından ve mobilyadan bütün olarak düşün. Birbirleriyle çakışan iki güçlü desen, ayrı ayrı başarılı bile olsa bir arada huzursuzluk yaratır.\n\n## Mekân ve Ölçü Uyumu\n\nModern şömine, düz duvara yaslanan ve tek yönlü bir odak noktası kuran her mekânda çalışır. Küçük oturma odaları, yatay dikdörtgen planlar, belirli bir duvara yönlenmiş oturma grupları bu tipin doğal zeminidir. Mekân genişledikçe şöminenin boyutu da özel ölçüyle büyüyebilir; Yanar Şömine uygulama yapan şömine markası olarak standart bir genişlik dayatmaz.\n\nU tipi modern şömine, açık plan mekânların ve köşe yerleşimlerin mantığına uyar. İki ayrı oturma grubunu tek bir şömineden besleme ihtiyacı, L veya U şeklinde mobilya düzeni, ya da şöminenin bir köşede durarak her iki kola görünür kalması gerektiği durumlar bu tipin güçlü alanıdır.\n\nÖlçüyü atlamadan karar verme. U tipi haznede yan açılım, her iki yanda yeterli boşluk gerektir; duvarlar veya mobilyalar bu boşluğu kesiyorsa tasarım işe yaramaz. Mekânı ölçmeden model seçme — bu kural her şömine tipi için geçerlidir ama U tipi için özellikle kritiktir.\n\nYükseklik de göz ardı edilen bir parametredir. Şöminenin toplam yüksekliği — hazne alt kotu dahil — tavan yüksekliğiyle orantılı olmalıdır. Özellikle U tipi modern şöminelerde yan açılım, zemin kotundan itibaren cam görünürlüğünü etkiler; oturma pozisyonundaki bir kişinin yan camı rahat görebilmesi için haznenin zemine olan mesafesi tasarım aşamasında netleştirilmelidir. Modern şöminede bu mesafe daha esnek kurgulanabilir. Her iki tipte de Yanar Şömine uygulama yapan şömine markasının keşif süreci bu yükseklik ve kotta hesabı sahada doğrular; standart bir yükseklik dayatılmaz, mekânın oranlarına göre proje kurulur.\n\n## Kurulum ve Uygulama Süreci\n\nModern şöminede kurulum geometrisi görece doğrusaldır. Hazne duvara yerleşir, baca bağlantısı yapılır, kaplama uygulanır. Baca mevcut ve uygunsa süreç standart bir çizgide ilerler.\n\nU tipi modern şöminede baca bağlantısı ve köşe yerleşim birlikte değerlendirilmek zorundadır. Yan açılım nedeniyle hazneni üç yüzü açık kalmak zorunda; bu durum yapı ile hazne arasındaki boşluk ve baca çıkış açısını doğrudan belirler. Yanlış hesaplanan bir kurulum hem verim kaybına hem de kaplama sorunlarına yol açar.\n\nYanar Şömine uygulama yapan şömine markası olarak bu süreci baştan sona kendi ekibiyle yürütür. Tasarım, üretim ve uygulama aynı ekibin elinde kalır; iş başka bir uygulayıcıya devredilmez. Bu, U tipi gibi teknik detayın kritik olduğu projelerde süreci çok daha öngörülebilir hale getirir. Kurulumu ayrı bir müteahhide bıraktığında tasarımda hesaplanan geometriyle sahada çıkan geometri çakışmayabilir.\n\nÜcretsiz keşif hizmetinden önce baca durumunu ve mekân planını hazırla; sahada zaman kazanırsın.\n\n## Kullanım ve Bakım\n\nHer iki tip de odun yakıtlıdır ve gündelik kullanım alışkanlıkları benzerdir: kuru yakacak odun, düzenli baca temizliği, haznede birikim kontrolü.\n\nModern şöminede temizlik tek cephe üzerinden yürütülür. Hazne kapağı açılır, kül alınır, cam temizlenir. Erişim görece kolaydır.\n\nU tipi modern şöminede cam yüzeyi üç yöne yayıldığından temizlik alanı genişler. Yan camların iç kısmına erişim hazneden sağlanır ama geometri standart bir şömineden daha fazla dikkat ister. Kaplama malzemesi de bu ayrımı etkiler: Bookmatch mermer yüzeyler standart cam ve mermer temizleyicileriyle bakımını sürdürebilir, ancak çizici ürünlerden kaçınmak gerekir.\n\nHer iki tipte de baca yılda en az bir kez profesyonel olarak temizletmek, hem verim hem güvenlik açısından zorunludur. Bu kuralı erteleme.\n\nUzun vadede düşündüğünde her iki tipin de baca bağlantısı nedeniyle kullanım dönemi bakımı benzer maliyetler gerektirir. Ancak U tipi haznede üç yönlü cam yüzeyi çok daha hızlı is ve duman izi biriktirir; bu yüzden kullanım sıklığı yüksek olan evlerde cam temizleme rutinini daha sık planlamak gerekir. Modern şöminede tek cephe camı daha az yüzey alanı sunduğundan bu döngü görece yavaştır. Yakacak odunun kalitesi her iki tipte de belirleyicidir: nem oranı yüksek odun, her iki tipte de cam yüzeyinde ve baca iç yüzeyinde kalıcı birikime yol açar. Kuru, meşe ya da kayın gibi sert ağaç türlerini tercih et.\n\n## Hangi Ev Tipine Hangisi Uyar\n\nModern şömine şu durumlarda doğru seçimdir: oturma odası dikdörtgen planlı ve belirli bir duvara yönlendirilmişse, oturma grubu tek yönlü bir odak noktasına bakıyorsa, baca mevcut ve standart geometrideyse, mekân kompakt ama şömine ölçeği büyük tutulacaksa. Şehir dairelerinden villa projelerine kadar geniş bir yelpazeye oturur.\n\nU tipi modern şömine şu durumlarda öne çıkar: şömine bir köşeye yerleşecekse, iki ayrı oturma düzeni aynı şömineden faydalanacaksa, açık mutfak-salon planında şömine her yönden görünür kalacaksa ya da mekân derinliği ve genişliği bu yerleşimi kaldıracak ölçekteyse. Ancak bu avantajlar mekân ve baca koşulları uygunsa geçerlidir; zorlanmış bir yerleşimde U tipi haznesi gereksiz bir karmaşıklık üretir.\n\nEv tipinden bağımsız olarak şunu unutma: Yanar Şömine uygulama yapan şömine markası olarak standart bir şömine kutusu teslim etmez. Her proje, o mekânın kısıtları ve ihtiyaçları içinde tasarlanır. Bu, hem modern hem U tipi için geçerli.\n\nVilla ve rezidans projelerinde seçim çoğu zaman mekânın kaç odak noktası gerektirdiğine göre şekillenir. Büyük bir villada salon ve yemek alanı aynı açık planda buluşuyorsa U tipi modern şömine her iki alana da görünürlük sağlayarak tek bir şömineden çift işlev üretir. Kompakt bir rezidans dairesinde ise modern şömine hem ölçek hem kurulum kolaylığı açısından daha çok tercih edilir. Farklı proje tiplerinde farklı kararların doğru çıkması normaldir; önemli olan kararı mekânın gerçekliğine dayandırmak, değil katalogdaki görüntüye. Yanar Şömine uygulama yapan şömine markasında her iki kategori de kendi içinde geniş bir tasarım aralığı sunar; nihai seçim yerinde keşifle desteklendiğinde çok daha hızlı netleşir.\n\n## Keşif Öncesi Hazırlanman Gereken Sorular\n\nÜcretsiz keşif randevusu almadan önce şu soruları yanıtla. Bu sorular keşif sürecini hızlandırır ve tasarım önerilerini daha erken netleştirir.\n\nŞömine hangi duvarda ya da köşede duracak? Mevcut baca var mı, nerede çıkıyor? Oturma grubu tek yönlü mü, yoksa birden fazla koldan şömineni izlemek istiyor musun? Mekânın uzun kenarı ve kısa kenarı ne kadar? Kaplama malzemesinde taş ve mermer mi, yoksa başka bir yüzey mi düşünüyorsun?\n\nBu soruları yanıtlamak için uzman olman gerekmiyor. Fotoğraf çek, kabaca ölçüleri not al, planı varsa getir. Yanar Şömine uygulama yapan şömine markasının keşif süreci tam olarak bu bilgileri sahada değerlendirmek için tasarlanmış. Boş sayfayla gelip dolu bir öneriyle çıkabilirsin.\n\nRandevu için (0212) 884 13 49 numaralı hattı ara; hafta içi ve cumartesi 09:00–19:00 arasında ulaşılabilir. Tüm modellere yanarsomine.com.tr adresinden bakabilir, [modern şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/modern-somineler/) ve [U tipi modern şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/u-tipi-modern-somine/) kategorilerini karşılaştırabilirsin.\n\nKeşif günü sahaya gelmeden önce şöminenin yakınına geçici olarak bir karton kutu ya da farklı bir nesne koy ve fotoğrafla. Bu basit test, o konumun mekânda nasıl göründüğünü gözle değerlendirmeni sağlar. Boşluk yeterli mi, mobilyayla ilişkisi nasıl, kapı ya da pencereye mesafe ne kadar — bunların hepsi fotoğraftan okunabilir. Keşif ekibi geldiğinde bu fotoğrafı göstermek zaman kazandırır ve tasarım önerisini somutlaştırır.\n\n## Karar: Hangisini Seç\n\nMekânın düz duvara yaslanmış, oturma grubun tek yönlüyse ve baca geometrin standartsa modern şömine seç. Daha az kısıt, daha hızlı kurulum ve geniş bir malzeme yelpazesi sunar.\n\nŞömine köşeye oturacaksa, iki yönlü bir mekânı kapsayacaksa ya da açık planlı büyük bir yaşam alanında olacaksa U tipi modern şömine üzerinde dur. Ama önce bacayı ve mekânı mutlaka yerinde değerlendir.\n\nİkisi arasında kararsız kalıyorsan bu kararı ekrana bakarak verme. Yanar Şömine uygulama yapan şömine markasının ücretsiz keşif hizmeti tam bu boşluğu doldurmak için var; mekânı gördükten sonra hangi haznin orada mantıklı olduğu çok daha net bir soru haline gelir."
+}

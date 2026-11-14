@@ -1,0 +1,112 @@
+{
+ "meta": {
+  "title": "Modern Şömine mi, Çift Taraflı Şömine mi? Kapsamlı Karşılaştırma",
+  "description": "Modern şömine ve çift taraflı şömine arasında karar veremiyorsanız bu rehber tam size göre. Mekân, baca, tasarım ve kurulum ekseninde karşılaştırın.",
+  "keyPoints": [
+   "Modern şömine tek bir mekâna odaklanırken çift taraflı şömine aynı anda iki ayrı mekânı ısıtır ve görsel olarak birbirine bağlar.",
+   "Çift taraflı şöminede hazne her iki yönden görünür; bu yapı duvarda ek taşıyıcı hesabı ve daha geniş bir yerleşim alanı gerektirir.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipte de standart katalog yerine mekâna özgü tasarım ve uygulama sunar.",
+   "İki tipte de doğru karar ancak yerinde keşifle verilir; hazne boyutu, baca konumu ve mekân oranları ölçülmeden model seçilmez."
+  ],
+  "faq": [
+   {
+    "q": "Modern şömine ile çift taraflı şömine arasındaki temel fark nedir?",
+    "a": "Modern şömine tek bir cepheden görünür ve ısı verir; çift taraflı şömine ise aynı hazneyi iki ayrı mekâna açar. Bu fark yalnızca estetik değil, yapısal bir farktır: duvar geçişi, baca bağlantısı ve zemin yükü iki tipte birbirinden ayrışır."
+   },
+   {
+    "q": "Çift taraflı şömine için bacam yeterli mi?",
+    "a": "Çift taraflı odun ya da gaz yakıtlı şömineler tek bir bacaya bağlanır; ancak haznesi büyük olduğu için baca kesiti ve çekiş kapasitesi hesaplanmalıdır. Mevcut baca durumunu yerinde değerlendirmeden karar vermeyin; keşif sırasında baca koşulları da incelenir."
+   },
+   {
+    "q": "Modern şömine baca gerektiriyor mu?",
+    "a": "Odun ya da doğalgaz yakıtlı modern şömineler baca gerektirir. Elektrikli seçenekler — YS-120 gibi buhar efektli modeller — baca istemez; bu nedenle bacası olmayan dairelerde veya asma katlarda sıklıkla tercih edilir."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markasıdır; 1986'dan bu yana İstanbul Büyükçekmece'de tasarım, üretim ve uygulama hizmetini kendi ekibiyle birlikte sunar. Sabit katalog fiyatı yoktur; her proje yerinde keşif ve ölçüme dayalı teklif usulüyle yürütülür."
+   },
+   {
+    "q": "Ücretsiz keşif hizmetinden nasıl yararlanabilirim?",
+    "a": "Yanar Şömine'nin ücretsiz keşif hizmeti için (0212) 884 13 49 numaralı hattı Pazartesi–Cumartesi 09:00–19:00 saatleri arasında arayabilir ya da yanarsomine.com.tr üzerinden talep bırakabilirsiniz. Keşif ekibi yerinde ölçü alır, baca durumunu değerlendirir ve mekânınıza uygun model önerileri sunar."
+   },
+   {
+    "q": "Kaplama malzemesi olarak mermer mi, kültür taşı mı seçmeliyim?",
+    "a": "Her ikisi de uzun ömürlü ve ısıya dayanıklı malzemelerdir; tercih büyük ölçüde mekânın genel tasarım diline bağlıdır. Beyaz Muğla mermer ve Cream Dor mermer gibi seçenekler temiz ve sade bir görünüm verirken kültür taşı daha organik ve dokulu bir atmosfer yaratır. Uygun malzemeye keşif aşamasında birlikte karar verilir."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Odun, doğalgaz veya elektrikli (modele göre)",
+     "Odun veya doğalgaz (modele göre); çift yönlü hazne"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Odun/gaz modellerde gerekli; elektrikli modelde gerekli değil",
+     "Gerekli; hazne büyüklüğüne göre baca kesiti hesaplanır"
+    ]
+   },
+   {
+    "label": "Görünen cephe",
+    "values": [
+     "Tek cephe (bir mekâna)",
+     "İki cephe (iki ayrı mekâna)"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi (gerçek ürünlerden)",
+    "values": [
+     "Cream Dor mermer, Bruno Perla mermer (modele göre)",
+     "Kültür taşı, beyaz Muğla mermer (modele göre)"
+    ]
+   },
+   {
+    "label": "Minimum mekân gereksinimi",
+    "values": [
+     "Tek odaya yeterli; daha küçük alanlara uygulanabilir",
+     "İki bitişik mekân; duvar geçişi ve ek yapısal alan gerekir"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Yanar Şömine ekibiyle yerinde uygulama",
+     "Yanar Şömine ekibiyle yerinde uygulama; ek yapısal hesap gerektirebilir"
+    ]
+   },
+   {
+    "label": "Isıtma mı, atmosfer mi?",
+    "values": [
+     "İkisi de; elektrikli modellerde ağırlıklı atmosfer",
+     "İkisi de; iki mekânı aynı anda etkiler"
+    ]
+   },
+   {
+    "label": "Bakım",
+    "values": [
+     "Yılda bir baca temizliği (odun/gaz); elektrikli bakımı minimal",
+     "Yılda bir baca temizliği; hazne erişim noktaları iki yönden kontrol edilmeli"
+    ]
+   },
+   {
+    "label": "Özel ölçü / teklif usulü",
+    "values": [
+     "Evet; sabit fiyat yoktur",
+     "Evet; sabit fiyat yoktur"
+    ]
+   }
+  ],
+  "verdict": "Tek bir salonu veya oturma alanını şöminesiyle tamamlamak isteyenler için modern şömine daha az yapısal müdahale ve daha geniş tasarım çeşitliliği sunar. Salon ile yemek odası, mutfak ya da koridor gibi iki ayrı mekânı hem ısıtmak hem de görsel olarak birbirine bağlamak isteyenler için çift taraflı şömine doğru seçimdir. Her iki kararın da sağlıklı verilmesi için mekân ölçüsü, baca durumu ve yapısal koşullar yerinde değerlendirilmelidir.",
+  "bestForA": "Tek bir mekâna odaklanmak isteyen, bacası sınırlı ya da elektrikli seçeneğe yönelen ve tasarımda daha fazla esneklik arayan ev sahipleri için.",
+  "bestForB": "İki bitişik mekânı tek bir şömineyle hem ısıtmak hem de birbirine bağlamak isteyen, yeterli baca kapasitesi ve duvar geçiş alanına sahip ev sahipleri için.",
+  "heroA": "YS-116",
+  "heroB": "YS-155",
+  "imageSceneA": "A minimalist living room with a wall-mounted modern fireplace featuring a Cream Dor marble surround, warm amber flames visible through the glass, soft evening light, neutral tones, no people.",
+  "imageSceneB": "An open-plan interior where a double-sided fireplace with natural stone cladding divides the living room and dining area, flames glowing from both sides, natural daylight with warm accents, no people.",
+  "imageAlt": "Solda mermer çerçeveli modern şömine, sağda kültür taşı kaplı çift taraflı şömine; ikisi yan yana karşılaştırmalı görünüm."
+ },
+ "body": "İkisi arasındaki fark yalnızca görünüm değil, mekânla kurduğunuz ilişkinin kendisidir.\n\nModern şömine bir duvara yaslanır, tek bir mekâna ısı ve görsellik verir. Çift taraflı şömine ise iki ayrı mekânı aynı anda etkiler; duvarın içinden geçen bir hazneyle hem salonu hem yemek odasını, hem koridor boşluğunu hem yatak odasını birbirine bağlar. Bu temel ayrımı anlamadan malzeme veya model seçmeye başlamayın; önce mekânınızın ne istediğini anlayın.\n\n## Tanım ve Temel Fark: Nerede Ayrışıyorlar?\n\nModern şömine, sade hatları ve sıfır süslemeyle günümüz mimarisine uyum sağlamak üzere tasarlanmış bir şömine tipidir. Alev yalnızca bir cepheden görünür; şömine bir duvara veya duvara gömülü bir nişe yerleştirilir. Tasarım baskın olduğunda mekânın odak noktası haline gelir, ancak mekânın sınırlarını aşmaz.\n\nÇift taraflı şömine farklı bir mimari önermedir. Hazne, iki ayrı cepheye açılır ve duvarın içine yerleştirilen bu yapı iki mekânı görsel olarak birbirine bağlar. Aynı alevi her iki taraftan izleyebilirsiniz. Bu nedenle çift taraflı şömine yalnızca bir ısıtıcı değil, mekânlar arası bir bölücü ve bağlayıcı elemandır.\n\nKarar vermeden önce şu soruyu sorun: Şöminenizin etki alanı tek bir oda mı, yoksa iki mekân arasında bir köprü mü? Cevap değişirse tercih de değişir.\n\nŞunu da aklınızda tutun: modern şömine, kategorisi içinde bile geniş bir yelpaze sunar. Odun yakıtlı geleneksel bir hazne seçebilir, elektrikli buhar efektli bir modele yönelebilir ya da farklı kapak mekanizmalarıyla mekânınıza özgü bir deneyim tasarlayabilirsiniz. Bu esneklik, modern şömine kategorisini hem ilk kez şömine yaptıracak ev sahipleri hem de belirli teknik gereksinimleri olan deneyimli kullanıcılar için uygun kılar. Çift taraflı şömine ise yapısı gereği daha spesifik bir ihtiyaca yanıt verir; bu ihtiyacınız varsa doğru tercih, yoksa modern şömine daha az yapısal müdahaleyle sonuca ulaştırır.\n\n## Hazne ve Yakıt: Teknik Altyapıyı Atlama\n\nModern şöminelerde hazne seçenekleri geniştir. [YS-116](https://www.yanarsomine.com.tr/urun/ys-116/), Nordflam Fobos 70 cm ithal haznesiyle odun yakıtlı çalışır. [YS-101](https://www.yanarsomine.com.tr/urun/ys-101/), 90 cm uzunluğunda asansör kapaklı bir ithal hazneyle büyük salonlara güçlü bir alev yansıması sunar. [YS-120](https://www.yanarsomine.com.tr/urun/ys-120/) ise farklı bir tercih: elektrikli, buhar efektli 3 boyutlu hazneyle baca gerektirmez. Bacası olmayan dairelerde ya da asma katlarda modern şömine bu sayede uygulanabilir hale gelir.\n\nÇift taraflı şöminelerde hazne, her iki cepheden de görünecek biçimde konumlandırılır. [YS-155](https://www.yanarsomine.com.tr/urun/ys-155/), 120 cm genişliğinde asansör kapaklı ve yan açılımlı ithal hazne kullanır. [YS-156](https://www.yanarsomine.com.tr/urun/ys-156/) ise 90 cm'lik versiyonla daha dar duvarlara uyum sağlar. [YS-154](https://www.yanarsomine.com.tr/urun/ys-154/) özel üretim çift taraflı hazneyle projeye özgü bir çözüm sunar.\n\nBaca durumunu keşiften önce kontrol edin. Çift taraflı şöminelerde hazneler büyük olduğundan baca kesiti ve çekiş kapasitesi hesaplanmalıdır. Mevcut baca yetersizse yeni bir baca hattı açılması gerekebilir; bu yapısal bir değişikliktir.\n\nHazne seçiminde kapasite kadar erişim kolaylığı da önemlidir. Odun yakıtlı modellerde kapak mekanizması günlük kullanımı doğrudan etkiler. YS-101 ve YS-155 gibi asansör kapaklı modeller, kapağı yukarı kaldırarak geniş bir açıklık sağlar; bu hem yakıt yüklemeyi hem de temizliği kolaylaştırır. YS-155 ve YS-156'daki yan açılım özelliği ise çift taraflı yapıda her iki cepheden müdahale imkânı tanır. Hazne kapak sistemini küçümsemeyin; yıllar içinde en çok kullandığınız mekanizma budur.\n\nElektrikli seçeneklerde teknik yapı tamamen farklıdır. YS-120'deki buhar efektli 3 boyutlu hazne, gerçek alev görüntüsüne yakın bir atmosfer yaratır ve nem üretmez; hem estetik hem kullanım konforu açısından tatmin edici bir çözümdür. Bu tip modeller özellikle kat kaloriferi kullanan yapılarda ya da bina yönetiminin baca değişikliğine izin vermediği konutlarda pratik bir alternatif sunar.\n\n## Tasarım ve Malzeme: Görünümün Ötesinde\n\nMalzeme seçimi şöminenin yaşam süresini ve bakım gereksinimini doğrudan etkiler. Modern şömine modellerinde Cream Dor mermer ve Bruno Perla mermer öne çıkıyor. YS-116'nın Cream Dor çerçevesi ve alt tablası temiz, nötr tonlarla çalışan salonlara kolayca entegre olur. YS-120'nin Bruno Perla mermer kaplaması ise siyah ile beyazın bir arada kullanıldığı minimal mekânlara hitap eder.\n\nÇift taraflı şömine modellerinde kültür taşı ve beyaz Muğla mermer ön planda. YS-155 ve YS-156'da şöminenin tamamı kültür taşıyla kaplanmış; bu tercih daha doğal, dokulu ve organik bir his yaratır. YS-154 ise beyaz Muğla mermerle sade ama güçlü bir görünüm sunar.\n\nŞunu aklınızda tutun: çift taraflı şöminede kaplama malzemesi her iki yönden görünecektir. İki mekânın tasarım dili birbirinden çok farklıysa bu bir çelişki yaratabilir. Mekânlarınızın renk ve doku bütünlüğünü değerlendirerek malzeme seçin. Yanar Şömine uygulama yapan şömine markası olarak bu kararı keşif aşamasında birlikte değerlendiriyor.\n\nMermer ve kültür taşı arasındaki seçim yalnızca estetik değil, uzun vadeli bir karardır. Mermer yüzeyler çizilmeye karşı dikkat gerektirir; özellikle yoğun kullanılan alt tablalarda günlük temasla yüzey mataları oluşabilir. Düzenli cilalama bu izleri büyük ölçüde giderir. Kültür taşı ise doğası gereği dokunulma izlerini daha az belli eder ve bakımı daha basittir; ancak derin çatlak oluşursa tek bir taşın değiştirilmesi marbleye kıyasla daha kolaydır. Malzeme seçimini yaşam tarzınıza da göre yapın.\n\nTasarım bütünlüğü açısından kaplama malzemesi şöminenin çevresindeki yüzeylerle de konuşmalıdır. Duvar boyası, zemin kaplaması ve mobilya renkleri bu seçimi etkiler. Cream Dor mermer açık renkli salonlarda neredeyse kaybolmadan mekânla bütünleşirken güçlü bir doku vurgusu istendiğinde kültür taşı daha baskın bir karakter yaratır. Yanar Şömine uygulama yapan şömine markası bu uyumu keşif aşamasında mekânın fotoğraf ve ölçümleriyle birlikte değerlendiriyor; standart bir katalog önerisiyle yetinmiyor.\n\n## Mekân ve Ölçü Uyumu: Önce Santimetreyi Konuşun\n\nModern şömine tek bir mekâna yerleştiği için daha dar alanlarda da uygulanabilir. Duvar boyu bir şömine nişi ya da duvara gömülü kompakt bir hazne, küçük salonlarda bile orantılı görünebilir. Ancak hazne genişliğiyle mekân oranının uyumuna dikkat edin; 90 cm'lik bir hazneyi 3 metrelik bir duvara yerleştirmek dengesiz bir görünüm yaratır.\n\nÇift taraflı şömine için alan hesabı daha kritiktir. İki mekânı ayıran ya da birleştiren bir duvar zorunludur; bu duvarın kalınlığı, hazneni derinliğini karşılayacak yapısal kapasitede olmalıdır. YS-155'in 120 cm genişliğindeki haznesi için özellikle duvar ve zemin taşıma kapasitesi incelenmelidir.\n\nMekânı ölçmeden model seçme. Bu iki tip arasındaki en sık yapılan hatalardan biridir: internette beğenilen bir modeli çizmeden siparişe geçmek. Yanar Şömine uygulama yapan şömine markası sıfatıyla her projeye yerinde ölçüm ve analiz ile başlar; bu nedenle ücretsiz keşif hizmeti yalnızca bir öneri değil, sürecin zorunlu ilk adımıdır.\n\nOran meselesi göründüğünden daha ince bir hesaptır. Şöminenin görsel ağırlığı yalnızca hazne genişliğiyle değil, kaplama yüksekliği ve çevre boşluklarıyla da şekillenir. Düşük tavanlı bir mekânda yüksek bir kaplama şömineni mekânı daraltır; yüksek tavanlı geniş salonlarda ise ince bir kaplama dengesiz kalır. Çift taraflı şöminelerde bu oran hesabı iki ayrı mekân için birden yapılmalıdır; iki oda farklı tavan yüksekliğine veya farklı ölçülere sahipse bu durum tasarım kararını karmaşıklaştırabilir.\n\nAyrıca yerleşim planını çizerken şöminenin önündeki serbest alanı da hesaba katın. Odun yakıtlı modellerde kapak açılım mesafesi, önde bir güvenlik bölgesi gerektirir; bu alana mobilya konumlandırmak hem güvenlik hem sigorta açısından sorun yaratabilir. Keşif sırasında şöminenin tam konumu ve önündeki serbest alan da tartışılır; bu detayı atlamayın.\n\n## Kurulum ve Uygulama Süreci: İşi Kimin Yaptığı Önemli\n\nHer iki şömine tipinde de kurulum sürecinin nasıl yönetildiği, sonucun kalitesini belirleyen en önemli faktörlerden biridir. Tasarım ne kadar iyi olursa olsun, uygulama zayıfsa hem estetik hem güvenlik sorunları ortaya çıkabilir.\n\nYanar Şömine uygulama yapan şömine markası olarak tasarım ve üretimle sınırlı kalmaz; kurulum ve montajı da kendi ekibiyle yerinde gerçekleştirir. İşi başka bir uygulayıcıya devretmez. Bu fark özellikle çift taraflı şöminelerde belirleyicidir: duvar geçişi, hazne yerleşimi ve iki cephe arasındaki dengeleme, uygulama ekibinin teknik bilgisini doğrudan gerektirir.\n\nModern şöminelerde kurulum görece daha basit bir süreçtir; bununla birlikte baca bağlantısı, sızdırmazlık ve kaplama kalemlerinin işçiliği titizlik ister. Elektrikli modellerde baca yoktur, bu nedenle kurulum daha kısa sürer. Her iki tipte de uygulama sürecini başlangıçta netleştirin; sahaya gelen ekibin kim olduğunu bilmek güvence açısından kritiktir.\n\n## Kullanım ve Bakım: Uzun Vadeli Hesap\n\nModern şöminede bakım yakıt tipine göre değişir. Odun ve doğalgaz modellerinde yılda bir baca temizliği önerilir; hazne içi de periyodik olarak kontrol edilmelidir. YS-120 gibi elektrikli modeller baca gerektirmediğinden bakımı minimuma iner; hazne bakımı üretici önerilerine göre yapılır.\n\nÇift taraflı şöminelerde ise bakım bir adım daha karmaşıktır. Hazne her iki yönden erişilebilir olduğu için kontrol noktaları ikidir. Baca temizliği yine yılda bir yapılmalıdır; büyük haznelerde iç yüzey temizliği için uygun erişim açıklığının keşif aşamasında planlanması gerekebilir.\n\nKullanım açısından da iki tip arasında pratik fark vardır. Çift taraflı şömine her iki mekân için de ısı üretir; ama bunu bilinçli kullanmak gerekir. İki mekândan birini sürekli kapalı tutuyorsanız çift taraflı yapının avantajı azalır. Modern şömine bu anlamda daha odaklanmış ve kontrol edilebilir bir kullanım sunar.\n\nMevsimsel kullanım alışkanlığı da bakım planını etkiler. Şöminenizi yalnızca kış aylarında kullanıyorsanız sezonu kapatmadan önce baca ağzına kapak takılması ve hazne içinin nemden arındırılması önerilir. Uzun süreli kullanılmayan bir bacada nem birikimi ve kuş ya da küçük hayvan girişi görülebilir; sezonu açarken her zaman bir kontrol yapın. Çift taraflı şöminelerde bu kontrolü her iki cephe için ayrı ayrı gerçekleştirin.\n\nKaplama malzemesinin bakımı da göz ardı edilmez. Mermer yüzeyler yılda bir kez taş bakım ürünleriyle korunabilir; bu hem leke tutmayı azaltır hem de parlaklığı korur. Kültür taşı yüzeyler ise yılda bir kez kuru fırçayla temizlenmesi yeterli olan, nispeten az bakım gerektiren malzemelerdir. Her iki malzemede de şömine yüzeyine deterjan bazlı temizleyici uygulamaktan kaçının.\n\n## Hangi Ev Tipine Hangisi Daha Uygun?\n\nModern şömine geniş bir kullanıcı profiline hitap eder. Kompakt dairelerden villa salonlarına, elektrikli bacasız çözümlerden güçlü odun hazne seçeneklerine kadar uzanan çeşitliliği bu tipi esnek kılar. Tek bir mekânı odak noktasıyla şekillendirmek isteyen, bacası olan ya da elektrikli tercihiyle bacasız çözüm arayan herkes için geçerli bir seçenektir.\n\nÇift taraflı şömine daha özgün bir mimari kararı temsil eder. Açık planlı yaşam alanlarında salon ile yemek odasını, mutfak adası ile oturma köşesini ya da iç bahçeye açılan cam cepheyi birbirine bağlamak için güçlü bir araçtır. Ev büyüklüğünden bağımsız olarak mimari gereksinim belirleyicidir: uygun bir duvar, doğru baca kapasitesi ve yapısal hesap varsa çift taraflı şömine olağanüstü sonuçlar verir.\n\nYanar Şömine uygulama yapan şömine markası bu iki tip dahil 13 farklı kategoride üretim yapıyor; L tipi, U tipi, askı ve rustik gibi alternatifleri de değerlendirmek isteyenler [modern şömineler](https://www.yanarsomine.com.tr/urun-kategori/somineler/modern-somineler/) ve [çift taraflı şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/cift-tarafli-somine/) kategori sayfalarından başlayabilir.\n\nYapı tipi de bu kararı etkiler. Yeni inşaat ya da renovasyon aşamasındaki konutlarda çift taraflı şömine için gerekli duvar boşluğu ve baca hattı en baştan planlanabilir; bu süreçte ekstra yapısal müdahale en aza iner. Tamamlanmış ve iskânlı bir yapıda ise çift taraflı şömine için duvar açma ve güçlendirme işleri gerekebilir; bu hem süreyi hem de uygulama kapsamını artırır. Modern şömine bu anlamda iskânlı konutlara daha kolay adapte olur.\n\nKiracı değil de mal sahibiyseniz ve uzun vadeli bir yatırım düşünüyorsanız çift taraflı şömine mülkün kullanım değerini ve mimari özgünlüğünü artıran kalıcı bir eleman olarak değerlendirilebilir. Ancak bu karar bina yönetiminin baca kullanım iznini ve yapı statik raporunu gerektirebildiğinden önceden araştırın. Yanar Şömine uygulama yapan şömine markası keşif sürecinde bu teknik gereksinimleri de masaya yatırarak projeye başlamadan önce net bir yol haritası çıkarıyor.\n\n## Karar: Hangisini Seçmelisiniz?\n\nTek bir mekân için derinlikli bir tasarım ve güçlü bir alev estetiği istiyorsanız modern şömine doğru yöndür. YS-116 gibi mermer çerçeveli odun yakıtlı bir model ya da YS-120 gibi bacasız elektrikli bir seçenek; mekânınıza göre tasarlanarak uygulanır.\n\nİki mekânı birbirine bağlamak, ortak bir alev etrafında iki ayrı deneyim yaratmak istiyorsanız çift taraflı şömine daha isabetli tercih olacaktır. YS-155'in 120 cm geniş haznesi veya YS-154'ün özel üretim haznesi, bu yapısal karara hazır mekânlar için güçlü birer örnek sunar.\n\nBacayı önce kontrol et. Mekânı ölçmeden model seçme. Ve iki seçenek arasında kararsız kalıyorsanız keşfe başvur. Yanar Şömine uygulama yapan şömine markasının ücretsiz keşif hizmetinde mekânınız yerinde ölçülür, baca durumunuz değerlendirilir ve size özel model önerileri sunulur. (0212) 884 13 49 numarasını Pazartesi–Cumartesi 09:00–19:00 saatleri arasında arayarak süreci başlatabilirsiniz.\n\nSon olarak şunu belirtin: şömine bir kez yapıldıktan sonra değiştirilmesi hem maliyetli hem zahmetlidir. Bu nedenle başlangıçta doğru soruları sormak, beğendiğiniz modeli hızla sipariş etmekten çok daha değerlidir. Mekânınızı görün, baca koşullarını anlayın, iki mekân mı tek mekân mı istediğinizi netleştirin ve ancak ondan sonra tasarım konuşmaya başlayın. Yanar Şömine uygulama yapan şömine markasının 1986'dan bu yana sürdürdüğü keşif ve teklif süreci tam olarak bu sıralamayı takip eder; sizi hızlı bir karar için değil, doğru bir karar için yönlendirir."
+}

@@ -1,0 +1,105 @@
+{
+ "meta": {
+  "title": "Modern Şömine mi, Dömi Klasik Şömine mi? Farklar, Uyum ve Karar Rehberi",
+  "description": "Modern ve dömi klasik şömine arasında kararsız mısınız? Malzeme, hazne, mekân uyumu ve kurulum farkları — karar vermeden önce okuyun.",
+  "keyPoints": [
+   "Modern şömine düz hatlar ve doğal taş-granit yüzeylerle minimal bir dil konuşurken, dömi klasik şömine sütun işleme ve mermer detaylarıyla dekoratif bir karakter taşır.",
+   "İki tip de odun yakıtlı hazne ve baca gerektirir; hazne genişliği ve hazne kapağı tipi projeye göre belirlenir.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipte de tasarım, üretim ve uygulamayı kendi ekibiyle yürütür; işi başka bir uygulayıcıya devretmez.",
+   "Ücretsiz keşif hizmetiyle yerinde ölçü ve öneri alarak doğru kararı vermek mümkündür; model seçimini keşiften önce kesinleştirmeyin."
+  ],
+  "faq": [
+   {
+    "q": "Modern şömine ile dömi klasik şömine arasındaki temel fark nedir?",
+    "a": "Modern şömine; düz, geometrik hatlar, granit veya doğal taş yüzeyler ve sade bir çerçeve anlayışıyla tanımlanır. Dömi klasik şömine ise sütun işleme, bombeli hazne nişi ve mermer kaplama gibi dekoratif unsurlarla daha belirgin bir karakter taşır. İkisi de odun yakıtlı hazne ve baca gerektirir; farkı yaratan esas unsur tasarım dilidir."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markası olarak 1986'dan beri İstanbul Büyükçekmece-Kumburgaz'da faaliyet göstermektedir. Tasarım, üretim ve kurulum süreçlerinin tamamını kendi ekibiyle yürütür; işi başka bir uygulayıcıya devretmez. Sabit fiyat listesi yoktur; her proje ücretsiz keşif ve teklif usulüyle değerlendirilir."
+   },
+   {
+    "q": "Hangi şömine tipi için bacaya ihtiyaç var?",
+    "a": "Hem modern hem dömi klasik şömineler odun yakıtlı hazne kullandığından bacaya ihtiyaç duyar. Bacası olmayan yapılarda projeye göre çözüm üretilip üretilemeyeceği yerinde keşif sırasında değerlendirilir; bu adımı atlamayın."
+   },
+   {
+    "q": "Ücretsiz keşif hizmeti nedir, nasıl yararlanılır?",
+    "a": "Yanar Şömine ekibi randevu bazında eve gelir, mekânı yerinde ölçer ve hem teknik hem estetik açıdan öneri sunar. Keşif ücretsizdir; bunun ardından projeye özel teklif hazırlanır. Randevu için (0212) 884 13 49 numaralı telefonu 09:00–19:00 saatleri arasında (Pazartesi–Cumartesi) arayabilirsiniz."
+   },
+   {
+    "q": "Dömi klasik şömine küçük bir salona uyar mı?",
+    "a": "Dömi klasik şömine sütun işleme ve mermer kaplama gibi hacimli detaylar içerdiğinden küçük mekânlarda baskın görünebilir. Ölçülendirme yerinde yapılmadan karar vermek doğru olmaz; keşif sırasında hem hazne boyutu hem kaplama genişliği mekânla birlikte değerlendirilir."
+   },
+   {
+    "q": "Şömine yalnızca ısıtma için mi kullanılır?",
+    "a": "Odun yakıtlı şömineler hem ısıtma hem atmosfer işlevi görür; modern hazne modelleri kapalı yanma sistemiyle ısı verimini artırır. Birincil amacınız ısıtmaksa hazne seçimi ön plana çıkar; atmosfer ve estetik öncelikliyse kaplama malzemesi ve çerçeve detayı daha belirleyici olur."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Odun yakıtlı ithal hazne (asansör kapaklı, modern)",
+     "Odun yakıtlı ithal hazne (bombeli veya düz, dömi klasik)"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Var — baca zorunlu",
+     "Var — baca zorunlu"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi",
+    "values": [
+     "Granit, Lime Stone, Sultan Grey Mermer, doğal taş",
+     "Ege Silver, Cream D'or Bej, Traverten, Olive Maron Mermer"
+    ]
+   },
+   {
+    "label": "Görünen cephe karakteri",
+    "values": [
+     "Düz hat, minimal çerçeve, geometrik yüzey",
+     "Sütun işleme, bombeli niş, dekoratif mermer detay"
+    ]
+   },
+   {
+    "label": "Uygun mekân",
+    "values": [
+     "Modern-minimalist ve çağdaş iç mimarili yaşam alanları",
+     "Klasiğe yakın, geniş ve yüksek tavanlı geleneksel yaşam alanları"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Yanar Şömine kendi ekibiyle yapar, dış uygulayıcı yok",
+     "Yanar Şömine kendi ekibiyle yapar, dış uygulayıcı yok"
+    ]
+   },
+   {
+    "label": "Bakım",
+    "values": [
+     "Yılda en az bir baca temizliği; hazne contası ve camı periyodik kontrol",
+     "Yılda en az bir baca temizliği; mermer yüzey ve hazne periyodik kontrol"
+    ]
+   },
+   {
+    "label": "Isıtma mı, atmosfer mi?",
+    "values": [
+     "İkisi birden; kapalı hazne ısı verimine katkı sağlar",
+     "İkisi birden; dekoratif kaplama atmosfer etkisini güçlendirir"
+    ]
+   }
+  ],
+  "verdict": "Mekânın mimari dili modern ya da minimalist çizgideyse, granit-doğal taş kaplama ve sade çerçeve yapısıyla modern şömine daha tutarlı bir bütün oluşturur. İç mekânda klasiğe yakın bir dil, yüksek tavan ve geniş bir salon duvarı varsa, dömi klasik şöminenin mermer ve sütun detayları bu boşluğu doğru doldurar. Her iki kararı da mekânı ölçmeden ve keşif yapmadan vermek risklidir; ücretsiz keşif hizmetini kullanarak seçimi yerinde netleştirin.",
+  "bestForA": "Modern şömine; minimalist, çizgisel iç mekânlara, açık plan yaşam alanlarına ve tasarımın arka planda kalmasını tercih eden ev sahiplerine uygundur.",
+  "bestForB": "Dömi klasik şömine; klasik mobilya ve dekorla döşenmiş, geniş ve yüksek tavanlı mekânlarda şömineyi odak noktası yapmak isteyen ev sahiplerine uygundur.",
+  "heroA": "YS-118",
+  "heroB": "YS-170",
+  "imageSceneA": "Wide modern living room with polished concrete floor, low-profile sofa in charcoal linen, floor-to-ceiling windows showing dusk light; a sleek Sultan Grey marble-framed fireplace with 120 cm wide firebox burns steadily, warm amber flames visible through the glass door, no people.",
+  "imageSceneB": "Traditional high-ceiling drawing room with oak parquet floor, deep cream walls, a heavy wool rug; an Ege Silver marble corner fireplace with carved column details and a domed firebox glowing with a wood fire, soft candlelight on the mantel, no people.",
+  "imageAlt": "Sol tarafta granit çerçeveli modern şömine, sağ tarafta sütun işlemeli Ege Silver mermerden dömi klasik şömine — iki tasarım dili yan yana."
+ },
+ "body": "İki tip arasındaki fark, zevk meselesi değil mekân meselesidir.\n\nModern şömine de dömi klasik şömine de odun yakıtlıdır, bacaya bağlanır ve Yanar Şömine uygulama yapan şömine markası tarafından yerinde tasarlanıp kurulur. Ama biri düz bir çizgiyle durur; öbürü mermer üzerine işlenmiş bir sütunla. Bu ayrım küçük görünür, oturma odanıza girdiğinizde küçük değildir.\n\nAşağıdaki karşılaştırmayı mekânınızın notlarıyla okuyun: tavan yüksekliği, duvar boşluğu, mobilya stili, bacanın yeri. Bunları elinizin altına almadan model seçmeyin.\n\n## Tanım ve Temel Fark: İki Tipi Birbirinden Ayıran Nedir?\n\nModern şömine; yatay ve dikey düzlemlerin kesiştiği geometrik bir kompozisyondur. Çerçeve profili incedir ya da neredeyse yoktur; malzeme yüzey üzerinde konuşur, süsleme konuşmaz. [YS-115](https://www.yanarsomine.com.tr/urun/ys-115/) modelinde Siyah Star Galaxy Granit çerçeve ve alt tabla, üst kaplama olarak antrasit kültür taşı kullanılmış. İki malzeme, iki ton; daha fazlası yok. Bu sadelik bir tercih değil, tasarım ilkesidir.\n\nDömi klasik şömine ise tanımı gereği dekoratif bir yapı taşır. \"Dömi\" (demi-classic) ifadesi tam klasiğin bir adım gerisinde durduğuna işaret eder: sütun detayı vardır ama barok ölçüde değil; mermer kaplama vardır ama tüm cepheyi kaplamaz. [YS-170](https://www.yanarsomine.com.tr/urun/ys-170/) modelinde Ege Silver Mermer üzerine sütun işleme ve köşe yerleşim detayı görülür. Bu bir çerçeve değil, bir mimari ifadedir.\n\nİkisi arasında seçim yaparken kendinize şunu sorun: Şömine odanın arka planında mı, yoksa odak noktasında mı durmalı? Cevabınız sizi doğrudan birine götürür.\n\nYanar Şömine uygulama yapan şömine markasının [modern şömine kategorisine](https://www.yanarsomine.com.tr/urun-kategori/somineler/modern-somineler/) baktığınızda ilk fark ettiğiniz şey, her modelin kendi mekânına göre biçimlendiğidir. Sabit bir çerçeve profili yoktur; granit mi, Lime Stone mu, Sultan Grey mi — bu kararlar mekânın rengi, ışığı ve mobilyasıyla birlikte verilir. Dömi klasik tarafında da aynı esneklik geçerlidir; sütun detayının ölçüsü, mermer rengi ve hazne nişinin derinliği projeye göre kurgulanır. Katalogdaki görseller birer başlangıç noktasıdır, son ürün değil.\n\n## Hazne ve Baca: Teknik Temel Her İki Tipte de Aynı\n\nHer iki şömine tipi de odun yakıtlı ithal hazne kullanır ve baca gerektirir. Bu ortak zemin üzerinde ayrışan şey hazne boyutu, kapak tipi ve haznenin çerçeve içindeki görsel konumlanmasıdır.\n\nModern şöminelerde hazne genellikle geniş tutulur ve tam cepheye açılır. [YS-118](https://www.yanarsomine.com.tr/urun/ys-118/) modelinde 120 cm uzunluğunda asansör kapaklı ithal hazne kullanılmış; bu ölçü panoramik bir alev görüntüsü sağlar ve büyük oturma alanlarında görseli güçlendirir. [YS-100](https://www.yanarsomine.com.tr/urun/ys-100/) modelinde ise Nordflam marka Atina model 70 cm hazne tercih edilmiş; kompakt ama performanslı bir çözüm.\n\nDömi klasik şöminelerde hazne seçimi de projeye ve mekâna göre değişir. [YS-179](https://www.yanarsomine.com.tr/urun/ys-179/) modelinde 70 cm genişliğinde düz hazneli, [YS-193](https://www.yanarsomine.com.tr/urun/ys-193/) ve [YS-170](https://www.yanarsomine.com.tr/urun/ys-170/) modellerinde ise 90 cm bombeli asansör kapaklı hazne kullanılmış. Bombeli hazne nişi, dömi klasik çerçevenin derinliğini vurgular ve ateşe üç boyutlu bir görünüm kazandırır.\n\nBacası olmayan bir yapıdaysanız bu adımı atlayıp model seçmeyin. Bacayı önce kontrol edin; ardından hazne boyutunu belirleyin.\n\nHazne seçimi yalnızca estetik bir tercih değildir; ısıtma kapasitesini de doğrudan etkiler. Geniş hazneler daha büyük odun kütükleri alır ve daha uzun yanma süresi sağlar. 120 cm hazneli bir model olan [YS-118](https://www.yanarsomine.com.tr/urun/ys-118/) geniş salonlarda hem görsel ağırlık hem ısı açısından güçlü bir seçenektir; buna karşın dar bir duvara yerleştirilmesi mekânla orantı sorununa yol açabilir. Hazne genişliğini duvar boşluğunuzla kıyaslamadan karar vermeyin. Benzer biçimde dömi klasik tarafındaki 90 cm bombeli hazneli modellerde haznenin derinliği, kaplama kalınlığı ve duvardan çıkma miktarı projeye göre hesaplanır; bu hesabı keşif öncesi tahminen yapmak doğru sonuç vermez.\n\n## Tasarım ve Malzeme: Yüzey Fark Yaratır\n\nModern şöminelerde malzeme seçimi kısıtlı değildir, ama dil tutarlıdır: sert yüzeyler, düşük rölyef, net geçişler. [YS-100](https://www.yanarsomine.com.tr/urun/ys-100/) modelinde dış çerçevede Lime Stone, iç çerçeve ve alt tablada Star Galaxy Siyah Granit bir arada kullanılmış. İki malzemenin dokusu ve tonu zıt tutuluyor; bu zıtlık rafine bir gerilim yaratıyor. [YS-118](https://www.yanarsomine.com.tr/urun/ys-118/) modelinde Sultan Grey Mermer iç çerçeve, üst kaplama olarak 2 mm kalınlığında ithal doğal taş tercih edilmiş: yüzey neredeyse çizgi gibi ince, gölge bırakmıyor.\n\nDömi klasik şöminelerde malzeme çok daha anlatıcıdır. [YS-179](https://www.yanarsomine.com.tr/urun/ys-179/) modelinde Cream D'or Bej Mermer ile Olive Maron Mermer karışık olarak kullanılmış; üst kaplama bej mermerde dekoratif bir katman eklemiş. Bu renk ve doku birlikteliği sıcak, geleneksel bir his üretir. [YS-193](https://www.yanarsomine.com.tr/urun/ys-193/) modelinde ise Traverten yüzey, siyah mermer detay ve üst kaplama bir arada gelir; köşe yerleşimi de görseli daha dramatik kılar.\n\nMalzeme seçimini mobilya ve zemin kaplamalarıyla birlikte değerlendirin. Parlak seramik zemin üzerinde Traverten kullanmak ya da koyu parke üstünde Cream D'or tercih etmek birbiriyle çelişen kararlar doğurabilir. Bu çakışmaları keşif aşamasında konuşun.\n\nMalzeme kombinasyonları sadece görsel değil, uzun vadeli bir karardır. Traverten gibi gözenekli yüzeyler zamanla daha fazla bakım gerektirebilir; granit yüzeyler ise çizilmeye ve lekeye karşı daha dirençlidir. Bu iki özelliği karşılaştırırken salonunuzun kullanım yoğunluğunu göz önünde bulundurun: çocuklı ya da evcil hayvanlı bir ev için yüzey dayanımı estetik kadar belirleyici olabilir. [Dömi klasik şömine kategorisinde](https://www.yanarsomine.com.tr/urun-kategori/somineler/domi-klasik-somine/) Cream D'or Bej ve Olive Maron gibi açık tonlu mermerler sıcak bir atmosfer kurar; ama bu yüzeylerin uzun süre güzel kalması düzenli bakıma bağlıdır.\n\n## Mekân ve Ölçü Uyumu: Boyut Her Şeydir\n\nMekânı ölçmeden model seçme. Bu kural iki tip için de geçerlidir, ama dömi klasik şöminede sonuçları daha belirgin olur.\n\nModern şömine düz hat ve ince profil nedeniyle küçük mekânlarda bile görsel yük oluşturmaz. Yatay çizgisi açık planlı alanlarda mekânı daraltmak yerine uzatır. Özellikle düşük tavanlı ya da dar duvarlı salonlarda modern şömine tutarlı bir seçimdir; kaplama genişliği mekânla orantılandığında şömine \"orada durduğunu\" hissettirmez.\n\nDömi klasik şöminede sütun detayı ve mermer kaplama üç boyutlu bir hacim yaratır. Bu hacim yüksek tavanlı ve geniş duvarlı mekânlarda tam oturur; oranlar tutunca yapı güçlü görünür. Aynı tasarım düşük tavanlı ve küçük bir salonda uygulandığında mekânı baskı altına alır. [YS-170](https://www.yanarsomine.com.tr/urun/ys-170/) modelinde köşe yerleşimi ve TV alt tablası uzatması bu konumlandırmanın avantajlarını gösterir: köşe şöminesi mekânın iki duvarını aynı anda değerlendirerek alan kazandırır.\n\nŞöminenin duracağı noktayı belirleyin, net ölçü alın, baca konumunu işaretleyin. Bunları yaptıktan sonra model tartışmaya başlayın.\n\nÖlçü yalnızca şöminenin duvar genişliğiyle ilgili değildir. Şöminenin çıkma derinliği, oturma grubunun konumunu ve trafik alanını doğrudan etkiler. Dömi klasik modellerde mermer kaplamanın ve sütun detaylarının yarattığı üç boyutlu hacim, mekânda 20–30 cm ek derinlik anlamına gelebilir; bunu mobilya yerleşimiyle çakıştırmamak gerekir. Modern şöminelerde bu çıkma genellikle daha sınırlı kalır ve oturma düzenini daha az kısıtlar. Duvar önünde kanepenizin ne kadar geriye çekileceğini, geçiş koridoru bırakıp bırakamayacağınızı henüz hesaplamadıysanız keşif randevusundan önce bu ölçüleri not alın; ekip yerinde değerlendirmeyi bu verilerle yapar.\n\n## Kurulum ve Uygulama Süreci: Sahada Ne Olur?\n\nYanar Şömine uygulama yapan şömine markası olarak tasarım ve üretimle sınırlı kalmaz; kurulumu da kendi ekibiyle yapar. Montaj başka bir uygulayıcıya devredilmez. Bu iki şömine tipi arasında değişmez; fark yaratan süreç değil, sürecin içeriğidir.\n\nModern şöminede uygulama genellikle daha kısa sürede tamamlanır. Düz kaplama yüzeyleri ve ince profil detayları montajda karmaşıklığı azaltır. Bununla birlikte haznenin duvar içine oturtulması ve baca bağlantısının yapılması her projeye özgüdür; \"kolay montaj\" diye bir genelleme yapmak doğru olmaz.\n\nDömi klasik şöminede sütun ve bombeli niş gibi üç boyutlu elemanlar yerleştirilir. Bu işlem daha uzun sürebilir; malzeme sırası ve yüzey bitişleri titizlik gerektirir. Özellikle köşe modellerde iki duvar açısını yakalamak ek hassasiyet ister.\n\nHer iki tipte de süreç ücretsiz keşifle başlar: ekip gelir, mekânı ölçer, baca durumunu inceler ve projeye özel bir öneri sunar. Teklif bu görüşmenin ardından hazırlanır. Randevu için 09:00–19:00 saatleri arasında (Pazartesi–Cumartesi) (0212) 884 13 49'u arayabilirsiniz.\n\n## Kullanım ve Bakım: Uzun Vadede Fark Var Mı?\n\nKullanım açısından iki tip arasında belirleyici bir fark yoktur: her ikisi de odun yakıtlıdır, haznesi kapalı sistemdir ve yılda en az bir kez baca temizliği gerektirir. Kullanıcı alışkanlıkları değişmez; yakacak kalitesi, ateşleme tekniği ve baca çekişi her iki tipte de belirleyicidir.\n\nBakımda küçük bir ayrışma malzeme yüzeyinde ortaya çıkar. Modern şöminelerde granit ve doğal taş yüzeyler oldukça dayanıklıdır; düzenli silme ve yılda bir koruyucu uygulama yeterlidir. Traverten ve bej mermer gibi gözenekli yüzeyler dömi klasik şöminelerde sıkça tercih edilir; bu malzemeler leke ve ısıya karşı daha dikkatli kullanım gerektirebilir. Yüzey koruma için uygun taş bakım ürünleri kullanılmalıdır.\n\nHazne bakımı her iki tipte de benzerdir: cam temizliği, conta kontrolü ve yanma kalitesi periyodik olarak izlenmelidir. Çatlak conta kullanıldığında hem verim düşer hem de güvenlik riski artar; yılda bir kontrol ihmal edilmemeli.\n\nYakacak seçimi her iki tipte de göz ardı edilemez. Reçineli ya da nemli odun yakıldığında baca duvarlarında katran birikimi hızlanır; bu durum baca temizlik sıklığını artırır ve uzun vadede hazne performansını düşürür. Kuru, sertağaç yakacak kullanmak hem hazne ömrünü uzatır hem de cam yüzeyin daha temiz kalmasını sağlar. Hazne camının kararmaya başlaması, yakacak kalitesinin ya da yanma ayarlarının gözden geçirilmesi gerektiğinin ilk işaretidir. Bu kural Yanar Şömine uygulama yapan şömine markasının tüm odun yakıtlı modelleri için geçerlidir; hazne markası veya modeli ne olursa olsun yakıt kalitesi önce gelir.\n\n## Hangi Ev Tipine Hangisi Daha Uygun?\n\nModern şömine, iç mimarinin çizgisel ve sade bir dil kurduğu yapılara uyar. Açık plan salonlar, beton-mermer zemin, düz kapak mutfaklar, geometrik mobilyalar modern şöminenin zaten içinde durduğu bir atmosfer üretir. Bu mekânlarda dömi klasik bir şömine her ne kadar güzel olsa da birbirleriyle konuşmak yerine birbirleriyle rekabet eden iki dil gibi görünür.\n\nDömi klasik şömine ise iç mekânda derinlik ve karakter arayan yapılara uygundur. Yüksek tavan, ahşap parke, derin renk duvar boyası, klasik veya transisyon mobilya gibi unsurlarla birlikte dömi klasik şömine mekânın odak noktasına oturur ve çevresindeki her şeyi tamamlar. Özellikle salon duvarında belirgin bir boşluk varsa ve bu boşluğu doldurmak isteniyorsa dömi klasik şöminenin mermer kaplama genişliği bu görevi üstlenir.\n\nStil kararınızı yalnızca görselle vermeyin. Yanar Şömine uygulama yapan şömine markası olduğu için her proje mekânın gerçekleriyle şekillenir; katalog görüntüsü yalnızca bir başlangıç noktasıdır. Ücretsiz keşif sırasında stiliniz, mekânınız ve teknik kısıtlarınız bir arada değerlendirilir.\n\nKombinleme kararlarında bir pratik kural: şöminenin kaplama malzemesini zeminle değil, en yakın büyük yüzeyle eşleştirin. Bu yüzey çoğunlukla TV ünitesi, kitaplık ya da karşı duvardaki kaplama olur. Modern şöminede antrasit kültür taşı veya koyu granit, açık renkli duvarlara ve beton görünümlü zeminlere güçlü bir karşıtlıkla oturur. Dömi klasik şöminede Cream D'or ya da Ege Silver gibi açık mermerler, ahşap parke zeminle uyum sağlar ve mekânı tek bir renk ailesinde toplar. Bu kombinlemeyi göz önünde canlandırmakta zorlanıyorsanız keşif sırasında mekânın fotoğraflarını hazır bulundurun; ekip bu karşılaştırmayı yerinde yapabilir.\n\n## Karar: Hangisi Sizin Şömineniz?\n\nYanar Şömine uygulama yapan şömine markasının 13 kategorisinde iki tip arasında kesin bir \"daha iyi\" yoktur. Doğru olan, mekânınıza oturandır.\n\nModern şömine seçin; eğer evinizin iç mimarisi minimalist ya da çağdaş bir çizgi taşıyorsa, duvar boşluğu görece sınırlıysa ve şöminenin arka planda ama güçlü bir şekilde durmasını istiyorsanız. [YS-118](https://www.yanarsomine.com.tr/urun/ys-118/) gibi geniş hazneli ve doğal taş kaplamalı bir model bu ihtiyacı en doğrudan karşılayan seçeneklerden biridir.\n\nDömi klasik şömine seçin; eğer salonunuz yüksek tavanlı ve geniş duvarlıysa, iç mekânda klasiğe yakın bir dil kurulmuşsa ve şömineyi salonun tanımlayıcı elemanı yapmak istiyorsanız. [YS-170](https://www.yanarsomine.com.tr/urun/ys-170/) modelindeki köşe yerleşimi ve TV tablası uzantısı gibi çözümler hem estetik hem işlevsel bir bütün sunar.\n\nHer iki durumda da süreç aynı noktadan başlar: ücretsiz keşif. Yanar Şömine uygulama yapan şömine markası yerinde ölçü alarak size bu iki tip arasında hangi modelin, hangi haznenin ve hangi kaplamanın uygun olduğunu gösterir. Tahminle değil, mekânın gerçekleriyle karar verin.\n\nKeşif randevusu için [yanarsomine.com.tr](https://www.yanarsomine.com.tr) adresini ziyaret edebilir ya da (0212) 884 13 49'u hafta içi ve Cumartesi 09:00–19:00 saatleri arasında arayabilirsiniz. [Modern şömine kategorisine](https://www.yanarsomine.com.tr/urun-kategori/somineler/modern-somineler/) ve [dömi klasik şömine kategorisine](https://www.yanarsomine.com.tr/urun-kategori/somineler/domi-klasik-somine/) göz atarak başlangıç noktanızı belirleyin; geri kalanını yerinde konuşalım."
+}

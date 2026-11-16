@@ -240,10 +240,22 @@ def display_strings(obj):
             yield from display_strings(v)
 
 
+def cached_prefix(messages):
+    """Prompt caching: ilk istem (kurallar + marka bilgisi + ürünler) düzeltme turlarında aynen tekrar
+    gönderilir. Sonuna önbellek işareti konur; sonraki turlar bu kısmı normal girdi fiyatının ~%10'una okur.
+    Yeni blog ajanlarında da bu fonksiyon korunmalı (bkz. hafıza: prompt caching kuralı)."""
+    first = dict(messages[0])
+    content = first["content"]
+    blocks = [{"type": "text", "text": content}] if isinstance(content, str) else [dict(b) for b in content]
+    blocks[-1] = {**blocks[-1], "cache_control": {"type": "ephemeral"}}
+    first["content"] = blocks
+    return [first] + list(messages[1:])
+
+
 def call_claude(messages):
     import anthropic
     client = anthropic.Anthropic(max_retries=6)
-    msg = client.messages.create(model=MODEL, max_tokens=16000, messages=messages)
+    msg = client.messages.create(model=MODEL, max_tokens=16000, messages=cached_prefix(messages))
     if msg.stop_reason == "max_tokens":
         log("::warning::Claude çıktısı max_tokens sınırında kesildi")
     return clean(msg.content[0].text)

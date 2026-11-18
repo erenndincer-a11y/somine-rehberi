@@ -1,0 +1,105 @@
+{
+ "meta": {
+  "title": "Modern Şömine mi Rustik Şömine mi? Karar Vermeden Önce Bilmeniz Gerekenler",
+  "description": "Modern ve rustik şömine arasında karar veremiyorsanız bu karşılaştırma tam size göre. Malzeme, baca, kurulum ve mekân uyumu ekseninde somut rehber.",
+  "keyPoints": [
+   "Modern şömine düz hatları ve granit-mermer kaplamasıyla minimal mekânlara uyarken, rustik şömine el oyması limra taşıyla geleneksel ve kırsal karaktere sahip mekânların tercihi olur.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipte de standart bir model sunmaz; ölçü, malzeme ve hazne seçimi projeye göre belirlenir.",
+   "Hazne boyutu ve baca durumu, estetik karardan önce gelir; mekânı ve teknik altyapıyı değerlendirmeden model seçmeyin.",
+   "Her iki tip de Yanar Şömine'nin kendi uygulama ekibiyle yerinde monte edilir; tasarım ve kurulum aynı ekipten çıkar."
+  ],
+  "faq": [
+   {
+    "q": "Modern şömine ile rustik şömine arasındaki temel fark nedir?",
+    "a": "Modern şömine, granit veya mermer gibi işlenmiş taş yüzeyler ve sade geometrik formlarla tanımlanır; rustik şömine ise limra taşından el oymasıyla üretilir, yüzeyde doku ve el izi belirgindir. Biri soğuk ve keskin, diğeri sıcak ve organik bir his verir."
+   },
+   {
+    "q": "Odunlu şömine için baca şart mı?",
+    "a": "Evet. Odun yakan her şömine tipi için —ister modern ister rustik olsun— işlevsel ve çekişli bir baca zorunludur. Baca durumunu keşif öncesinde kontrol edin; mevcut bacayı da mutlaka bir uzman değerlendirsin."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markasıdır; 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'da tasarım, üretim ve uygulama hizmetini kendi bünyesinde yürütür. Standart fiyat listesi yoktur; her proje için ücretsiz keşif ve ardından teklif sunulur."
+   },
+   {
+    "q": "Fiyat ne kadar?",
+    "a": "Yanar Şömine özel ölçü ve özel tasarım usulüyle çalıştığından sabit bir fiyat listesi yoktur. Proje maliyeti; mekân ölçüsüne, seçilen malzemeye, hazne modeline ve uygulamaya göre belirlenir. Kesin bilgi için ücretsiz keşif randevusu almanız gerekir."
+   },
+   {
+    "q": "Ücretsiz keşif hizmeti nasıl işliyor?",
+    "a": "Yanar Şömine ekibi, randevu sonrasında evinize gelerek mekânı yerinde ölçer, baca durumunu kontrol eder ve size uygun modeli önerir. Bu aşamada herhangi bir ücret alınmaz; teklif, keşiften sonra hazırlanır."
+   },
+   {
+    "q": "Aynı mekânda hem modern hem rustik şömine kullanılabilir mi?",
+    "a": "Teknik olarak mümkün olsa da iç mimaride tutarlılık açısından önerilmez. Mekânın genel dekor dili —mobilya, kaplama, renk paleti— şömine tipini belirleyen temel referanstır. Kararsızlık durumunda keşif sırasında Şömine İç Mimarı Emre İpkin'den ön değerlendirme isteyin."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Odunlu veya doğal gazlı hazne (projeye göre)",
+     "Odunlu veya elektrikli hazne (projeye göre)"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Odunlu haznede zorunlu; doğal gazlı haznede bağımsız baca hattı gerekir",
+     "Odunlu haznede zorunlu; elektrikli modelde baca gerekmez"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi",
+    "values": [
+     "Star Galaxy Siyah Granit, Lime Stone, Sultan Grey Mermer, ithal doğal taş",
+     "Limra taşı (el oyması); yüzey dokusu elle şekillendirilir"
+    ]
+   },
+   {
+    "label": "Görünen cephe",
+    "values": [
+     "Düz, geometrik; keskin hatlar, parlak veya mat taş yüzey",
+     "El oymalı, organik form; taş dokusu ve kabartma detay belirgin"
+    ]
+   },
+   {
+    "label": "Uygun mekân",
+    "values": [
+     "Minimal, modern veya endüstriyel iç mimarilere sahip konutlar",
+     "Kırsal, geleneksel, Akdeniz veya rustik dekorlu konutlar ve bahçe yapıları"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Yanar Şömine kendi ekibiyle yerinde uygular",
+     "Yanar Şömine kendi ekibiyle yerinde uygular"
+    ]
+   },
+   {
+    "label": "Bakım periyodu",
+    "values": [
+     "Baca temizliği yılda bir; granit/mermer yüzey periyodik bakım gerektirir",
+     "Baca temizliği yılda bir; limra taşı yüzeyi kuru tutulmalı, nem hassasiyeti var"
+    ]
+   },
+   {
+    "label": "Isıtma mı / atmosfer mi",
+    "values": [
+     "Her ikisi de projeye göre; hazne seçimi belirleyicidir",
+     "Her ikisi de projeye göre; hazne seçimi belirleyicidir"
+    ]
+   }
+  ],
+  "verdict": "Mekânı minimal ve geometrik çizgilere sahipse, kaplama malzemeleri granit veya mermer tonlarındaysa modern şömine doğal seçimdir. Evin üslubu geleneksel, kırsal ya da Akdeniz'e yakınsa, el dokusu ve organik formun değer kattığı yerlerdeyse rustik şömine daha uygun düşer. İkisi arasında gerçek karar verici estetik değil, mekânın mimarisidir.",
+  "bestForA": "Modern şömine; minimal dekorlu kentsel daireler, geniş açık planlı oturma alanları ve endüstriyel üsluplu evler için uygundur.",
+  "bestForB": "Rustik şömine; köy evi, çiftlik, yazlık, geleneksel Türk evi veya Akdeniz üsluplu konutlar için tercih edilir.",
+  "heroA": "YS-118",
+  "heroB": "YS-228",
+  "imageSceneA": "A wide modern living room at dusk, floor-to-ceiling windows, concrete and oak furniture, a YS-118 style fireplace with Sultan Grey marble surround burning steadily, warm amber flames contrasting cool gray tones, no people.",
+  "imageSceneB": "A rustic stone farmhouse interior, exposed wooden ceiling beams, terracotta floor tiles, a YS-228 style hand-carved limra stone fireplace with active fire, soft candlelight, no people.",
+  "imageAlt": "Solda granit çerçeveli modern şömine, sağda el oymalı limra taşı rustik şömine, ikisi yan yana karşılaştırmalı yerleşimde."
+ },
+ "body": "İkisi arasında doğru olan, mekânınızın mimarisinin hangisini gerektirdiğidir.\n\nŞömine seçimi çoğu zaman heyecanla başlar ve kataloglara bakarak sürer. Bir süre sonra fark edilir ki görseller yetersiz kalır; ölçü, malzeme, baca durumu ve evin genel dili devreye girer. Modern şömine ile rustik şömine arasındaki fark yalnızca görünüşle ilgili değildir. İkisi farklı üretim teknikleri, farklı malzeme mantığı ve farklı mekân gereksinimleri içerir. Bu yazıda her iki tipi somut karşılaştırıyoruz; karar veremiyorsanız sonuna kadar okuyun.\n\n## Tanım ve Temel Fark: Nerede Ayrılıyorlar?\n\nModern şömine, düz hatlarla tanımlanır. Yüzeyler işlenmiş taştan oluşur; granit, mermer ve kireçtaşı gibi malzemeler cilalı ya da mat yüzeylerle birleştirilir. Form, duvarla bütünleşmeyi hedefler. Dikkat, alev ve hazneye çekilmek istenir; çerçeve geri çekilir.\n\nRustik şömine tam tersine öne çıkan bir yüzeye sahiptir. [YS-228](https://www.yanarsomine.com.tr/urun/ys-228/) ve [YS-234](https://www.yanarsomine.com.tr/urun/ys-234/) gibi modellerde kullanılan limra taşı elle oyulur. Bu, her şöminenin yüzeyinde hafif farklılıklar anlamına gelir; tamamen özgün bir doku ortaya çıkar. Kabartmalar, oyma detaylar ve taş gözenekleri görünür.\n\nTemel ayrım şu: modern şömine duvarı tamamlar, rustik şömine duvarın üstüne konuşmaya başlar. Biri sessizdir, diğeri anlatır. Hangi tutumun mekânınıza uyduğuna karar vermek, tasarım sürecinin ilk adımıdır.\n\n## Hazne ve Yakıt: Teknik Altyapı Her Şeyden Önce Gelir\n\nEstetik kararı vermeden önce teknik altyapıya bakın. Odunlu mu, gazlı mı, elektrikli mi kullanacaksınız — bu soru, modellerden bağımsız olarak cevaplanmalıdır.\n\nModern şöminelerde geniş bir hazne yelpazesi kullanılır. [YS-118](https://www.yanarsomine.com.tr/urun/ys-118/) modelinde 120 cm uzunluğunda asansör kapaklı ithal hazne kullanılmıştır; [YS-115](https://www.yanarsomine.com.tr/urun/ys-115/) modelinde 90 cm ithal hazne tercih edilmiştir. Bu ölçüler geniş alanlarda ısı dağılımı açısından etkilidir. Modern şömine kategorisinde doğal gazlı hazne entegrasyonu da projeye göre mümkündür.\n\nRustik şömine kategorisinde odunlu hazne yaygındır. [YS-224](https://www.yanarsomine.com.tr/urun/ys-224/) modelinde elektrikli hazne kullanımına yer verilmiştir; bu, bacası olmayan mekânlar için önemli bir seçenektir. Odunlu hazne tercihinde baca durumunu önce kontrol edin. Mekânı ve teknik altyapıyı değerlendirmeden model seçmeyin; çekişi yetersiz bir baca, titizlikle tasarlanmış bir şöminenin dahi düzgün çalışmasını engeller. Baca mevcutsa çekiş kapasitesini bir uzman ölçsün, gerekiyorsa hazne seçimini buna göre yapın.\n\nÖzetle: elektrikli seçenek yalnızca rustik kategorisinde mevcut verilerde görünmektedir. Odunlu ve gazlı seçenekler her iki kategoride de projeye göre değerlendirilebilir. Hazne seçimine keşif sırasında kesin karar verin.\n\n## Tasarım ve Malzeme: Yüzey Ne Anlatır?\n\nModern şöminelerde yüzey malzemesi belirleyicidir. [YS-100](https://www.yanarsomine.com.tr/urun/ys-100/) modelinde dış çerçeve Lime Stone, iç çerçeve ve alt tabla Star Galaxy Siyah Granit'ten oluşur. Bu malzeme kombinasyonu hem ışık tutma hem de kontrast yaratma açısından hesaplanmıştır. [YS-118](https://www.yanarsomine.com.tr/urun/ys-118/) modelinde iç çerçeve ve alt tablada Sultan Grey Mermer, üst yüzeyde ise 2 mm kalınlığında ithal doğal taş kaplama kullanılmıştır.\n\nBu malzemelerin ortak özelliği: cilalı ve homojen yüzey. Işık üzerlerinde kayar, doku minimaldır, dikkat geometriye çekilir.\n\nRustik şöminelerde ise tersine bir mantık işler. Limra taşı, kireç kökenli sedimanter bir taştır; gözeneklidir, nefes alır, el aletleriyle kolayca işlenir. El oyması yüzeylerde hiçbir iki şömine birbirinin aynısı değildir. Bu, fabrika üretimi görünümüne karşı bilinçli bir tercih olarak okunabilir.\n\nMalzeme seçimi aynı zamanda bakım rejimini de belirler. Cilalı granit veya mermer, periyodik temizlik ve yüzey bakımı ister. Limra taşı ise neme karşı daha hassastır; iç mekânda kuru tutulmalıdır. Bu farkı baştan bilin.\n\nMalzeme seçimi aynı zamanda ışık davranışını da belirler. Cilalı granit ve mermer yüzeyler, yapay ve doğal ışığı yansıtır; bu özellik gece kullanımında şöminenin görsel ağırlığını artırır. Alev titreştiğinde yansıma dinamik bir his yaratır. Limra taşında ise ışık yüzeye işler, yansımaz; bu mat ve yumuşak bir sıcaklık hissi üretir. Hangi his mekânınıza uyuyorsa o yönde ilerleyin.\n\n## Mekân ve Ölçü Uyumu: Boyutlar Önce Gelir\n\nŞömine seçerken mekânı ölçmeden model seçmeyin. Bu öneri, hem modern hem rustik kategori için geçerlidir; ancak her birinin mekân yorumu farklıdır.\n\nModern şömine, yüksek tavanlı ve geniş açık planlı mekânlarda kendini daha iyi ifade eder. 90 ila 120 cm arasında değişen hazne ölçüleri bu mekânlara uygun ısı ve görsel ölçek sunar. Kompakt dairelerde de kullanılır; ancak hazne boyutunu ve çerçeve derinliğini mekân ölçüsüne göre seçmek gerekir. Duvarın tamamıyla ilişkili bir tasarım kurgusu düşünüldüğünde, mekânın diğer elemanlarıyla bir bütün olarak planlanması doğru yaklaşımdır.\n\nRustik şömine daha organik bir kütleye sahiptir. Oymalı yüzeyler ve taş dokusu, dar mekânlarda bunaltıcı gelebilir. Köy evi, çiftlik yapısı, geniş salon ya da bahçe yapısı gibi alanlarda doğru ölçekte konumlandırıldığında mekânın karakterini tamamlar. Alçak tavanlı ya da küçük oturma odalarında kullanılacaksa ölçü tasarımını buna göre belirleyin.\n\nYanar Şömine uygulama yapan şömine markası olduğu için her model, o mekânın ölçülerine göre üretilir. Katalogdaki görsel bir başlangıç noktasıdır; nihai ürün mekânınıza göre şekillenir.\n\nMekânda şöminenin duracağı duvara dikkat edin. Kapı, pencere ve mobilya yerleşimi, şöminenin görünür cephe genişliğini sınırlayabilir. Modern şöminelerde yan yüzeyler çoğunlukla duvara gömülü çalışır; rustik şöminelerde ise üç boyutlu kütlenin nefes alacağı boşluk bırakmak gerekir. Rustik şöminenin iki yanındaki duvar mesafesi yetersiz kalırsa oymalı yüzey baskı yapar, mekânı daraltır. Keşiften önce bu mesafeleri not alın ve ekiple paylaşın.\n\nŞöminenin zemin ile ilişkisini de göz ardı etmeyin. Granit alt tablalı modern şömineler düz ve sert zemin kaplamalarıyla uyum sağlar; parke, seramik veya beton zemin bu kombinasyona uygundur. Rustik şömineler taş veya ahşap zemin kaplama üzerinde daha tutarlı görünür. Zemin kaplamanızı henüz belirlemediyseniz şömine kararını önce verin; zemin seçimini buna göre yapabilirsiniz.\n\n## Kurulum ve Uygulama Süreci: Sahada Ne Olur?\n\nŞömine kurulumu, montaj aşamasında pek çok sürpriz barındırır. Duvar yapısı, baca konumu, zemin tipi, elektrik ve gaz hatları — tüm bunlar sahada değerlendirilmesi gereken değişkenlerdir. Bu nedenle tasarım ve uygulama aynı ekipten çıkmıyorsa sorunlar kaçınılmazdır.\n\nYanar Şömine uygulama yapan şömine markasının en kritik ayrımlarından biri buradadır: tasarım, üretim ve uygulama tamamen kendi bünyesinde gerçekleşir. İş başka bir uygulayıcıya devredilmez. Bu, sahada projeyi tanıyan ekibin aynı zamanda montajı yapan ekip olduğu anlamına gelir.\n\nModern şöminelerde granit ve mermer gibi ağır ve kırılganlığa duyarlı malzemelerin taşınması ve sabitlenmesi uzmanlık ister. Hazne ölçüsü büyüdükçe — 90 ya da 120 cm uzunluğundaki haznelerde olduğu gibi — yerleştirme ve dengeleme işlemi daha hassas hale gelir.\n\nRustik şöminelerde ise limra taşından el oyması parçalar her biri tek tek taşınır ve sahada bir araya getirilir. Oyma detaylar kurulum sırasında korunmalıdır. Yanlış bir hamle, onarımı güç tahribata yol açabilir. Bu nedenle kurulumu kesinlikle kendiniz yapmaya ya da başka bir ustaya bırakmaya çalışmayın.\n\nÜcretsiz keşif randevusu aldıktan sonra, uygulama takvimini de o görüşmede netleştirin.\n\n## Kullanım ve Bakım: Uzun Vadede Ne Beklenir?\n\nŞömine alırken yalnızca kurulum günü değil, önünüzdeki yılları da düşünün. İki tipin bakım gereksinimleri farklıdır.\n\nModern şöminelerde granit ve mermer yüzeyler dayanıklıdır; ancak cilalı yüzeyler zaman içinde mat bir görünüm alabilir. Yüzeyi temizlerken aşındırıcı deterjan kullanmayın; nemli bez ve uygun doğal taş temizleyicisi yeterlidir. Baca kullanan modellerde yılda bir baca temizliği zorunludur. Doğal gazlı haznelerde servis ve gaz bağlantısı kontrolü yılda bir yaptırılmalıdır.\n\nRustik şöminelerde limra taşının gözenekli yapısı nem tutar. İç mekânlarda şömine kullanım dışındayken bacadan gelen nemli havaya karşı dikkatli olun. Yüzey temizliği kuru ya da hafif nemli bezle yapılmalıdır. El oyması detaylar zamanla toz biriktirir; ince fırça kullanımı kolaylık sağlar. Odunlu haznelerde her sezon öncesi baca temizletmeyi alışkanlık haline getirin.\n\nHer iki tipte de kullanım ömrünü uzatan en kritik alışkanlık budur: baca kontrolünü ertelemeyin.\n\nŞöminenin yakın çevresini de bakım planına dahil edin. Modern şöminelerde granit çerçevenin kenarına yakın duvarda ısıya bağlı renk değişimi yaşanabilir; uygun ısı yalıtımı baştan sağlanmalıdır. Montaj sırasında bu detayı ekiple konuşun; sonradan müdahale etmek hem zahmetli hem maliyetlidir.\n\nOdunlu şöminelerde yakıt kalitesi bakım süresini doğrudan etkiler. Kurutulmuş, sert ağaç türleri tercih edin; nemli odun daha fazla is bırakır, baca ve hazne daha hızlı kirlenir. Bu kural modern ve rustik şömineler için ortaktır; hazne farkı yaratmaz.\n\n## Hangi Ev Tipine Hangisi Daha Uygun?\n\nŞömine tipi kararı çoğu zaman evin genel üslubunu takip etmek yerine daha doğru bir yaklaşım sunar.\n\nModern şömine; beton, cam ve çeliğin ön planda olduğu konutlarda, özellikle kentsel dairelerde, loft ve dubleks tipi yapılarda doğal bir yer bulur. Mobilya seçiminde sade hatlar hakimse, renk paletinde nötr tonlar kullanılıyorsa [YS-115](https://www.yanarsomine.com.tr/urun/ys-115/) ya da [YS-100](https://www.yanarsomine.com.tr/urun/ys-100/) gibi modeller mekânın dilini bozmazlar. Tersine, zaten varolan mimari anlayışı pekiştirirler.\n\nRustik şömine; ahşap kirişli tavan, terrakota zemin, kaba sıva duvar veya taş kaplı cephe gibi elemanların olduğu mekânlara ait hissettirir. Yazlık, köy evi ya da geleneksel üsluplu konutlarda uyumlu görünür. Bahçe ya da dış mekân uygulamalarında da rustik form çok daha doğal bir yerleşim sunar.\n\nKarışık üsluplu evler — minimalist mutfak ama ahşap detaylı salon gibi — için keşif sırasında Şömine İç Mimarı Emre İpkin'den öneri isteyin. Yanar Şömine uygulama yapan şömine markasında bu tür ara kararlar yerinde değerlendirilerek projeye dönüştürülür.\n\nAra üsluplu mekânlar için ek bir ipucu: eğer evinizde bazı bölümler modern, bazı bölümler geleneksel bir karakter taşıyorsa şöminenin konumlandığı odanın baskın malzemesine bakın. Şömine o odanın dilini konuşmalıdır; evin diğer bölümlerine değil. Oturma odanızın duvarları düz ve boyalıysa modern, taş ya da ahşap kaplıysa rustik yönünde ilerlemek daha güvenlidir.\n\nBir diğer pratik filtre: şömineden öncelikli olarak ısı mı yoksa atmosfer mi bekliyorsunuz? Isıtmayı ön plana almak isteyenler büyük hazne kapasitesine yönelmeli; bu ölçek modern kategoride daha belirgin biçimde örneklenmiştir. Atmosfer öncelikliyse hazne boyutu küçülebilir, bu da rustik kategorideki orta ölçekli modellere kapı aralar. Her iki kategori de Yanar Şömine uygulama yapan şömine markasında projeye özel üretildiğinden bu tercih, tasarım sürecinin başında netleştirilmelidir.\n\n## Karar: Hangisini Seçmelisiniz?\n\nMekânınızın duvarları düz sıvalı ya da düz kaplıysa, mobilyalarınız sade hatlara sahipse ve ışık kullanımınız yönlendirilmişse: modern şömine seçin. Odun veya gazlı hazne tercih edin, baca durumunuzu önceden netleştirin.\n\nEvin tüm yüzeyleri doku içeriyorsa, ahşap ya da taş öğeler hakimse ve şöminenin arka plana çekilmesini değil öne çıkmasını istiyorsanız: rustik şömine seçin. El oyması limra taşı yüzey, bu mekânlarda tamamlayıcı değil kurucu bir rol üstlenir.\n\nKarar hâlâ netleşmediyse bunu normal karşılayın. Çoğu ev sahibi kataloğa bakarak değil, mekânı yerinde gördükten sonra doğru seçime ulaşır. Teknik kısıtlar — baca konumu, duvar boşluğu, zemin tipi — bazen estetik tercihin önüne geçer ve kararı fiilen belirler. Bu yüzden kararı masada değil sahada verin.\n\nHer iki tipte de süreç aynı başlar: ücretsiz keşifle. Yanar Şömine uygulama yapan şömine markasında hiçbir model standart ölçüde satılmaz; her proje yerinde değerlendirmeyle başlar. Keşif sırasında baca ölçülür, mekân değerlendirilir, hazne önerilir. Teklif ancak bunların ardından hazırlanır.\n\nYanar Şömine 1986'dan bu yana aynı anlayışla çalışır: tasarım, üretim ve uygulama aynı ekipten çıkar, iş başka bir uygulayıcıya devredilmez. Bu, keşiften montaja kadar projeyi bilen tek bir muhatabınızın olduğu anlamına gelir. Kararsızlığınızı da, teknik sorularınızı da o muhataba sorun.\n\nYanar Şömine uygulama yapan şömine markasına ulaşmak için (0212) 884 13 49 numaralı telefonu arayın; hafta içi ve Cumartesi 09:00–19:00 saatleri arasında hizmet verilmektedir. Ürünlere göz atmak istiyorsanız [modern şömine kategorisini](https://www.yanarsomine.com.tr/urun-kategori/somineler/modern-somineler/) ve [rustik şömine kategorisini](https://www.yanarsomine.com.tr/urun-kategori/somineler/rustik-somine/) ayrı ayrı inceleyin; ardından kararınızı vermeden önce keşif randevusu alın."
+}

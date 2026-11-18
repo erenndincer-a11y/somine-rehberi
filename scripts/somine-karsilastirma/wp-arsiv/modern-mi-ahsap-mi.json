@@ -1,0 +1,105 @@
+{
+ "meta": {
+  "title": "Modern Şömine mi Ahşap Şömine mi? İki Tip Arasında Doğru Seçim",
+  "description": "Modern ve ahşap şömine arasındaki farkları malzeme, hazne, mekân uyumu ve kurulum ekseninde karşılaştırıyoruz. Doğru seçim için okuyun.",
+  "keyPoints": [
+   "Modern şömine mineral yüzeyler ve geniş haznelerle temiz çizgiler sunarken, ahşap şömine oyma detayları ve klasik formuyla mekâna sıcaklık ve karakter katar.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipi de projeye özgü üretir; standart katalog fiyatı yoktur, teklif keşif usulüyle belirlenir.",
+   "Bacası olan ve ısıtmayı ön planda tutan evler için modern hazne kapasitesi öne çıkar; oturma odasına kimlik kazandırmak isteyenler için ahşap tip daha güçlü bir tercih olur.",
+   "Her iki tipte de üretim ve saha uygulaması aynı ekip tarafından yapılır; iş üçüncü bir tarafa devredilmez."
+  ],
+  "faq": [
+   {
+    "q": "Modern şömine ile ahşap şömine arasındaki temel fark nedir?",
+    "a": "Modern şömine; granit, mermer ve doğal taş gibi mineral yüzeylerle sade hatlar üzerine kuruludur, genellikle 70 cm ile 120 cm arasında değişen geniş hazneler kullanılır. Ahşap şömine ise el oyması ya da tornalı ahşap mantellarla klasik bir kompozisyon oluşturur; hacim ve oran daha ön planda tutulur. İki tip arasındaki seçim çoğunlukla mekânın mimari kimliğine ve kullanıcının estetik önceliğine bağlıdır."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markasıdır; 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'da tasarım, üretim ve saha uygulamasını kendi ekibiyle gerçekleştirmektedir. Sabit katalog fiyatı yoktur; her proje yerinde ölçüm ve keşif sonrasında bağımsız olarak teklif edilir."
+   },
+   {
+    "q": "Odunlu yakıt kullanmak istiyorum, her iki tip de buna uygun mu?",
+    "a": "Evet, hem modern hem ahşap şömineler odunlu hazneyle üretilebilir. Ancak odunlu hazne zorunlu olarak duman bacası gerektirir. Keşif sırasında baca durumu değerlendirilir; mevcut baca yoksa alternatif hazne tipleri projeye dahil edilebilir."
+   },
+   {
+    "q": "Mevcut bacam olmadan şömine yaptırabilir miyim?",
+    "a": "Odunlu ve bazı doğal gaz hazneleri baca gerektirir. Bacası bulunmayan ya da baca açmaya uygun olmayan yapılarda modern şömine gövdesine elektrikli veya biyoetanol hazne entegre edilebilir; bu seçeneği keşif sırasında proje bazında değerlendirmek gerekir."
+   },
+   {
+    "q": "Yanar Şömine ürettiği şömineyi kendi mi kuruyor?",
+    "a": "Evet. Yanar Şömine tasarım ve üretimin yanı sıra saha uygulamasını da kendi ekibiyle tamamlar; kurulum başka bir uygulayıcıya devredilmez. Bu yaklaşım, tasarım aşamasındaki kararların sahada doğrudan hayata geçirilmesini sağlar."
+   },
+   {
+    "q": "Ücretsiz keşif hizmetinden nasıl yararlanabilirim?",
+    "a": "Yanar Şömine'yi hafta içi veya cumartesi 09:00–19:00 saatleri arasında (0212) 884 13 49 numaralı telefondan arayabilirsiniz. Ekip yerinde ölçüm yaparak mekânınıza uygun model ve teknik seçenekleri değerlendirir; bu ön görüşme ücretsizdir."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Odunlu, doğal gaz veya elektrikli (projeye göre)",
+     "Odunlu veya doğal gaz (projeye göre)"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Odunlu ve gaz haznelerinde zorunlu; elektrikli haznede yok",
+     "Odunlu ve gaz haznelerinde zorunlu"
+    ]
+   },
+   {
+    "label": "Dış kaplama malzemesi",
+    "values": [
+     "Granit, mermer, doğal taş, kültür taşı",
+     "Ahşap mantel; bazı modellerde mermer kombinasyon"
+    ]
+   },
+   {
+    "label": "Görünen cephe karakteri",
+    "values": [
+     "Düz yüzey, sade çerçeve, minimal form",
+     "Oymalı ya da tornalı detay, klasik oran ve simetri"
+    ]
+   },
+   {
+    "label": "Uygun mekân tipi",
+    "values": [
+     "Modern, minimalist, loft, endüstriyel iç mekânlar",
+     "Klasik, geleneksel, kır evi, villa, konak iç mekânlar"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Yanar Şömine ekibi tarafından yerinde yapılır",
+     "Yanar Şömine ekibi tarafından yerinde yapılır"
+    ]
+   },
+   {
+    "label": "Bakım odak noktası",
+    "values": [
+     "Mineral yüzeylerin temizliği; hazne periyodik bakımı",
+     "Ahşap yüzeyin bakımı; hazne periyodik bakımı"
+    ]
+   },
+   {
+    "label": "Birincil işlev önceliği",
+    "values": [
+     "Isıtma kapasitesi ön planda tutulabilir",
+     "Atmosfer ve dekoratif etki ön planda"
+    ]
+   }
+  ],
+  "verdict": "Mekânı modern ya da minimalist çizgide kurgulanmış evlerde, ısıtma kapasitesi öncelikliyse ve geniş hazne isteniyorsa modern şömine daha uygun bir başlangıç noktasıdır. Klasik, geleneksel ya da kır evi estetiğine sahip mekânlarda ise ahşap şömine mekânın karakterini tamamlar ve odaya bağımsız bir merkez kazandırır. Her iki durumda da nihai karar mekânın ölçüsüne, baca durumuna ve kişisel önceliklere göre şekillenir; bu yüzden keşif aşaması atlanmamalıdır.",
+  "bestForA": "Modern şömine; temiz hatlar, geniş hazne ve mineral yüzey arayan, minimalist ya da çağdaş üslupta döşenmiş evler için doğru seçimdir.",
+  "bestForB": "Ahşap şömine; oymalı detay ve klasik form arayan, geleneksel, köy evi veya villa estetiğiyle döşenmiş mekânlar için öne çıkar.",
+  "heroA": "YS-118",
+  "heroB": "YS-222",
+  "imageSceneA": "A wide modern living room at dusk with warm ambient lighting; a sleek floor-to-ceiling fireplace clad in Sultan Grey marble and natural stone glows with a long open flame inside a 120 cm insert; no people present.",
+  "imageSceneB": "A classical villa sitting room lit by candlelight and firelight; a hand-carved travertine marble corner fireplace burns steadily, its ornate mantel casting soft shadows across the parquet floor; no people present.",
+  "imageAlt": "Sol tarafta Sultan Grey mermer kaplamalı modern şömine, sağ tarafta traverten mermerden el oymalı köşe şömine; ikisi yan yana, ikisinde de alev yanıyor."
+ },
+ "body": "İkisi arasında evrensel bir doğru yoktur; doğru seçim mekânınızın mimarisine, baca durumuna ve sizin önceliklerinize göre değişir.\n\nBu yazıda modern ve ahşap şömine tiplerini sekiz somut eksen üzerinden karşılaştırıyoruz. Okurken hem tasarım tercihlerinizi hem de teknik kısıtlarınızı göz önünde bulundurun. İki tarafı da adil biçimde ele alıyoruz; amaç biri lehine sonuç üretmek değil, karar sürecinizi kısaltmak.\n\n## Tanım ve Temel Fark: İki Tip Neden Ayrı Kategoride Duruyor?\n\nModern şömine; granit, mermer, doğal taş ve kültür taşı gibi mineral malzemelerin düz yüzeyler ve temiz çerçevelerle bir araya getirilmesiyle oluşur. Form ikincil planda kalır, malzemenin dokusu ve haznenin görünür alanı öne çıkar. [YS-118](https://www.yanarsomine.com.tr/urun/ys-118/) modelinde Sultan Grey mermerden iç çerçeve ve alt tabla, üst yüzeyde ince doğal taş kaplama ve 120 cm'lik geniş hazne bu anlayışın somut yansımasıdır.\n\nAhşap şömine ise odanın tam merkezine yerleşmek üzere tasarlanmış, oranı ve kütlesi belirgin bir yapıdır. El oyması detaylar, tornalı sütunlar, payandalar ve üst raf birlikte bir bütün oluşturur. [YS-222](https://www.yanarsomine.com.tr/urun/ys-222/) modelinde olduğu gibi traverten mermerden el oyması form, bu tipin en belirgin özelliğidir.\n\nİki tipin temel ayrımı malzeme değil, tasarım dilidir. Modern şömine yüzeyi mekânla bütünleşmeye çalışırken, ahşap şömine mekânda kendi başına bir nesne olarak öne çıkar. Mekânınızın odağa ne koyduğunu netleştirirseniz iki tip arasındaki seçim önemli ölçüde kendiliğinden şekillenir.\n\nKategori sayfalarına ilk baktığınızda bu fark daha da netleşir. [Modern Şömineler](https://www.yanarsomine.com.tr/urun-kategori/somineler/modern-somineler/) sayfasında yüzey ve hazne bilgileri ön plana çıkarken, [Ahşap Şömineler](https://www.yanarsomine.com.tr/urun-kategori/somineler/ahsap-somine/) sayfasında formun bütünlüğü ve oranlar belirleyici olmaktadır. İki kategoriyi yan yana incelediğinizde hangi tipin mekânınıza daha yakın durduğu çoğu zaman ilk bakışta hissedilir; ancak bu his teknik gerekliliklerle desteklenmedikçe yeterli değildir.\n\n## Hazne ve Yakıt: Isıtmayı Ciddiye Alıyorsanız Bu Bölümü Atlama\n\nModern şömine kategorisinde sunulan modellerde 70 cm ile 120 cm arasında değişen asansör kapaklı ithal hazneler kullanılır. [YS-115](https://www.yanarsomine.com.tr/urun/ys-115/) modelinde 90 cm uzunluğunda asansör kapaklı bir hazne, [YS-100](https://www.yanarsomine.com.tr/urun/ys-100/) modelinde ise Nordflam Atina 70 cm ithal hazne tercih edilmiştir. Geniş hazneler odun yakıtını verimli yakar ve ısıtma kapasitesini doğrudan etkiler.\n\nAhşap şömine kategorisinde hazne seçimi modele ve projeye göre belirlenir. [YS-217](https://www.yanarsomine.com.tr/urun/ys-217/) modeli odunlu hazneye uygun yapısıyla öne çıkan bir örnektir. Ahşap mantel ağırlıklı modellerde hazne çoğunlukla standart ölçülerde tutulur; ısıtma birincil öncelikse bunu keşif aşamasında açıkça belirtin.\n\nOdunlu hazne her iki tipte de kullanılabilir ancak her ikisi de baca gerektirir. Bacası bulunmayan ya da baca açmaya uygun olmayan yapılarda modern şömine gövdesine elektrikli hazne entegre edilebilir. Ahşap şömine gövdesiyle bu esneklik daha sınırlı kalır çünkü tasarımın oranları ve ağırlık merkezi hazne türüne göre baştan kurgulanır. Önce baca durumunuzu kontrol edin; bu teknik kısıt zaman zaman tasarım tercihinden önce karar belirleyici hale gelir.\n\nHazne seçiminde bir diğer önemli nokta asansör kapak mekanizmasıdır. [YS-115](https://www.yanarsomine.com.tr/urun/ys-115/) ve [YS-118](https://www.yanarsomine.com.tr/urun/ys-118/) modellerinde kullanılan asansör kapaklı hazneler, ateşleme ve hava kontrolünü kolaylaştırır; bu özellik özellikle şömineyi düzenli kullananlar için uzun vadede fark yaratır. Hazne seçerken yalnızca uzunluğa değil, kapak mekanizmasına ve marka tercihine de dikkat edin; bu detaylar keşif sırasında birlikte değerlendirilir.\n\n## Tasarım ve Malzeme: Görünen Her Şey Bir Tercih\n\nModern şömine tasarımında malzemenin yüzey kalitesi belirleyicidir. Star Galaxy Siyah Granit, Sultan Grey Mermer, Lime Stone ve antrasit kültür taşı bu kategorinin sık kullandığı yüzeylerdir. Söz konusu malzemelerin hem renk hem de doku zenginliği geniştir; parlak granit farklı bir his verir, mat doğal taş kaplama başka bir his. Tercihlerinizi mekânın mevcut zemin ve duvar malzemeleriyle kıyaslamanız işe yarar.\n\nAhşap şömine tasarımında ahşap mantel baskın malzemedir; oyma derinliği, tornalı detaylar ve üst rafın oranı modeli tanımlar. [YS-221](https://www.yanarsomine.com.tr/urun/ys-221/) modelinde bej mermerden oyma detaylar bu iki malzemenin bir arada kullanımını gösterir. Ahşap ile mermer kombinasyonu ahşap şöminenin katı tanımını aşar ve bu tipin ne kadar çok yönlü olabileceğini ortaya koyar.\n\nİki tip arasındaki seçimi renk paletinizden başlatmayın; önce oda yüksekliğinizi ve duvarın orantısını değerlendirin. Yüksek tavanlı mekânlarda ahşap şömineyi dengede tutmak daha kolaydır. Alçak tavanlı ya da dar duvarlı alanlarda modern şömineyi yatay bir bant olarak kurgulamak daha akıllıca olabilir.\n\nMalzeme seçimini yalnızca görsel beğeniyle sınırlandırmayın; günlük kullanımda yüzeyin nasıl davrandığını da hesaba katın. Parlak granit yüzeyler parmak izi ve toz izini mat yüzeylere kıyasla daha belirgin gösterebilir. Çocuklu ya da yoğun kullanımlı evlerde mat doğal taş veya kültür taşı kaplamalı modern şömine daha pratik bir tercih olabilir. Ahşap mantel ise nem ve ısıya karşı daha hassastır; bu nedenle yüzeyin bitişinin kalitesi uzun vadeli görünümü doğrudan etkiler.\n\nRenk uyumunu zorlaştıran bir başka durum ise zemin ve duvar malzemeleriyle çelişen yüzey seçimleridir. Açık renkli parke ile koyu granit kombinasyonu bazı mekânlarda güçlü bir kontrast oluştururken, bazılarında dengesiz durabilir. Şömineyi seçmeden önce mevcut zemin, duvar ve mobilya renklerini tek bir fotoğrafta bir araya getirin; keşif sırasında bu fotoğrafı paylaşırsanız öneri süreci çok daha hızlı ilerler.\n\n## Mekân ve Ölçü Uyumu: Model Seçmeden Önce Metreyi Eline Al\n\nMekânı ölçmeden model seçme. Bu iki tipin en kritik farkı tam burada ortaya çıkar.\n\nModern şömine düz yüzeyi sayesinde ölçü esnekliğine daha açıktır. Dar bir duvara dar bir şömine, geniş bir duvara geniş bir şömine yapılabilir; hazne boyutu da buna göre orantılanır. Hem duvar içi hem de duvar önü uygulamalarında modern tip genellikle daha az alan kaybıyla sonuçlanır.\n\nAhşap şömine kütlesini ve yan raf derinliklerini göz önünde bulundurduğunuzda oturma odasında belirli bir minimum alan gerektirir. [YS-217](https://www.yanarsomine.com.tr/urun/ys-217/) modelindeki iki yan oturak ve niş detayı, bu tipin mekânda ne kadar geniş bir bölge kapladığını somutlaştırır. Küçük odalarda bu durum avantaja dönüşebilir, mekâna mobilya görevi görebilir; ama önce ölçün.\n\nYanar Şömine uygulama yapan şömine markası olarak her iki tipi de projeye özgü üretir. Bu, standart bir modeli almak zorunda kalmadığınız anlamına gelir. Ölçülerinizi paylaştığınızda tasarım buna uyarlanır. Ancak bu esneklik keşif aşamasında sizi gerçek kısıtları da açıkça konuşmakla yükümlü kılar: kapı aralıkları, radyatör ve elektrik tesisat yerleşimi, olası baca güzergâhı bunların başında gelir.\n\nÖzellikle köşe konumlandırması söz konusu olduğunda iki tip arasındaki fark daha da belirginleşir. [YS-222](https://www.yanarsomine.com.tr/urun/ys-222/) modelinde olduğu gibi köşe şöminesi, odanın iki duvarını birbirine bağlar ve boşta kalan köşeleri işlevsel hale getirir. Bu çözüm ahşap şömine kategorisinde daha yaygındır; modern tip ise köşe uygulamalarında L tipi ya da U tipi kategorilere yönelir. Hangi köşenin ya da duvarın kullanılacağını belirleyin; bu karar hem modeli hem de kategoriyi daraltır. Yanar Şömine uygulama yapan şömine markası olarak köşe, L tipi ve U tipi gibi özel konumlandırma çözümleri de ayrı kategoriler olarak sunulmaktadır.\n\n## Kurulum ve Uygulama Süreci: Sahada Neler Olduğunu Bilin\n\nHer iki tipte de süreç aynı şemayı izler: ücretsiz keşif, ölçüm ve teknik değerlendirme, tasarım onayı, üretim, saha uygulaması. Yanar Şömine uygulama yapan şömine markasının en belirgin özelliklerinden biri, tasarım ve üretimin yanı sıra kurulumu da kendi ekibiyle yapmasıdır. İş başka bir uygulayıcıya devredilmez.\n\nModern şöminede kaplama yüzeyleri çoğunlukla fabrikadan hazır gelir; saha uygulaması mineral kaplamanın duvara, zemine ve hazneye yerleştirilmesini içerir. Baca bağlantısı ve sızdırmazlık bu aşamanın kritik noktalarıdır.\n\nAhşap şöminede ise mantel, montaj sırasında mekâna yerleştirilir ve hazneyle birleştirilir. El oyması modellerde parçalar hassas biçimde bir araya gelir; bu tip montajın daha uzun sürdüğünü hesaba katın. Özellikle köşe modeli olan [YS-222](https://www.yanarsomine.com.tr/urun/ys-222/) gibi çözümlerde duvar açısı ve zemin seviyesi önceden doğrulanmalıdır.\n\nHer iki tipte de keşif randevusunu ertelememenizi öneririz. Uygulamada ortaya çıkan sürprizlerin büyük bölümü yerinde yapılan ön değerlendirmeyle ortadan kalkar.\n\n## Kullanım ve Bakım: Uzun Vadede Ne Beklemeli?\n\nModern şöminede dış yüzey bakımı görece kolaydır. Granit ve mermer yüzeyler nemli bezle silinir; düzenli bir temizlik rutini yüzey dokusunu korur. Odunlu hazne kullanıyorsanız baca temizliğini yılda en az bir kez yaptırın; bu modern şömineye özgü bir öneri değildir, odunlu yakıt kullanan her şömine için geçerlidir.\n\nAhşap şöminede ise yüzeyin bakımı farklı bir dikkat gerektirir. Ahşabın ısıdan ve nemden etkilenme ihtimali mineral yüzeylere kıyasla daha yüksektir. Şömineyi çalıştırdığınız dönemlerde mantel sıcaklığını izleyin; ahşap mantel, hazneden yeterince yalıtılmış olmak zorundadır. Üretim aşamasında bu mesafe hesaplanır ancak kullanıcının da buna dikkat etmesi gerekir.\n\nHer iki tipte de hazne üreticisinin önerdiği periyodik bakım programına uyun. Yanar Şömine uygulama yapan şömine markası olarak satış sonrası süreçte de ulaşılabilir bir yapı benimsenmiştir; soru işaretleri için (0212) 884 13 49 numaralı hattı kullanabilirsiniz.\n\nKullanım sıklığı da bakım gereksinimini doğrudan belirler. Şömineyi yalnızca kış aylarında haftada birkaç kez yakacaksanız, her iki tipin bakım yükü benzer düzeyde kalır. Ancak şömineyi her gün çalıştırmayı planlıyorsanız hazne kalitesine ve baca sızdırmazlığına özellikle dikkat edin. Modern şöminede kullanılan ithal haznelerin servis ağı ve yedek parça erişimi projeyi devralan ekip tarafından takip edilir; bu nedenle kurulum sonrası iletişim kanalını açık tutun.\n\nAhşap şöminede uzun dönem konfor için bir diğer önemli nokta ahşabın çalışmasıdır. Özellikle merkezi ısıtmanın kapalı olduğu yaz aylarında oda neminin değişmesi ahşap yüzeyde küçük boyutlu hareketlere yol açabilir. Bu tamamen doğal bir süreçtir; düzenli cilalama ve yüzey kontrolüyle yönetilebilir. Şöminenizi uzun süre kullanmayacaksanız periyodik bir kontrol, büyük müdahale gerektiren sorunları baştan önler.\n\n## Hangi Ev Tipine Hangisi: Somut Senaryolar\n\n**Modern şömine şu koşullarda öne çıkar:**\n\nMekânın genel dili minimalist ya da çağdaş mimariye sahipse, duvar kaplamaları nötr ve yüzeyleri düzse, ısıtma kapasitesi öncelikliyse ve geniş bir hazne isteniyorsa modern tip doğal bir başlangıç noktasıdır. Loft daireler, düz çizgili villalar ve beton yüzeyli mekânlar bu tipin en rahat oturduğu ortamlardır. [YS-100](https://www.yanarsomine.com.tr/urun/ys-100/) modelindeki Lime Stone dış çerçeve ve Star Galaxy Granit kombinasyonu hem tekstür hem de renk derinliği arayanlar için somut bir referans noktasıdır.\n\n**Ahşap şömine şu koşullarda öne çıkar:**\n\nMekânın dili klasik, geleneksel ya da kır evi estetiğine yakınsa, tavan yüksekliği bu tipin kütlesini taşımaya elverişliyse ve şömineyi odanın odak noktası olarak konumlandırmak istiyorsanız ahşap tip daha güçlü bir seçimdir. Yurt içindeki villa projeleri, bağ evleri ve konak restorasyonları bu tipin en sık uygulandığı mekânlardır. Yanar Şömine uygulama yapan şömine markası olarak bu kategoride el oyması seçeneklerden standart tornalı modellere geniş bir aralık sunulmaktadır.\n\n**Karar veremeyenler için:**\n\nİki tipten hiçbiri açık bir baskınlık göstermiyorsa, baca durumunu ve hazne tercihini belirleyin; bu iki parametre çoğunlukla kalan soruları da yanıtlar.\n\nİki tip arasında kararsız kalınan bir diğer yaygın senaryo, yenilenen ya da restore edilen evlerdir. Eski bir yapıya modern şömine entegre etmek zaman zaman çarpıcı bir kontrast yaratır; bu bilinçli bir tercihse işe yarar, fakat yapının özgün kimliğini korumak öncelikliyse ahşap ya da klasik tip daha uyumlu bir sonuç verir. Tersine, yeni inşa edilmiş bir evde ahşap şömine kullanmak da mümkündür; önemli olan mekânın genel konseptinin tutarlılığıdır. Yanar Şömine uygulama yapan şömine markası olarak 13 ürün kategorisi bu geniş senaryoları karşılayacak biçimde yapılandırılmıştır; modern, klasik, rustik, L tipi ve U tipi gibi seçenekler tek bir çatı altında bir arada sunulmaktadır.\n\n## Karar: Hangisini Seçmeli?\n\nŞömine seçimi içgüdüsel bir tercih gibi görünür ama aslında oldukça teknik bir süreçtir. İki tipin de güçlü ve sınırlı olduğu durumlar vardır; birini diğerinin üzerine koymak için evrensel bir gerekçe yoktur.\n\nModern şömine; temiz hatlar, geniş hazne kapasitesi ve mineral yüzey dokusu arayan, minimalist ya da çağdaş üslupta döşenmiş mekânlar için daha net bir tercih noktasıdır. Ahşap şömine ise odanın mimarisine karakter katmak isteyen, klasik oranları benimseyen ve şömineyi bir mobilya ya da heykel gibi konumlandırmak isteyen ev sahiplerine hitap eder.\n\nYanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana her iki tipi de projeye özgü tasarlıyor, üretiyor ve kendi ekibiyle uyguluyor. Bu yüzden standart bir modeli satın almaktan çok bir projeye başlıyorsunuz. Ücretsiz keşif, bu sürecin en önemli adımı.\n\nBacayı önce kontrol et, mekânın ölçüsünü al ve sonra modele bak. Sıralamanın bu şekilde işlemesi karar sürecini hem hızlandırır hem de sonraki aşamada gereksiz revizyonları önler. Kategori sayfalarına bakmak istiyorsanız [Modern Şömineler](https://www.yanarsomine.com.tr/urun-kategori/somineler/modern-somineler/) ve [Ahşap Şömineler](https://www.yanarsomine.com.tr/urun-kategori/somineler/ahsap-somine/) sayfaları iyi bir başlangıç noktasıdır. Keşif randevusu için ise (0212) 884 13 49 numaralı hattı hafta içi veya cumartesi 09:00–19:00 saatleri arasında arayabilirsiniz."
+}

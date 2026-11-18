@@ -1,0 +1,112 @@
+{
+ "meta": {
+  "title": "L Tipi Modern Şömine mi, Çift Taraflı Şömine mi? Doğru Seçim Kılavuzu",
+  "description": "L tipi ve çift taraflı şömine arasında kararsız mısınız? Mekân, baca, malzeme ve kurulum farkları bu karşılaştırmada.",
+  "keyPoints": [
+   "L tipi şömine tek bir köşeyi ya da duvarı tanımlarken, çift taraflı şömine iki ayrı mekânı ya da iki farklı bakış açısını aynı anda birleştirir.",
+   "Çift taraflı şöminede hazne her iki yönden görünür olduğu için zemin planı ve duvar konumu, L tipine kıyasla çok daha erken sabitlenmelidir.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipi de projenin gerektirdiği boyut, malzeme ve hazne seçimiyle üretir; hazırda stok model satılmaz.",
+   "Ücretsiz keşif hizmetiyle yerinde ölçü alınır, mekânın bacası ve duvar konumu değerlendirildikten sonra teklif hazırlanır."
+  ],
+  "faq": [
+   {
+    "q": "L tipi şömine ile çift taraflı şömine arasındaki temel fark nedir?",
+    "a": "L tipi şömine, haznesi ve gövdesiyle tek bir cepheye ya da köşeye oturur; ateş yalnızca bir yönden izlenir. Çift taraflı şöminede hazne iki yüzde açıktır, iki oda ya da iki bakış noktası aynı anda ısı ve görsel bütünlüğünden yararlanır. Bu fark, baca konumunu, hazne tipini ve duvar planını doğrudan etkiler."
+   },
+   {
+    "q": "Her iki tip için de baca zorunlu mu?",
+    "a": "Odun ya da katı yakıt kullanan her iki tipte de baca zorunludur. Çift taraflı haznelerde duman kanalı her iki cepheden de etkin çekim yapacak biçimde tasarlanmalıdır; bu nedenle baca kesiti ve yüksekliği projeye göre hesaplanır. Bacası olmayan ya da baca eklenmesi mümkün olmayan mekânlar için doğalgazlı veya elektrikli seçenekler değerlendirilebilir."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markasıdır; 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'dan faaliyet göstermektedir. Sabit katalog fiyatı yoktur, her proje yerinde ölçü ve ücretsiz keşif sonrası teklif aşamasına geçer. Tasarım, üretim ve uygulama (montaj) kendi bünyesinde gerçekleştirilir, iş üçüncü bir ekibe devredilmez."
+   },
+   {
+    "q": "Hangi hazne genişliği benim mekânıma uyar?",
+    "a": "Hazne genişliği; odanın metrekaresi, tavan yüksekliği, baca çekiş kapasitesi ve şöminenin duvar veya köşedeki konumuna göre belirlenir. Yanar Şömine, bu ölçütleri yerinde değerlendirerek 70 cm'den 120 cm'e uzanan hazne seçenekleri arasından projeye uygun olanı önerir. Mekânı ölçmeden hazne genişliğine karar verme."
+   },
+   {
+    "q": "Kaplama malzemesi olarak ne seçmeliyim?",
+    "a": "Malzeme seçimi mekânın genel tasarım diline göre şekillenir. Mermer soğuk ve temiz bir modern görünüm verirken granit daha koyu ve dramatik bir etki yaratır. Kültür taşı ise doğal ve sıcak bir doku sağlar; hem L tipi hem çift taraflı modellerde kullanılır. Nihai seçimi yapmadan önce mekânın zemin kaplaması, duvar rengi ve mobilyalarını birlikte değerlendirmek gerekir."
+   },
+   {
+    "q": "Ücretsiz keşif nasıl işliyor?",
+    "a": "Yanar Şömine ekibi, randevu alarak belirlenen mekâna gelir; baca durumunu, duvar konumunu ve metrekareyi yerinde inceler. Bu ziyaret sonrasında proje için uygun hazne tipi, malzeme seçenekleri ve uygulama planı değerlendirilerek teklif hazırlanır. Keşif ücretsizdir, herhangi bir ön ödeme gerektirmez."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "L Tipi: odun yakıtlı, asansör kapaklı ve yan açılımlı ithal hazne",
+     "Çift Taraflı: odun yakıtlı, asansör kapaklı / özel üretim çift yüzlü hazne"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "L Tipi: zorunlu",
+     "Çift Taraflı: zorunlu; çift cepheli çekim kapasitesine göre boyutlandırılır"
+    ]
+   },
+   {
+    "label": "Görünen cephe sayısı",
+    "values": [
+     "L Tipi: tek cephe (ya da köşe)",
+     "Çift Taraflı: iki ayrı cephe / iki mekân"
+    ]
+   },
+   {
+    "label": "Hazne genişliği (mevcut modeller)",
+    "values": [
+     "L Tipi: 70 cm – 100 cm arası (YS-127, YS-121, YS-126)",
+     "Çift Taraflı: 90 cm – 120 cm arası (YS-156, YS-155)"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi (mevcut modeller)",
+    "values": [
+     "L Tipi: Cream Dor mermer, Star Galaxy granit, kültür taşı, ahşap kombinasyonu",
+     "Çift Taraflı: kültür taşı, beyaz Muğla mermer"
+    ]
+   },
+   {
+    "label": "Uygun mekân tipi",
+    "values": [
+     "L Tipi: tek odalı salon, köşe duvarı olan her alan",
+     "Çift Taraflı: açık planlı iki bölge, salon-koridor, oturma-yemek ayrımı"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "L Tipi: Yanar Şömine kendi ekibiyle uygular",
+     "Çift Taraflı: Yanar Şömine kendi ekibiyle uygular; duvar planı erken sabitlenmeli"
+    ]
+   },
+   {
+    "label": "Bakım",
+    "values": [
+     "L Tipi: tek cephe cam ve hazne temizliği",
+     "Çift Taraflı: iki cephe cam temizliği; hazne erişimi projeye göre değişir"
+    ]
+   },
+   {
+    "label": "Birincil işlev",
+    "values": [
+     "L Tipi: ısıtma ve odak noktası",
+     "Çift Taraflı: mekân bölücü, atmosfer ve ısıtma"
+    ]
+   }
+  ],
+  "verdict": "Mekânınız tek odalı ya da köşe duvarlı bir salonsa ve şömineyi hem işlevsel hem estetik bir odak noktası olarak konumlandırmak istiyorsanız L tipi modern şömine daha uygun bir seçimdir. İki bölgeyi birbirine bağlamak, açık planlı bir alanı tanımlamak ya da iki farklı noktadan ateşi izlemek istiyorsanız çift taraflı şömine bunun için tasarlanmıştır. Her iki tipte de doğru karar ancak yerinde ölçü ve baca değerlendirmesiyle mümkündür.",
+  "bestForA": "Tek bir mekânda köşeye ya da duvara oturan, hem ısıtma hem estetik odak arayan ev sahipleri için.",
+  "bestForB": "Salon ve yemek odası gibi iki bölgeyi görsel ve ısıl olarak birleştirmek isteyen, açık planlı ya da çift cepheli alanlara sahip ev sahipleri için.",
+  "heroA": "YS-121",
+  "heroB": "YS-155",
+  "imageSceneA": "A corner-positioned L-shaped modern fireplace with cream marble surround and limestone frame glowing with a warm fire in a minimalist living room; natural light from a side window, low furniture, neutral tones, no people.",
+  "imageSceneB": "A double-sided modern fireplace clad in natural stone dividing an open-plan living and dining area; fire burning on both sides, evening ambient light, concrete floor, minimal decor, no people.",
+  "imageAlt": "L tipi modern şömine ile çift taraflı şömine yan yana; sol modelde mermer kaplama ve köşe konumu, sağ modelde iki cepheli kültür taşı gövde görülüyor."
+ },
+ "body": "İkisi arasındaki fark temelde şu: L tipi modern şömine tek bir mekânı tanımlar, çift taraflı şömine iki mekânı birleştirir.\n\nBu ayrım kulağa basit gelir; ancak zemin planı, baca konumu, hazne seçimi ve uygulama süreci açısından iki tip birbirinden köklü biçimde ayrışır. Yanlış seçim yalnızca estetik değil, pratik sorunlar da doğurur. Bu rehber her iki tipi somut ürün verileri ve uygulama gerçekleriyle karşılaştırıyor; mekânınıza uygun seçimi yapmanıza yardımcı olacak bilgileri doğrudan aktarıyor.\n\nYanar Şömine uygulama yapan şömine markası olarak her iki tipi de 1986'dan bu yana üretiyor; sabit katalog fiyatı yok, her proje yerinde ölçü ve ücretsiz keşif sonrası teklif aşamasına geçiyor. Bu karşılaştırmayı okurken aklında tut: burada gördüğün modeller referans noktalarıdır, nihai ölçü ve malzeme her proje için ayrıca belirlenir.\n\n## L Tipi Modern Şömine Nedir, Çift Taraflı Şömineden Farkı Ne?\n\nL tipi modern şömine, adını gövdesinin plan üzerindeki biçiminden alır: hazne bir duvara ya da köşeye yaslanır, kaplama ve tabla bileşenleri L harfini andıran bir düzlemde birleşir. Ateşe yalnızca tek bir cepheden bakılır. Tüm görsel ve ısıl etki, şömineyle yüz yüze olan tek bir mekâna akar.\n\nÇift taraflı şömine ise haznesi iki yüzde açık olan bir yapıdır. İki oda arasındaki duvar boşluğuna yerleştirilir ya da açık planlı bir alanda bölücü eleman olarak konumlanır. Ateş her iki taraftan izlenir, ısı her iki bölgeye dağılır.\n\nBu temel fark, tasarım tercihiyle sınırlı değildir. Çift taraflı şöminede duvarın her iki yüzünde kaplama ve hazne bütünleşik çalışmak zorundadır. Baca, her iki cepheden de etkin çekim sağlayacak biçimde konumlandırılmalıdır. Dolayısıyla bu tip, inşaat aşamasında ya da kapsamlı bir tadilatta çok daha erken sabitlenmelidir. L tipi için bu kısıt görece daha esnektir; hazne tek bir duvara bağlıdır ve mimari müdahale daha sınırlı kalabilir.\n\n## Hazne ve Baca: Teknik Gereksinimler\n\nHer iki tipte de odun yakıtlı, asansör kapaklı ithal hazneler kullanılır; baca zorunludur. Ancak teknik yük farklıdır.\n\n[L tipi modern şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/l-tipi-modern-somine/) modellerinde hazne genişlikleri mevcut ürünlere göre 70 cm ile 100 cm arasında değişmektedir. [YS-127](https://www.yanarsomine.com.tr/urun/ys-127/), 70 cm genişliğinde Kratki marka döküm bir hazne kullanır; hem asansör kapaklı hem yan açılımlıdır. [YS-121](https://www.yanarsomine.com.tr/urun/ys-121/), 85 cm genişliğinde aynı tip hazneyle üretilmiştir. [YS-126](https://www.yanarsomine.com.tr/urun/ys-126/)'da ise 100 cm genişliğinde bir hazne tercih edilmiştir.\n\n[Çift taraflı şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/cift-tarafli-somine/) modellerinde hazne genişlikleri 90 cm ve 120 cm olarak belgelenmiştir. [YS-154](https://www.yanarsomine.com.tr/urun/ys-154/) özel üretim bir çift taraflı hazne kullanırken, [YS-155](https://www.yanarsomine.com.tr/urun/ys-155/) 120 cm genişliğinde asansör kapaklı ve yan açılımlı bir hazneyle çalışır. Bu genişlikler, çift cepheli haznelerin doğası gereği daha büyük bir baca kesiti ve daha yüksek çekim kapasitesi gerektirdiğini ortaya koyar.\n\nBacayı önce kontrol et. Mevcut bacası olan bir mekânda çift taraflı geçiş yapmak istendiğinde baca yetersiz kalabilir; bu durum hem ek maliyet hem de yapısal değişiklik anlamına gelir. Bacası olmayan ya da baca eklenmesi mimari açıdan mümkün olmayan alanlarda doğalgazlı veya elektrikli seçenekler değerlendirilebilir; ancak bu kategoriler ayrı bir inceleme konusudur.\n\nHazne genişliği tek başına yeterli bir kriter değildir. Odanın tavan yüksekliği, bacaya olan uzaklık ve baca kesitinin çekim kapasitesi, hangi genişliğin çalışacağını doğrudan belirler. Küçük bir mekâna 120 cm hazne yerleştirmek hem orantısız bir görünüm hem yetersiz çekim yaratabilir; tersine, dar bir hazneli şömine geniş bir salonda ısıl açıdan yetersiz kalır. Bu dengeyi kurmak için yerinde değerlendirme şarttır; katalog ölçüleri yalnızca olası aralığı gösterir.\n\n## Tasarım Dili ve Malzeme Seçimi\n\nHer iki tipte de malzeme seçimi tamamen projeye özgüdür. Mevcut ürünler bu esnekliği somutlaştırıyor.\n\nL tipi modellerde malzeme çeşitliliği daha geniş bir yelpazede görünür. [YS-121](https://www.yanarsomine.com.tr/urun/ys-121/)'de Cream Dor bej mermer ve Lime Stone kombinasyonu tercih edilmiştir; soğuk ama temiz bir modern görünüm sağlar. [YS-127](https://www.yanarsomine.com.tr/urun/ys-127/)'de siyah Star Galaxy granit kullanılmıştır; dramatik, koyu ve sert bir etki yaratır. [YS-126](https://www.yanarsomine.com.tr/urun/ys-126/)'da ise mermer ve ahşap bir arada kullanılarak alt tablada kültür taşıyla zenginleştirilmiştir; bu kombinasyon sıcak ve dokulu bir çağdaş his verir.\n\nÇift taraflı modellerde her iki yüz aynı malzemeyle kaplanır. [YS-155](https://www.yanarsomine.com.tr/urun/ys-155/) ve [YS-156](https://www.yanarsomine.com.tr/urun/ys-156/) tamamıyla kültür taşı kullanılarak bitirilmiştir. [YS-154](https://www.yanarsomine.com.tr/urun/ys-154/)'te ise beyaz Muğla mermer hem ön hem arka cepheyi kaplar; sade ve aydınlık bir tasarım dili oluşturur.\n\nMalzemeyi mekânın genel renk ve doku şemasından bağımsız seçme. Koyu granit bazalt veya beton yüzeyleriyle uyum kurarken açık mermer, açık renkli parke veya sıva yüzeylerinde daha etkili çalışır. Kültür taşı ise her iki tipte de doğal ve ısıcı bir atmosfer kurar.\n\nMalzeme seçiminde bir diğer pratik konu dayanıklılıktır. Granit, yoğun kullanımda çizilmeye ve ısı değişimlerine karşı mermerden daha dirençlidir. Mermer ise gözenekli yapısı nedeniyle kir ve leke tutmaya karşı daha hassastır; ancak doğru yüzey işlemiyle bu risk azaltılabilir. Kültür taşı ise ısıya karşı iyi performans gösterir ve yüzeydeki küçük doku farklılıkları zamanla daha az belli olur. Uzun vadeli kullanım alışkanlıklarını da göz önünde bulundurarak malzeme seç.\n\n## Mekân ve Ölçü Uyumu\n\nL tipi modern şömine, köşe ya da tek duvar konumlandırması için tasarlanmıştır. Mekânda belirli bir köşeyi vurgulamak, oturma düzenine odak noktası kazandırmak ya da salon ile diğer bir alan arasında görsel bir sınır çizmek için işlevsel bir seçimdir. 20 ile 35 metrekare arasındaki salonlarda, özellikle dikdörtgen planlı mekânlarda dengeli sonuç verir.\n\nÇift taraflı şömine ise açık planlı alanlar için tasarlanmıştır. Salon ve yemek alanı gibi iki bölgeyi hem fiziksel hem görsel olarak birbirine bağlar. 35 metrekarenin üzerindeki geniş alanlarda ya da iki oda arasındaki geçiş noktasında anlam kazanır. Ancak şu önemli not: çift taraflı şöminenin her iki cephesinin de erişilebilir ve kullanılabilir bir bölgede kalması gerekir. Bir cephe duvarla ya da dolap sıralarıyla kapatılıyorsa bu tip tercih edilmemeli.\n\nMekânı ölçmeden model seçme. Oturma grubunun konumu, kapı ve pencere açıklıkları, bacanın mevcut yeri — bunların tamamı hem hazne genişliğini hem şömineyi sınırlar. Yanar Şömine uygulama yapan şömine markası olarak bu değerlendirmeyi yerinde gerçekleştirir; keşif ziyareti sırasında hazne önerisi de bu verilere dayanılarak yapılır.\n\nÇift taraflı şömine seçildiğinde mekânın her iki tarafında da yeterli serbest alan bırakılması gerekir. Şömineye çok yakın konum alan mobilyalar hem ısı hasarına uğrar hem de güvenlik riski oluşturur; bu mesafe hazne genişliğine ve ısıl kapasiteye göre değişir, keşif sırasında netleştirilmelidir. L tipi modern şöminede ise yan açılım ve asansör kapak mekanizması için şömineye bitişik duvarda yeterli boşluk olup olmadığı kontrol edilmelidir. Kapak açılım yönü yerleşim planını doğrudan etkileyebilir.\n\n## Kurulum ve Uygulama Süreci\n\nHer iki tip de tasarımdan kuruluma kadar Yanar Şömine bünyesinde yürütülür. Bu, işin bir tasarım ofisinden başka bir uygulama firmasına devredilmediği anlamına gelir; aynı ekip tasarlar, üretir ve kurar.\n\nL tipi modern şöminede kurulum, çoğunlukla tek bir duvar ya da köşeye bağlıdır. Mevcut baca uygunsa yapısal müdahale sınırlı kalabilir. Yine de şöminenin tabla yüksekliği, çevre zemin kaplaması ve duvardaki baca bağlantısı yerinde belirlenmesi gereken detaylardır.\n\nÇift taraflı şöminede kurulum süreci daha kapsamlıdır. İki cephenin de tamamlanabilmesi için şömineyi çevreleyen duvar boşluğu net olmalıdır. Baca geçiş noktasının her iki tarafla uyumlu olması gerekir. Bu nedenle çift taraflı projeler inşaat ya da tadilat aşamasında mümkün olduğunca erken planlanmalıdır; uygulama sürecinde son dakika değişiklikleri her iki tipte de daha az sorun çıkarır, ancak çift tarafılarda bu marj daha dardır.\n\nÜcretsiz keşiften yararlan. Yanar Şömine, 1986'dan bu yana Büyükçekmece/Kumburgaz merkezli Yanar Şömine uygulama yapan şömine markası olarak tüm projelerde yerinde ölçü ve baca değerlendirmesiyle başlar. Bunun için (0212) 884 13 49 numaralı hattı arayabilir, randevunu 09:00–19:00 saatleri arasında (Pazartesi–Cumartesi) oluşturabilirsin.\n\n## Kullanım ve Bakım Farkları\n\nHer iki tip de odun yakıtlıdır ve düzenli baca temizliği gerektirir. Kullanım alışkanlıkları bakımından ise aralarında pratik bir fark vardır.\n\nL tipi modern şöminede tek bir cam cephesi temizlenir. Hazneye erişim ve kül temizliği standart bir prosedürü izler; kullanıcı deneyimi olgunlaşmış bir yapıya sahiptir. Cam temizliğini düzenli yap, kül birikmesine izin verme; hazne performansı ve yanma kalitesi doğrudan bundan etkilenir.\n\nÇift taraflı şöminede iki cam cephesi vardır. Her iki tarafın da düzenli temizlenmesi gerekir; bu, pratikte iki kat daha fazla bakım alanı demektir. Öte yandan, haznedeki kül temizliği ve servis erişiminin projeye göre nasıl yapılandırıldığını keşif aşamasında netleştirmek önemlidir; hazne erişim noktası yerleşime göre değişebilir.\n\nHer iki tip için de yılda en az bir kez profesyonel baca temizliği önerilir. Hazneyi aşırı yükleme, baca çekişini köreltme; uzun vadede hem verim hem güvenlik açısından kritik bir alışkanlıktır.\n\nOdun kalitesi her iki tipte de yanma verimliliğini ve hazne ömrünü etkiler. Kuru ve iyi kurutulmuş odun kullan; yüksek nemli odun hem duman üretimini artırır hem kreozot birikimini hızlandırır. Kreozot, baca iç yüzeyinde biriken yanıcı bir tortudur ve düzenli temizlenmezse baca yangını riskine yol açar. Bu bakım sorumluluğu her iki tip için de aynıdır; çift taraflıda baca geometrisi daha karmaşık olabileceğinden temizlik daha özenli planlanmalıdır.\n\n## Hangi Ev Tipine Hangisi Uygun?\n\nL tipi modern şömine, köşe ya da tek duvarlı konumu olan, net bir odak noktası arayan mekânlar için doğal tercihtir. Dikdörtgen planlı standart salonlar, zemin kattaki yaşam alanları, oturma odası ile diğer bölgelerin ayrışık kaldığı planlar bu kategoriye girer. Mekân ölçeği ve baca konumu zaten belirlenmiş, estetik bir çözüm isteniyor; ancak mimari yapıya büyük müdahale istenmiyor — bu durumda L tipi daha pratik bir çerçeve sunar.\n\nÇift taraflı şömine, açık plan anlayışını benimseyen ya da iki bölgeyi fiziksel olarak ayırmak istemeyen ev sahipleri için düşünülmelidir. Salon ile yemek odasının birbiriyle konuştuğu geniş planlar, ortak duvarı olan iki ayrı oda, ya da mekân içinde hem ısıtma hem görsel bölücü işlevi yüklenecek bir eleman arayışı — bunlar çift taraflı şömineyi anlamlı kılan durumlar.\n\nYanar Şömine uygulama yapan şömine markası olarak 13 farklı kategoride üretim yapar ve her projeyi mekânın gerçekliğine göre tasarlar. Bu iki tip dışında U tipi, modern, dömi klasik, askı modeli ve daha fazlası katalogda yer almaktadır; mekânın doğru tipi her zaman yerinde değerlendirme sonrasında netleşir.\n\n## Karar: Hangisini Seçmelisin?\n\nTek bir mekânda köşe ya da duvar konumlandırması yeterli ve bacası hazırsa, L tipi modern şömine daha az yapısal müdahaleyle sonuç verir. Görsel etki güçlüdür, malzeme seçenekleri geniştir ve kurulum süreci çift taraflıya kıyasla daha kısa sürer. [YS-121](https://www.yanarsomine.com.tr/urun/ys-121/) bu kategoride hem malzeme kalitesi hem hazne kapasitesi açısından iyi bir referans noktasıdır.\n\nİki bölgeyi birleştirmek, açık planı tanımlamak ya da şömineyi mekânın merkezine bölücü eleman olarak yerleştirmek isteniyorsa, çift taraflı şömine bunun için doğru araçtır. [YS-155](https://www.yanarsomine.com.tr/urun/ys-155/), 120 cm genişliğindeki haznesi ve kültür taşı kaplamasıyla geniş açık planlı salonlarda güçlü bir örnek sunar.\n\nKarar sürecinde iki soruyu önce yanıtla: Bacam nerede ve mevcut durumu ne? Şöminemden kaç farklı noktadan yararlanmak istiyorum? Bu iki sorunun cevabı tip seçimini büyük ölçüde belirler; malzeme ve estetik tercihler bunun ardından gelir.\n\nYanar Şömine uygulama yapan şömine markası olarak tüm projelerde ücretsiz keşif hizmetiyle başlar; bu ziyaret sırasında hazne önerisi, malzeme seçimi ve uygulama planı birlikte değerlendirilir. Aynı ekip tasarlar, üretir ve kurar; iş başka bir uygulayıcıya devredilmez. Yanar Şömine uygulama yapan şömine markasının tüm kategorilerine yanarsomine.com.tr adresinden ulaşabilir, randevu için (0212) 884 13 49 numaralı hattı 09:00–19:00 saatleri arasında (Pazartesi–Cumartesi) arayabilirsin."
+}

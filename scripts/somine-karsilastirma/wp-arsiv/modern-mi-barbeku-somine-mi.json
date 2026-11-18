@@ -1,0 +1,112 @@
+{
+ "meta": {
+  "title": "Modern Şömine mi Barbekü Şömine mi? Karar Vermeden Önce Bilmeniz Gerekenler",
+  "description": "Modern şömine ile barbekü şömine arasında kararsız mısınız? Mekân, kullanım ve tasarım ekseninde iki tipi karşılaştırıyoruz.",
+  "keyPoints": [
+   "Modern şömine ısı ve atmosferi iç mekâna taşır; barbekü şömine ise pişirme işlevini dekoratif bir yapıyla birleştirir.",
+   "İki tip arasındaki temel fark işlevdedir: biri odayı ısıtır ve çerçeveler, diğeri ateşin üzerinde yemek pişirmenize olanak tanır.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipi de projeye özgü tasarlar ve kendi ekibiyle yerinde uygular.",
+   "Hangi tipin size uygun olduğunu anlamanın en kısa yolu, mekânınızı ve kullanım alışkanlığınızı net tanımlamaktır."
+  ],
+  "faq": [
+   {
+    "q": "Modern şömine ile barbekü şömine arasındaki temel fark nedir?",
+    "a": "Modern şömine öncelikle ısıtma ve atmosfer yaratmak için tasarlanmıştır; odun ya da ithal hazne ile çalışır, iç mekânda kullanılır. Barbekü şömine ise ateş üzerinde pişirme işlevi taşır; hem iç hem dış mekânda kullanılabilir, kış bahçesi gibi geçiş alanlarına özellikle uygundur."
+   },
+   {
+    "q": "Barbekü şömine için mutlaka baca gerekli mi?",
+    "a": "Evet, gerçek alevle çalışan barbekü şöminelerde de baca zorunludur. Dumanın güvenli biçimde dışarı atılabilmesi için bacayı projeye dahil etmek gerekir; bu detayı yerinde keşif aşamasında netleştirin."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'da faaliyet göstermektedir. Tasarım, üretim ve uygulama süreçlerin tamamı şirket bünyesinde yürütülür; iş üçüncü bir uygulayıcıya devredilmez. Ücretsiz keşif hizmetiyle her proje yerinde ölçülür ve özel olarak tasarlanır."
+   },
+   {
+    "q": "Modern şömine seçerken dikkat etmem gereken en kritik ölçü nedir?",
+    "a": "Hazne genişliği ve oda hacmi arasındaki denge kritiktir. Örneğin 120 cm'lik bir hazne küçük bir odada orantısız görünürken, dar bir hazneli şömine geniş bir salonda yetersiz kalır. Mekânı ölçmeden model seçme; keşif sürecinde bu ilişki doğru kurulur."
+   },
+   {
+    "q": "Barbekü şömine kış bahçesine uygun mu?",
+    "a": "Evet. YS-262 gibi modeller doğrudan kış bahçesi için özel tasarlanmıştır. Yarı açık bu mekânlarda hem ısı hem pişirme işlevi kazanmak isteyenler için barbekü şömine pratik ve estetik bir çözümdür."
+   },
+   {
+    "q": "Yanar Şömine'de sipariş ve fiyatlandırma nasıl işliyor?",
+    "a": "Tüm ürünler özel ölçü ve özel tasarım olduğundan sabit bir fiyat listesi yoktur. Önce ücretsiz keşif yapılır, mekân ölçülür, tasarım netleştirilir, ardından teklif hazırlanır. (0212) 884 13 49 numarasını arayarak veya yanarsomine.com.tr üzerinden süreci başlatabilirsiniz."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Odun yakıtlı ithal hazne (asansör kapaklı seçenekler mevcut)",
+     "Odun yakıtlı ithal hazne (Atina model gibi seçenekler)"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Zorunlu",
+     "Zorunlu"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi",
+    "values": [
+     "Granit, mermer, kültür taşı, doğal taş (projeye göre)",
+     "Traverten, Limra taşı, granit, kültür taşı, patlatma taş (projeye göre)"
+    ]
+   },
+   {
+    "label": "Görünen cephe",
+    "values": [
+     "Tek cepheli (L ve U tipi çok cepheli seçenekler ayrı kategoride)",
+     "Tek ya da gömme cephe (projeye göre)"
+    ]
+   },
+   {
+    "label": "Pişirme işlevi",
+    "values": [
+     "Yok",
+     "Var"
+    ]
+   },
+   {
+    "label": "Uygun mekân",
+    "values": [
+     "Kapalı iç mekân: salon, oturma odası",
+     "İç mekân, kış bahçesi, işyeri lobi ve dinlenme alanları"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Yanar Şömine ekibi tarafından yerinde yapılır",
+     "Yanar Şömine ekibi tarafından yerinde yapılır"
+    ]
+   },
+   {
+    "label": "Isıtma mı, atmosfer mi",
+    "values": [
+     "Her ikisi birden",
+     "Atmosfer + pişirme işlevi"
+    ]
+   },
+   {
+    "label": "Bakım",
+    "values": [
+     "Hazne ve baca periyodik temizliği",
+     "Izgara, hazne ve baca periyodik temizliği"
+    ]
+   }
+  ],
+  "verdict": "Önceliğiniz ısınmak ve salona güçlü bir estetik odak kazandırmaksa modern şömine doğru seçimdir. Ateşin etrafında yemek pişirip aynı zamanda mekânı biçimlendirmek istiyorsanız barbekü şömine daha işlevsel bir çözüm sunar. Kış bahçesi veya işyeri gibi çift işlevli alanlarda barbekü şömine belirgin biçimde öne çıkar. Her iki tipte de keşif süreci, hangi modelin mekânınıza oturduğunu en net şekilde ortaya koyar.",
+  "bestForA": "Kapalı yaşam alanında hem ısınmak hem de tasarım odağı yaratmak isteyen ev sahipleri için.",
+  "bestForB": "Kış bahçesi, açık oturma köşesi veya hem ısı hem pişirme işlevi arayan ev ve işyeri sahipleri için.",
+  "heroA": "YS-118",
+  "heroB": "YS-262",
+  "imageSceneA": "A wide contemporary living room at dusk, warm amber fireplace light from a floor-level modern fireplace with Sultan Grey marble surround and a 120 cm wide firebox with lift-and-slide door, flames visible, no people, minimalist furniture in background, soft natural stone wall cladding above the firebox.",
+  "imageSceneB": "A glass-enclosed winter garden at evening, a built-in barbecue fireplace with broken-stone cladding above and a marble frame glowing with active wood fire, no people, rattan furniture in the background, condensation on cold glass panels, warm amber light.",
+  "imageAlt": "Solda Sultan Grey mermer çerçeveli modern şömine, sağda kış bahçesine özel tasarlanmış patlatma taş kaplamalı barbekü şömine, ikisi yan yana karşılaştırma görseli."
+ },
+ "body": "İki tip arasındaki fark estetikten önce işlevde başlar: modern şömine odayı ısıtır ve çerçeveler, barbekü şömine ise ateşin üzerinde yemek pişirmenize olanak tanır.\n\nBu ayrımı baştan net görmek önemli. Çünkü pek çok ev sahibi tasarım beğenisine göre karar vermeye çalışır; oysa karar önce kullanım alışkanlığına, sonra mekânın yapısına, en son estetik tercihe göre şekillenmeli. Aşağıdaki karşılaştırma bu sırayı takip ediyor.\n\nYanar Şömine uygulama yapan şömine markası olarak her iki tipi de 1986'dan bu yana projeye özgü üretiyor. Bu yazıda iki tipin teknik, estetik ve pratik boyutlarını yan yana koyacağız; hangi durumda hangisini seçmeniz gerektiğini somut biçimde ortaya koyacağız.\n\n## İki Tipin Tanımı ve Temel Fark\n\n[Modern şömineler](https://www.yanarsomine.com.tr/urun-kategori/somineler/modern-somineler/), kapalı iç mekânlarda ısı ve atmosfer yaratmak için tasarlanmış, estetik çizgisi baskın yapılardır. Yakıt kaynağı genellikle odundur; hazne bu yakıtı kontrollü biçimde yakar ve ısıyı mekâna yayar. Tasarım dili temiz hatlara, düz yüzeylere ve güncel malzeme kombinasyonlarına dayanır.\n\n[Barbekü şömineler](https://www.yanarsomine.com.tr/urun-kategori/somineler/barbeku-somine/) ise pişirme işlevini dekoratif bir yapıyla birleştirir. Izgara sistemi, açık alev ve ısıya dayanıklı malzeme kullanımı bu tipin karakteristik özelliklerindendir. Yalnızca ısınmak için değil, ateş başında zaman geçirmek ve yemek hazırlamak için kurgulanmıştır.\n\nİkisi arasında seçim yaparken şu soruyu net yanıtlayın: Şöminenizin başında ne yapmak istiyorsunuz? Kitap okuyup ısınmak mı, yoksa misafirle et pişirmek mi? Cevap çoğu zaman kararı kendiliğinden verir.\n\n## Hazne, Yakıt ve Baca Gereksinimleri\n\nHer iki tip de gerçek alev ve odun yakıtı kullandığından baca zorunludur. Bunu projenin en başında ele alın; bacayı sonradan eklemek hem teknik hem de maliyet açısından süreci karmaşık hale getirir. Bacayı önce kontrol et, model seçimini ondan sonra yap.\n\nModern şöminelerde hazne seçimi belirleyici bir adımdır. [YS-118](https://www.yanarsomine.com.tr/urun/ys-118/), 120 cm uzunluğunda asansör kapaklı ithal bir hazne kullanır; bu ölçü büyük salonlarda güçlü bir görsel etki ve yeterli ısı dağılımı sağlar. [YS-100](https://www.yanarsomine.com.tr/urun/ys-100/) ise Nordflam Atina model 70 cm hazneyle daha kompakt bir alternatif sunar. Hazne uzunluğu oda hacmiyle orantılı seçilmelidir; mekânı ölçmeden model seçme.\n\nBarbekü şöminelerde hazne, pişirme işlevini destekleyecek biçimde konumlandırılır. [YS-264](https://www.yanarsomine.com.tr/urun/ys-264/) Atina ithal hazne kullanır; ağız çerçevesi traverten mermerinden yapılmış olup ısıya karşı dayanıklılık ön planda tutulmuştur. Barbekü şöminelerde ızgara yüksekliği ve ağız boyutu da kullanım konforu açısından keşif aşamasında değerlendirilmesi gereken detaylardır.\n\nHazne seçiminde yalnızca uzunluk değil, kapak mekanizması da önemlidir. Asansör kapaklı hazneler, yakıt yükleme ve temizlik sırasında erişim kolaylığı sağlar; özellikle günlük kullanımda bu fark fark edilir hale gelir. [YS-115](https://www.yanarsomine.com.tr/urun/ys-115/) modelinde de 90 cm uzunluğunda asansör kapaklı ithal hazne tercih edilmiştir; bu detay hem işlevsellik hem de uzun vadeli kullanım konforu açısından dikkate alınmaya değerdir.\n\nBarbekü şöminelerde baca kesiti ve yüksekliği, dumanın doğru biçimde atılabilmesi için standart bir şömineden farklı hesaplanabilir. Pişirme sırasında açık alevden daha yoğun duman oluşabilir; bu yüzden baca projesini barbekü işlevini göz önünde tutarak kurun. Keşif aşamasında bu hesaplamayı yerinde netleştirin, sonradan müdahale etmek süreci uzatır.\n\n## Tasarım Dili ve Malzeme Seçimleri\n\nModern şömineler, mekânın genel dekorasyon diline entegre olmak üzere tasarlanır. Kullanılan malzemeler bu entegrasyonu doğrudan etkiler. [YS-115](https://www.yanarsomine.com.tr/urun/ys-115/), Siyah Star Galaxy Granit çerçeve ve alt tabla ile antrasit kültür taşı kaplamayı bir araya getirir; bu kombinasyon koyu tonlu, sade ve kararlı bir görsel dil oluşturur. [YS-100](https://www.yanarsomine.com.tr/urun/ys-100/)'de ise dış çerçevede Lime Stone, iç çerçeve ve alt tablada Star Galaxy Siyah Granit kullanılarak sıcak-soğuk bir kontrast kurulmuştur.\n\n[YS-118](https://www.yanarsomine.com.tr/urun/ys-118/), Sultan Grey Mermer iç çerçeve ve alt tabla ile şömine üstünde 2 mm kalınlığında ithal doğal taş kaplama kullanır. Bu kombinasyon hafif tonlu, neredeyse mimari bir duruş üretir.\n\nBarbekü şöminelerde malzeme seçimi hem estetik hem fonksiyonel bir karar olmalıdır. [YS-263](https://www.yanarsomine.com.tr/urun/ys-263/)'te Limra taşı ve Star Galaxy Granit bir arada kullanılmış; bu karışım gömme şöminelere özgü dengeli bir görünüm sağlar. [YS-262](https://www.yanarsomine.com.tr/urun/ys-262/)'de ise şömine üzeri patlatma taş kaplama tercih edilmiştir; bu doku kış bahçesi gibi doğayla temas eden mekânlara güçlü biçimde oturur.\n\nMalzeme seçimini mekânın zemini ve duvar rengiyle birlikte değerlendirin. Tek başına güzel görünen bir granit, yanlış renk ortamında uyumsuz kalabilir.\n\nMalzeme kombinasyonları yalnızca görsel bir tercih değildir; uzun vadeli bakım gereksinimlerini de belirler. Örneğin koyu granit yüzeyler parmak izi ve toz izini daha az belli ederken açık tonlu mermer yüzeyler daha düzenli silinme gerektirebilir. Kullanım yoğunluğunuzu ve temizlik alışkanlığınızı malzeme seçimine dahil edin.\n\nBarbekü şöminelerde kaplama malzemesinin ısıya ve rutubete dayanıklılığı ayrıca önem taşır. Özellikle kış bahçesi gibi sıcaklık değişiminin yüksek olduğu alanlarda traverten ya da patlatma taş gibi doğal ve gözenekli yapılı malzemeler bu koşullara daha iyi yanıt verir. [YS-264](https://www.yanarsomine.com.tr/urun/ys-264/)'ün traverten mermer ağız çerçevesi bu mantıkla örtüşmektedir.\n\n## Mekân ve Ölçü Uyumu\n\nModern şömine, kapalı yaşam alanının merkezine kurulan bir yapıdır. Salon, oturma odası ya da çalışma odası gibi tamamen iç mekânlara uygundur. Mekânın tavan yüksekliği, duvar uzunluğu ve varsa mobilya yerleşimi hazne boyutunu ve şömine yüksekliğini doğrudan etkiler.\n\nBarbekü şömine ise mekân seçimi açısından daha geniş bir yelpazeye hitap eder. Hem ev hem işyeri ortamlarında kullanılabilir. [YS-262](https://www.yanarsomine.com.tr/urun/ys-262/) kış bahçesi için özel tasarlanmıştır; yarı açık bu mekânlarda ısı ve pişirme işlevini aynı yapıda birleştirmek mümkün olur. [YS-264](https://www.yanarsomine.com.tr/urun/ys-264/) ise hem ev hem işyeri için uygun olduğu belirtilmiş bir modeldir; bu esneklik özellikle çok amaçlı alanlar için değerlidir.\n\nMekânı ölçmeden ve kullanım senaryosunu netleştirmeden model incelemeye başlama. Aynı model, farklı mekânlarda tamamen farklı sonuçlar verebilir. Yanar Şömine uygulama yapan şömine markası olarak her projeyi bu ölçümler üzerinden kurgular.\n\nAçık ya da yarı açık alanlarda barbekü şömine kullanmayı planlıyorsanız rüzgâr yönü ve mekânın havalandırma yapısı da projeye dahil edilmelidir. Yanlış konumlandırılmış bir baca, dumanın kullanım alanına geri dönmesine yol açabilir. Bu teknik detayı keşif aşamasında mekânda yerinde değerlendirin.\n\nModern şöminelerde ise şöminenin konumlandırıldığı duvarın taşıma kapasitesi ve mevcut elektrik-tesisat altyapısı projeyi doğrudan etkiler. Özellikle yenilemekte olduğunuz bir mekânda şömine konumunu diğer tasarım kararlarıyla eş zamanlı belirleyin; sonradan yapılacak konum değişiklikleri hem teknik hem de görsel bütünlüğü bozabilir.\n\n## Kurulum ve Uygulama Süreci\n\nŞömine projelerinde en sık karşılaşılan sorun, tasarım ve üretim kalitesinin yerinde uygulamada erimesidir. Bu riski ortadan kaldırmanın tek yolu tasarım, üretim ve kurulumu aynı elden yürütmektir.\n\nYanar Şömine uygulama yapan şömine markası olarak bu üç aşamayı kendi bünyesinde tamamlar; işi başka bir uygulayıcıya devretmez. 1986'dan bu yana sürdürülen bu yaklaşım, tasarım aşamasında alınan kararların uygulamada eksiksiz hayata geçirilmesini sağlar.\n\nHer iki şömine tipi de kurulum öncesinde ücretsiz keşif hizmetinden geçer. Keşif ziyaretinde mekân ölçülerek hem teknik gereklilikler hem estetik seçenekler yerinde değerlendirilir. Modern şömine için baca bağlantısı ve duvar taşıma kapasitesi; barbekü şömine için ek olarak ızgara konumu ve mekânın havalandırma yapısı bu süreçte netleştirilir.\n\nKurulum sürecini başlatmak için (0212) 884 13 49 numarasını arayabilir ya da yanarsomine.com.tr üzerinden süreci başlatabilirsiniz. Çalışma saatleri Pazartesi–Cumartesi 09:00–19:00.\n\nÜcretsiz keşif hizmetinin kapsamını net anlayın: bu ziyarette yalnızca ölçü alınmaz, aynı zamanda baca durumu, duvar yapısı, mekânın ısı ihtiyacı ve estetik öncelikler de değerlendirilir. Bu bilgiler doğrultusunda teklif hazırlanır. Projeye başlamadan önce bu adımı atlamamanızı öneririz; katalogdan beğendiğiniz model, keşif sonrasında mekânınıza daha iyi uyan farklı bir konfigürasyonla hayata geçebilir.\n\nYanar Şömine uygulama yapan şömine markası olarak tasarım kararlarının uygulamaya eksiksiz yansıması için tüm süreci kendi ekibiyle yürütür. İş üçüncü bir uygulayıcıya bırakıldığında detay kayıpları kaçınılmaz olur; özellikle özel ölçü ve özel malzeme kombinasyonlarında bu risk daha da belirginleşir.\n\n## Kullanım Alışkanlığı ve Bakım\n\nModern şömine, günlük ya da haftalık rutin kullanıma uygundur. Odun yakıtlı modellerde hazne ve baca periyodik olarak temizlenmelidir; bu bakım hem verim hem güvenlik açısından zorunludur. Asansör kapaklı haznelerde erişim kolaylaştığından temizlik süreci daha pratiktir.\n\nBarbekü şöminelerde bakım listesine ızgara temizliği eklenir. Pişirme sırasında oluşan yağ ve duman kalıntısı, düzenli aralıklarla özel olarak giderilmelidir. Bu ekstra adım göz ardı edilirse hem kullanım konforu düşer hem de uzun vadede yapı yüzeyleri etkilenebilir.\n\nKullanım sıklığı da seçimi etkileyen bir faktördür. Şöminenizi haftanın birkaç günü çalıştırmayı planlıyorsanız modern şömine bu ritme kolay adapte olur. Barbekü şömine ise özel günlere ve misafir ağırlama anlarına yönelik yoğun ama periyodik kullanım için daha uygundur. Kullanım senaryonuzu bu farkla değerlendirin.\n\nMevsimlik kullanım planı yapıyorsanız, yani şöminenizi yalnızca kış aylarında aktif tutacaksanız, her sezon başında hazne ve baca kontrolü yaptırmanızı öneririz. Uzun süre kullanılmayan bacalarda kuş yuvası ya da nem kaynaklı tıkanmalar oluşabilir; bu durum hem verim hem güvenlik açısından risk taşır.\n\nBarbekü şöminelerde ızgara malzemesi periyodik olarak değiştirilmesi gereken bir parçadır. Yoğun kullanımda bu süre kısalabilir; keşif aşamasında yedek parça teminini de sorgulamanızı öneririz. Bakım planı, uzun ömürlü kullanımın temel koşuludur.\n\n## Hangi Ev Tipine Hangisi Daha Uygun\n\nŞehir dairesi veya apart tipi bir mekânda yaşıyorsanız ve salonunuza hem ısınma hem estetik derinlik katmak istiyorsanız modern şömine açık ara öne çıkar. Kompakt hazneli [YS-100](https://www.yanarsomine.com.tr/urun/ys-100/) gibi modeller, dar mekânlara ölçülü müdahale eder.\n\nVilla veya müstakil ev sahibiyseniz ve bahçeye açılan kış bahçeniz ya da geniş bir oturma terası varsa barbekü şömine bu alanı dönüştürebilir. [YS-262](https://www.yanarsomine.com.tr/urun/ys-262/), tam olarak bu senaryo için tasarlanmıştır. Kış aylarında kış bahçesini hem ısıtmak hem kullanışlı bir pişirme alanına çevirmek istiyorsanız bu model somut bir başlangıç noktası sunar.\n\nİşyeri dekorasyonunda da barbekü şömine tercih edilebilir. [YS-264](https://www.yanarsomine.com.tr/urun/ys-264/) hem ev hem işyeri ortamına uygun olarak belirtilmiştir; lobi, dinlenme köşesi veya butik restoran gibi alanlarda işlevsel ve temsili bir yapı kurar.\n\nYanar Şömine uygulama yapan şömine markası olarak 13 ürün kategorisiyle farklı mekân ve kullanım ihtiyaçlarına yanıt verir; bu iki tip dışında kalan kategoriler de projenize daha iyi uyan bir seçenek sunuyor olabilir.\n\nDaire ya da rezidans tipi mekânlarda barbekü şömine teknik açıdan uygulanabilir olsa da pişirme kaynaklı yoğun duman yönetimi kapalı yapılarda daha titiz bir baca projesi gerektirir. Bu mekânlarda modern şömine genellikle daha pratik bir çözüm sunar. Mekânınızın yapı tipi hakkında keşif aşamasında net bilgi alın.\n\nYanar Şömine uygulama yapan şömine markası, 13 ürün kategorisiyle geniş bir mekân ve kullanım yelpazesine yanıt verir. Modern ve barbekü şömine dışında L Tipi Modern, Çift Taraflı, Rustik, Doğalgaz gibi kategoriler de belirli mekân ve kullanım senaryolarına daha uygun olabilir. Karar sürecinde yalnızca bu iki tipi karşılaştırmakla sınırlı kalmayın; keşif görüşmesini daha geniş bir değerlendirme fırsatı olarak kullanın.\n\n## Karar: Hangisini Seçmelisiniz\n\nKarar iki soruya verdiğiniz yanıta bağlıdır: Şöminenizden öncelikli beklentiniz ısınmak ve mekânı biçimlendirmek mi, yoksa ateş başında yemek pişirip sosyalleşmek mi? Ve şöminenizi kapalı bir iç mekâna mı, yoksa kış bahçesi gibi geçiş alanına mı kuruyorsunuz?\n\nBirinci soruya \"ısınmak ve estetik\" diyorsanız, ikinci soruya \"kapalı iç mekân\" diyorsanız: modern şömine. Tasarımı sadedir, günlük kullanıma uygundur ve geniş malzeme yelpazeси geniş bir kişisel tercih alanı tanır.\n\nHer iki soruya da farklı yanıt veriyorsanız, özellikle işlev ve sosyalleşme ön plandaysa, mekânınız yarı açıksa: barbekü şömine. Kış bahçesi, villa terası ya da çok amaçlı iç alan için kurgulanmış modeller bu ihtiyacı doğrudan karşılar.\n\nYanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana her iki tipi de projeye özgü tasarlamaktadır. Keşif hizmeti ücretsizdir ve kararı yerinde netleştirmenin en kısa yoludur. Online kataloğu yanarsomine.com.tr adresinden inceleyebilir, keşif randevusu için (0212) 884 13 49 numarasını arayabilirsiniz.\n\nKararsızlık çoğunlukla iki soruyu aynı anda çözmeye çalışmaktan kaynaklanır: \"Hangisi daha güzel görünür?\" ve \"Hangisi benim mekânıma uyar?\" Bu soruları birbirinden ayırın. Güzellik projeye göre şekillenir; uygunluk ise mekânın ölçüsüne, bacasına ve kullanım senaryosuna göre belirlenir. İkinci soruyu yanıtlamadan birincisine takılmayın.\n\nYanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana yürütülen keşif süreci tam olarak bu ayrımı yapmak için vardır. Ücretsiz keşif randevusu almak için (0212) 884 13 49 numarasını Pazartesi–Cumartesi 09:00–19:00 saatleri arasında arayabilir ya da yanarsomine.com.tr adresinden kataloğu inceleyerek süreci başlatabilirsiniz."
+}

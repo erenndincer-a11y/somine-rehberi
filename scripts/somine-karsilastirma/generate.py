@@ -420,9 +420,15 @@ def wp_json(url, data=None, method="GET"):
         raise
 
 
+def _ascii_name(name):
+    """HTTP başlıkları latin-1 olmalı: Türkçe karakterleri ASCII'ye çevir."""
+    tr = str.maketrans("çğıöşüÇĞİÖŞÜâîû", "cgiosuCGIOSUaiu")
+    return re.sub(r"[^A-Za-z0-9._-]+", "-", name.translate(tr)).strip("-") or "gorsel.jpg"
+
+
 def wp_upload(data, filename, alt):
     req = urllib.request.Request(f"{WP_API}/media", data=data, method="POST", headers=wp_headers({
-        "Content-Disposition": f"attachment; filename={filename}", "Content-Type": "image/jpeg"}))
+        "Content-Disposition": f"attachment; filename={_ascii_name(filename)}", "Content-Type": "image/jpeg"}))
     with urllib.request.urlopen(req, timeout=120) as r:
         media = json.loads(r.read())
     wp_json(f"{WP_API}/media/{media['id']}", {"alt_text": alt}, "POST")

@@ -407,9 +407,17 @@ def wp_json(url, data=None, method="GET"):
     req = urllib.request.Request(url, method=method, headers=wp_headers({"Content-Type": "application/json"}))
     if data is not None:
         req.data = json.dumps(data).encode("utf-8")
-    with urllib.request.urlopen(req, timeout=90) as r:
-        body = r.read()
-        return json.loads(body) if body else None
+    try:
+        with urllib.request.urlopen(req, timeout=90) as r:
+            body = r.read()
+            return json.loads(body) if body else None
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 403):
+            try:
+                print(f"HTTP {e.code} yanıtı: {e.read()[:300].decode('utf-8', 'replace')}", file=sys.stderr)
+            except Exception:
+                pass
+        raise
 
 
 def wp_upload(data, filename, alt):
@@ -648,6 +656,9 @@ def main():
     a = ap.parse_args()
     if a.env_file:
         base.load_env_file(a.env_file)
+    if not a.dry_run:
+        # Üretime para harcamadan önce WP girişini doğrula
+        wp_json(f"{WP_API}/users/me?context=edit&_fields=id")
 
     cfg = json.loads(PAIRS_FILE.read_text(encoding="utf-8"))
     state = load_state()

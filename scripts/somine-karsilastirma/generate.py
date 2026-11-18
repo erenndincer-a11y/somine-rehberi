@@ -658,7 +658,14 @@ def main():
         base.load_env_file(a.env_file)
     if not a.dry_run:
         # Üretime para harcamadan önce WP girişini doğrula
-        wp_json(f"{WP_API}/users/me?context=edit&_fields=id")
+        try:
+            wp_json(f"{WP_API}/users/me?context=edit&_fields=id")
+        except urllib.error.HTTPError:
+            u, pw = os.environ.get("WP_USER", ""), os.environ.get("WP_APP_PASSWORD", "")
+            print(f"Teşhis: kullanıcı uzunluk={len(u)} kenar-boşluk={u != u.strip()} @={'@' in u}; "
+                  f"parola uzunluk={len(pw)} boşluksuz={len(pw.replace(' ', ''))} "
+                  f"kenar-boşluk={pw != pw.strip()} alfanümerik={pw.replace(' ', '').isalnum()}", file=sys.stderr)
+            raise
 
     cfg = json.loads(PAIRS_FILE.read_text(encoding="utf-8"))
     state = load_state()

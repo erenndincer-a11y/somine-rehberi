@@ -33,7 +33,7 @@ jobs:
           python-version: '3.11'
 
       - name: Paketleri yükle
-        run: pip install anthropic openai pillow -q
+        run: pip install anthropic openai pillow numpy scipy -q
 
       - name: Eş yazıyı üret (sominerehberi.com)
         id: gen

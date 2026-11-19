@@ -34,7 +34,7 @@ jobs:
           python-version: '3.11'
 
       - name: Paketleri yükle
-        run: pip install anthropic openai pillow markdown -q
+        run: pip install anthropic openai pillow numpy scipy markdown -q
 
       - name: Karşılaştırma yaz (yanarsomine.com.tr + sominerehberi.com)
         id: gen

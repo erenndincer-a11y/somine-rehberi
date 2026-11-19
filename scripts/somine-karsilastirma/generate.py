@@ -6,8 +6,8 @@ Salı + Perşembe GitHub Actions ile çalışır; her çalışmada bir şömine 
 (pairs.json: 12 şömine tipinin ikili eşleşmeleri + Barbekü Şömine vs Bahçe Barbeküsü = 67 konu).
 
 Her çalışmada iki AYRI yazı çıkar:
-  1. yanarsomine.com.tr → "Şömine Rehberi" kategorisi (WP id 109): HTML yazı, gpt-image-1 kapak + iki
-     yaşam alanı görseli, karşılaştırma tablosu, karar kutusu, SSS, ürün kartları, JSON-LD (FAQPage +
+  1. yanarsomine.com.tr → "Şömine Rehberi" kategorisi (WP id 109): HTML yazı, ürün fotoğrafı şablonundan kapak (iki tip yan yana) + iki
+     ürün görseli (GPT yalnız fotoğraf yoksa), karşılaştırma tablosu, karar kutusu, SSS, ürün kartları, JSON-LD (FAQPage +
      ItemList/Product), Yoast meta açıklaması, llms.txt satırı.
   2. sominerehberi.com → "Şömine Karşılaştırma" kategorisi: farklı başlık/kurgu/SSS ile yazılmış ikinci
      yazı; benzersizlik ilk yazıyla 6 kelimelik dizi örtüşmesiyle ölçülür.
@@ -357,36 +357,25 @@ def hero_of(prods, name):
     return next((p for p in prods if p["name"].lower() == (name or "").lower()), prods[0])
 
 
-# ── Görseller (gpt-image-1) ───────────────────────────────────────────────
-def lifestyle(product, scene, no_image=False):
-    from PIL import Image
-    src = Image.open(io.BytesIO(base.http_get(product["gorsel"], binary=True))).convert("RGB")
-    if not no_image:
-        try:
-            import openai
-            buf = io.BytesIO()
-            src.save(buf, "PNG")
-            buf.seek(0)
-            prompt = ("Use the fireplace in the provided product photo as the exact reference: keep its design, material, "
-                      "finish and every detail unchanged. Create a photorealistic interior lifestyle photograph: "
-                      f"{scene}. Warm ambient light, 35mm lens, no people, no text, no logos, no watermark, "
-                      "no extra or deformed fireplaces.")
-            res = openai.OpenAI().images.edit(model="gpt-image-1.5", image=("product.png", buf, "image/png"),
-                                              prompt=prompt, size="1536x1024", quality="medium")
-            log("Görsel üretildi (gpt-image-1):", product["name"])
-            return Image.open(io.BytesIO(base64.b64decode(res.data[0].b64_json))).convert("RGB"), True
-        except Exception as e:  # noqa: BLE001
-            log("gpt-image-1 başarısız, ürün fotoğrafı kullanılacak:", str(e)[:200])
-    return src, False
+# ── Görseller (gerçek ürün fotoğrafı şablonu; GPT yalnız fotoğraf yoksa) ──────
+def lifestyle(product, scene, no_image=False, anahtar=""):
+    """Tek ürünün kurulum fotoğrafı, şablon motoruyla tam kadraj. (görsel, yapay zekâ mı)"""
+    img, yontem = base.sablon_kapak([product.get("gorsel")], anahtar or product["url"],
+                                    yedek=None if no_image else (lambda: base.gpt_sahne(scene)))
+    return img, yontem == "yedek-gpt"
 
 
-def composite(img_a, img_b, w=1440, h=960, gap=8):
-    from PIL import Image
-    half = (w - gap) // 2
-    canvas = Image.new("RGB", (w, h), (250, 250, 249))
-    canvas.paste(base.cover(img_a, half, h), (0, 0))
-    canvas.paste(base.cover(img_b, half, h), (w - half, 0))
-    return canvas
+def diger(side_prods, hero, n=0):
+    """Kahraman dışındaki n. ürün (kapak iç görsellerle aynı olmasın); yoksa kahramanın kendisi."""
+    others = [p for p in side_prods if p["url"] != hero["url"] and p.get("gorsel")]
+    return others[n % len(others)] if others else hero
+
+
+def composite(pa, pb, anahtar, no_image=False, scene="two fireplaces side by side in modern living rooms"):
+    """Kapak: iki tipten birer ürün fotoğrafı yan yana (tam kadraj, aleve ortalı). (görsel, yapay zekâ mı)"""
+    img, yontem = base.sablon_kapak([pa.get("gorsel"), pb.get("gorsel")], anahtar,
+                                    yedek=None if no_image else (lambda: base.gpt_sahne(scene)))
+    return img, yontem == "yedek-gpt"
 
 
 def jpeg(img, w=None, h=None):
@@ -700,13 +689,15 @@ def main():
         saved = json.loads(arch.read_text(encoding="utf-8"))
         wp_meta, wp_body = saved["meta"], saved["body"]
         wp_post = {"title": entry["wp_title"], "link": entry["wp_link"]}
-        imgs, ai = None, False
+        imgs = None
     else:
         wp_meta, wp_body = write_article(prompt_wp(cfg, pair, prods), prods, need_scenes=True)
         ha, hb = hero_of(prods["A"], wp_meta["heroA"]), hero_of(prods["B"], wp_meta["heroB"])
-        img_a, ai_a = lifestyle(ha, wp_meta["imageSceneA"], a.no_image)
-        img_b, ai_b = lifestyle(hb, wp_meta["imageSceneB"], a.no_image)
-        imgs, ai = {"A": img_a, "B": img_b, "cover": composite(img_a, img_b)}, ai_a and ai_b
+        wp_slug = f"{pair['slug']}-somine-karsilastirmasi"
+        img_a, _ = lifestyle(ha, wp_meta["imageSceneA"], a.no_image, f"{wp_slug}-a")
+        img_b, _ = lifestyle(hb, wp_meta["imageSceneB"], a.no_image, f"{wp_slug}-b")
+        cover_img, _ = composite(diger(prods["A"], ha, 0), diger(prods["B"], hb, 0), wp_slug, a.no_image)
+        imgs = {"A": img_a, "B": img_b, "cover": cover_img}
         post = publish_wp(cfg, pair, prods, wp_meta, wp_body, imgs, a.wp_draft)
         wp_title = post.get("title", {}).get("rendered", wp_meta["title"]) if isinstance(post.get("title"), dict) else wp_meta["title"]
         wp_post = {"title": html.unescape(wp_title), "link": post["link"]}
@@ -721,12 +712,10 @@ def main():
 
     ref = {"title": wp_meta["title"], "body": wp_body}
     site_meta, site_body = write_article(prompt_site(cfg, pair, prods, wp_meta, wp_body), prods, need_scenes=False, ref=ref)
-    if imgs is None:
-        ha, hb = hero_of(prods["A"], site_meta["heroA"]), hero_of(prods["B"], site_meta["heroB"])
-        img_a, ai_a = lifestyle(ha, f"modern living room with the fireplace burning, evening", a.no_image)
-        img_b, ai_b = lifestyle(hb, f"cozy living room with the fireplace burning, evening", a.no_image)
-        imgs, ai = {"cover": composite(img_a, img_b)}, ai_a and ai_b
-    site_slug = write_site_post(cfg, pair, prods, site_meta, site_body, imgs["cover"], ai, wp_post)
+    # Site kapağı WP kapağından farklı ürün çiftiyle (kahramanlar dışındaki 2. ürünler)
+    sa, sb = hero_of(prods["A"], site_meta["heroA"]), hero_of(prods["B"], site_meta["heroB"])
+    site_cover, ai = composite(diger(prods["A"], sa, 1), diger(prods["B"], sb, 1), f"{pair['slug']}-karsilastirma", a.no_image)
+    site_slug = write_site_post(cfg, pair, prods, site_meta, site_body, site_cover, ai, wp_post)
     for e in state:
         if e["pair"] == pair["slug"]:
             e.update(site_slug=site_slug, date=today())

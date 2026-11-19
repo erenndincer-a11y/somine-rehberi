@@ -12,7 +12,7 @@ Akış:
   1. WP'den işaretli problem çözme yazılarını çek; durum.json'da site eşi olmayan ilkini seç.
   2. WP yazısının metnini, bölüm başlıklarını, SSS sorularını ve ürün linklerini çıkar.
   3. Claude ile eş yazıyı üret; doğrulamadan geçmezse yalnızca sorunlu bölümleri düzelttir.
-  4. OpenAI ile kapak görseli üret (olmazsa WP yazısının görseli).
+  4. Kapak: yazıdaki ürünlerin gerçek fotoğraflarından şablon görsel (GPT yalnız fotoğraf yoksa).
   5. src/content/yazilar/<slug>.md + public/images/posts/<slug>.webp yaz (category: somine-sorunlari).
 
 Yanar Şömine'nin sitesinde tamir/bakım/servis/yenileme hizmeti yazmıyor; eş yazı da bu hizmetleri
@@ -320,35 +320,58 @@ def write_article(src, attempts=4):
 
 
 # ── Görsel ────────────────────────────────────────────────────────────────
-def make_cover(meta, src, no_image=False):
-    """OpenAI ile kapak üretir; olmazsa WP yazısının görselini kullanır. (görsel, yapay zekâ mı)"""
+def urun_gorselleri(src, anahtar, n=2):
+    """WP yazısındaki ürünlerin gerçek fotoğraf adresleri (Store API, slug ile); barbekü/mangal atlanır, seçim deterministik."""
+    import hashlib
+    import random
+    prods = [p for p in src["products"] if not any(k in (p["name"] + " " + p.get("kategori", "")).lower() for k in base.BARBEKU)]
+    prods = prods or list(src["products"])
+    random.Random(int(hashlib.md5(anahtar.encode()).hexdigest()[:8], 16)).shuffle(prods)
+    urls = []
+    for p in prods:
+        slug = p["url"].rstrip("/").rsplit("/", 1)[-1]
+        try:
+            feed = json.loads(base.http_get(f"{WP_SITE}/wp-json/wc/store/v1/products?slug={slug}"))
+            img = (feed[0].get("images") or [{}])[0].get("src") if feed else None
+        except Exception as e:  # noqa: BLE001
+            log("Ürün bilgisi alınamadı:", slug, str(e)[:120])
+            img = None
+        if img:
+            urls.append(img)
+        if len(urls) == n:
+            break
+    return urls
+
+
+def make_cover(meta, src, no_image=False, anahtar=""):
+    """Kapak: yazıdaki ürünlerin gerçek fotoğrafları (şablon, tam kadraj; 2 ürün yan yana).
+    Ürün fotoğrafı yoksa GPT (--no-image ile kapalı), o da olmazsa WP yazısının görseli. (görsel, yapay zekâ mı)"""
     from PIL import Image
+    urls = urun_gorselleri(src, anahtar or src["link"])
+    if urls:
+        img, yontem = base.sablon_kapak(urls, anahtar or src["link"])
+        return img, yontem == "yedek-gpt"
     if not no_image:
-        import openai
-        for model in IMAGE_MODELS:
-            try:
-                res = openai.OpenAI().images.generate(model=model.strip(), prompt=meta["imagePrompt"],
-                                                      size="1536x1024", quality="medium", n=1)
-                log(f"Kapak görseli üretildi ({model.strip()})")
-                return Image.open(io.BytesIO(base64.b64decode(res.data[0].b64_json))), True
-            except Exception as e:  # noqa: BLE001
-                log(f"::warning::{model.strip()} başarısız: {str(e)[:150]}")
+        try:
+            return base.gpt_sahne(meta["imagePrompt"]), True
+        except Exception as e:  # noqa: BLE001
+            log(f"::warning::GPT yedeği başarısız: {str(e)[:150]}")
     if src["image"]:
         log("WP yazısının görseli kullanılıyor.")
-        return Image.open(io.BytesIO(base.http_get(src["image"], binary=True))), True
-    sys.exit("Kapak görseli üretilemedi ve WP yazısında görsel yok.")
+        return Image.open(io.BytesIO(base.http_get(src["image"], binary=True))), False
+    sys.exit("Kapak görseli üretilemedi: ürün fotoğrafı ve WP yazısında görsel yok.")
 
 
 def q(s):
     return json.dumps(s, ensure_ascii=False)
 
 
-def write_site_post(slug, meta, body, cover_img, src):
+def write_site_post(slug, meta, body, cover_img, src, ai=False):
     IMAGES.mkdir(parents=True, exist_ok=True)
     base.cover(cover_img).save(IMAGES / f"{slug}.webp", "WEBP", quality=82)
     fm = ["---", f"title: {q(meta['title'])}", f"description: {q(meta['description'])}", f"date: {today()}",
           f"category: {SITE_CATEGORY}", f"image: /images/posts/{slug}.webp", f"imageAlt: {q(meta['imageAlt'])}",
-          f"imageCredit: {q('Yapay zekâ ile üretilmiş görsel')}",
+          f"imageCredit: {q('Yapay zekâ ile üretilmiş görsel' if ai else 'Yanar Şömine ürün fotoğrafı')}",
           f"tags: {json.dumps(meta.get('tags') or ['şömine sorunları'], ensure_ascii=False)}", "products:"]
     for p in [p for p in src["products"] if p["url"] in body]:
         fm += [f"  - name: {q(p['name'])}", f"    url: {p['url']}"]
@@ -360,7 +383,8 @@ def write_site_post(slug, meta, body, cover_img, src):
     fm += ["featured: false", "draft: false", "---", ""]
     safety = f"> **Güvenlik notu:** {meta['safety']}\n\n"
     tail = f"\n\nYanar Şömine'nin aynı konudaki yazısı: [{src['title']}]({src['link']})\n"
-    note = "*Bu rehberdeki ürün örnekleri Yanar Şömine kataloğundan seçilmiştir; kapak görseli yapay zekâ ile üretilmiştir.*"
+    note = ("*Bu rehberdeki ürün örnekleri Yanar Şömine kataloğundan seçilmiştir"
+            + ("; kapak görseli yapay zekâ ile üretilmiştir.*" if ai else "; kapakta Yanar Şömine ürün fotoğrafları kullanılmıştır.*"))
     POSTS.mkdir(parents=True, exist_ok=True)
     (POSTS / f"{slug}.md").write_text("\n".join(fm) + safety + body.strip() + tail + "\n" + note + "\n", encoding="utf-8")
 
@@ -402,8 +426,8 @@ def main():
         return
 
     meta, body = write_article(src)
-    img, _ = make_cover(meta, src, a.no_image)
-    write_site_post(slug, meta, body, img, src)
+    img, ai = make_cover(meta, src, a.no_image, anahtar=slug)
+    write_site_post(slug, meta, body, img, src, ai)
     save_state(state + [{"wp_slug": post["slug"], "wp_link": src["link"], "site_slug": slug, "date": today()}])
     log(f"Site yazısı: {slug}.md — {len(body.split())} kelime; örtüşme %{overlap(body, src['text']) * 100:.1f}")
     gh_output(created=slug)

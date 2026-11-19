@@ -16,11 +16,11 @@ Akış:
   2. yanarsomine.com.tr WooCommerce Store API'sinden (wc/store/v1/products?category=95)
      Modern Şömineler kategorisindeki gerçek ürünleri çek.
   3. Claude ile uzun (1800+ kelime) rehberi yaz; ev tipine özgü bağlamla; doğrula, gerekirse yeniden dene.
-  4. Seçilen ürünün gerçek fotoğrafından gpt-image-1 ile editoryal görsel üret (olmazsa ürün fotoğrafı).
+  4. Seçilen ürünün gerçek fotoğrafından şablon kapak (gorsel_sablon, tam kadraj; GPT yalnız fotoğraf yoksa).
   5. src/content/yazilar/<slug>.md + public/images/posts/<slug>.webp yaz (category: modern-somine).
 
 Gerekli env: ANTHROPIC_API_KEY, OPENAI_API_KEY   (CLAUDE_MODEL isteğe bağlı)
-Bayraklar: --topic <slug>  --no-image  --dry-run  --env-file <yol>
+Bayraklar: --topic <slug>  --no-image (GPT yedeği kapalı)  --dry-run  --env-file <yol>
 """
 
 import argparse
@@ -381,34 +381,59 @@ def cover(img, w=1440, h=960):
     return img.crop((left, top, left + w, top + h))
 
 
-def make_image(slug, scene, hero):
+# Kapak: gerçek ürün (kurulum) fotoğrafı, şablon motoruyla (scripts/gorsel_sablon.py kopyası, tema "yanar" =
+# yakınlaştırmasız tam kadraj, 2 fotoğrafta yan yana). Eren onayı 2026-11-19: GPT yalnız ürün fotoğrafı yoksa.
+IMAGE_MODELS = os.environ.get("IMAGE_MODELS", "gpt-image-1.5,gpt-image-2").split(",")
+BARBEKU = ("barbek", "mangal")
+
+
+def urun_fotosu(url):
+    """Ürün fotoğrafını indirir (PIL.Image) ya da None."""
     from PIL import Image
-    src = http_get(hero["gorsel"], binary=True)
-    src_img = Image.open(io.BytesIO(src)).convert("RGB")
+    if not url:
+        return None
+    try:
+        return Image.open(io.BytesIO(http_get(url, binary=True))).convert("RGB")
+    except Exception as e:  # noqa: BLE001
+        log("Ürün fotoğrafı indirilemedi:", url, str(e)[:120])
+        return None
+
+
+def gpt_sahne(scene):
+    """Yedek: ürün fotoğrafı yoksa sahne tarifinden GPT görseli (PIL.Image)."""
+    import openai
+    from PIL import Image
+    prompt = (f"Photorealistic interior photograph: {scene}. A fireplace burning in the foreground, warm ambient light, "
+              "35mm lens, no people, no text, no logos, no watermark.")
+    last = None
+    for model in IMAGE_MODELS:
+        try:
+            res = openai.OpenAI().images.generate(model=model.strip(), prompt=prompt, size="1536x1024", quality="medium", n=1)
+            log(f"Yedek GPT görseli üretildi ({model.strip()})")
+            return Image.open(io.BytesIO(base64.b64decode(res.data[0].b64_json))).convert("RGB")
+        except Exception as e:  # noqa: BLE001
+            last = e
+            log(f"::warning::{model.strip()} başarısız: {str(e)[:150]}")
+    raise RuntimeError(f"Hiçbir görsel modeli çalışmadı: {last}")
+
+
+def sablon_kapak(urls, anahtar, yedek=None):
+    """(PIL 1440x960, yontem) — urls: ürün fotoğrafı adresleri (1-2). yontem 'yedek-gpt' ise GPT kullanıldı."""
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+    from gorsel_sablon import kapak
+    fotolar = [f for f in (urun_fotosu(u) for u in urls) if f is not None]
+    img, yontem = kapak(fotolar, tema="yanar", anahtar=anahtar, yedek=yedek, log=log)
+    log(f"Kapak görseli: {yontem} ({len(fotolar)} ürün fotoğrafı)")
+    return img, yontem
+
+
+def make_image(slug, scene, hero, no_gpt=False):
+    """Kapak görselini yazar; dönüş: yapay zekâ kullanıldı mı (yalnız ürün fotoğrafı yoksa)."""
     out = IMAGES / f"{slug}.webp"
     IMAGES.mkdir(parents=True, exist_ok=True)
-    try:
-        import openai
-        buf = io.BytesIO()
-        src_img.save(buf, "PNG")
-        buf.seek(0)
-        prompt = (
-            "Use the fireplace in the provided product photo as the exact reference: keep its design, material, "
-            "finish and every detail unchanged. Create a photorealistic interior lifestyle photograph: "
-            f"{scene}. Warm ambient light, 35mm lens, shallow depth of field, no people, no text, no logos, "
-            "no watermark, no extra or deformed fireplaces."
-        )
-        res = openai.OpenAI().images.edit(
-            model="gpt-image-1.5", image=("product.png", buf, "image/png"), prompt=prompt, size="1536x1024", quality="medium"
-        )
-        img = Image.open(io.BytesIO(base64.b64decode(res.data[0].b64_json)))
-        cover(img).save(out, "WEBP", quality=82)
-        log("Görsel üretildi (gpt-image-1).")
-        return True
-    except Exception as e:  # noqa: BLE001
-        log("gpt-image-1 başarısız, ürün fotoğrafı kullanılacak:", str(e)[:200])
-        cover(src_img).save(out, "WEBP", quality=82)
-        return False
+    img, yontem = sablon_kapak([hero.get("gorsel")], slug, yedek=None if no_gpt else (lambda: gpt_sahne(scene)))
+    cover(img).save(out, "WEBP", quality=82)
+    return yontem == "yedek-gpt"
 
 
 # ── Ürün görselleri (gövde içi) ───────────────────────────────────────────
@@ -531,11 +556,7 @@ def main():
     meta, body = write_article(topic, group, products)
     hero = next((p for p in products if p["name"].lower() == meta["heroProduct"].lower()), products[0])
     body = embed_product_images(topic["slug"], body, products)
-    ai_image = False
-    if a.no_image:
-        log("Görsel atlandı (--no-image).")
-    else:
-        ai_image = make_image(topic["slug"], meta["imageScene"], hero)
+    ai_image = make_image(topic["slug"], meta["imageScene"], hero, no_gpt=a.no_image)
     write_post(cfg, topic, meta, body, products, hero, ai_image)
     words = len(body.split())
     n = body.lower().count(DISPLAY_SUBSTR)

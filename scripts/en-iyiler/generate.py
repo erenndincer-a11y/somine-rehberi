@@ -197,12 +197,12 @@ def write_article(src, attempts=4):
     sys.exit(f"Makale {attempts} denemede doğrulamayı geçemedi — yayımlanmadı.")
 
 
-def write_site_post(slug, meta, body, cover_img, src):
+def write_site_post(slug, meta, body, cover_img, src, ai=False):
     IMAGES.mkdir(parents=True, exist_ok=True)
     base.cover(cover_img).save(IMAGES / f"{slug}.webp", "WEBP", quality=82)
     fm = ["---", f"title: {q(meta['title'])}", f"description: {q(meta['description'])}", f"date: {today()}",
           f"category: {SITE_CATEGORY}", f"image: /images/posts/{slug}.webp", f"imageAlt: {q(meta['imageAlt'])}",
-          f"imageCredit: {q('Yapay zekâ ile üretilmiş görsel')}",
+          f"imageCredit: {q('Yapay zekâ ile üretilmiş görsel' if ai else 'Yanar Şömine ürün fotoğrafı')}",
           f"tags: {json.dumps(meta.get('tags') or ['en iyiler'], ensure_ascii=False)}", "products:"]
     for p in [p for p in src["products"] if p["url"] in body]:
         fm += [f"  - name: {q(p['name'])}", f"    url: {p['url']}"]
@@ -216,7 +216,8 @@ def write_site_post(slug, meta, body, cover_img, src):
         fm += [f"  - q: {q(f['q'])}", f"    a: {q(f['a'])}"]
     fm += ["featured: false", "draft: false", "---", ""]
     tail = f"\n\nYanar Şömine'nin aynı konudaki listesi: [{src['title']}]({src['link']})\n"
-    note = "*Bu listedeki ürün örnekleri Yanar Şömine kataloğundan seçilmiştir; kapak görseli yapay zekâ ile üretilmiştir.*"
+    note = ("*Bu listedeki ürün örnekleri Yanar Şömine kataloğundan seçilmiştir"
+            + ("; kapak görseli yapay zekâ ile üretilmiştir.*" if ai else "; kapakta Yanar Şömine ürün fotoğrafları kullanılmıştır.*"))
     POSTS.mkdir(parents=True, exist_ok=True)
     (POSTS / f"{slug}.md").write_text("\n".join(fm) + body.strip() + tail + "\n" + note + "\n", encoding="utf-8")
 
@@ -252,8 +253,8 @@ def main():
         return
 
     meta, body = write_article(src)
-    img, _ = pcz.make_cover(meta, src, a.no_image)
-    write_site_post(slug, meta, body, img, src)
+    img, ai = pcz.make_cover(meta, src, a.no_image, anahtar=slug)
+    write_site_post(slug, meta, body, img, src, ai)
     save_state(state + [{"series": a.series, "wp_slug": post["slug"], "wp_link": src["link"], "site_slug": slug, "date": today()}])
     log(f"Site yazısı: {slug}.md — {len(body.split())} kelime; örtüşme %{pcz.overlap(body, src['text']) * 100:.1f}; "
         f"seçenekler: {list_items(body)}")

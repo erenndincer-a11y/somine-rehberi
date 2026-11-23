@@ -1,0 +1,105 @@
+{
+ "meta": {
+  "title": "L Tipi Modern Şömine mi, Rustik Şömine mi? Hangisi Sizin Evinize Uyar?",
+  "description": "L tipi modern şömine ile rustik şömine arasında kararsızsanız bu karşılaştırma tam size göre. Malzeme, baca, mekân ve kullanım farkları somut örneklerle.",
+  "keyPoints": [
+   "L tipi modern şömine yatay çizgiler ve premium taş kaplamalarla çağdaş mekânlara seslenirken rustik şömine oymalı taş ve el işçiliğiyle sıcak, geleneksel bir atmosfer kurar.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipi de projeye özgü tasarlar; sabit bir katalog fiyatı yoktur, keşif ve teklif usulü çalışılır.",
+   "Hangisini seçerseniz seçin, uygulama tasarım ve üretimle aynı ekip tarafından yerinde gerçekleştirilir; iş başka bir uygulayıcıya devredilmez.",
+   "Doğru tip, önce mekânın mimarisine ve evin genel stiline bakılarak belirlenir; güzel görüntü ikinci adımdır."
+  ],
+  "faq": [
+   {
+    "q": "L tipi modern şömine ile rustik şömine arasındaki temel fark nedir?",
+    "a": "L tipi modern şömine, duvara entegre yatay bir görünüm ve granit, mermer, doğal taş gibi malzemelerle temiz, geometrik bir hat kurar. Rustik şömine ise el oyması veya işlenmiş taş kullanarak daha hacimli, geleneksel bir kütleye sahiptir. İkisi aynı mekânda aynı işi yapar; fark, mimariye ve eve biçilen role dayanır."
+   },
+   {
+    "q": "Her iki tip için baca zorunlu mu?",
+    "a": "Odunlu hazne kullanan modeller için aktif bir baca zorunludur; baca olmayan ya da uygun olmayan mekânlarda elektrikli hazne tercih edilir. YS-225 ve YS-232 gibi modeller elektrikli hazneyle üretildiğinden baca gerektirmez. L tipi modern şöminelerde kullanılan ithal hazne tipleri genellikle odunlu veya pelletli çalışır; bunlar için de baca şartı projeye göre değerlendirilir."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markasıdır. 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'da faaliyet gösteren marka, tasarım ve üretimin yanında kurulumu da kendi ekibiyle yerinde gerçekleştirir. Sabit ürün fiyatı yoktur; her proje için ücretsiz keşif ve ardından teklif sunulur."
+   },
+   {
+    "q": "Fiyat nasıl belirleniyor?",
+    "a": "Her iki tip de özel ölçü ve özel tasarım olduğundan sabit bir fiyat listesi yoktur. Proje boyutu, seçilen malzeme ve hazne tipine göre teklif hazırlanır. Bunun için önce ücretsiz keşif yapılır; keşifte mekân ölçülür, baca durumu ve uygun hazne tipi değerlendirilir."
+   },
+   {
+    "q": "Kurulum süreci nasıl işliyor?",
+    "a": "Yanar Şömine, tasarım ve üretimin ardından kurulumu da kendi uzman ekibiyle yerinde tamamlar. İşi başka bir firmaya bırakmaz. Bu, tasarımda öngörülen detayların uygulamada da korunması anlamına gelir."
+   },
+   {
+    "q": "Hangi tip daha kolay bakım gerektirir?",
+    "a": "Odunlu hazneli modeller düzenli kül temizliği ve yılda bir baca kontrolü gerektirir. Elektrikli hazneli rustik modeller bu bakımdan daha pratiktir; filtre temizliği dışında büyük bir müdahale gerekmez. Kaplama malzemesi olarak her iki tipte kullanılan granit, mermer ve doğal taş, günlük kullanımda nemli bez ile kolayca temizlenir."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Odunlu, asansör veya yan açılımlı ithal hazne",
+     "Odunlu veya elektrikli hazne (modele göre)"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Odunlu hazne için zorunlu",
+     "Elektrikli hazneli modellerde gerekmiyor"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi",
+    "values": [
+     "Star Galaxy Granit, Cream Dor Mermer, Lime Stone, Flexi Doğal Taş, Traverten",
+     "Limra Taşı, Siyah Granit, Traverten, Uşak Mermeri"
+    ]
+   },
+   {
+    "label": "Görünen cephe",
+    "values": [
+     "Duvara entegre, yatay ve geniş açıklıklı",
+     "Hacimli, köşe veya duvar önü, el işçilikli"
+    ]
+   },
+   {
+    "label": "Uygun mekân",
+    "values": [
+     "Çağdaş, minimalist veya mimari geçişli iç mekân",
+     "Kırsal, geleneksel, rustik veya karışık üsluplu mekân"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Yanar Şömine kendi ekibiyle yerinde uygular",
+     "Yanar Şömine kendi ekibiyle yerinde uygular"
+    ]
+   },
+   {
+    "label": "Birincil işlev",
+    "values": [
+     "Isıtma + mimari odak noktası",
+     "Atmosfer + geleneksel sıcaklık"
+    ]
+   },
+   {
+    "label": "Bakım",
+    "values": [
+     "Odunlu haznede kül temizliği ve yıllık baca bakımı",
+     "Elektrikli modelde filtre temizliği; odunluda baca bakımı"
+    ]
+   }
+  ],
+  "verdict": "Mekânı düz çizgiler, açık renkler ve sade detaylar tanımlıyorsa L tipi modern şömine doğal seçimdir. Evin geneli ahşap, taş ve doku ağırlıklıysa ya da kırsal bir karakter taşıyorsa rustik şömine o mekâna daha doğru oturur. İkisi arasında kararsızsanız, birinin mimari bir eleman olarak yapıya entegre olduğunu, diğerinin ise bağımsız bir kütleye dönüştüğünü hatırlayın. Ücretsiz keşifle mekânı yerinde değerlendirmek en hızlı yoldur.",
+  "bestForA": "L tipi modern şömine, düz hatlı, minimalist ya da çağdaş üsluplu evler için; özellikle geniş ve yüksek tavanlı salon ve oturma odaları için uygundur.",
+  "bestForB": "Rustik şömine, ahşap ve taş dokuların ön planda olduğu kırsal, geleneksel veya karma üsluplu evler ve yazlıklar için uygundur.",
+  "heroA": "YS-132",
+  "heroB": "YS-226",
+  "imageSceneA": "A wide modern living room with high ceilings and white walls; a large L-shaped modern fireplace clad in cream marble and natural stone is set flush into the wall, fire burning low, natural afternoon light from tall windows, minimal furniture in neutral tones.",
+  "imageSceneB": "A rustic stone-walled room with warm amber lighting; a corner fireplace hand-carved from limra stone and black granite stands as a focal point, wood burning inside, rough-textured walls, dark wood beams overhead, no people.",
+  "imageAlt": "Solda granit ve doğal taş kaplamalı L tipi modern şömine, sağda el oyması limra taşı ve granit detaylı rustik şömine, iki tip yan yana karşılaştırma görseli."
+ },
+ "body": "İkisi arasındaki fark temelde şu: L tipi modern şömine mekânın mimarisine entegre bir hat kurarken rustik şömine bağımsız, hacimli bir kütle olarak öne çıkar.\n\nBu ayrım, karar sürecinin de çekirdeğidir. Şömineyi görsel bir çapa olarak mı kullanacaksınız, yoksa odanın içinde doğal bir ağırlık merkezi mi istiyorsunuz? Bu soruya cevap vermeden model bakmaya başlamayın.\n\n## Tanım ve Temel Fark\n\n[L tipi modern şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/l-tipi-modern-somine/), adını formundan alır: hazne yerleşimi duvara oturur, yatay çizgiler ve geniş cam açıklıkları baskındır. Çerçeve ve üst tablalar genellikle granit, mermer ya da flexi doğal taş gibi premium malzemelerle kaplanır. Görüntü sade, ölçülü ve mimari açıdan öngörülür.\n\n[Rustik şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/rustik-somine/) ise farklı bir dil konuşur. Limra taşı, traverten, Uşak mermeri gibi malzemeler el oyması ya da profil işlemi görerek şekillenir. Yüzey dokusu, eğim ve kütlesel yapı baskındır. Şömine odadaki tek nesne gibi durur.\n\nİki tipin birbirinden ayrıldığı nokta yalnızca estetik değildir. Konumlanma biçimi, kaplama malzemesi ve mekânla kurduğu ilişki de farklıdır. L tipi modern şömine duvara entegre olmak ister; rustik şömine duvardan bağımsız bir eleman olarak var olur. Mimari tercihiniz bu ayrımı zaten çoğunlukla belirler.\n\nL tipi modern şömine, duvarla bütünleşen yapısı sayesinde mekândan alan çalmaz; aksine mekânı genişletiyormuş izlenimi verir. Hazne açıklığı geniş tutulduğundan ateş görüntüsü panoramik bir his yaratır. Bu özellik, şöminenin hem işlevsel hem de dekoratif ağırlığını aynı anda taşımasını sağlar. Rustik şöminede ise kütle ve doku ön plandadır; taşın doğal renk geçişleri ve el oyması detaylar şömineye bağımsız bir kimlik kazandırır. Bu kimlik, mekânın geri kalanıyla uyum kurduğunda son derece güçlü bir atmosfer ortaya çıkar.\n\n## Hazne ve Yakıt Tipi\n\nHazne seçimi tasarım tercihinden önce gelir. Bacası olan ve odun yakmak isteyenler için her iki tip de uygundur. Ancak bacası olmayan mekânlarda tablo değişir.\n\nL tipi modern şöminelerde kullanılan hazneler genellikle asansör kapaklı veya yan açılımlı ithal odunlu modellerdir. Örneğin [YS-133](https://www.yanarsomine.com.tr/urun/ys-133/) 80 cm genişliğinde eşkenar tip asansör kapaklı ve yan açılımlı ithal hazne kullanır. [YS-132](https://www.yanarsomine.com.tr/urun/ys-132/) ise 85 cm genişliğinde L tipi asansör kapaklı ithal hazneyle gelir. Bu hazneler odunlu çalıştığından aktif bir baca zorunludur.\n\nRustik tarafında tablo daha esnektir. [YS-225](https://www.yanarsomine.com.tr/urun/ys-225/) ve [YS-232](https://www.yanarsomine.com.tr/urun/ys-232/) elektrikli hazneyle üretilir; baca gerektirmez. Dolayısıyla dairesi olan ya da mevcut bacayı taşıma imkânı bulunmayanlar için bu modeller daha pratik bir çözümdür. Baca durumunu keşif öncesinde netleştirin; hazne seçiminiz büyük ölçüde buradan şekillenecektir.\n\nBacayı önce kontrol et, sonra modele bak. Aksi durumda sonradan revizyona gitmek zaman ve kaynak kaybettirir.\n\n[YS-124](https://www.yanarsomine.com.tr/urun/ys-124/) modelinde 70 cm genişliğinde Nordflam marka L tipi yan açılımlı döküm ithal hazne tercih edilmiştir; bu hazne tipi ısı dağılımı açısından verimli çalışır ve uzun süreli kullanıma uygundur. Rustik tarafında [YS-226](https://www.yanarsomine.com.tr/urun/ys-226/) limra taşı ve siyah granit karışımıyla köşe formunda tasarlanmış odunlu bir modeldir; aktif baca bağlantısı gerektirir. Hangi haznede karar kılarsanız kılın, baca kesiti ve yüksekliği projeye göre ayrıca değerlendirilir. Bunu keşif aşamasında mühendislik açısından netleştirin; sonradan baca revizyonu hem yapıya hem de bütçeye ekstra yük bindirir.\n\n## Tasarım Dili ve Malzeme Seçimi\n\nL tipi modern şöminelerde yüzey malzemeleri genellikle aynı projede birbirine kontrast oluşturur. [YS-133](https://www.yanarsomine.com.tr/urun/ys-133/)'te iç çerçeve ve tablalarda siyah Star Galaxy Granit, dış çerçevede ise Lime Stone kullanılmıştır. Bu iki malzemenin yan yanalığı kasıtlıdır; biri mat ve dokulu, diğeri parlak ve yoğun. [YS-124](https://www.yanarsomine.com.tr/urun/ys-124/)'te traverten mermer çerçeve etrafında profil işlemi yapılmış, üst duvarda Hindistan cevizi kabuğu kullanılmıştır. Yüzeyler farklı dokuları katmanlı biçimde işler.\n\nRustik şöminelerde ise malzeme çoğunlukla tek bir taşın sunduğu doğal hareketi ön plana çıkarır. [YS-226](https://www.yanarsomine.com.tr/urun/ys-226/) limra taşı ve siyah granit karışımıyla köşe formunda tasarlanmıştır; iki taşın renk farkı keskin bir hat değil, organik bir geçiş yaratır. [YS-232](https://www.yanarsomine.com.tr/urun/ys-232/) Uşak mermerinden el oyması olarak üretilmiş; dokusu işlenmiş ama asıl anlatımı taşın kendisinden geliyor.\n\nMalzeme seçiminde evin diğer yüzeylerini göz önünde bulundurun. Beyaz duvar ve beton zemin ağırlıklı bir mekânda granit ve flexi taş mantıklıdır. Ahşap döşeme ve kireç boya ağırlıklı bir ortamda limra veya traverten daha doğal çalışır.\n\n[YS-132](https://www.yanarsomine.com.tr/urun/ys-132/)'de alt tablada Cream Dor mermer, duvar yüzeyinde ise 2 mm kalınlığında flexi ithal doğal taş kullanılmıştır. Flexi taş esnek yapısı sayesinde kavisli ya da geniş yüzeylere kolayca uygulanır; hem doğal taşın dokusunu hem de modern yüzeyin pürüzsüzlüğünü bir arada sunar. Rustik tarafında [YS-225](https://www.yanarsomine.com.tr/urun/ys-225/) traverten mermerinden oyma işlemiyle şekillendirilmiştir. Traverten, yüzeyindeki doğal boşluklar ve renk damarları nedeniyle her örnekte farklı görünür; bu da rustik şömineye tekrarlanamaz bir özgünlük katar. Malzeme seçimini yalnızca görselden değil, mekânın ışık durumuna ve zemin kaplamasına göre de değerlendirin. Güney cepheli ve bol doğal ışıklı mekânlarda mat yüzeyler daha az yansıma yaparken kuzey cepheli karanlık odalarda parlak ve açık renkli taşlar mekânı canlandırır.\n\n## Mekân ve Ölçü Uyumu\n\nL tipi modern şömine yatay bir form olduğundan eni yüksekliğinden fazladır. Geniş ve düşük görüntüsü, yüksek tavanlı ya da geniş salonlarda dengeleyici bir rol oynar. Dar ve uzun mekânlarda ise orantıyı bozabilir; ölçüyü almadan model seçme.\n\nRustik şömine daha dikey ve hacimlidir. Orta büyüklükteki odalarda güçlü bir odak noktası kurar. Köşe yerleşim seçeneği, [YS-226](https://www.yanarsomine.com.tr/urun/ys-226/)'da olduğu gibi, dar ya da köşeli mekânlarda alan kullanımını kolaylaştırır.\n\nHer iki tip de özel ölçü tasarımla üretildiğinden standart bir boyut listesi yoktur. Yanar Şömine uygulama yapan şömine markası olarak tüm üretim süreci projeye özgü başlar. Mekânı ölçmeden ve baca durumunu netleştirmeden seçim yapmak, sonradan tasarımı sıfırdan gözden geçirmeyi gerektirebilir. Bu yüzden ücretsiz keşif hizmetini en başa al.\n\nMekânı ölçmeden model seçme. Görsel beğeni doğru, ama oran yanlışsa sonuç tatmin etmez.\n\nYanar Şömine uygulama yapan şömine markasında hiçbir ürün sabit kalıba bağlı değildir; hazne genişliği, çerçeve yüksekliği ve kaplama alanı tamamen projeye göre belirlenir. Bu esneklik özellikle iki oda arasında ya da açık mutfak ile salon arasında geçiş bölgelerinde şömine konumlandırmak isteyenler için büyük avantaj sağlar. L tipi modern şöminede duvar boyu uygulamalar yaygındır; şömine yalnızca hazne bölümüyle değil, üst ve yan kaplama yüzeyleriyle birlikte düşünüldüğünde oda boyunca uzanan bir görsel bütün oluşturabilir. Rustik şöminede ise köşe yerleşimi, özellikle kare planlı odalarda köşe ölü alanını değerlendirmek için tercih edilir. [YS-226](https://www.yanarsomine.com.tr/urun/ys-226/)'nın köşe formu tam da bu ihtiyaca yanıt verir. Mekânı ölçmeden ve yerleşim planını netleştirmeden model tercihi yapmayın; keşif bu planı yerinde somutlaştırır.\n\n## Kurulum ve Uygulama Süreci\n\nYanar Şömine uygulama yapan şömine markası olarak tasarım, üretim ve kurulumu tek çatı altında yürütür. İş ayrı bir uygulayıcıya bırakılmaz; mekânı tasarlayan ekip kurulumu da gerçekleştirir.\n\nBu ayrım pratikte önemlidir. Birden fazla taraf arasında koordinasyon gerekmediğinden hem zaman hem de uygulama hatası riski azalır. Tasarımda öngörülen malzeme, detay ve ölçü yerinde de korunur.\n\nL tipi modern şöminelerde uygulama süreci duvar entegrasyonunu kapsar; baca bağlantısı, hazne yerleşimi ve kaplama katmanlarının sıralanması birbiriyle eş zamanlı yürütülür. Rustik şöminelerde el oyması ya da profil işlemli taş parçaları mekânda birleştirilir; bu montaj aşaması daha fazla elle işleme gerektirir ve süresi projeye göre değişir.\n\nHer iki tipte de süreç keşifle başlar. Yerinde ölçü alınır, baca ve zemin durumu değerlendirilir, ardından tasarım ve teklif hazırlanır. Ücretsiz keşif randevusu için (0212) 884 13 49 numaralı hattı 09:00–19:00 saatleri arasında, Pazartesi–Cumartesi arayabilirsiniz.\n\n## Kullanım ve Bakım\n\nOdunlu hazneli her iki tip de düzenli bakım gerektirir. Kül temizliği kullanım sıklığına göre haftalık ya da aylık yapılır. Baca ise yılda bir profesyonel olarak kontrol edilmelidir; bu hem verim hem de güvenlik açısından zorunludur. Bacayı ihmal etme, birikimlerin yarattığı risk kullanım kolaylığından çok daha ağır basar.\n\nElektrikli hazneli rustik modeller bu anlamda daha pratiktir. [YS-225](https://www.yanarsomine.com.tr/urun/ys-225/) ve [YS-232](https://www.yanarsomine.com.tr/urun/ys-232/) gibi elektrikli modellerde baca bakımı gündemin dışına çıkar; filtre veya cam temizliği dışında büyük bir müdahale gerekmez.\n\nKaplama yüzeylerinde bakım her iki tip için benzerdir. Granit, mermer ve doğal taş yüzeyler nemli bezle silinir; aşındırıcı temizlik malzemesi kullanmaktan kaçının. Traverten ve limra taşı gibi daha gözenekli yüzeyler su ve yağ bazlı lekelere karşı ek koruma gerektirebilir; projeyi teslim alan ekipten yüzeye özgü bakım talimatı isteyin.\n\nOdunlu şöminelerde yakıt kalitesi de bakım sıklığını doğrudan etkiler. Kurutulmuş ve nem oranı düşük yakacak odun hem daha verimli yanar hem de baca içinde daha az birikim bırakır. Yaş odun kullanımından kaçının; dumanı fazla, ısıtma değeri düşük ve baca kirliliği yüksektir. Elektrikli modellerde böyle bir kaygı yoktur; termostat ve zamanlayıcı gibi kontrol özellikleri kullanım rahatlığını artırır. Her iki tip için de şömineyi ilk kez yaktığınızda ortamı havalandırın; malzeme ve bağlantı yüzeyleri ilk kullanımda kısa süreli bir koku çıkarabilir, bu normaldir ve tekrarlanmaz.\n\n## Hangi Ev Tipine Hangisi Uyar\n\nL tipi modern şömine şu mekânlara oturur: açık planlı ve yüksek tavanlı salonlar, beyaz ya da beton yüzeylerin baskın olduğu iç mekânlar, Bauhaus veya İskandinav etkili üsluplar, yeni yapı veya devrilmiş binalar. Şömineyi mimari bir unsur olarak kullanmak isteyenler için doğru seçimdir.\n\nRustik şömine şu mekânlara oturur: ahşap tavan ve döşemenin baskın olduğu evler, kır evi, bağ evi ya da dağ evi gibi doğayla bütünleşik yapılar, taş duvar veya kireç boya detaylarının bulunduğu geleneksel iç mekânlar, karma üsluplar. Şömineyi sıcaklık ve atmosfer odağı olarak kurmak isteyenler için doğru seçimdir.\n\nKarışık stilli evlerde her iki tip de çalışabilir; ancak Yanar Şömine uygulama yapan şömine markasının keşif sürecinde bu tür mekânlar ayrıca değerlendirilir. Ev sahibinin beklentisi ve mekânın baskın karakteri birlikte ele alınarak öneri yapılır.\n\nŞehir merkezindeki yüksek katlı dairelerde L tipi modern şömine, özellikle elektrikli ya da gaz haznesiyle kombinlendiğinde baca kısıtlamasını da aşar. Çift taraflı ya da askı kategorisine geçmeden önce L tipi modern şömineyi değerlendirmenizi öneririz; duvarla olan entegrasyonu mimari açıdan en az müdahaleyle güçlü bir sonuç üretir. Yazlıklar ve kır evleri için ise rustik şömine neredeyse kendiliğinden doğru seçime dönüşür. Ahşap döşeme, alçıpan yerine taş sıva, açık tavan kirişleri gibi unsurların bulunduğu mekânlarda rustik şöminenin dili mekânla örtüşür ve şömine sonradan eklenmiş bir unsur gibi değil, binanın özünden geliyormuş gibi durur. İkisi arasında gerçekten kararsızsanız evinizin baskın malzemesine bakın: taş ve ahşap ağırlıklıysa rustik, düz yüzey ve beton ağırlıklıysa modern yönde ilerleyin.\n\n## Ortak Nokta: Her İkisi de Özel Ölçü\n\nYanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana aynı anlayışla çalışır: sabit katalog değil, projeye özgü tasarım. Bu iki tip arasındaki seçimi de kolaylaştıran bir faktördür; standart bir boyuta uymak zorunda değilsiniz.\n\nL tipi modern şöminelerde hazne genişlikleri projeye göre belirlenir. Mevcut ürünlerde 70 cm, 80 cm, 85 cm gibi referans ölçüler görülür ancak bunlar sabit değildir. Rustik şöminelerde form, taşın işlenme biçimi ve mekânın köşe ya da duvar yerleşimine göre şekillenir.\n\nHer iki tipte de önce mekân ölçülür, ardından tasarım başlar. Teklif, keşif sonrasına bırakılır. Online katalogda referans olarak sunulan modeller gerçekleştirilmiş projelerdir; bunları bir başlangıç noktası olarak kullanın, özdeş kopyasını beklemeyin.\n\nYanar Şömine uygulama yapan şömine markasında üretim süreci, keşif ve tasarım onayının ardından başlar. Üretim tamamlandıktan sonra kurulum için randevu alınır; ekip yerinde çalışır, iş teslim edilene kadar mekândan ayrılmaz. Bu bütünleşik yaklaşım, tasarım aşamasında alınan kararların uygulamada da karşılık bulmasını garanti altına alır. Referans olarak katalogda yer alan her model, gerçekleştirilmiş ve teslim edilmiş bir projeye aittir. Bu nedenle katalog görsellerini bir ilham kaynağı ve teknik referans olarak kullanabilirsiniz; ancak nihai tasarımınız her zaman kendi mekânınıza özgü olacaktır.\n\n## Karar\n\nMekânınız düz hatlı, açık renk yüzeyleri olan ve mimari tutarlılığa önem verilen bir yapıya sahipse L tipi modern şömine seçin. Yatay formu ve premium taş kaplamaları çağdaş iç mekânlara doğal biçimde entegre olur.\n\nEvinizde ahşap, taş ve doku ağırlıklı bir karakter varsa ya da şömineyi bağımsız, güçlü bir atmosfer unsuru olarak konumlandırmak istiyorsanız rustik şömine daha doğru bir tercih olacaktır. El işçiliği ve doğal taşın sunduğu sıcaklık, bu tip mekânlarda başka hiçbir eleman tarafından karşılanamaz.\n\nKararsızlık devam ediyorsa mekânın baskın malzeme ve üslubuna bakın. Şömine mekâna yabancı olmamalı; ona anlam katmalı. Yanar Şömine uygulama yapan şömine markasının ücretsiz keşif hizmetinden yararlanarak yerinde değerlendirme yaptırabilirsiniz. Randevu için (0212) 884 13 49 numaralı hattı arayın, ya da tüm modelleri yanarsomine.com.tr adresinden inceleyin."
+}

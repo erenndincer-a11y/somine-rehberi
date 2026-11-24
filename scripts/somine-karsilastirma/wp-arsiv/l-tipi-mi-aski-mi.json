@@ -1,0 +1,105 @@
+{
+ "meta": {
+  "title": "L Tipi Modern Şömine mi, Askı Şömine mi? Doğru Seçim Kılavuzu | Yanar Şömine",
+  "description": "L tipi modern şömine ile askı şömine arasında kararsızsanız: hazne, baca, malzeme ve mekân uyumu açısından kapsamlı karşılaştırma.",
+  "keyPoints": [
+   "L tipi modern şömine duvara yerleşik bir köşe çözümü sunarken askı şömine tavandan ya da duvardan asılarak mekânın odak noktasına dönüşür.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipi de projeye özgü tasarlar ve kendi ekibiyle yerinde uygular.",
+   "Her iki tip de odun ya da biyoetanol yakıtlı hazneyle üretilebilir; baca zorunluluğu yakıt tercihine göre belirlenir.",
+   "Karar vermeden önce mekânı ölçtür, baca durumunu kontrol ettir ve ücretsiz keşif randevusu al."
+  ],
+  "faq": [
+   {
+    "q": "L tipi modern şömine ile askı şömine arasındaki temel fark nedir?",
+    "a": "L tipi modern şömine duvara veya köşeye yaslanarak zemine oturur; kütlesi ve taş/mermer kaplamasıyla mekânda ağırlık hissi yaratır. Askı şömine ise tavandan sarkıtılır ya da duvara konsol bağlantısıyla yüksekte konumlandırılır; hafif ve yüzen bir görünüm sunar. İkisinin de odun yakıtlı seçenekleri baca gerektirir."
+   },
+   {
+    "q": "Askı şömine için baca şart mı?",
+    "a": "Odun ya da pellet yakıtlı askı şömine baca bağlantısı gerektirir. Biyoetanol seçilirse baca zorunluluğu ortadan kalkar; ancak havalandırma yine de önemlidir. Mevcut baca durumunu keşif sırasında tespit ettirmek en sağlıklı yoldur."
+   },
+   {
+    "q": "L tipi modern şömine hangi mekân boyutlarına uyar?",
+    "a": "L tipi modern şömine köşeyi değerlendirdiği için kare veya kareye yakın planlı oturma odalarında tercih edilir. Küçük-orta ölçekli mekânlarda köşe alanını işlevsel kılar; büyük açık planlarda ise U tipi gibi alternatifler daha baskın bir görsel etki yaratabilir. Kesin ölçüler projeye özel belirlenir."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markasıdır; 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'da faaliyet göstermekte, tasarımdan üretime ve sahaya kuruluma kadar tüm süreci kendi bünyesinde yürütmektedir. Sabit fiyat listesi yoktur; her proje keşif ve teklif usulüyle değerlendirilir."
+   },
+   {
+    "q": "Ücretsiz keşif nasıl talep edilir?",
+    "a": "Yanar Şömine'yi hafta içi veya Cumartesi 09:00–19:00 saatleri arasında (0212) 884 13 49 numaralı telefondan arayarak ücretsiz keşif randevusu alabilirsiniz. Ekip yerinde ölçü alır, baca ve duvar durumunu inceler, size uygun modeli önerir."
+   },
+   {
+    "q": "İki tipin montajı ne kadar sürer?",
+    "a": "Süre mekânın hazırlık durumuna, seçilen haznelere ve kaplama malzemelerine göre değişir; kesin bir rakam vermek yanıltıcı olur. Yanar Şömine tasarım, üretim ve uygulamayı kendi ekibiyle yürüttüğü için süreç keşif aşamasında netleştirilir."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "L Tipi Modern: odun yakıtlı döküm veya çelik hazne (projeye göre)",
+     "Askı: odun yakıtlı veya biyoetanol seçeneği (projeye göre)"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "L Tipi Modern: odun haznesinde zorunlu",
+     "Askı: odun haznesinde zorunlu; biyoetanol seçilirse baca gerekmez"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi",
+    "values": [
+     "L Tipi Modern: granit, mermer, doğal taş, traverten, flexi taş (projeye göre)",
+     "Askı: projeye özel; sac, boyalı metal, taş kaplamalı seçenekler"
+    ]
+   },
+   {
+    "label": "Görünen cephe",
+    "values": [
+     "L Tipi Modern: ön ve yan yüzey (köşe odaklı)",
+     "Askı: 360° veya tek cephe (asılma biçimine göre)"
+    ]
+   },
+   {
+    "label": "Uygun mekân",
+    "values": [
+     "L Tipi Modern: kare planlı veya köşe boşluğu olan oturma odaları",
+     "Askı: yüksek tavanlı, açık planlı, minimal dekore sahip mekânlar"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "L Tipi Modern: Yanar Şömine kendi ekibiyle yerinde uygular",
+     "Askı: Yanar Şömine kendi ekibiyle yerinde uygular"
+    ]
+   },
+   {
+    "label": "Bakım",
+    "values": [
+     "L Tipi Modern: hazne temizliği + taş/mermer yüzey bakımı",
+     "Askı: hazne temizliği + boru/bağlantı kontrolü"
+    ]
+   },
+   {
+    "label": "Isıtma mı, atmosfer mi",
+    "values": [
+     "L Tipi Modern: hem ısıtma hem atmosfer",
+     "Askı: ağırlıklı atmosfer; ısıtma kapasitesi hazneve bağlı"
+    ]
+   }
+  ],
+  "verdict": "Köşe boşluğu olan, taş ve mermer dokusuyla sıcak bir ağırlık isteyen evler için L tipi modern şömine daha doğru seçimdir. Yüksek tavanlı, açık planlı ve sade dekorlu mekânlarda ise askı şömine mekânın odak noktasına dönüşür. İkisinde de baca durumu ve tavan yüksekliği önce netleştirilmelidir; bunun için ücretsiz keşif en kısa yoldur.",
+  "bestForA": "L tipi modern şömine; köşe boşluğunu değerlendirmek isteyen, doğal taş dokusuyla sıcak ve kütlesel bir şömine etkisi arayan ev sahipleri için uygundur.",
+  "bestForB": "Askı şömine; yüksek tavanlı, açık planlı ve mobilyanın önüne geçmesini istediği minimal bir odak noktası arayan ev sahipleri için uygundur.",
+  "heroA": "YS-132",
+  "heroB": "YS-247",
+  "imageSceneA": "A corner-mounted L-shaped modern fireplace with black Star Galaxy granite frame glowing with warm fire, set in a dimly lit contemporary living room with concrete walls and low wooden furniture, late evening natural light from a narrow window.",
+  "imageSceneB": "A suspended fireplace hanging from a high ceiling above a polished concrete floor, fire burning inside the visible firebox, minimal Scandinavian living room with white walls and a single low sofa, dusk ambient light.",
+  "imageAlt": "Sol tarafta köşeye yerleşik L tipi modern şömine, sağ tarafta tavandan sarkan askı şömine; modern oturma odası ortamında yan yana karşılaştırma."
+ },
+ "body": "İkisi arasındaki fark yalnızca görsel bir tercih değil; mekânın mimarisi, baca altyapısı ve gündelik kullanım beklentisi doğrultusunda verilen teknik bir karardır.\n\n## Tanım ve Temel Fark\n\nL tipi modern şömine, adını yerleşim geometrisinden alır. Hazne ve kaplama gövdesi bir köşeye ya da duvara yaslanır; L harfinin iki kolu gibi hem ön hem yan yüzeyi kaplar. Zemine oturur, kütlelidir, mekânda ağırlık hissi yaratır. Taş, mermer veya granit kaplamalar bu ağırlığı görsel olarak destekler. Klasik şömine alışkanlığına yakın ama çizgisi moderndir.\n\nAskı şömine ise tamamen farklı bir fiziksel mantıkla çalışır. Tavandan sarkıtılır ya da duvara konsol bağlantısıyla yüksekte konumlandırılır; zeminden kopuk, yüzen bir his verir. Gövde etrafından dolaşmak, alevi birden fazla açıdan izlemek mümkündür. Bu nedenle askı şömine mekânda bir heykel gibi durur; sadece ısı kaynağı değil, önce görsel bir odak noktasıdır.\n\nİki tip arasındaki temel ayrımı şöyle özetle: L tipi yer alır, köşeye entegre olur ve mekânla bütünleşir. Askı şömine mekânın içinde öne çıkar, kendini gösterir ve bağımsız durur. Hangisinin doğru olduğu sorusunun cevabı tamamen evinizin planına ve sizin beklentinize bağlıdır.\n\n## Hazne, Yakıt ve Baca Gereksinimleri\n\nHer iki tip de genellikle odun yakıtlı hazneyle üretilir; bu durumda baca bağlantısı zorunludur. Mevcut bir baca yoksa veya baca hattı değiştirme esnekliği kısıtlıysa, biyoetanol seçeneği gündeme gelir. Biyoetanol yakıtlı haznelerde baca zorunluluğu kalkar ancak havalandırma yine de ihmal edilmemelidir.\n\nL tipi modern şöminenin gerçek ürünlerine bakıldığında hazne çeşitliliği dikkat çeker. [YS-132](https://www.yanarsomine.com.tr/urun/ys-132/) modelinde 85 cm genişliğinde asansör kapaklı ve yan açılımlı ithal hazne tercih edilmiştir. [YS-124](https://www.yanarsomine.com.tr/urun/ys-124/) modelinde ise 70 cm genişliğinde Nordflam marka L tipi yan açılımlı döküm ithal hazne kullanılmıştır. Bu ölçüler, L tipi şömineye ısıtma kapasitesi açısından da ciddi bir güç verir. [YS-133](https://www.yanarsomine.com.tr/urun/ys-133/) modelinde ise 80 cm genişliğinde eşkenar tip asansör kapaklı ve yan açılımlı ithal hazne seçilmiştir; eşkenar geometri, hazneni L formunun köşe eksenine tam oturmasını sağlar.\n\nAskı şöminelerde hazne, yapının tamamını taşıyan unsurdur; hem taşıyıcı hem de alev kaynağı işlevi görür. [YS-245](https://www.yanarsomine.com.tr/urun/ys-245/), [YS-247](https://www.yanarsomine.com.tr/urun/ys-247/) ve [YS-248](https://www.yanarsomine.com.tr/urun/ys-248/) modellerinde hazne ve yakıt detayları projeye özel belirlenir; keşif sırasında mekânın baca hattı ve tavan yapısına göre en uygun seçenek netleştirilir. Baca borusu yukarıya doğru uzandığı için tavan yüksekliği ve kirişlerin konumu montaj öncesinde mutlaka incelenmelidir. Bacayı önce kontrol et, ardından model seç; sıralamanın tersine çevrilmesi projede sonradan düzeltilmesi zor sorunlar yaratır.\n\n## Tasarım Dili ve Malzeme Seçenekleri\n\nL tipi modern şömine, malzeme çeşitliliğiyle öne çıkar. [YS-133](https://www.yanarsomine.com.tr/urun/ys-133/) modelinde iç çerçeve, alt ve üst tablada siyah Star Galaxy granit; dış çerçeve ve alt tabla detaylarında Lime Stone taş kullanılmıştır. Bu kombinasyon, koyu-açık zıtlığıyla mekânda güçlü bir görsel ritim yaratır. [YS-124](https://www.yanarsomine.com.tr/urun/ys-124/) modelinde ise traverten mermerinden profil işlemli çerçeve ve üst duvarda Hindistan cevizi kabuğu kaplama tercih edilmiştir; bu seçim, doğal ve sıcak bir doku verir.\n\n[YS-132](https://www.yanarsomine.com.tr/urun/ys-132/) modelinde alt tablada Cream Dor mermer, duvar yüzeyinde 2 mm kalınlığında flexi doğal taş kullanılmıştır. Flexi taş, eğimli ve köşeli yüzeylere kolayca uygulanabildiği için L tipi geometrisinde mimari esneklik sağlar.\n\nAskı şöminelerin tasarım dili ise farklı bir tarafa akar: sade, keskin hatlar ve metalik yüzeyler ön plandadır. Askı kategorisindeki modellerde kaplama ve yüzey bilgileri projeye özel belirlendiğinden genel bir malzeme listesi vermek yanıltıcı olur. Ancak şunu söylemek doğru olur: askı şöminede malzeme görsel ağırlığı azaltmak için seçilir, L tipinde ise artırmak için.\n\nAskı şömine kategorisindeki [YS-247](https://www.yanarsomine.com.tr/urun/ys-247/) dahil tüm modeller özel ölçü ve özel tasarım esasıyla üretilir. Bu nedenle yüzey rengi, boru uzunluğu ve gövde formu gibi değişkenler mekânın koşullarına göre keşif aşamasında şekillenir. Standart bir raf ürünü gibi değil, projenin bir parçası olarak ele alınan bu yaklaşım, Yanar Şömine uygulama yapan şömine markasının temel çalışma biçimidir.\n\n## Mekân ve Ölçü Uyumu\n\nL tipi modern şömine köşeye oturur; bu nedenle kare planlı ya da köşe boşluğu olan oturma odalarında anlam kazanır. Dikdörtgen, uzun oda planlarında köşe şöminesi perspektifi böler ve mekânı parçalayabilir. Önce planı çiz, köşenin derinliğini ve açısını ölç; ancak ondan sonra L tipi değerlendirmeye al.\n\nAskı şömine yüksek tavanlı mekânlarda nefes alır. Tavan yüksekliği yetersizse boru boyutu ve hazne konumu kısıtlanır; görsel etki de buna bağlı olarak zayıflar. Açık planlı salon-mutfak ya da dubleks gibi mekânlarda ise askı şömine merkezi bir unsur olarak tüm alanı tanımlar.\n\nMekânı ölçmeden model seçme. Bu iki tip için de geçerli ama askı şömine için tavan yüksekliği; L tipi için köşe derinliği ve köşe açısı kritik ölçüdür. Yanar Şömine uygulama yapan şömine markası olarak bu ölçüleri ücretsiz keşif sırasında kendi ekibi aracılığıyla tespit eder; tahmini ölçüyle proje başlatmaz.\n\nAçık planlı salon-mutfak ya da dubleks gibi mekânlarda askı şömine merkezi bir unsur olarak tüm alanı tanımlar. Bu tür projelerde [YS-248](https://www.yanarsomine.com.tr/urun/ys-248/) gibi modeller değerlendirilebilir; ancak tavan taşıyıcı noktasının konumu ve baca çıkış hattı mekândan mekâna farklılık gösterdiğinden nihai boyutlandırma sahada yapılır. L tipi projelerde ise [YS-133](https://www.yanarsomine.com.tr/urun/ys-133/) modelinin eşkenar geometrisi, hem duvarı hem de köşe derinliğini dengeli biçimde kullanan mekânlarda öne çıkar; köşe açısı tam 90° olan mekânlarda bu oran özellikle avantaj sağlar.\n\n## Kurulum ve Uygulama Süreci\n\nİki tip arasındaki en kritik teknik fark, kurulum mantığındadır. L tipi modern şömine zemine oturduğu için zemin taşıma kapasitesi nadiren sorun çıkarır; duvar bağlantısı ve baca hattı yeterlidir. Askı şöminede ise taşıyıcı noktanın belirlenmesi önceliklidir: tavan kirişi mi, beton döşeme mi, yoksa duvar konsolu mu kullanılacak? Bu karar yapısal hesaba dayanır ve keşif sırasında netleştirilir.\n\nYanar Şömine uygulama yapan şömine markası olmasının pratikte anlamı şudur: tasarım, üretim ve saha uygulaması aynı ekip tarafından yürütülür. İş başka bir uygulayıcıya devredilmez. Bu, özellikle askı şömine gibi statik hesap gerektiren ürünlerde önemlidir; tasarımcı ile montajcının farklı olduğu projelerde iletişim kopuklukları ciddi hataya dönüşebilir.\n\nKurulum süresi mekânın altyapısına, seçilen haznelere ve kaplama malzemelerine göre değişir; kesin süreyi belirlemek keşif öncesinde mümkün değildir. Bunu şeffaf biçimde konuşmak projenin sağlıklı ilerlemesi açısından daha doğrudur. Randevu al, keşifi yaptır, net takvimi o aşamada al.\n\n## Kullanım Kolaylığı ve Bakım\n\nL tipi modern şömine, odun yakıtlı seçeneklerde klasik şömine kullanımına benzer: yakma, hava ayarı, kül temizliği. Taş ve mermer yüzeyler dayanıklıdır; düzenli temizlik yeterlidir. Flexi taş gibi ince kaplamalar mekanik darbeye karşı daha hassastır, bu nedenle çocuklu evlerde bu detay göz önünde bulundurulmalıdır.\n\nAskı şöminede baca borusu görünür durumdadır; bu hem estetik bir tasarım unsuru hem de erişilmesi gereken bir bileşendir. Boru bağlantıları ve contalar periyodik olarak kontrol edilmelidir. Yüksekte konumlanan hazneye erişim, kül temizliği için ek dikkat gerektirebilir. Bu bir dezavantaj değil, farkında olunması gereken bir kullanım farkıdır.\n\nHer iki tipte de yakıt tercihi bakım sıklığını doğrudan etkiler. Odun yakarken kül birikimi hızlıdır; biyoetanol tercihinde bu iş büyük ölçüde ortadan kalkar. Kullanım alışkanlığını ve temizliğe ayırabileceğin zamanı dürüstçe değerlendir, yakıt kararını buna göre ver.\n\nAskı şömine modellerinden [YS-245](https://www.yanarsomine.com.tr/urun/ys-245/) gibi tasarımlarda boru hattının görünür olması, periyodik kontrolü kolaylaştırır; bağlantı noktaları erişilebilir konumda tutulduğu sürece bakım süreci karmaşık değildir. Buna karşın her iki tipte de yılda en az bir kez profesyonel baca ve hazne kontrolü yaptırmak uzun vadede hem güvenlik hem de performans açısından önemlidir. Yanar Şömine uygulama yapan şömine markasında uygulama ekibi aynı zamanda kurulum sonrası geri bildirim için de ulaşılabilir durumdadır; işin başka bir ekibe devredilmemesi bu sürekliliği sağlar.\n\n## Hangi Ev Tipine Hangisi Uyar\n\nVilla veya müstakil ev: Baca altyapısı genellikle mevcuttur; hem L tipi hem askı şömine uygulanabilir. Köşe düzeni varsa L tipi avantajlıdır. Çift yükseklikli salon varsa askı şömine öncelikli tercih olabilir.\n\nYüksek tavanlı daire: Askı şömine için elverişli bir ortamdır. Tavan yüksekliği 3 metre ve üzerindeyse askı şömine boru boyu açısından rahatça konumlandırılır. Baca bağlantısı dış cepheye veya bina bacasına yapılabiliyorsa odun yakıtlı seçenek de mümkündür.\n\nStandart tavanlı daire: L tipi modern şömine daha uyumludur. Tavan yüksekliği kısıtlı olan mekânlarda askı şömine görsel etkiyi yitirir ve boru geçişi sorun çıkarabilir. Bu durumda Yanar Şömine uygulama yapan şömine markasının diğer kategorilerini, örneğin modern veya çift taraflı modelleri de değerlendirmek mantıklıdır.\n\nMinimal dekorlu mekân: Askı şömine bu ortamda güçlü durur. Sade bir arka duvar, açık zemin ve az mobilyayla askı şömine mekânın tüm vurgusunu üstlenir. Yoğun taş, ahşap ve tekstil detaylarla dolu bir mekânda ise L tipi bu dolulukla bütünleşir.\n\nYeni yapı veya renovasyon projesinde baca hattını sıfırdan planlamak mümkünse her iki tip de rahatça değerlendirilebilir. Ancak mevcut yapılarda baca güzergâhı kısıtlıysa önce biyoetanol seçeneği sorgulanmalı, ardından model belirlenmelidir. Yanar Şömine uygulama yapan şömine markasının 13 kategorisi bu çeşitliliği karşılamak üzere tasarlanmıştır; baca sorunu olan mekânlar için doğalgazlı veya elektrikli kategoriler de değerlendirme kapsamına alınabilir. Ama bu karşılaştırma L tipi ve askı tipi üzerine; diğer kategorilere geçmeden önce mevcut altyapının ne ölçüde esneklik sunduğunu keşif sırasında netleştir.\n\n## L Tipi mi, Askı mı: Net Karar\n\nKarar iki soruya verilen yanıta dayanır. Birinci soru: Mekânın tavanı yüksek mi ve köşe boşluğu var mı? İkinci soru: Şömineyi mekânın içinde eritmek mi, öne çıkarmak mı istiyorsun?\n\nL tipi modern şömine; köşe geometrisini değerlendiren, taş ve mermer kaplama dokusuyla sıcak ve kütlesel bir his isteyen, klasik şömine alışkanlığına yakın duranlara hitap eder. [YS-133](https://www.yanarsomine.com.tr/urun/ys-133/), [YS-132](https://www.yanarsomine.com.tr/urun/ys-132/) ve [YS-124](https://www.yanarsomine.com.tr/urun/ys-124/) gibi modeller bu anlayışın somut örnekleridir; malzeme kombinasyonları, hazne ölçüleri ve detay işçiliğiyle her biri farklı bir estetik pozisyon sunar.\n\nAskı şömine; yüksek tavanlı ve sade dekora sahip mekânlarda mekânı tanımlayan bir odak noktası arayan ev sahiplerine uygundur. [Askı şömine kategorisindeki](https://www.yanarsomine.com.tr/urun-kategori/somineler/aski-somine/) modeller projeye özel tasarlandığından, doğru modeli belirlemek için keşif aşaması kaçınılmazdır.\n\nYanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana her projeyi sahadan başlatır. Sabit bir katalog fiyatı yoktur; ölçü, baca durumu ve estetik beklenti netleşmeden teklif de oluşmaz. Bu nedenle en doğru adım ücretsiz keşif randevusu almaktır. Hafta içi veya Cumartesi 09:00–19:00 saatleri arasında [(0212) 884 13 49](tel:02128841349) numarasını ara; ekip yerinde değerlendirsin.\n\nYanar Şömine uygulama yapan şömine markasının 13 kategorisini ve tüm modelleri [yanarsomine.com.tr](https://www.yanarsomine.com.tr) adresinden inceleyebilirsin. [L tipi modern şömine kategorisine](https://www.yanarsomine.com.tr/urun-kategori/somineler/l-tipi-modern-somine/) ve askı şömine kategorisine doğrudan ulaşmak için ilgili sayfalara geçebilirsin; ancak nihai kararı mekânı gördükten sonra ver.\n\nİki tipi karşılaştırmak için en sağlıklı yol, her birinin üretilmiş bir örneğini yerinde görmektir. L tipi modern şömine kategorisinde [YS-132](https://www.yanarsomine.com.tr/urun/ys-132/) ve [YS-124](https://www.yanarsomine.com.tr/urun/ys-124/) gibi modeller malzeme ve hazne kombinasyonu açısından farklı beklentilere karşılık verir. Askı kategorisinde ise [YS-245](https://www.yanarsomine.com.tr/urun/ys-245/), [YS-247](https://www.yanarsomine.com.tr/urun/ys-247/) ve [YS-248](https://www.yanarsomine.com.tr/urun/ys-248/) modelleri projeye göre biçimlenir. Hiçbir modelin sabit bir çıktısı yoktur; ölçü, malzeme ve hazne seçimi mekânla birlikte kararlaşır. Bu nedenle katalogda beğendiğin modeli değil, mekânına uygun çözümü aramak daha doğru bir yaklaşımdır."
+}

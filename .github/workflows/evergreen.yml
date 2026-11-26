@@ -2,10 +2,10 @@ name: Şömine Bilgisi Evergreen Eş Yazıları
 
 on:
   schedule:
-    # Cuma 14:10 Türkiye (11:10 UTC) — yanarsomine.com.tr evergreen yazıları 10:40'ta çıkar (2 yazı).
+    # Salı + Cuma 14:10 Türkiye (11:10 UTC) — yanarsomine.com.tr evergreen yazıları 10:40'ta çıkar (2 yazı).
     # 17:10 TR yedek: WP yazıları 13:40 yedeğinde çıktıysa onları da yakalar (günlük kota 2; dolduysa script çıkar).
-    - cron: '10 11 * * 5'
-    - cron: '10 14 * * 5'
+    - cron: '10 11 * * 2,5'
+    - cron: '10 14 * * 2,5'
   workflow_dispatch:
     inputs:
       dry_run:

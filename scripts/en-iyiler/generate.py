@@ -52,10 +52,8 @@ def save_state(state):
 
 
 def wp_list_posts(series):
-    url = (f"{pcz.WP_API}/posts?categories={pcz.WP_CATEGORY_ID}&per_page=100&orderby=date&order=asc"
-           "&_fields=id,slug,link,date,title,content")
     out = []
-    for p in json.loads(base.http_get(url)):
+    for p in pcz.wp_category_posts():
         m = re.search(rf"yss-en-iyiler-{series}:\s*([a-z0-9-]+)", p["content"]["rendered"])
         if m:
             p["topic"] = m.group(1)

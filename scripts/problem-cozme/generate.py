@@ -75,12 +75,28 @@ def save_state(state):
 
 
 # ── WP kaynağı ────────────────────────────────────────────────────────────
+def wp_category_posts():
+    """WP "Şömine Rehberi" kategorisinin TÜM yazıları (eskiden yeniye, sayfalı; kategori 100 yazıyı geçti)."""
+    out, page = [], 1
+    while True:
+        url = (f"{WP_API}/posts?categories={WP_CATEGORY_ID}&per_page=100&page={page}&orderby=date&order=asc"
+               "&_fields=id,slug,link,date,title,content")
+        try:
+            batch = json.loads(base.http_get(url))
+        except Exception as e:  # noqa: BLE001 — son sayfadan sonrası 400 döner
+            if "400" in str(e):
+                break
+            raise
+        out += batch
+        if len(batch) < 100:
+            break
+        page += 1
+    return out
+
+
 def wp_problem_posts():
-    url = (f"{WP_API}/posts?categories={WP_CATEGORY_ID}&per_page=100&orderby=date&order=asc"
-           "&_fields=id,slug,link,date,title,content")
-    posts = json.loads(base.http_get(url))
     out = []
-    for p in posts:
+    for p in wp_category_posts():
         m = re.search(WP_MARKER + r":\s*([a-z0-9-]+)", p["content"]["rendered"])
         if m:
             p["topic"] = m.group(1)

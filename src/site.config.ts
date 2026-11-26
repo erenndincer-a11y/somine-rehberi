@@ -96,6 +96,11 @@ export const CATEGORIES: Category[] = [
     description: 'Duman, baca çekmemesi, cam kararması, ısıtmama: belirtilerden nedenine, evde güvenle yapılacaklardan kalıcı çözüme.',
   },
   {
+    slug: 'somine-bilgisi',
+    name: 'Şömine Bilgisi',
+    description: 'Şömine nasıl çalışır, odun nasıl seçilir, baca ve güvenlik: zamandan bağımsız temel bilgiler.',
+  },
+  {
     slug: 'en-iyiler',
     name: 'En İyiler',
     description: 'Şömine tipleri, kullanım durumları ve bölgelere göre öne çıkan seçenekler: kriterleri açık, dürüst listeler.',

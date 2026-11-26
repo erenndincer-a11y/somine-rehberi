@@ -1,0 +1,61 @@
+name: Şömine Bilgisi Evergreen Eş Yazıları
+
+on:
+  schedule:
+    # Cuma 14:10 Türkiye (11:10 UTC) — yanarsomine.com.tr evergreen yazıları 10:40'ta çıkar (2 yazı).
+    # 17:10 TR yedek: WP yazıları 13:40 yedeğinde çıktıysa onları da yakalar (günlük kota 2; dolduysa script çıkar).
+    - cron: '10 11 * * 5'
+    - cron: '10 14 * * 5'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Yalnızca kaynak WP yazılarını bul (yazı üretmez)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: somine-rehberi-yayin  # diğer şömine otomasyonlarıyla aynı kuyruk: push'lar çakışmasın
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Python kur
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Paketleri yükle
+        run: pip install anthropic openai pillow numpy scipy -q
+
+      - name: Eş yazıları üret (sominerehberi.com)
+        id: gen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/evergreen/generate.py --adet 2 ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Commit ve push (Vercel otomatik yayınlar)
+        if: steps.gen.outputs.created != ''
+        run: |
+          git config user.name "erenndincer-a11y"
+          git config user.email "280446554+erenndincer-a11y@users.noreply.github.com"
+          git add src/content/yazilar public/images/posts scripts/evergreen/durum.json
+          git commit -m "Şömine Bilgisi: ${{ steps.gen.outputs.created }}"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
+
+      - name: Yapılanlar listesine ekle (destek.visibiy.com)
+        if: steps.gen.outputs.created != ''
+        continue-on-error: true  # panel erişilemezse yazı yayını etkilenmesin
+        env:
+          INTERNAL_API_SECRET: ${{ secrets.INTERNAL_API_SECRET }}
+        run: |
+          for s in ${{ steps.gen.outputs.created }}; do python scripts/notify_support.py "$s" "Şömine Bilgisi"; done

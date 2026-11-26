@@ -1,0 +1,105 @@
+{
+ "meta": {
+  "title": "L Tipi Modern Şömine mi, Elektrikli Şömine mi?",
+  "description": "L tipi modern şömine ile elektrikli şömine arasındaki temel farkları, kurulum koşullarını ve hangi eve hangisinin uygun olduğunu karşılaştırıyoruz.",
+  "keyPoints": [
+   "L tipi modern şömine gerçek ateş ve kalıcı bir yapı sunarken, elektrikli şömine baca gerektirmeden herhangi bir odaya kurulabilen esnek bir alternatiftir.",
+   "İkisi arasındaki en belirleyici fark bacadır: L tipi için çalışan bir baca şarttır, elektrikli için değil.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipi de projeye özgü tasarlar ve kendi ekibiyle uygular.",
+   "Her iki tip de sabit fiyatla değil, ücretsiz keşif ve teklif usulüyle değerlendirilir; ölçü ve mekân özellikleri fiyatı doğrudan etkiler."
+  ],
+  "faq": [
+   {
+    "q": "L tipi modern şömine ile elektrikli şömine arasındaki temel fark nedir?",
+    "a": "L tipi modern şömine, gerçek odun yakıtıyla çalışan ve baca bağlantısı zorunlu olan bir sistemdir; ısıtma kapasitesi yüksek, yapısı kalıcıdır. Elektrikli şömine ise baca gerektirmez, prize takılarak çalışır ve istendiğinde farklı bir konuma taşınabilir ya da yerleşik olarak tasarlanabilir; esas katkısı ısıl değil, atmosfer ve estetiktir."
+   },
+   {
+    "q": "Bacası olmayan bir daireye L tipi modern şömine yaptırabilir miyim?",
+    "a": "Hayır. L tipi modern şömine, duman ve yanma gazlarını dışarı atacak işlevsel bir baca olmadan güvenli biçimde çalışamaz. Bacası olmayan ya da mevcut bacası tıkalı olan bir mekânda önce baca durumunun yerinde incelenmesi gerekir; bunun için Yanar Şömine'nin ücretsiz keşif hizmetinden yararlanabilirsiniz."
+   },
+   {
+    "q": "Elektrikli şömine gerçekten ısıtır mı?",
+    "a": "Elektrikli şömineler bir ısıtma cihazı olarak değil, esas olarak ambiyans ve estetik amaçlı değerlendirilmelidir. Bazı modellerde ek bir ısıtma elemanı bulunsa da bu, gerçek yakıtlı bir şöminenin ısıl kapasitesiyle kıyaslanamaz. Küçük bir oda için tamamlayıcı ısı sağlayabilirler; büyük hacimleri tek başına ısıtmaları beklenmemelidir."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana İstanbul Büyükçekmece/Kumburgaz'da faaliyet göstermektedir. Tasarım, üretim ve uygulama süreçlerinin tamamını kendi ekibiyle yürütür; işi başka bir uygulayıcıya devretmez. 13 farklı ürün kategorisiyle geniş bir yelpaze sunar ve tüm projeler özel ölçüye göre teklif usulüyle değerlendirilir."
+   },
+   {
+    "q": "Her iki tip için de yerinde keşif gerekli mi?",
+    "a": "Evet. Yanar Şömine her iki tip için de ücretsiz keşif hizmeti sunar. Elektrikli şöminede baca kontrolü gerekmese de duvar konumu, elektrik altyapısı ve mekânın oranları tasarımı doğrudan etkiler. L tipi şöminede ise baca durumu, yükseklik ve mekânın ısıl ihtiyacı yerinde değerlendirilmeden doğru hazne seçimi yapılamaz."
+   },
+   {
+    "q": "Yanar Şömine kurulumu da kendisi mi yapıyor?",
+    "a": "Evet. Yanar Şömine tasarım ve üretimin yanı sıra uygulamayı da kendi ekibiyle yerinde gerçekleştirir; kurulum başka bir firmaya ya da uygulayıcıya devredilmez. Bu, tasarım bütünlüğünün sahaya da yansımasını sağlar."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Odun yakıtlı ithal döküm ya da çelik hazne",
+     "Elektrik enerjisiyle çalışan alev simülasyonlu hazne"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Zorunlu; işlevsel bir baca olmadan çalışamaz",
+     "Gerekmiyor; prize bağlı olarak çalışır"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi (gerçek örnekler)",
+    "values": [
+     "Star Galaxy Granit, Cream Dor mermer, Traverten, Lime Stone, Flexi doğal taş",
+     "Projeye göre değişir; malzeme bilgisi keşifle belirlenir"
+    ]
+   },
+   {
+    "label": "Görünen cephe",
+    "values": [
+     "L biçimli; iki duvara yaslanan köşe tasarımı",
+     "Projeye göre değişir; düz ya da köşe uygulaması mümkün"
+    ]
+   },
+   {
+    "label": "Uygun mekân",
+    "values": [
+     "Bacalı müstakil ev, villa, bacalı daire",
+     "Baca olmayan daire, ofis, ikinci konut, kiralık mekân"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Kalıcı yapı; Yanar Şömine ekibi yerinde uygular",
+     "Yerleşik ya da yarı taşınabilir; Yanar Şömine ekibi yerinde uygular"
+    ]
+   },
+   {
+    "label": "Bakım",
+    "values": [
+     "Yıllık baca temizliği ve hazne kontrolü gerektirir",
+     "Mekanik parça bakımı minimal; düzenli baca temizliği gerekmez"
+    ]
+   },
+   {
+    "label": "Birincil işlev",
+    "values": [
+     "Isıtma + atmosfer",
+     "Atmosfer + estetik; ısıtma ikincil"
+    ]
+   }
+  ],
+  "verdict": "Bacalı bir eviniz varsa ve hem ısıtma hem de kalıcı bir tasarım önceliğinizse L tipi modern şömine doğru seçimdir. Bacası olmayan ya da baca yaptırmanın mümkün olmadığı bir mekânda yaşıyorsanız elektrikli şömine gerçekçi tek alternatiftir. İkisi arasındaki mesafe teknik değil, önce mekânınızın koşullarından kaynaklanır; bu yüzden karar vermeden önce ücretsiz keşif randevusu almanızı öneririz.",
+  "bestForA": "Bacalı müstakil evi ya da villası olan, köşe duvarını tasarıma dahil etmek isteyen ve kalıcı bir ısıtma-estetik çözümü arayan ev sahipleri için.",
+  "bestForB": "Bacası bulunmayan dairede yaşayan, kira mülkünde değişiklik yapamayan ya da ambiyans odaklı hafif bir çözüm arayan ev sahipleri için.",
+  "heroA": "YS-132",
+  "heroB": "YS-250",
+  "imageSceneA": "Corner L-shaped modern fireplace clad in cream marble and flexible natural stone, burning wood fire with warm amber glow, set in a minimalist living room with concrete walls, low furniture, and indirect evening lighting. No people.",
+  "imageSceneB": "Built-in electric fireplace with glowing flame simulation, set in a sleek urban apartment living room, neutral tones, ambient evening light filtering through sheer curtains, contemporary furniture. No people.",
+  "imageAlt": "Sol tarafta granit ve mermer kaplı L tipi modern odun şöminesi, sağ tarafta yerleşik elektrikli şömine; modern bir oturma odasında yan yana karşılaştırma sahnesi."
+ },
+ "body": "Bacası olan bir evde yaşıyorsanız L tipi modern şömine; bacası yoksa elektrikli şömine mantıklı başlangıç noktanızdır.\n\nBu iki tip arasında kararsız kalmanın en yaygın nedeni sorunun yanlış kurulmasıdır. Çoğu ev sahibi \"hangisi daha güzel?\" diye sorar; oysa asıl soru \"mekânım hangisine izin veriyor?\" olmalıdır. Tasarım tercihi ancak bu soruyu yanıtladıktan sonra anlam kazanır.\n\nYanar Şömine uygulama yapan şömine markası olarak her projeyi bu ön koşuldan başlatır: önce mekân okunur, sonra tasarım konuşulur. Bunu yalnızca bir çalışma biçimi olarak değil, uzun vadeli kullanıcı memnuniyetinin temeli olarak görün.\n\n## Temel Fark: Neden Karşılaştırılabilirler, Neden Farklıdırlar\n\nL tipi modern şömine, iki duvara oturan köşe geometrisiyle odanın ölü açısını tasarıma katan bir sistemdir. Gerçek odun yakıtıyla çalışır; hazne içindeki yanma doğaldır, ısı yayılımı fizikseldir. Bu nedenle bir baca bağlantısı zorunludur.\n\nElektrikli şömine ise yanma simüle eder, baca gerektirmez. Prize takılır ve çalışır. Isı üretimi ikincil ya da semboliktir; esas katkısı görsel atmosferdir.\n\nİkisini aynı kategoride değerlendirmenizi sağlayan şey, her ikisinin de bir oturma odasında şömine deneyimi yaratma iddiasında olmasıdır. Ayıran şey ise bu deneyimin gerçek mi, simüle mi olduğu ve mekânın buna altyapısal olarak hazır olup olmadığıdır. Karar sürecinde bu ayrımı aklınızda tutun.\n\n## Hazne, Yakıt ve Baca: En Kritik Teknik Eksen\n\nL tipi modern şöminede hazne seçimi projenin merkezindedir. [YS-133](https://www.yanarsomine.com.tr/urun/ys-133/)'te 80 cm genişliğinde eşkenar tip, asansör kapaklı ve yan açılımlı ithal hazne kullanılmıştır. [YS-132](https://www.yanarsomine.com.tr/urun/ys-132/)'de 85 cm genişliğinde L tipi asansör kapaklı ithal hazne tercih edilmiştir. [YS-124](https://www.yanarsomine.com.tr/urun/ys-124/)'te ise 70 cm genişliğinde Nordflam marka döküm hazne yer almaktadır. Hazne genişliği ve tipi, bacadan çekilecek hava miktarını ve ısıtma kapasitesini doğrudan etkiler.\n\nBu modellerin tamamı işlevsel bir baca olmadan çalışamaz. Bacayı önce kontrol et; yüksekliği, çekişi ve mevcut durumu bir uzman tarafından değerlendirilmeden hazne seçimine geçme.\n\nElektrikli şöminede bu süreç tamamen farklıdır. Baca kontrolü yoktur, duman sorunu yoktur. Tek altyapı ihtiyacı yeterli elektrik hattıdır. Bu, baca yaptırmanın teknik olarak mümkün olmadığı ya da izin süreçlerinin önünde durduğu konutlarda elektrikli seçeneği tek gerçekçi alternatif kılar.\n\nBaca kesiti ve yüksekliği, hangi hazne kapasitesinin seçileceğini doğrudan sınırlandırır. 70 cm'lik bir Nordflam döküm hazne ile 85 cm'lik asansör kapaklı bir ithal haznenin baca çekişine olan ihtiyacı aynı değildir; bu farkı yalnızca yerinde ölçüm ortaya koyar. Bacayı yeterli bulduğunuzda hazne seçimine geçin, tersi sırayla ilerleme.\n\n## Tasarım ve Malzeme: Her İki Tipte Yüzey Dili\n\nL tipi modern şöminede malzeme seçimi hem yapısal hem estetiktir. YS-133'te iç çerçeve, alt ve üst tablada siyah Star Galaxy Granit; dış çerçeve ve alt tabla detaylarında Lime Stone taş kullanılmıştır. YS-132'de alt tablada Cream Dor mermer, duvar yüzeyinde 2 mm kalınlığında flexi ithal doğal taş tercih edilmiştir. YS-124'te ise traverten mermerinden profil işlemli çerçeve ve üst duvarda hindistan cevizi kabuğundan kaplama görünür.\n\nBu malzeme çeşitliliği rastlantısal değildir. Yanar Şömine uygulama yapan şömine markası olarak her projeyi özgün tasarlar; malzeme seçimleri standart bir kataloğa değil, mekânın tonuna ve sahibinin tercihine göre belirlenir.\n\nElektrikli şömine modellerinde hazne dışındaki kaplama yüzeyi de projeye özgü tasarlanır. Duvar, nişe entegrasyon, zemin detayları keşif aşamasında şekillenir. Mekânı ölçmeden ve duvar kompozisyonunu görmeden tasarım kararı verme.\n\nMalzeme seçimi yalnızca estetik değil, uzun vadeli dayanım meselesidir. Star Galaxy Granit gibi sert yüzeyler yüksek ısıya dayanıklıdır ve günlük kullanımda yüzey bütünlüğünü korur. Flexi doğal taş ise ince profili sayesinde duvar yüzeylerine sıkı oturur ve derzli görünümü minimize eder. Hangi malzemenin mekânınıza uygun olduğunu yalnızca mekânın ışığına, zemin rengine ve kullanım yoğunluğuna bakarak belirleyebilirsiniz; bu değerlendirme keşif ziyaretinin ayrılmaz parçasıdır.\n\nElektrikli şömine projelerinde kaplama yüzeyi tamamen serbesttir; bacayla sınırlı bir alan planlaması olmadığından tasarımcı mekânın tamamını değerlendirerek nişin boyutunu, derinliğini ve çevre yüzeyin malzemesini daha özgür kurguya alabilir. Bu esneklik doğru kullanıldığında güçlü bir avantajdır.\n\n## Mekân ve Ölçü Uyumu: Hangi Oda Hangisini Kaldırır\n\nL tipi modern şömine geometrisi itibarıyla iki duvarı gerektirir ve köşe boşluğunu kullanır. Bu, açık plan büyük oturma odalarında ya da salonun belirleyici köşesini vurgulamak istediğiniz mekânlarda güçlü bir tercih nedenidir. Küçük ve köşesiz odalarda ise L geometrisinin mekânla çatışabileceğini göz önünde bulundurun.\n\nAyrıca L tipi modern şöminelerin kütlesi önemlidir. Granit, mermer ya da doğal taş kaplama, yapının ağırlığını ve zemin yükünü artırır. Eski yapılarda ya da zayıf döşemelerde bu durum keşif aşamasında değerlendirilmelidir.\n\nElektrikli şömine bu açıdan daha esnektir. Duvar içine gömülü, nişe yerleştirilmiş ya da bağımsız bir modül olarak tasarlanabilir. Küçük dairelerden büyük salonlara, kiralık konutlardan ikinci konutlara kadar geniş bir mekân yelpazesine uyum sağlar. Yine de doğru ölçülendirme olmadan oran hatası kolayca yapılır; bu yüzden mekânı ölçmeden model seçme.\n\nKöşe geometrisinin bir diğer pratik sonucu mobilya yerleşimidir. L tipi modern şömine köşeye oturduğunda oturma grubunun odaklanma aksını değiştirir; koltuk ve sehpa düzenini buna göre planlamak gerekir. Bunu erken aşamada mobilya planıyla birlikte değerlendirin; şömine sonradan eklendiğinde oda düzenini yeniden kurmak zorunda kalabilirsiniz.\n\nElektrikli şöminede ise yerleşim esnekliği daha fazladır. Duvarın herhangi bir bölümüne, hatta dolap bütünleşik bir sisteme dahil edilerek tasarlanabilir. Ancak bu esneklik bazen kararı zorlaştırır; nereye koyacağınızdan emin değilseniz keşif randevusundan önce birkaç farklı yerleşim taslağı hazırlayın.\n\n## Kurulum ve Uygulama Süreci: Sahada Ne Olur\n\nL tipi modern şömine kurulumu kalıcı bir yapı inşasıdır. Baca bağlantısı, hazne yerleşimi, kaplama uygulaması ve son detaylar art arda yürütülen adımlardır. Bu süreçte tasarımı yapan ekibin uygulamayı da yönetmesi kritiktir; aksi durumda tasarım kâğıtta kalır, sahada ayrışır.\n\nYanar Şömine uygulama yapan şömine markası olarak bu iki süreci birbirinden ayırmaz. Tasarım ve üretimin yanı sıra uygulamayı da kendi ekibiyle yerinde gerçekleştirir; işi başka bir uygulayıcıya devretmez. 1986'dan bu yana sürdürülen bu yaklaşım, projenin baştan sona tek bir sorumluluk zincirinde yönetilmesini sağlar.\n\nElektrikli şömine kurulumu görece daha kısadır; baca açma ve duman yolu hazırlama gerektirmez. Ancak yerleşik bir tasarımda duvar içine entegrasyon, elektrik hattı düzenlemesi ve kaplama yine özenli bir uygulama sürecini gerektirir. Hızlı ve bitmeden görünen bir kurulum, uzun vadede bozulma riskini artırır; uygulama kalitesinden ödün verme.\n\n## Kullanım ve Bakım: Uzun Vadeli Gerçekler\n\nL tipi modern şömine kullandıkça bakım gerektirir. Yıllık baca temizliği zorunludur; baca tıkandığında hem verim düşer hem de güvenlik riski oluşur. Hazne döküm ya da çelik yapısına göre periyodik kontrolden geçirilmelidir. Yakıt alımı, depolama ve ateşleme rutini gerektiren bir kullanım biçimidir.\n\nBu zahmet bazıları için caydırıcıdır; bazıları içinse şöminenin ayrılmaz parçasıdır. Gerçek ateşin verdiği his, çıtırtı, ısı ve koku bu rutini göze aldıran unsurların başında gelir.\n\nElektrikli şöminede baca temizliği gerekmez. Mekanik bakım gereksinimi minimaldir. Uzaktan kumanda ya da dijital kontrol ile çalışan sistemlerde kullanım kolaylığı yüksektir. Ancak uzun süre kullanılmayan ya da nemli ortamlarda depolanan modellerde elektrik bileşenlerinin kontrolü ihmal edilmemelidir.\n\nYanar Şömine uygulama yapan şömine markasına ait projelerinde kullanılan malzemelerin ve hazne tiplerinin uzun vadeli davranışı keşif aşamasında aktarılır; hangi koşulda hangi bakımın yapılması gerektiği kurulum sonrası da takip edilebilir durumdadır.\n\nOdun temin etme ve depolama meselesi de L tipi modern şömine sahipliğinin pratik bir parçasıdır. Kuru ve iyi havalandırılmış alanda depolanan odun hem daha verimli yanar hem de hazneyi daha az kirletir. Yeşil ya da nemli odun kullanımı baca kirlenmesini hızlandırır ve çekişi düşürür; bunu kullanım alışkanlığınıza ekleyin.\n\nYanar Şömine uygulama yapan şömine markasında üretilen hazneler ve kullanılan kaplama malzemeleri seçilirken uzun vadeli bakım kolaylığı da gözetilir. Montaj sonrası kullanım bilgisi proje tesliminde aktarılır; hangi aralıkta ne yapılması gerektiğini baştan öğrenin.\n\n## Hangi Ev Tipine Hangisi: Somut Senaryolar\n\n**Bacalı müstakil ev ya da villa:** L tipi modern şömine güçlü bir seçimdir. Köşe geometrisi büyük salonlarda dengeleyici bir odak noktası oluşturur. Isıtma kapasitesi ev büyüklüğüyle orantılı seçilebilir.\n\n**Bacalı daire:** Önce mevcut bacayı bir uzmanla değerlendirin. Baca kullanılabilir durumdaysa L tipi modern şömine yaptırılabilir; kullanılamıyorsa baca rehabilitasyonu gerekip gerekmediğini öğrenin.\n\n**Bacasız daire:** L tipi modern şömine teknik olarak mümkün değildir. Elektrikli şömine bu mekânda gerçekçi tek seçenektir. [YS-250](https://www.yanarsomine.com.tr/urun/ys-250/) ya da [YS-249](https://www.yanarsomine.com.tr/urun/ys-249/) gibi modeller bu tür mekânlar için değerlendirilebilir.\n\n**Kiralık konut ya da ikinci konut:** Kalıcı yapı değişikliği yapamıyorsanız elektrikli şömine daha uygun düşer. Mülk sahibiyle mutabık kalınmadan L tipi gibi kalıcı bir sistem kurmak sorun yaratabilir.\n\n**Ofis ya da ticari alan:** Atmosfer öncelikli tercih olarak elektrikli şömine daha işlevsel bir seçimdir. Kullanıcı değişkenliğine ve farklı kullanım saatlerine daha iyi uyum sağlar.\n\nYeni inşaat ya da renovasyon projesinde karar aşamasındaysanız L tipi modern şöminenin baca planlamasını mimari çizim aşamasına dahil edin. Sonradan baca eklemek hem maliyeti artırır hem de uygulama seçeneklerini daraltır. Şömine kararını yapı kararlarından bağımsız verme.\n\nKarma kullanımlı mekânlarda, örneğin hem oturma hem çalışma alanı olarak kullanılan odalarda, elektrikli şömine görsel bir arka plan işlevi görür; sürekli aktif olmak zorunda değildir, kapalıyken de bir tasarım ögesi olarak varlığını sürdürür. Bu kullanım biçimi için ölçek ve çerçeveleme orantısı özellikle önemlidir; büyük duvara küçük niş kötü durur.\n\n## Karar: Hangisi Sizin İçin Doğru\n\nKarar sürecini üç soruya indirgeyin. Birincisi: Mekânımda çalışan bir baca var mı? İkincisi: Birincil beklentim ısıtma mı, atmosfer mi? Üçüncüsü: Kalıcı bir yapı mı, esnek bir kurulum mu istiyorum?\n\nİlk soruya \"evet\" yanıtı veriyorsanız ve ısıtma önceliğinizse L tipi modern şömine; \"hayır\" ya da \"emin değilim\" yanıtı veriyorsanız elektrikli şömine başlangıç noktanız olsun. Ancak bu kararı ekran başında kesinleştirme.\n\nYanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana yürüttüğü ücretsiz keşif hizmetinde tam olarak bu soruları yerinde yanıtlar: baca ölçümü, mekân analizi, hazne önerisi ve tasarım alternatifleri tek bir ziyarette değerlendirilir. Kendi gözleminizle başlayın, ama nihai kararı yerinde ölçüm olmadan vermeyin.\n\nHer iki tip için de Yanar Şömine uygulama yapan şömine markasının 13 kategorilik geniş ürün yelpazesini incelemek, farklı malzeme ve hazne kombinasyonlarının bir arada nasıl çalıştığını görmek açısından işe yarar. [L Tipi Modern Şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/l-tipi-modern-somine/) ve [Elektrikli Şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/elektrikli-somineler/) kategori sayfalarını ziyaret ederek mevcut projeleri inceleyin; ardından randevu alın.\n\nRandevu için (0212) 884 13 49 numaralı hattı arayabilir, Pazartesi–Cumartesi 09:00–19:00 saatleri arasında ulaşabilirsiniz. Tüm modelleri incelemek için [yanarsomine.com.tr](https://www.yanarsomine.com.tr) adresindeki katalogu kullanabilirsiniz."
+}

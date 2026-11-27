@@ -1,0 +1,105 @@
+{
+ "meta": {
+  "title": "L Tipi Modern Şömine mi, Barbekü Şömine mi? Doğru Seçim Kılavuzu",
+  "description": "L tipi modern şömine ile barbekü şömine arasında kararsızsanız bu karşılaştırma tam size göre. Fark, karar ve uygulama rehberi.",
+  "keyPoints": [
+   "L tipi modern şömine duvara yapışık, asimetrik bir tasarım sunarken barbekü şömine aynı yapı içinde hem ısıtma hem pişirme işlevini bir arada karşılar.",
+   "İki tip arasındaki en belirleyici fark işlevdir: biri salonun atmosferini kurar, diğeri mekânın kullanım biçimini genişletir.",
+   "Yanar Şömine uygulama yapan şömine markası olarak her iki tipi de sipariş üzerine, yerinde ölçü alınarak üretir; standart bir fiyat listesi yoktur.",
+   "Hangi tipin evinize uyduğunu anlamak için önce mekânınızı ölçün, sonra bacayı ve kullanım alışkanlığınızı değerlendirin."
+  ],
+  "faq": [
+   {
+    "q": "L tipi modern şömine ile barbekü şömine arasındaki temel fark nedir?",
+    "a": "L tipi modern şömine yalnızca ısıtma ve atmosfer işlevi görür; tasarımı salon köşesine ya da duvara oturur ve odanın estetik eksenini oluşturur. Barbekü şömine ise aynı yapı içinde hem bir şömine haznesini hem de üstte veya yanda konumlandırılmış bir pişirme ünitesini barındırır; ısınma ve yemek pişirme ihtiyacını tek noktada birleştirir."
+   },
+   {
+    "q": "İkisi de baca gerektirir mi?",
+    "a": "Evet, her iki tip de odun ya da kömür yakıtlı katı yakıt haznesiyle çalışır ve baca bağlantısı zorunludur. Mevcut baca durumu, baca kesiti ve çekiş kapasitesi; kurulumdan önce mutlaka kontrol edilmeli, gerekiyorsa iyileştirilmelidir."
+   },
+   {
+    "q": "Barbekü şömine açık alanda mı, kapalı alanda mı kullanılır?",
+    "a": "Barbekü şömine her iki alanda da uygulanabilir; ancak kapalı iç mekânda kullanılacaksa duman tahliyesi, havalandırma ve yangın güvenliği açısından proje bazında değerlendirme şarttır. Açık veya yarı açık alanlarda ise kullanım daha yaygındır ve teknik kısıtlar daha az katıdır."
+   },
+   {
+    "q": "Yanar Şömine nasıl bir marka?",
+    "a": "Yanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana faaliyettedir. İstanbul Büyükçekmece/Kumburgaz'da üretim yapan marka, tasarımı, üretimi ve uygulamayı kendi ekibiyle gerçekleştirir; işi başka bir uygulayıcıya devretmez. Sabit fiyat listesi yoktur; her proje için ücretsiz keşif ve teklif usulüyle çalışılır."
+   },
+   {
+    "q": "Fiyat almak için ne yapmalıyım?",
+    "a": "Yanar Şömine sabit fiyat listesiyle çalışmaz. Her şömine özel ölçü ve tasarım gerektirdiğinden fiyatlandırma, ücretsiz keşif ziyaretinin ardından hazırlanan teklifle belirlenir. (0212) 884 13 49 numarasını arayarak veya yanarsomine.com.tr üzerinden keşif randevusu oluşturabilirsiniz."
+   },
+   {
+    "q": "Kurulum ne kadar sürer ve montajı kim yapar?",
+    "a": "Yanar Şömine tasarım, üretim ve uygulamayı kendi ekibiyle yürütür; kurulum başka bir firmaya devredilmez. Süre projenin kapsamına, mekânın hazırlık durumuna ve özel imalat gereksinimlerine göre değişir; keşif aşamasında size net bir takvim verilir."
+   }
+  ],
+  "specs": [
+   {
+    "label": "Hazne / yakıt tipi",
+    "values": [
+     "Katı yakıt (odun), ithal döküm veya asansörlü kapaklı hazne",
+     "Katı yakıt (odun/kömür), Atina tipi veya asansörlü ithal hazne + pişirme ünitesi"
+    ]
+   },
+   {
+    "label": "Baca gereksinimi",
+    "values": [
+     "Zorunlu, baca bağlantısı ve çekiş kontrolü gerekir",
+     "Zorunlu, baca bağlantısı ve çekiş kontrolü gerekir"
+    ]
+   },
+   {
+    "label": "Kaplama malzemesi",
+    "values": [
+     "Granit, mermer, Lime Stone, Traverten, flexi doğal taş, hindistan cevizi kabuğu",
+     "Rustik tuğla, Limra taşı, patlatma taş, mermer sütun, ahşap küpeşte"
+    ]
+   },
+   {
+    "label": "Görünen cephe",
+    "values": [
+     "L biçimli asimetrik ön ve yan yüzey",
+     "Orta veya köşe konumlu, yan oturak veya set üstü barbekü bölümüyle çok yüzlü görünüm"
+    ]
+   },
+   {
+    "label": "Uygun mekân",
+    "values": [
+     "Salon köşesi, oturma odası, duvar önü; iç mekân",
+     "Geniş iç mekân, açık teras, bahçe, yarı açık alan"
+    ]
+   },
+   {
+    "label": "Uygulama / kurulum",
+    "values": [
+     "Yanar Şömine kendi ekibiyle tasarım + üretim + montaj",
+     "Yanar Şömine kendi ekibiyle tasarım + üretim + montaj"
+    ]
+   },
+   {
+    "label": "Bakım",
+    "values": [
+     "Düzenli baca temizliği, hazne ve cam bakımı",
+     "Düzenli baca temizliği, hazne bakımı + ızgara/pişirme ünitesi temizliği"
+    ]
+   },
+   {
+    "label": "Birincil işlev",
+    "values": [
+     "Isıtma ve atmosfer",
+     "Isıtma + yemek pişirme, çok işlevli kullanım"
+    ]
+   }
+  ],
+  "verdict": "Salonunuzun atmosferini kurmak, köşe ya da duvar önünü değerlendirmek ve tasarımı odanın merkezine taşımak istiyorsanız L tipi modern şömine doğru seçimdir. Aynı alanda hem ısınmak hem de mangal-barbekü keyfi yaşamak, terası veya geniş bir iç mekânı çok işlevli kullanmak istiyorsanız barbekü şömine daha işlevsel bir çözüm sunar. İkisi de özel ölçü üretilir; karar vermeden önce mekânınızı ölçün ve keşif randevusu alın.",
+  "bestForA": "Salonunu veya oturma odasını tasarımın merkezine alan, L formunun yarattığı asimetrik çizgiyi yaşam alanına katmak isteyen ev sahipleri için.",
+  "bestForB": "Terasını, bahçesini veya büyük iç mekânını hem ısınma hem pişirme işleviyle donatmak isteyen, çok işlevli kullanımı öncelikleyen ev sahipleri için.",
+  "heroA": "YS-132",
+  "heroB": "YS-260",
+  "imageSceneA": "A corner of a modern living room with a warm amber firelight glowing from an L-shaped stone-clad fireplace; dark granite surround, cream marble hearth, low evening light, no people.",
+  "imageSceneB": "A semi-open terrace with a large combination barbecue fireplace built from rustic brick, wood fire burning inside the lower firebox, copper-lidded grill set above, warm dusk light filtering through, no people.",
+  "imageAlt": "Solda granit ve doğal taş kaplamalı L tipi modern şömine, sağda rustik tuğla kaplı barbekü şömine, ikisi yan yana karşılaştırmalı görünüm."
+ },
+ "body": "İkisi arasındaki fark tasarım tercihinden çok kullanım önceliğidir; mekânınızda ne yapmak istediğinizi netleştirdiğinizde karar kendiliğinden gelir.\n\n## Tanım ve Temel Fark: İki Tip Neden Birbirinden Ayrışır\n\n[L Tipi Modern Şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/l-tipi-modern-somine/) adından da anlaşılacağı üzere yandan uzayan bir yapıya sahiptir. Klasik şömineye kıyasla daha geniş bir duvara yayılır; hazne cephesi ve yanal tabla birlikte bir L formu oluşturur. Bu form odaya hem derinlik hem de asimetrik bir hareketlilik katar. Kullanım amacı tekdir: ısıtmak ve atmosfer yaratmak.\n\n[Barbekü Şömine](https://www.yanarsomine.com.tr/urun-kategori/somineler/barbeku-somine/) ise tamamen farklı bir ihtiyaçtan doğar. Yapı içinde iki ayrı işlev bir arada çalışır: altta ya da merkezde bir şömine haznesi, üstte veya yanda bir pişirme ünitesi bulunur. Isınma ve yemek pişirme tek bir noktada birleşir. Bu nedenle barbekü şömine hem iç mekân hem de açık alan projelerinde değerlendirilir.\n\nİki tip arasındaki sınırı doğru çizmek için kendinize şunu sorun: Bu yapıdan yalnızca ısınmak ve estetik kazanmak mı istiyorum, yoksa aynı alanda pişirme işlevi de görmesini mi bekliyorum? Cevap ilk seçenekse L tipi, ikincisiyse barbekü şömine yönüne gidin.\n\nL tipi modern şöminenin L formunu yaratan unsur yalnızca estetik bir tercih değildir; hazneden yana uzayan tabla hem bir raf işlevi görür hem de odadaki mobilya düzenini yönlendirir. Kanepe grubunu şömineye hizalamak, televizyon konumunu yeniden düşünmek, hatta odanın ana aydınlatma eksenini değiştirmek bu form nedeniyle gündeme gelir. Mekânınızı yeniden düzenlemek için hazır olun; L tipi bir şömine odayı baştan kurgular.\n\nBarbekü şöminede ise yapısal çeşitlilik daha geniştir. Bazı modellerde şömine ve pişirme ünitesi üst üste konumlanırken bazılarında yan yana ya da set üstü bir düzenleme tercih edilir. Bu çeşitlilik hem mekân koşullarına hem de kullanım alışkanlığına göre farklı çözümler üretilmesine olanak tanır. Dar bir terasta kompakt bir çözüm mü, yoksa büyük bir bahçede merkezi bir yapı mı istediğinizi baştan netleştirin.\n\n## Hazne ve Yakıt: Teknik Altyapı Nedir\n\nHer iki tip de katı yakıtla çalışır ve baca bağlantısı zorunludur. Baca durumunu keşif öncesinde kontrol edin; baca kesiti, yüksekliği ve çekiş kapasitesi kurulumun temelini belirler. Mevcut bacayı görmeden model seçmeyin.\n\nL tipi modern şöminede hazne seçenekleri projeden projeye farklılaşır. [YS-132](https://www.yanarsomine.com.tr/urun/ys-132/) modelinde 85 cm genişliğinde, asansör kapaklı ve yan açılımlı ithal bir hazne kullanılmıştır. [YS-124](https://www.yanarsomine.com.tr/urun/ys-124/) modelinde ise 70 cm genişliğinde Nordflam marka, L tipi yan açılımlı döküm ithal hazne tercih edilmiştir. Hazne genişliği ve açılım tipi hem ısıtma kapasitesini hem de görsel etkiyi doğrudan etkiler; bu detayı keşif aşamasında netleştirin.\n\nBarbekü şöminede hazne yapısı daha karmaşıktır çünkü pişirme ünitesiyle entegre çalışması gerekir. [YS-260](https://www.yanarsomine.com.tr/urun/ys-260/) modelinde altta Atina ithal döküm hazne, üstte asansör sistemli bakır kapaklı set üstü barbekü bölümü bir arada konumlanmıştır. Bu düzenleme duman yönetimini daha kritik hale getirir; baca ve havalandırma hesabı iki ünite birlikte düşünülerek yapılmalıdır.\n\nHazne genişliği ısıtma kapasitesini doğrudan etkiler; dar bir hazne küçük bir odayı ısıtır ancak büyük bir salonda yetersiz kalabilir. [YS-133](https://www.yanarsomine.com.tr/urun/ys-133/) modelinde 80 cm genişliğinde eşkenar tip, asansör kapaklı ve yan açılımlı ithal hazne tercih edilmiştir; bu genişlik orta ve büyük salonlar için işlevsel bir başlangıç noktasıdır. Hazne seçimini yalnızca görsel açıdan değil, ısıtılacak alanın metrekaresi üzerinden de değerlendirin.\n\nBarbekü şöminesinde haznenin pişirme ünitesiyle olan ilişkisi duman yönetimini karmaşık hale getirir. İki ayrı yanma ya da ısı kaynağı söz konusu olduğunda baca kesiti ve çekiş hesabı tek hazne içeren modellere göre daha titiz yapılmalıdır. Bu hesabı kendiniz yapmaya çalışmayın; keşif aşamasında teknik ekibe bırakın.\n\n## Tasarım ve Malzeme: Görsel Dil Nasıl Farklılaşır\n\nL tipi modern şömine çoğunlukla iç mekânın sadeliğiyle uyumlu malzemeleri ön plana çıkarır. [YS-133](https://www.yanarsomine.com.tr/urun/ys-133/) modelinde iç çerçeve, alt ve üst tablada siyah Star Galaxy Granit, dış çerçeve ve alt tabla detaylarında ise Lime Stone kullanılmıştır. [YS-132](https://www.yanarsomine.com.tr/urun/ys-132/) modelinde alt tablada Cream Dor mermer ve flexi 2 mm kalınlığında ithal doğal taş tercih edilmiştir. [YS-124](https://www.yanarsomine.com.tr/urun/ys-124/) modelinde Traverten mermerden profil çerçeve ve hindistan cevizi kabuğu duvar kaplaması bir araya gelmiştir. Bu malzeme dili genellikle minimal, çizgisi temiz bir iç mekânı tamamlar.\n\nBarbekü şöminede malzeme dili daha kaba dokulu ve rustik bir tarafa çekilir. [YS-260](https://www.yanarsomine.com.tr/urun/ys-260/) modelinde dış kaplama rustik tuğladır. [YS-261](https://www.yanarsomine.com.tr/urun/ys-261/) modelinde bej ve Emprador mermer karışık sütunlar ve patlatma taş kaplama kullanılmıştır. [YS-265](https://www.yanarsomine.com.tr/urun/ys-265/) modelinde ise Limra taşı üzeri siyah boya ve ahşap küpeşte bir araya gelmiştir. Bu malzeme seçimleri barbekü şömineye hem kırsal hem kentsel dış mekânlarda rahat oturma kapasitesi kazandırır.\n\nMekânınızın genel malzeme dilini belirleyin. Şöminenin mekânla çatışmasını istemiyorsanız kaplama malzemesini duvar ve zemin renkleriyle birlikte değerlendirin; bu kararı keşif aşamasında Yanar Şömine ekibiyle birlikte alın.\n\nMalzeme seçimi yalnızca görsel bir karar değildir; uzun vadeli bakım kolaylığını ve dayanıklılığı da etkiler. Granit ve mermer yüzeyler çizilmeye karşı dirençlidir ancak her ikisi de yoğun nem veya ani sıcaklık değişimlerine karşı dikkatli kullanım gerektirir. Flexi doğal taş gibi ince kaplamalar ise farklı yüzey geometrilerine uygulanabilir olması nedeniyle tasarım esnekliği sunar; duvara bütünleşik bir görünüm elde etmek isteyenler için işlevsel bir seçenektir.\n\nBarbekü şöminede rustik tuğla ya da patlatma taş gibi kaba dokulu kaplamalar dış mekân koşullarına ve yüksek ısıya daha iyi dayanır. [YS-265](https://www.yanarsomine.com.tr/urun/ys-265/) modelinde Limra taşı üzeri siyah boya ve ahşap küpeşte kombinasyonu, hem ısıya dayanıklı hem de görsel olarak güçlü bir denge kurar. Ahşap küpeşte zamanla çalışabilir; doğrudan ısı kaynağından belirli bir mesafede konumlandırılmalıdır, bu detayı tasarım aşamasında belirtin.\n\n## Mekân ve Ölçü Uyumu: Nereye, Ne Kadar Alan Gerekir\n\nL tipi modern şömine bir köşeyi ya da düz duvarı en verimli biçimde kullanan bir tasarımdır. Yatay uzantısı nedeniyle belirli bir duvar uzunluğuna ihtiyaç duyar; ölçmeden model seçmeyin. Dar ve uzun oturma odalarında L formun yanal uzantısı mobilya yerleşimini kısıtlayabilir; bunu göz önünde bulundurun. Öte yandan doğru ölçü ve yerleşimde salon köşesini değerlendirmenin en etkili yollarından biridir.\n\nBarbekü şöminede yapı daha hacimlidir; pişirme ünitesi şömineye ek alan ekler. [YS-260](https://www.yanarsomine.com.tr/urun/ys-260/) modeli dar alanlar için kullanışlı bir çözüm olarak tanımlanmış olsa da genel olarak barbekü şöminelerin ihtiyaç duyduğu taban alanı L tipi modern şömineden fazladır. Açık teras, bahçe veya büyük iç mekânlarda rahat çalışır. Kapalı iç mekânda kullanacaksanız duman tahliyesi ve havalandırma hesabını ayrıca yaptırın.\n\nHer iki tipte de ölçü standardı yoktur; Yanar Şömine uygulama yapan şömine markası olarak her projeyi mekânın gerçek boyutlarına göre tasarlar. Mekânınızı mutlaka ölçün ve bu ölçüleri keşif randevusuna hazır getirin.\n\nL tipi modern şöminede hazneden yana uzayan tablonun uzunluğu mekânın duvar boyutuyla orantılı olmalıdır. Tablonun önüne döşenecek zemin kaplaması veya seramik bordür gibi detaylar da ölçü hesabına dahil edilmelidir. Bütün bu kararlar kağıt üzerinde değil, mekânda alınır; bu yüzden keşifi ertelemeyin.\n\n[YS-261](https://www.yanarsomine.com.tr/urun/ys-261/) modelinde her iki yanında oturak bulunan, 3 tarafı camlı asansör ve yan açılımlı haznesiyle orta konumlu bir barbekü şömine tasarımı uygulanmıştır. Orta konumlu bir yapı mekânı ikiye böler; bu, açık plan bir alanda farklı kullanım bölgeleri oluşturmak için bilinçli bir tasarım kararı olabilir. Ancak aynı seçim yanlış ölçekte uygulandığında mekânı daraltır. Orta konumlu bir yapı düşünüyorsanız bunu keşif aşamasında net biçimde belirtin.\n\n## Kurulum ve Uygulama Süreci: Sahada Ne Olur\n\nŞömine kurulumu baca hattı, yapısal hazırlık, kaplama ve son kontrol adımlarından oluşur. Bu adımların tutarlı yürütülmesi hem güvenliği hem de uzun vadeli kullanım konforunu doğrudan etkiler.\n\nYanar Şömine uygulama yapan şömine markasının en önemli çalışma ilkelerinden biri tasarım, üretim ve uygulamanın aynı ekip tarafından yürütülmesidir. İş başka bir uygulayıcıya devredilmez. Bu yaklaşım proje bilgisinin sahaya eksiksiz taşınmasını sağlar; tasarım aşamasında alınan kararlar montaj sırasında yoruma açık kalmaz.\n\nL tipi modern şömine kurulumunda baca bağlantısı ve kaplama işi mekânın hazırlık durumuna göre değişen bir süreç izler. Barbekü şöminede ise pişirme ünitesinin yapı içindeki konumu ve baca entegrasyonu ek bir planlama katmanı ekler. Her iki tip için de keşif aşamasında size proje kapsamına göre gerçekçi bir süre tahmini verilir.\n\nÜcretsiz keşif randevusu almak için (0212) 884 13 49 numarasını arayabilir ya da yanarsomine.com.tr üzerinden ulaşabilirsiniz. Çalışma saatleri Pazartesi–Cumartesi 09:00–19:00.\n\n## Kullanım ve Bakım: Günlük Pratikte Fark Var Mı\n\nHer iki tip de katı yakıtla çalıştığından yakıt yönetimi ve baca bakımı her ikisi için de geçerlidir. Bacayı yılda en az bir kez, tercihen sezon başında temizletin. Hazneyi ve varsa camı düzenli aralıklarla kontrol edin; kirlenmiş cam hem görüntüyü bozar hem de hava sirkülasyonunu etkiler.\n\nL tipi modern şöminede bakım görece sadedir: hazne, baca ve kaplama yüzeylerinin periyodik kontrolü yeterlidir. Granit ya da doğal taş kaplama yüzeyleri dayanıklıdır ancak asit içeren temizlik maddelerinden kaçının; yüzey matlaşabilir.\n\nBarbekü şöminede bakım listesine pişirme ünitesi eklenir. Izgarayı ya da set üstü barbekü bölümünü her kullanımın ardından temizlemek hem hijyen hem de uzun ömür açısından önemlidir. Bakır kapaklı modellerde kapak yüzeyinin düzenli kontrolü önerilir. Kullanım sıklığı yükseldikçe temizlik aralığını kısaltın.\n\nL tipi modern şöminede kaplama yüzeyinin bağlantı noktaları, yani hazne çerçevesi ile taş kaplama arasındaki derz hatları, uzun süreli kullanımda genleşme nedeniyle açılabilir. Bu bölgeleri yılda bir kontrol edin; küçük çatlaklar erken müdahaleyle kolayca giderilebilir. Granit ve mermer yüzeylerin yılda bir kez doğal taş bakım ürünleriyle işlenmesi yüzeyin görünümünü korur.\n\nBarbekü şöminede açık alanda konumlandırılmış modeller mevsimsel hava koşullarına maruz kalır. Kış aylarında kullanım dışı bırakılan pişirme ünitesini örtün ya da kapatın; özellikle bakır kapaklı modellerde uzun süreli nem temasından kaçının. Kışın oluşabilecek don hasarı taş kaplama yüzeylerini de etkileyebilir; sezon başında kısa bir kontrol alışkanlık haline getirin.\n\n## Hangi Ev Tipine Hangisi Uyar\n\nL tipi modern şömine; salonunu tasarımın odak noktasına taşımak isteyen, modern ya da çağdaş bir iç mekân dili benimseyen ev sahipleri için güçlü bir seçimdir. Granit, mermer ve doğal taş gibi malzemelerin yarattığı çizgi; minimalist mobilya seçimleriyle ya da özenle kurgulanmış bir dekor düzeniyle çok iyi örtüşür. Dar ya da küçük salonlarda L formun yatay uzantısını yerleştirmek güçleşebilir; ölçü almadan hayal kurmayın.\n\nBarbekü şömine; terasını veya bahçesini dört mevsim işlevsel kullanmak isteyen, misafirperver ve aktif bir yaşam biçimine sahip ev sahipleri için daha uygun bir seçimdir. Aynı yapıdan hem ısınmak hem de yemek pişirmek, özellikle sonbahar ve kış aylarında açık alanlarda uzun vakit geçiren aileler için ciddi bir pratik avantaj sağlar. Büyük iç mekânlarda da barbekü şömine uygulanabilir; ancak bu durumda havalandırma ve duman tahliyesi daha dikkatli planlanmalıdır.\n\nYanar Şömine uygulama yapan şömine markası olarak her iki tipi de farklı yaşam biçimlerine ve farklı mekân koşullarına göre üretmektedir. Standart bir çözüm yoktur; evinizin gerçek koşullarına uyan tasarım, ancak yerinde ölçü ve keşifle netleşir.\n\nYanar Şömine uygulama yapan şömine markası olarak her projeyi mekânın gerçek koşullarına, ev sahibinin kullanım alışkanlıklarına ve bütçe çerçevesine göre ayrı ayrı değerlendirmektedir. Aynı model iki farklı mekânda farklı ölçülerde, farklı kaplamalarla ve farklı hazne seçenekleriyle üretilebilir. Katalogdaki görseller bir başlangıç noktasıdır; nihai tasarım her zaman size özeldir.\n\nŞehir dışında ya da yazlık bölgede ikinci bir ev için şömine düşünüyorsanız barbekü şömine daha fazla işlev sunar. Bu tür kullanım alanlarında mekân genellikle daha geniş, baca ve yapısal kısıtlar daha esnektir. Öte yandan şehir içindeki bir daire ya da müstakil evin salonunda L tipi modern şömine hem ısıtma hem de tasarım ihtiyacını karşılar; ek işleve ihtiyaç duymayan ev sahipleri için gereksiz yapısal karmaşıklıktan kaçınmak anlamlıdır.\n\n## Karar: Hangisi Sizin İçin Doğru\n\nBirini seçmeden önce şu dört soruyu cevaplayın.\n\nBirinci soru: Pişirme işlevi istiyor musunuz? Hayırsa L tipi modern şömine yeterlidir. Evetse barbekü şömine değerlendirin.\n\nİkinci soru: Şömine kapalı iç mekânda mı, açık ya da yarı açık alanda mı konumlanacak? L tipi modern şömine ağırlıklı olarak iç mekân için tasarlanır. Barbekü şömine her iki alanda da çalışır ama açık alanda daha az teknik kısıt içerir.\n\nÜçüncü soru: Mekânınızın duvar ve taban alanı yeterli mi? L tipi modern şömine için duvar uzunluğu, barbekü şömine için ise genel hacim belirleyicidir. Mekânı ölçmeden bu soruyu cevaplayamazsınız.\n\nDördüncü soru: Tasarım dili nasıl? Mineral, sade, çizgisi temiz bir iç mekânsa L tipi modern şömine daha uyumlu olur. Rustik, kaba dokulu veya karma bir mekânsa barbekü şömine rahat oturur.\n\nYanar Şömine uygulama yapan şömine markası olarak 1986'dan bu yana her projeyi bu sorulardan yola çıkarak tasarlıyor. Ücretsiz keşif hizmetiyle yerinde ölçü alınıyor, mekânın koşulları değerlendiriliyor ve size uygun model önerisi sunuluyor. Kataloğu incelemek için yanarsomine.com.tr adresine bakın; randevu için (0212) 884 13 49 numarasını Pazartesi–Cumartesi 09:00–19:00 saatleri arasında arayın.\n\nYanar Şömine uygulama yapan şömine markasında hiçbir model standart ölçüde üretilmez; evinize özel tasarım ve üretim sürecinin başlangıç noktası daima keşiftir. Erken karar vermeyin, önce keşfi yapın."
+}
